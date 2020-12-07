@@ -2,6 +2,7 @@
 using Newtonsoft.Json;
 using System;
 using System.Net.Http;
+using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Essentials;
@@ -40,7 +41,7 @@ namespace BloodDonationApp.Services
         {
             var login = new Login()
             {
-                Email = email,
+                UserName = email,
                 Password = password,
                 grant_type="password"
 
@@ -54,11 +55,27 @@ namespace BloodDonationApp.Services
             var jsonResult = await response.Content.ReadAsStringAsync();
             var result = JsonConvert.DeserializeObject<Token>(jsonResult);
             Preferences.Set("accessToken", result.access_token);
-            Preferences.Set("userId", result.user_Id);
-            Preferences.Set("userName", result.user_name);
+            //Preferences.Set("userId", result.user_Id);
+            Preferences.Set("userName", result.userName);
             return true;
         }
         #endregion
+
+        #region Update Donor Details
+        public static async Task PutDonorAsync(Donor donor, string accessToken)
+        {
+            var client = new HttpClient();
+            client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", accessToken);
+
+            var json = JsonConvert.SerializeObject(donor);
+            HttpContent content = new StringContent(json);
+            content.Headers.ContentType = new MediaTypeHeaderValue("application/json");
+
+            var response = await client.PutAsync(
+                Constants.ApiUrl + "Donor/UpdateDonorDetails/" + donor.DonorId, content);
+        }
+        #endregion
+
 
     }
 }

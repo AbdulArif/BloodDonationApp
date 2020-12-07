@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BloodDonationApp.Views.UpdateDonorPage"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Spacing="5"
+                         Margin="15">
+                <Label TextColor="#CE0B06"
+                       Text="Donor"
+                       FontSize="Large"
+                       FontAttributes="Bold"
+                       HorizontalTextAlignment="Center"
+                       Margin="30,0,30,0" />
+                <Frame HasShadow="True"
+                       Padding="25"
+                       Margin="0,15,0,0">
+                    <StackLayout>
+                        <Entry Placeholder="First Name"
+                               PlaceholderColor="#80574D"
+                               TextColor="#80574D"
+                               x:Name="EntFirstName"
+                               Keyboard="Text" />
+                        <Entry Placeholder="Last Name"
+                               PlaceholderColor="#80574D"
+                               TextColor="#80574D"
+                               x:Name="EntLastName"
+                               Keyboard="Text" />
+                        <Entry Placeholder="Email"
+                               PlaceholderColor="#80574D"
+                               TextColor="#80574D"
+                               x:Name="EntEmail"
+                               Keyboard="Email" />
+                        <Entry Placeholder="PhoneNumber"
+                               PlaceholderColor="#80574D"
+                               TextColor="#80574D"
+                               x:Name="EntPhoneNumber"
+                               Keyboard="Numeric" />
+                        <Entry Placeholder="BloodGroup"
+                               PlaceholderColor="#80574D"
+                               TextColor="#80574D"
+                               x:Name="EntBloodGroup"
+                               Keyboard="Default" />
+                        <Entry Placeholder="District"
+                               PlaceholderColor="#80574D"
+                               TextColor="#80574D"
+                               x:Name="EntDistrict"
+                               Keyboard="Default" />
+                        <Entry Placeholder="City"
+                               PlaceholderColor="#80574D"
+                               TextColor="#80574D"
+                               x:Name="EntCity"
+                               Keyboard="Default" />
+                        <Entry Placeholder="State"
+                               PlaceholderColor="#80574D"
+                               TextColor="#80574D"
+                               x:Name="EntState"
+                               Keyboard="Default" />
+                        <Entry Placeholder="PIN"
+                               PlaceholderColor="#80574D"
+                               TextColor="#80574D"
+                               x:Name="EntPIN"
+                               Keyboard="Default" />
+                        <Entry Placeholder="Nearest Hospital Name"
+                               PlaceholderColor="#80574D"
+                               TextColor="#80574D"
+                               x:Name="EntNearByHospitals"
+                               Keyboard="Default" />
+                        <Entry Placeholder="Year of Birth"
+                               PlaceholderColor="#80574D"
+                               TextColor="#80574D"
+                               x:Name="EntBirthYear"
+                               Keyboard="Default" />
+                        <Button Text="Select Disease"
+                                TextColor="White"
+                                BackgroundColor="#CE0B06"
+                                x:Name="BtnDisease"
+                                Clicked="BtnDisease_Clicked"/>
+
+                    </StackLayout>
+
+                </Frame>
+                <Button Text="CONTINUE"
+                        TextColor="White"
+                        BackgroundColor="#CE0B06"
+                        x:Name="BtnSignUp"
+                        Clicked="BtnSignUp_Clicked"/>
+                
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+
+</ContentPage>

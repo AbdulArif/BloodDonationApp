@@ -32,7 +32,15 @@ namespace BloodDonationApp.Views
                 if (response)
                 {
                     await DisplayAlert("HI", "Your account has been created ", "OK");
-                    await Navigation.PushModalAsync(new LoginPage());
+                    if (role == "Donor")
+                    {
+                        await Navigation.PushModalAsync(new UpdateDonorPage());
+                    }
+                    if (role == "Recipient")
+                    {
+                        await Navigation.PushModalAsync(new UpdateRecipientPage());
+                    }
+
                 }
                 else
                 {
