@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -32,13 +32,15 @@ namespace BloodDonationApp.Views
                 if (response)
                 {
                     await DisplayAlert("HI", "Your account has been created ", "OK");
+                    var userId = Preferences.Get("userId", string.Empty);
                     if (role == "Donor")
-                    {
-                        await Navigation.PushModalAsync(new UpdateDonorPage());
+                    {                       
+                        //await Navigation.PushModalAsync(new UpdateDonorPage(userId));
+                        await Navigation.PushAsync(new UpdateDonorPage(userId));
                     }
                     if (role == "Recipient")
                     {
-                        await Navigation.PushModalAsync(new UpdateRecipientPage());
+                        await Navigation.PushModalAsync(new UpdateRecipientPage(userId));
                     }
 
                 }

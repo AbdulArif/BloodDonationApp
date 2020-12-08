@@ -1,6 +1,7 @@
 ﻿using BloodDonationApp.Models;
 using Newtonsoft.Json;
 using System;
+using System.Collections.Generic;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Text;
@@ -29,8 +30,10 @@ namespace BloodDonationApp.Services
             var json = JsonConvert.SerializeObject(register);
             var content = new StringContent(json, Encoding.UTF8, "application/json");
             var response = await httpClient.PostAsync(Constants.ApiUrl + "api/Account/Register", content);
+            var userId = response.Content.ReadAsStringAsync().Result; // Getting GuId
+            Preferences.Set("userId", userId);
             if (!response.IsSuccessStatusCode)
-                return false;
+            return false;
             else
                 return true;
         }
@@ -61,6 +64,21 @@ namespace BloodDonationApp.Services
         }
         #endregion
 
+        #region Get ALL Donor
+        public static async Task<List<Donor>> GetDonorAsync(string accessToken)
+        {
+            var client = new HttpClient();
+
+            client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", accessToken);
+
+            var json = await client.GetStringAsync(Constants.ApiUrl + "Donor/GetAllDonors");
+
+            var donor = JsonConvert.DeserializeObject<List<Donor>>(json);
+
+            return donor;
+        }
+        #endregion
+
         #region Update Donor Details
         public static async Task PutDonorAsync(Donor donor, string accessToken)
         {
@@ -76,6 +94,33 @@ namespace BloodDonationApp.Services
         }
         #endregion
 
+        #region Delete Donor
+        public static async Task DeleteDonorAsync(int userId, string accessToken)
+        {
+            var client = new HttpClient();
+            client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", accessToken);
+            var response = await client.DeleteAsync(
+               Constants.ApiUrl + "Donor/DeleteDonorByID?id=" + userId);
+        }
+        #endregion
+
+        //#region GetDonor By ID
+        //public static async Task<Donor> GetDonorByIdAsync(string userId, string accessToken)
+        //{
+        //    var client = new HttpClient();
+        //    client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", accessToken);
+
+        //    var json = await client.GetStringAsync(Constants.ApiUrl + "Donor/GetDonorDetails/" + userId);
+
+        //    dynamic resp = JsonConvert.DeserializeObject(json);
+        //    Donor donor = resp.ToObject<Donor>();
+
+        //    //List<Donor> donorList = new List<Donor>();
+        //    //donorList.Add(donor);
+
+        //    return donor;
+        //}
+        //#endregion
 
     }
 }

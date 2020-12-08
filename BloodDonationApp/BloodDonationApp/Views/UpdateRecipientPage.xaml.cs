@@ -12,7 +12,7 @@ namespace BloodDonationApp.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class UpdateRecipientPage : ContentPage
     {
-        public UpdateRecipientPage()
+        public UpdateRecipientPage(string userId)
         {
             InitializeComponent();
         }
