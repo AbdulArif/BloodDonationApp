@@ -1,12 +1,81 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="BloodDonationApp.Views.UpdateRecipientPage">
+             x:Class="BloodDonationApp.Views.UpdateRecipientPage"
+             NavigationPage.HasNavigationBar="False">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.UpdateRecipientPage!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <ScrollView>
+            <StackLayout Spacing="5"
+                         Margin="15">
+                <Label TextColor="#CE0B06"
+                       Text="Recipient"
+                       FontSize="Large"
+                       FontAttributes="Bold"
+                       HorizontalTextAlignment="Center"
+                       Margin="30,0,30,0" />
+                <Frame HasShadow="True"
+                       Padding="25"
+                       Margin="0,15,0,0">
+                    <StackLayout>
+                        <Entry Placeholder="First Name"
+                               PlaceholderColor="#80574D"
+                               TextColor="#80574D"
+                               x:Name="EntFirstName"
+                               Keyboard="Text" />
+                        <Entry Placeholder="Last Name"
+                               PlaceholderColor="#80574D"
+                               TextColor="#80574D"
+                               x:Name="EntLastName"
+                               Keyboard="Text" />
+                        <Entry Placeholder="Email"
+                               PlaceholderColor="#80574D"
+                               TextColor="#80574D"
+                               x:Name="EntEmail"
+                               Keyboard="Email" />
+                        <Entry Placeholder="PhoneNumber"
+                               PlaceholderColor="#80574D"
+                               TextColor="#80574D"
+                               x:Name="EntPhoneNumber"
+                               Keyboard="Numeric" />
+                        <!--<Entry Placeholder="BloodGroup"
+                               PlaceholderColor="#80574D"
+                               TextColor="#80574D"
+                               x:Name="EntBloodGroup"
+                               Keyboard="Default" />-->
+                        <Entry Placeholder="District"
+                               PlaceholderColor="#80574D"
+                               TextColor="#80574D"
+                               x:Name="EntDistrict"
+                               Keyboard="Default" />
+                        <Entry Placeholder="City"
+                               PlaceholderColor="#80574D"
+                               TextColor="#80574D"
+                               x:Name="EntCity"
+                               Keyboard="Default" />
+                        <Entry Placeholder="State"
+                               PlaceholderColor="#80574D"
+                               TextColor="#80574D"
+                               x:Name="EntState"
+                               Keyboard="Default" />
+                        <Entry Placeholder="PIN"
+                               PlaceholderColor="#80574D"
+                               TextColor="#80574D"
+                               x:Name="EntPIN"
+                               Keyboard="Default" />
+                        <Entry Placeholder="Organization Name"
+                               PlaceholderColor="#80574D"
+                               TextColor="#80574D"
+                               x:Name="EntOrganizationName"
+                               Keyboard="Default" />
+                    </StackLayout>
+                </Frame>
+                <Button Text="UPDATE"
+                        TextColor="White"
+                        BackgroundColor="#CE0B06"
+                        x:Name="BtnUpdateRecipient"
+                        Clicked="BtnUpdateRecipient_Clicked"/>
+
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

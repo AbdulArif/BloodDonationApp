@@ -141,5 +141,33 @@ namespace BloodDonationApp.Services
         }
         #endregion
 
+        #region GetRecipient By ID
+        public static async Task<Recipient> GetRecipientByIdAsync(string userId, string accessToken)
+        {
+            var client = new HttpClient();
+            client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", accessToken);
+            var json = await client.GetStringAsync(Constants.ApiUrl + "Recipient/GetRecipientDetails/"+userId);
+            dynamic resp = JsonConvert.DeserializeObject(json);
+            Recipient recipient = resp.ToObject<Recipient>();
+            return recipient;
+        }
+        #endregion
+
+        #region Update Recipient Details
+        public static async Task PutRecipientAsync(Recipient recipient, string accessToken)
+        {
+            var client = new HttpClient();
+            client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", accessToken);
+
+            var json = JsonConvert.SerializeObject(recipient);
+            HttpContent content = new StringContent(json);
+            content.Headers.ContentType = new MediaTypeHeaderValue("application/json");
+
+            var response = await client.PutAsync(
+                Constants.ApiUrl + "Recipient/UpdateRecipientDetails/" + recipient.RecipientId, content);
+        }
+        #endregion
+
+
     }
 }
