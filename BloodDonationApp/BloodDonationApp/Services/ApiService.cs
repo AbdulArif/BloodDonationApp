@@ -30,7 +30,10 @@ namespace BloodDonationApp.Services
             var json = JsonConvert.SerializeObject(register);
             var content = new StringContent(json, Encoding.UTF8, "application/json");
             var response = await httpClient.PostAsync(Constants.ApiUrl + "api/Account/Register", content);
-            var userId = response.Content.ReadAsStringAsync().Result; // Getting GuId
+            var resultJson = response.Content.ReadAsStringAsync().Result; // Getting GuId
+            dynamic resultObj = JsonConvert.DeserializeObject(resultJson);
+            string userId = resultObj.UserId;
+            //string id = userId.toString();
             Preferences.Set("userId", userId);
             if (!response.IsSuccessStatusCode)
             return false;
