@@ -81,11 +81,11 @@
                     </StackLayout>
 
                 </Frame>
-                <Button Text="CONTINUE"
+                <Button Text="UPDATE"
                         TextColor="White"
                         BackgroundColor="#CE0B06"
-                        x:Name="BtnSignUp"
-                        Clicked="BtnSignUp_Clicked"/>
+                        x:Name="BtnUpdate"
+                        Clicked="BtnUpdate_Clicked"/>
                 
             </StackLayout>
         </ScrollView>

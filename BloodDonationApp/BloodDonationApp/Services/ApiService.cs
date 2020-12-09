@@ -104,23 +104,39 @@ namespace BloodDonationApp.Services
         }
         #endregion
 
-        //#region GetDonor By ID
-        //public static async Task<Donor> GetDonorByIdAsync(string userId, string accessToken)
-        //{
-        //    var client = new HttpClient();
-        //    client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", accessToken);
+        #region GetDonor By ID
+        public static async Task<Donor> GetDonorByIdAsync(string userId, string accessToken)
+        {
+            var client = new HttpClient();
+            client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", accessToken);
 
-        //    var json = await client.GetStringAsync(Constants.ApiUrl + "Donor/GetDonorDetails/" + userId);
+            var json = await client.GetStringAsync(Constants.ApiUrl + "Donor/GetDonorDetails/" + userId);
 
-        //    dynamic resp = JsonConvert.DeserializeObject(json);
-        //    Donor donor = resp.ToObject<Donor>();
+            dynamic resp = JsonConvert.DeserializeObject(json);
+            Donor donor = resp.ToObject<Donor>();
 
-        //    //List<Donor> donorList = new List<Donor>();
-        //    //donorList.Add(donor);
+            //List<Donor> donorList = new List<Donor>();
+            //donorList.Add(donor);
 
-        //    return donor;
-        //}
-        //#endregion
+            return donor;
+        }
+        #endregion
+
+
+        #region Get ALL Disease
+        public static async Task<List<Disease>> GetDiseaseAsync(string accessToken)
+        {
+            var client = new HttpClient();
+
+            client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", accessToken);
+
+            var json = await client.GetStringAsync(Constants.ApiUrl + "Disease/GetAllDiseases");
+
+            var disease = JsonConvert.DeserializeObject<List<Disease>>(json);
+
+            return disease;
+        }
+        #endregion
 
     }
 }

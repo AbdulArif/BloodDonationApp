@@ -16,20 +16,19 @@ namespace BloodDonationApp.Views
         public UpdateDonorPage(string userId)
         {
             InitializeComponent();
-            //GetDonorAsync(userId);
+            GetDonorAsync(userId);
+        }
+        public async void GetDonorAsync(string userId)
+        {
+            var accessToken = Preferences.Get("accessToken", string.Empty);
+            //var donorList = await ApiService.GetDonorByIdAsync(userId, Settings.AccessToken);
+            var donor = await ApiService.GetDonorByIdAsync(userId, accessToken);
+            EntFirstName.Text = donor.FirstName;
+            EntLastName.Text = donor.LastName;
+            EntEmail.Text = donor.Email;
         }
 
-        //public async void GetDonorAsync(string userId)
-        //{
-        //    var accessToken = Preferences.Get("accessToken", string.Empty);
-        //    //var donorList = await ApiService.GetDonorByIdAsync(userId, Settings.AccessToken);
-        //    var donor = await ApiService.GetDonorByIdAsync(userId, accessToken);
-        //    EntFirstName.Text = donor.FirstName;
-        //    EntLastName.Text = donor.LastName;
-        //    EntEmail.Text = donor.Email;
-        //}
-
-        private void BtnSignUp_Clicked(object sender, EventArgs e)
+        private void BtnUpdate_Clicked(object sender, EventArgs e)
         {
 
         }
