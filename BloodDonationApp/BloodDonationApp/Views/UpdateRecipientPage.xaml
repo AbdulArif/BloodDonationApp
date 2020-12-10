@@ -6,7 +6,7 @@
     <ContentPage.Content>
         <ScrollView>
             <StackLayout Spacing="5"
-                         Margin="15">
+                         Margin="10">
                 <Label TextColor="#CE0B06"
                        Text="Recipient"
                        FontSize="Large"
@@ -17,32 +17,32 @@
                        Padding="25"
                        Margin="0,15,0,0">
                     <StackLayout>
-                        <Entry Placeholder="First Name"
+                        <Entry Placeholder="Please Enter First Name"
                                PlaceholderColor="#80574D"
                                TextColor="#80574D"
                                x:Name="EntFirstName"
                                Keyboard="Text" />
-                        <Entry Placeholder="Last Name"
+                        <Entry Placeholder="Please Enter Last Name"
                                PlaceholderColor="#80574D"
                                TextColor="#80574D"
                                x:Name="EntLastName"
                                Keyboard="Text" />
-                        <Entry Placeholder="Email"
+                        <Entry Placeholder="Please Enter Email"
                                PlaceholderColor="#80574D"
                                TextColor="#80574D"
                                x:Name="EntEmail"
                                Keyboard="Email" />
-                        <Entry Placeholder="PhoneNumber"
+                        <Entry Placeholder="Please Enter Phone Number"
                                PlaceholderColor="#80574D"
                                TextColor="#80574D"
                                x:Name="EntPhoneNumber"
                                Keyboard="Numeric" />
-                        <!--<Entry Placeholder="BloodGroup"
+                        <!--<Entry Placeholder="Please Enter Blood Group"
                                PlaceholderColor="#80574D"
                                TextColor="#80574D"
                                x:Name="EntBloodGroup"
                                Keyboard="Default" />-->
-                        <Entry Placeholder="District"
+                        <Entry Placeholder="Please Enter District Name"
                                PlaceholderColor="#80574D"
                                TextColor="#80574D"
                                x:Name="EntDistrict"
@@ -52,17 +52,17 @@
                                TextColor="#80574D"
                                x:Name="EntCity"
                                Keyboard="Default" />
-                        <Entry Placeholder="State"
+                        <Entry Placeholder="Please Enter State Name"
                                PlaceholderColor="#80574D"
                                TextColor="#80574D"
                                x:Name="EntState"
                                Keyboard="Default" />
-                        <Entry Placeholder="PIN"
+                        <Entry Placeholder="Please Enter PIN Code"
                                PlaceholderColor="#80574D"
                                TextColor="#80574D"
                                x:Name="EntPIN"
                                Keyboard="Default" />
-                        <Entry Placeholder="Organization Name"
+                        <Entry Placeholder="Please Enter Organization Name"
                                PlaceholderColor="#80574D"
                                TextColor="#80574D"
                                x:Name="EntOrganizationName"
@@ -74,6 +74,11 @@
                         BackgroundColor="#CE0B06"
                         x:Name="BtnUpdateRecipient"
                         Clicked="BtnUpdateRecipient_Clicked"/>
+                <Button Text="CANCEL"
+                        TextColor="White"
+                        BackgroundColor="#CE0B06"
+                        x:Name="BtnCancelRecipient"
+                        Clicked="BtnCancelRecipient_Clicked"/>
 
             </StackLayout>
         </ScrollView>

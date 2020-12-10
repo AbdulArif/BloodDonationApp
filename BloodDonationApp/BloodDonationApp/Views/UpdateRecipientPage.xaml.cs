@@ -51,5 +51,10 @@ namespace BloodDonationApp.Views
 
             await Navigation.PushModalAsync(new HomePage());
         }
+
+        private void BtnCancelRecipient_Clicked(object sender, EventArgs e)
+        {
+
+        }
     }
 }
