@@ -45,23 +45,22 @@ namespace BloodDonationApp.Services
         #region Login User
         public static async Task<bool> Login(string email, string password)
         {
-            var login = new Login()
+            var keyValues = new List<KeyValuePair<string, string>>
             {
-                UserName = email,
-                Password = password,
-                grant_type="password"
-
+                new KeyValuePair<string, string>("username", email),
+                new KeyValuePair<string, string>("password", password),
+                new KeyValuePair<string, string>("grant_type", "password")
             };
 
-            var httpclient = new HttpClient();
-            var json = JsonConvert.SerializeObject(login);
-            var content = new StringContent(json, Encoding.UTF8, "application/json");
-            var response = await httpclient.PostAsync(Constants.ApiUrl + "Token", content);
+            var httpclient = new HttpClient();          
+            var request = new HttpRequestMessage(
+                HttpMethod.Post, Constants.ApiUrl + "Token");
+            request.Content = new FormUrlEncodedContent(keyValues);
+            var response = await httpclient.SendAsync(request);
             if (!response.IsSuccessStatusCode) return false;
             var jsonResult = await response.Content.ReadAsStringAsync();
             var result = JsonConvert.DeserializeObject<Token>(jsonResult);
             Preferences.Set("accessToken", result.access_token);
-            //Preferences.Set("userId", result.user_Id);
             Preferences.Set("userName", result.userName);
             return true;
         }

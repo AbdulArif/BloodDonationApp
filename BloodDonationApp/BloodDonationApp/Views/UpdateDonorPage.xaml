@@ -77,7 +77,6 @@
                                 BackgroundColor="#CE0B06"
                                 x:Name="BtnDisease"
                                 Clicked="BtnDisease_Clicked"/>
-
                     </StackLayout>
 
                 </Frame>

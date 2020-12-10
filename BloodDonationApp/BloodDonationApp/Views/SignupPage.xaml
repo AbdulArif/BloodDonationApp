@@ -52,9 +52,9 @@
                                Keyboard="Default" />
                         <Label Text="Register as ?" TextColor="Black" FontSize="15"/>
                         <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Spacing="30">
-                            <RadioButton Text="Donor"
+                            <RadioButton Text="Donor" TextColor="Black"
                                      GroupName="roles"  CheckedChanged="Roles_CheckedChanged"/>
-                        <RadioButton Text="Recipient"
+                        <RadioButton Text="Recipient" TextColor="Black"
                                      GroupName="roles" CheckedChanged="Roles_CheckedChanged"/>
                         <!--<Label x:Name="animalLabel"
                                 Text="You have chosen:" />-->
