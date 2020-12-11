@@ -26,6 +26,13 @@ namespace BloodDonationApp.Views
             EntFirstName.Text = recipient.FirstName;
             EntLastName.Text = recipient.LastName;
             EntEmail.Text = recipient.Email;
+            EntPhoneNumber.Text= (string)recipient.PhoneNumber;
+            //EntBloodGroup.Text = recipient.BloodGroup;
+            EntDistrict.Text= (string)recipient.District;
+            EntCity.Text = (string)recipient.City;
+            EntState.Text = (string)recipient.State;
+            EntPIN.Text = (string)recipient.PIN;
+            EntOrganizationName.Text = (string)recipient.OrganizationName;
         }
         private async void BtnUpdateRecipient_Clicked(object sender, EventArgs e)
         {

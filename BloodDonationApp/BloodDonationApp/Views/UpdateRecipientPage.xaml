@@ -47,7 +47,7 @@
                                TextColor="#80574D"
                                x:Name="EntDistrict"
                                Keyboard="Default" />
-                        <Entry Placeholder="City"
+                        <Entry Placeholder="Please Enter City"
                                PlaceholderColor="#80574D"
                                TextColor="#80574D"
                                x:Name="EntCity"

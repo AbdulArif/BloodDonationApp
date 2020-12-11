@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -31,8 +31,27 @@ namespace BloodDonationApp.Views
 
         private void TapContact_Tapped(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new ContactPage());
-
+            Navigation.PushModalAsync(new ContactPage());
         }
+
+        private void TapLogout_Tapped(object sender, EventArgs e)
+        {
+            Preferences.Set("accessToken", string.Empty);
+            Preferences.Set("userName", string.Empty);
+            Preferences.Set("tokenExpirationTime", 0);
+            Application.Current.MainPage = new NavigationPage(new SignupPage());
+        }
+
+        private void TapDonor_Tapped(object sender, EventArgs e)
+        {
+            var userId = Preferences.Get("userId", string.Empty);
+            Navigation.PushModalAsync(new UpdateDonorPage(userId));
+        }
+        private void TapRecipient_Tapped(object sender, EventArgs e)
+        {
+            var userId = Preferences.Get("userId", string.Empty);
+            Navigation.PushModalAsync(new UpdateRecipientPage(userId));
+        }
+       
     }
 }
