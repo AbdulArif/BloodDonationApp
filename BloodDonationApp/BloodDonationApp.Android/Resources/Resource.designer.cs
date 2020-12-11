@@ -25,6 +25,2589 @@ namespace BloodDonationApp.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::Plugin.InputKit.Resource.Animation.abc_fade_in = global::BloodDonationApp.Droid.Resource.Animation.abc_fade_in;
+			global::Plugin.InputKit.Resource.Animation.abc_fade_out = global::BloodDonationApp.Droid.Resource.Animation.abc_fade_out;
+			global::Plugin.InputKit.Resource.Animation.abc_grow_fade_in_from_bottom = global::BloodDonationApp.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::Plugin.InputKit.Resource.Animation.abc_popup_enter = global::BloodDonationApp.Droid.Resource.Animation.abc_popup_enter;
+			global::Plugin.InputKit.Resource.Animation.abc_popup_exit = global::BloodDonationApp.Droid.Resource.Animation.abc_popup_exit;
+			global::Plugin.InputKit.Resource.Animation.abc_shrink_fade_out_from_bottom = global::BloodDonationApp.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::Plugin.InputKit.Resource.Animation.abc_slide_in_bottom = global::BloodDonationApp.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::Plugin.InputKit.Resource.Animation.abc_slide_in_top = global::BloodDonationApp.Droid.Resource.Animation.abc_slide_in_top;
+			global::Plugin.InputKit.Resource.Animation.abc_slide_out_bottom = global::BloodDonationApp.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::Plugin.InputKit.Resource.Animation.abc_slide_out_top = global::BloodDonationApp.Droid.Resource.Animation.abc_slide_out_top;
+			global::Plugin.InputKit.Resource.Animation.abc_tooltip_enter = global::BloodDonationApp.Droid.Resource.Animation.abc_tooltip_enter;
+			global::Plugin.InputKit.Resource.Animation.abc_tooltip_exit = global::BloodDonationApp.Droid.Resource.Animation.abc_tooltip_exit;
+			global::Plugin.InputKit.Resource.Animation.design_bottom_sheet_slide_in = global::BloodDonationApp.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::Plugin.InputKit.Resource.Animation.design_bottom_sheet_slide_out = global::BloodDonationApp.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::Plugin.InputKit.Resource.Animation.design_snackbar_in = global::BloodDonationApp.Droid.Resource.Animation.design_snackbar_in;
+			global::Plugin.InputKit.Resource.Animation.design_snackbar_out = global::BloodDonationApp.Droid.Resource.Animation.design_snackbar_out;
+			global::Plugin.InputKit.Resource.Animation.EnterFromLeft = global::BloodDonationApp.Droid.Resource.Animation.EnterFromLeft;
+			global::Plugin.InputKit.Resource.Animation.EnterFromRight = global::BloodDonationApp.Droid.Resource.Animation.EnterFromRight;
+			global::Plugin.InputKit.Resource.Animation.ExitToLeft = global::BloodDonationApp.Droid.Resource.Animation.ExitToLeft;
+			global::Plugin.InputKit.Resource.Animation.ExitToRight = global::BloodDonationApp.Droid.Resource.Animation.ExitToRight;
+			global::Plugin.InputKit.Resource.Animator.design_appbar_state_list_animator = global::BloodDonationApp.Droid.Resource.Animator.design_appbar_state_list_animator;
+			global::Plugin.InputKit.Resource.Animator.design_fab_hide_motion_spec = global::BloodDonationApp.Droid.Resource.Animator.design_fab_hide_motion_spec;
+			global::Plugin.InputKit.Resource.Animator.design_fab_show_motion_spec = global::BloodDonationApp.Droid.Resource.Animator.design_fab_show_motion_spec;
+			global::Plugin.InputKit.Resource.Animator.mtrl_btn_state_list_anim = global::BloodDonationApp.Droid.Resource.Animator.mtrl_btn_state_list_anim;
+			global::Plugin.InputKit.Resource.Animator.mtrl_btn_unelevated_state_list_anim = global::BloodDonationApp.Droid.Resource.Animator.mtrl_btn_unelevated_state_list_anim;
+			global::Plugin.InputKit.Resource.Animator.mtrl_chip_state_list_anim = global::BloodDonationApp.Droid.Resource.Animator.mtrl_chip_state_list_anim;
+			global::Plugin.InputKit.Resource.Animator.mtrl_fab_hide_motion_spec = global::BloodDonationApp.Droid.Resource.Animator.mtrl_fab_hide_motion_spec;
+			global::Plugin.InputKit.Resource.Animator.mtrl_fab_show_motion_spec = global::BloodDonationApp.Droid.Resource.Animator.mtrl_fab_show_motion_spec;
+			global::Plugin.InputKit.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec = global::BloodDonationApp.Droid.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec;
+			global::Plugin.InputKit.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec = global::BloodDonationApp.Droid.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec;
+			global::Plugin.InputKit.Resource.Attribute.actionBarDivider = global::BloodDonationApp.Droid.Resource.Attribute.actionBarDivider;
+			global::Plugin.InputKit.Resource.Attribute.actionBarItemBackground = global::BloodDonationApp.Droid.Resource.Attribute.actionBarItemBackground;
+			global::Plugin.InputKit.Resource.Attribute.actionBarPopupTheme = global::BloodDonationApp.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::Plugin.InputKit.Resource.Attribute.actionBarSize = global::BloodDonationApp.Droid.Resource.Attribute.actionBarSize;
+			global::Plugin.InputKit.Resource.Attribute.actionBarSplitStyle = global::BloodDonationApp.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::Plugin.InputKit.Resource.Attribute.actionBarStyle = global::BloodDonationApp.Droid.Resource.Attribute.actionBarStyle;
+			global::Plugin.InputKit.Resource.Attribute.actionBarTabBarStyle = global::BloodDonationApp.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::Plugin.InputKit.Resource.Attribute.actionBarTabStyle = global::BloodDonationApp.Droid.Resource.Attribute.actionBarTabStyle;
+			global::Plugin.InputKit.Resource.Attribute.actionBarTabTextStyle = global::BloodDonationApp.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::Plugin.InputKit.Resource.Attribute.actionBarTheme = global::BloodDonationApp.Droid.Resource.Attribute.actionBarTheme;
+			global::Plugin.InputKit.Resource.Attribute.actionBarWidgetTheme = global::BloodDonationApp.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::Plugin.InputKit.Resource.Attribute.actionButtonStyle = global::BloodDonationApp.Droid.Resource.Attribute.actionButtonStyle;
+			global::Plugin.InputKit.Resource.Attribute.actionDropDownStyle = global::BloodDonationApp.Droid.Resource.Attribute.actionDropDownStyle;
+			global::Plugin.InputKit.Resource.Attribute.actionLayout = global::BloodDonationApp.Droid.Resource.Attribute.actionLayout;
+			global::Plugin.InputKit.Resource.Attribute.actionMenuTextAppearance = global::BloodDonationApp.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::Plugin.InputKit.Resource.Attribute.actionMenuTextColor = global::BloodDonationApp.Droid.Resource.Attribute.actionMenuTextColor;
+			global::Plugin.InputKit.Resource.Attribute.actionModeBackground = global::BloodDonationApp.Droid.Resource.Attribute.actionModeBackground;
+			global::Plugin.InputKit.Resource.Attribute.actionModeCloseButtonStyle = global::BloodDonationApp.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::Plugin.InputKit.Resource.Attribute.actionModeCloseDrawable = global::BloodDonationApp.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::Plugin.InputKit.Resource.Attribute.actionModeCopyDrawable = global::BloodDonationApp.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::Plugin.InputKit.Resource.Attribute.actionModeCutDrawable = global::BloodDonationApp.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::Plugin.InputKit.Resource.Attribute.actionModeFindDrawable = global::BloodDonationApp.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::Plugin.InputKit.Resource.Attribute.actionModePasteDrawable = global::BloodDonationApp.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::Plugin.InputKit.Resource.Attribute.actionModePopupWindowStyle = global::BloodDonationApp.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::Plugin.InputKit.Resource.Attribute.actionModeSelectAllDrawable = global::BloodDonationApp.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::Plugin.InputKit.Resource.Attribute.actionModeShareDrawable = global::BloodDonationApp.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::Plugin.InputKit.Resource.Attribute.actionModeSplitBackground = global::BloodDonationApp.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::Plugin.InputKit.Resource.Attribute.actionModeStyle = global::BloodDonationApp.Droid.Resource.Attribute.actionModeStyle;
+			global::Plugin.InputKit.Resource.Attribute.actionModeWebSearchDrawable = global::BloodDonationApp.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::Plugin.InputKit.Resource.Attribute.actionOverflowButtonStyle = global::BloodDonationApp.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::Plugin.InputKit.Resource.Attribute.actionOverflowMenuStyle = global::BloodDonationApp.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::Plugin.InputKit.Resource.Attribute.actionProviderClass = global::BloodDonationApp.Droid.Resource.Attribute.actionProviderClass;
+			global::Plugin.InputKit.Resource.Attribute.actionViewClass = global::BloodDonationApp.Droid.Resource.Attribute.actionViewClass;
+			global::Plugin.InputKit.Resource.Attribute.activityChooserViewStyle = global::BloodDonationApp.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::Plugin.InputKit.Resource.Attribute.alertDialogButtonGroupStyle = global::BloodDonationApp.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::Plugin.InputKit.Resource.Attribute.alertDialogCenterButtons = global::BloodDonationApp.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::Plugin.InputKit.Resource.Attribute.alertDialogStyle = global::BloodDonationApp.Droid.Resource.Attribute.alertDialogStyle;
+			global::Plugin.InputKit.Resource.Attribute.alertDialogTheme = global::BloodDonationApp.Droid.Resource.Attribute.alertDialogTheme;
+			global::Plugin.InputKit.Resource.Attribute.allowStacking = global::BloodDonationApp.Droid.Resource.Attribute.allowStacking;
+			global::Plugin.InputKit.Resource.Attribute.alpha = global::BloodDonationApp.Droid.Resource.Attribute.alpha;
+			global::Plugin.InputKit.Resource.Attribute.alphabeticModifiers = global::BloodDonationApp.Droid.Resource.Attribute.alphabeticModifiers;
+			global::Plugin.InputKit.Resource.Attribute.arrowHeadLength = global::BloodDonationApp.Droid.Resource.Attribute.arrowHeadLength;
+			global::Plugin.InputKit.Resource.Attribute.arrowShaftLength = global::BloodDonationApp.Droid.Resource.Attribute.arrowShaftLength;
+			global::Plugin.InputKit.Resource.Attribute.autoCompleteTextViewStyle = global::BloodDonationApp.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::Plugin.InputKit.Resource.Attribute.autoSizeMaxTextSize = global::BloodDonationApp.Droid.Resource.Attribute.autoSizeMaxTextSize;
+			global::Plugin.InputKit.Resource.Attribute.autoSizeMinTextSize = global::BloodDonationApp.Droid.Resource.Attribute.autoSizeMinTextSize;
+			global::Plugin.InputKit.Resource.Attribute.autoSizePresetSizes = global::BloodDonationApp.Droid.Resource.Attribute.autoSizePresetSizes;
+			global::Plugin.InputKit.Resource.Attribute.autoSizeStepGranularity = global::BloodDonationApp.Droid.Resource.Attribute.autoSizeStepGranularity;
+			global::Plugin.InputKit.Resource.Attribute.autoSizeTextType = global::BloodDonationApp.Droid.Resource.Attribute.autoSizeTextType;
+			global::Plugin.InputKit.Resource.Attribute.background = global::BloodDonationApp.Droid.Resource.Attribute.background;
+			global::Plugin.InputKit.Resource.Attribute.backgroundSplit = global::BloodDonationApp.Droid.Resource.Attribute.backgroundSplit;
+			global::Plugin.InputKit.Resource.Attribute.backgroundStacked = global::BloodDonationApp.Droid.Resource.Attribute.backgroundStacked;
+			global::Plugin.InputKit.Resource.Attribute.backgroundTint = global::BloodDonationApp.Droid.Resource.Attribute.backgroundTint;
+			global::Plugin.InputKit.Resource.Attribute.backgroundTintMode = global::BloodDonationApp.Droid.Resource.Attribute.backgroundTintMode;
+			global::Plugin.InputKit.Resource.Attribute.barLength = global::BloodDonationApp.Droid.Resource.Attribute.barLength;
+			global::Plugin.InputKit.Resource.Attribute.behavior_autoHide = global::BloodDonationApp.Droid.Resource.Attribute.behavior_autoHide;
+			global::Plugin.InputKit.Resource.Attribute.behavior_fitToContents = global::BloodDonationApp.Droid.Resource.Attribute.behavior_fitToContents;
+			global::Plugin.InputKit.Resource.Attribute.behavior_hideable = global::BloodDonationApp.Droid.Resource.Attribute.behavior_hideable;
+			global::Plugin.InputKit.Resource.Attribute.behavior_overlapTop = global::BloodDonationApp.Droid.Resource.Attribute.behavior_overlapTop;
+			global::Plugin.InputKit.Resource.Attribute.behavior_peekHeight = global::BloodDonationApp.Droid.Resource.Attribute.behavior_peekHeight;
+			global::Plugin.InputKit.Resource.Attribute.behavior_skipCollapsed = global::BloodDonationApp.Droid.Resource.Attribute.behavior_skipCollapsed;
+			global::Plugin.InputKit.Resource.Attribute.borderlessButtonStyle = global::BloodDonationApp.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::Plugin.InputKit.Resource.Attribute.borderWidth = global::BloodDonationApp.Droid.Resource.Attribute.borderWidth;
+			global::Plugin.InputKit.Resource.Attribute.bottomAppBarStyle = global::BloodDonationApp.Droid.Resource.Attribute.bottomAppBarStyle;
+			global::Plugin.InputKit.Resource.Attribute.bottomNavigationStyle = global::BloodDonationApp.Droid.Resource.Attribute.bottomNavigationStyle;
+			global::Plugin.InputKit.Resource.Attribute.bottomSheetDialogTheme = global::BloodDonationApp.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::Plugin.InputKit.Resource.Attribute.bottomSheetStyle = global::BloodDonationApp.Droid.Resource.Attribute.bottomSheetStyle;
+			global::Plugin.InputKit.Resource.Attribute.boxBackgroundColor = global::BloodDonationApp.Droid.Resource.Attribute.boxBackgroundColor;
+			global::Plugin.InputKit.Resource.Attribute.boxBackgroundMode = global::BloodDonationApp.Droid.Resource.Attribute.boxBackgroundMode;
+			global::Plugin.InputKit.Resource.Attribute.boxCollapsedPaddingTop = global::BloodDonationApp.Droid.Resource.Attribute.boxCollapsedPaddingTop;
+			global::Plugin.InputKit.Resource.Attribute.boxCornerRadiusBottomEnd = global::BloodDonationApp.Droid.Resource.Attribute.boxCornerRadiusBottomEnd;
+			global::Plugin.InputKit.Resource.Attribute.boxCornerRadiusBottomStart = global::BloodDonationApp.Droid.Resource.Attribute.boxCornerRadiusBottomStart;
+			global::Plugin.InputKit.Resource.Attribute.boxCornerRadiusTopEnd = global::BloodDonationApp.Droid.Resource.Attribute.boxCornerRadiusTopEnd;
+			global::Plugin.InputKit.Resource.Attribute.boxCornerRadiusTopStart = global::BloodDonationApp.Droid.Resource.Attribute.boxCornerRadiusTopStart;
+			global::Plugin.InputKit.Resource.Attribute.boxStrokeColor = global::BloodDonationApp.Droid.Resource.Attribute.boxStrokeColor;
+			global::Plugin.InputKit.Resource.Attribute.boxStrokeWidth = global::BloodDonationApp.Droid.Resource.Attribute.boxStrokeWidth;
+			global::Plugin.InputKit.Resource.Attribute.buttonBarButtonStyle = global::BloodDonationApp.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::Plugin.InputKit.Resource.Attribute.buttonBarNegativeButtonStyle = global::BloodDonationApp.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::Plugin.InputKit.Resource.Attribute.buttonBarNeutralButtonStyle = global::BloodDonationApp.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::Plugin.InputKit.Resource.Attribute.buttonBarPositiveButtonStyle = global::BloodDonationApp.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::Plugin.InputKit.Resource.Attribute.buttonBarStyle = global::BloodDonationApp.Droid.Resource.Attribute.buttonBarStyle;
+			global::Plugin.InputKit.Resource.Attribute.buttonGravity = global::BloodDonationApp.Droid.Resource.Attribute.buttonGravity;
+			global::Plugin.InputKit.Resource.Attribute.buttonIconDimen = global::BloodDonationApp.Droid.Resource.Attribute.buttonIconDimen;
+			global::Plugin.InputKit.Resource.Attribute.buttonPanelSideLayout = global::BloodDonationApp.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::Plugin.InputKit.Resource.Attribute.buttonStyle = global::BloodDonationApp.Droid.Resource.Attribute.buttonStyle;
+			global::Plugin.InputKit.Resource.Attribute.buttonStyleSmall = global::BloodDonationApp.Droid.Resource.Attribute.buttonStyleSmall;
+			global::Plugin.InputKit.Resource.Attribute.buttonTint = global::BloodDonationApp.Droid.Resource.Attribute.buttonTint;
+			global::Plugin.InputKit.Resource.Attribute.buttonTintMode = global::BloodDonationApp.Droid.Resource.Attribute.buttonTintMode;
+			global::Plugin.InputKit.Resource.Attribute.cardBackgroundColor = global::BloodDonationApp.Droid.Resource.Attribute.cardBackgroundColor;
+			global::Plugin.InputKit.Resource.Attribute.cardCornerRadius = global::BloodDonationApp.Droid.Resource.Attribute.cardCornerRadius;
+			global::Plugin.InputKit.Resource.Attribute.cardElevation = global::BloodDonationApp.Droid.Resource.Attribute.cardElevation;
+			global::Plugin.InputKit.Resource.Attribute.cardMaxElevation = global::BloodDonationApp.Droid.Resource.Attribute.cardMaxElevation;
+			global::Plugin.InputKit.Resource.Attribute.cardPreventCornerOverlap = global::BloodDonationApp.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::Plugin.InputKit.Resource.Attribute.cardUseCompatPadding = global::BloodDonationApp.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::Plugin.InputKit.Resource.Attribute.cardViewStyle = global::BloodDonationApp.Droid.Resource.Attribute.cardViewStyle;
+			global::Plugin.InputKit.Resource.Attribute.checkboxStyle = global::BloodDonationApp.Droid.Resource.Attribute.checkboxStyle;
+			global::Plugin.InputKit.Resource.Attribute.checkedChip = global::BloodDonationApp.Droid.Resource.Attribute.checkedChip;
+			global::Plugin.InputKit.Resource.Attribute.checkedIcon = global::BloodDonationApp.Droid.Resource.Attribute.checkedIcon;
+			global::Plugin.InputKit.Resource.Attribute.checkedIconEnabled = global::BloodDonationApp.Droid.Resource.Attribute.checkedIconEnabled;
+			global::Plugin.InputKit.Resource.Attribute.checkedIconVisible = global::BloodDonationApp.Droid.Resource.Attribute.checkedIconVisible;
+			global::Plugin.InputKit.Resource.Attribute.checkedTextViewStyle = global::BloodDonationApp.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::Plugin.InputKit.Resource.Attribute.chipBackgroundColor = global::BloodDonationApp.Droid.Resource.Attribute.chipBackgroundColor;
+			global::Plugin.InputKit.Resource.Attribute.chipCornerRadius = global::BloodDonationApp.Droid.Resource.Attribute.chipCornerRadius;
+			global::Plugin.InputKit.Resource.Attribute.chipEndPadding = global::BloodDonationApp.Droid.Resource.Attribute.chipEndPadding;
+			global::Plugin.InputKit.Resource.Attribute.chipGroupStyle = global::BloodDonationApp.Droid.Resource.Attribute.chipGroupStyle;
+			global::Plugin.InputKit.Resource.Attribute.chipIcon = global::BloodDonationApp.Droid.Resource.Attribute.chipIcon;
+			global::Plugin.InputKit.Resource.Attribute.chipIconEnabled = global::BloodDonationApp.Droid.Resource.Attribute.chipIconEnabled;
+			global::Plugin.InputKit.Resource.Attribute.chipIconSize = global::BloodDonationApp.Droid.Resource.Attribute.chipIconSize;
+			global::Plugin.InputKit.Resource.Attribute.chipIconTint = global::BloodDonationApp.Droid.Resource.Attribute.chipIconTint;
+			global::Plugin.InputKit.Resource.Attribute.chipIconVisible = global::BloodDonationApp.Droid.Resource.Attribute.chipIconVisible;
+			global::Plugin.InputKit.Resource.Attribute.chipMinHeight = global::BloodDonationApp.Droid.Resource.Attribute.chipMinHeight;
+			global::Plugin.InputKit.Resource.Attribute.chipSpacing = global::BloodDonationApp.Droid.Resource.Attribute.chipSpacing;
+			global::Plugin.InputKit.Resource.Attribute.chipSpacingHorizontal = global::BloodDonationApp.Droid.Resource.Attribute.chipSpacingHorizontal;
+			global::Plugin.InputKit.Resource.Attribute.chipSpacingVertical = global::BloodDonationApp.Droid.Resource.Attribute.chipSpacingVertical;
+			global::Plugin.InputKit.Resource.Attribute.chipStandaloneStyle = global::BloodDonationApp.Droid.Resource.Attribute.chipStandaloneStyle;
+			global::Plugin.InputKit.Resource.Attribute.chipStartPadding = global::BloodDonationApp.Droid.Resource.Attribute.chipStartPadding;
+			global::Plugin.InputKit.Resource.Attribute.chipStrokeColor = global::BloodDonationApp.Droid.Resource.Attribute.chipStrokeColor;
+			global::Plugin.InputKit.Resource.Attribute.chipStrokeWidth = global::BloodDonationApp.Droid.Resource.Attribute.chipStrokeWidth;
+			global::Plugin.InputKit.Resource.Attribute.chipStyle = global::BloodDonationApp.Droid.Resource.Attribute.chipStyle;
+			global::Plugin.InputKit.Resource.Attribute.closeIcon = global::BloodDonationApp.Droid.Resource.Attribute.closeIcon;
+			global::Plugin.InputKit.Resource.Attribute.closeIconEnabled = global::BloodDonationApp.Droid.Resource.Attribute.closeIconEnabled;
+			global::Plugin.InputKit.Resource.Attribute.closeIconEndPadding = global::BloodDonationApp.Droid.Resource.Attribute.closeIconEndPadding;
+			global::Plugin.InputKit.Resource.Attribute.closeIconSize = global::BloodDonationApp.Droid.Resource.Attribute.closeIconSize;
+			global::Plugin.InputKit.Resource.Attribute.closeIconStartPadding = global::BloodDonationApp.Droid.Resource.Attribute.closeIconStartPadding;
+			global::Plugin.InputKit.Resource.Attribute.closeIconTint = global::BloodDonationApp.Droid.Resource.Attribute.closeIconTint;
+			global::Plugin.InputKit.Resource.Attribute.closeIconVisible = global::BloodDonationApp.Droid.Resource.Attribute.closeIconVisible;
+			global::Plugin.InputKit.Resource.Attribute.closeItemLayout = global::BloodDonationApp.Droid.Resource.Attribute.closeItemLayout;
+			global::Plugin.InputKit.Resource.Attribute.collapseContentDescription = global::BloodDonationApp.Droid.Resource.Attribute.collapseContentDescription;
+			global::Plugin.InputKit.Resource.Attribute.collapsedTitleGravity = global::BloodDonationApp.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::Plugin.InputKit.Resource.Attribute.collapsedTitleTextAppearance = global::BloodDonationApp.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::Plugin.InputKit.Resource.Attribute.collapseIcon = global::BloodDonationApp.Droid.Resource.Attribute.collapseIcon;
+			global::Plugin.InputKit.Resource.Attribute.collectionViewStyle = global::BloodDonationApp.Droid.Resource.Attribute.collectionViewStyle;
+			global::Plugin.InputKit.Resource.Attribute.color = global::BloodDonationApp.Droid.Resource.Attribute.color;
+			global::Plugin.InputKit.Resource.Attribute.colorAccent = global::BloodDonationApp.Droid.Resource.Attribute.colorAccent;
+			global::Plugin.InputKit.Resource.Attribute.colorBackgroundFloating = global::BloodDonationApp.Droid.Resource.Attribute.colorBackgroundFloating;
+			global::Plugin.InputKit.Resource.Attribute.colorButtonNormal = global::BloodDonationApp.Droid.Resource.Attribute.colorButtonNormal;
+			global::Plugin.InputKit.Resource.Attribute.colorControlActivated = global::BloodDonationApp.Droid.Resource.Attribute.colorControlActivated;
+			global::Plugin.InputKit.Resource.Attribute.colorControlHighlight = global::BloodDonationApp.Droid.Resource.Attribute.colorControlHighlight;
+			global::Plugin.InputKit.Resource.Attribute.colorControlNormal = global::BloodDonationApp.Droid.Resource.Attribute.colorControlNormal;
+			global::Plugin.InputKit.Resource.Attribute.colorError = global::BloodDonationApp.Droid.Resource.Attribute.colorError;
+			global::Plugin.InputKit.Resource.Attribute.colorPrimary = global::BloodDonationApp.Droid.Resource.Attribute.colorPrimary;
+			global::Plugin.InputKit.Resource.Attribute.colorPrimaryDark = global::BloodDonationApp.Droid.Resource.Attribute.colorPrimaryDark;
+			global::Plugin.InputKit.Resource.Attribute.colorSecondary = global::BloodDonationApp.Droid.Resource.Attribute.colorSecondary;
+			global::Plugin.InputKit.Resource.Attribute.colorSwitchThumbNormal = global::BloodDonationApp.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::Plugin.InputKit.Resource.Attribute.commitIcon = global::BloodDonationApp.Droid.Resource.Attribute.commitIcon;
+			global::Plugin.InputKit.Resource.Attribute.contentDescription = global::BloodDonationApp.Droid.Resource.Attribute.contentDescription;
+			global::Plugin.InputKit.Resource.Attribute.contentInsetEnd = global::BloodDonationApp.Droid.Resource.Attribute.contentInsetEnd;
+			global::Plugin.InputKit.Resource.Attribute.contentInsetEndWithActions = global::BloodDonationApp.Droid.Resource.Attribute.contentInsetEndWithActions;
+			global::Plugin.InputKit.Resource.Attribute.contentInsetLeft = global::BloodDonationApp.Droid.Resource.Attribute.contentInsetLeft;
+			global::Plugin.InputKit.Resource.Attribute.contentInsetRight = global::BloodDonationApp.Droid.Resource.Attribute.contentInsetRight;
+			global::Plugin.InputKit.Resource.Attribute.contentInsetStart = global::BloodDonationApp.Droid.Resource.Attribute.contentInsetStart;
+			global::Plugin.InputKit.Resource.Attribute.contentInsetStartWithNavigation = global::BloodDonationApp.Droid.Resource.Attribute.contentInsetStartWithNavigation;
+			global::Plugin.InputKit.Resource.Attribute.contentPadding = global::BloodDonationApp.Droid.Resource.Attribute.contentPadding;
+			global::Plugin.InputKit.Resource.Attribute.contentPaddingBottom = global::BloodDonationApp.Droid.Resource.Attribute.contentPaddingBottom;
+			global::Plugin.InputKit.Resource.Attribute.contentPaddingLeft = global::BloodDonationApp.Droid.Resource.Attribute.contentPaddingLeft;
+			global::Plugin.InputKit.Resource.Attribute.contentPaddingRight = global::BloodDonationApp.Droid.Resource.Attribute.contentPaddingRight;
+			global::Plugin.InputKit.Resource.Attribute.contentPaddingTop = global::BloodDonationApp.Droid.Resource.Attribute.contentPaddingTop;
+			global::Plugin.InputKit.Resource.Attribute.contentScrim = global::BloodDonationApp.Droid.Resource.Attribute.contentScrim;
+			global::Plugin.InputKit.Resource.Attribute.controlBackground = global::BloodDonationApp.Droid.Resource.Attribute.controlBackground;
+			global::Plugin.InputKit.Resource.Attribute.coordinatorLayoutStyle = global::BloodDonationApp.Droid.Resource.Attribute.coordinatorLayoutStyle;
+			global::Plugin.InputKit.Resource.Attribute.cornerRadius = global::BloodDonationApp.Droid.Resource.Attribute.cornerRadius;
+			global::Plugin.InputKit.Resource.Attribute.counterEnabled = global::BloodDonationApp.Droid.Resource.Attribute.counterEnabled;
+			global::Plugin.InputKit.Resource.Attribute.counterMaxLength = global::BloodDonationApp.Droid.Resource.Attribute.counterMaxLength;
+			global::Plugin.InputKit.Resource.Attribute.counterOverflowTextAppearance = global::BloodDonationApp.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::Plugin.InputKit.Resource.Attribute.counterTextAppearance = global::BloodDonationApp.Droid.Resource.Attribute.counterTextAppearance;
+			global::Plugin.InputKit.Resource.Attribute.customNavigationLayout = global::BloodDonationApp.Droid.Resource.Attribute.customNavigationLayout;
+			global::Plugin.InputKit.Resource.Attribute.defaultQueryHint = global::BloodDonationApp.Droid.Resource.Attribute.defaultQueryHint;
+			global::Plugin.InputKit.Resource.Attribute.dialogCornerRadius = global::BloodDonationApp.Droid.Resource.Attribute.dialogCornerRadius;
+			global::Plugin.InputKit.Resource.Attribute.dialogPreferredPadding = global::BloodDonationApp.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::Plugin.InputKit.Resource.Attribute.dialogTheme = global::BloodDonationApp.Droid.Resource.Attribute.dialogTheme;
+			global::Plugin.InputKit.Resource.Attribute.displayOptions = global::BloodDonationApp.Droid.Resource.Attribute.displayOptions;
+			global::Plugin.InputKit.Resource.Attribute.divider = global::BloodDonationApp.Droid.Resource.Attribute.divider;
+			global::Plugin.InputKit.Resource.Attribute.dividerHorizontal = global::BloodDonationApp.Droid.Resource.Attribute.dividerHorizontal;
+			global::Plugin.InputKit.Resource.Attribute.dividerPadding = global::BloodDonationApp.Droid.Resource.Attribute.dividerPadding;
+			global::Plugin.InputKit.Resource.Attribute.dividerVertical = global::BloodDonationApp.Droid.Resource.Attribute.dividerVertical;
+			global::Plugin.InputKit.Resource.Attribute.drawableSize = global::BloodDonationApp.Droid.Resource.Attribute.drawableSize;
+			global::Plugin.InputKit.Resource.Attribute.drawerArrowStyle = global::BloodDonationApp.Droid.Resource.Attribute.drawerArrowStyle;
+			global::Plugin.InputKit.Resource.Attribute.dropdownListPreferredItemHeight = global::BloodDonationApp.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::Plugin.InputKit.Resource.Attribute.dropDownListViewStyle = global::BloodDonationApp.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::Plugin.InputKit.Resource.Attribute.editTextBackground = global::BloodDonationApp.Droid.Resource.Attribute.editTextBackground;
+			global::Plugin.InputKit.Resource.Attribute.editTextColor = global::BloodDonationApp.Droid.Resource.Attribute.editTextColor;
+			global::Plugin.InputKit.Resource.Attribute.editTextStyle = global::BloodDonationApp.Droid.Resource.Attribute.editTextStyle;
+			global::Plugin.InputKit.Resource.Attribute.elevation = global::BloodDonationApp.Droid.Resource.Attribute.elevation;
+			global::Plugin.InputKit.Resource.Attribute.enforceMaterialTheme = global::BloodDonationApp.Droid.Resource.Attribute.enforceMaterialTheme;
+			global::Plugin.InputKit.Resource.Attribute.enforceTextAppearance = global::BloodDonationApp.Droid.Resource.Attribute.enforceTextAppearance;
+			global::Plugin.InputKit.Resource.Attribute.errorEnabled = global::BloodDonationApp.Droid.Resource.Attribute.errorEnabled;
+			global::Plugin.InputKit.Resource.Attribute.errorTextAppearance = global::BloodDonationApp.Droid.Resource.Attribute.errorTextAppearance;
+			global::Plugin.InputKit.Resource.Attribute.expandActivityOverflowButtonDrawable = global::BloodDonationApp.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::Plugin.InputKit.Resource.Attribute.expanded = global::BloodDonationApp.Droid.Resource.Attribute.expanded;
+			global::Plugin.InputKit.Resource.Attribute.expandedTitleGravity = global::BloodDonationApp.Droid.Resource.Attribute.expandedTitleGravity;
+			global::Plugin.InputKit.Resource.Attribute.expandedTitleMargin = global::BloodDonationApp.Droid.Resource.Attribute.expandedTitleMargin;
+			global::Plugin.InputKit.Resource.Attribute.expandedTitleMarginBottom = global::BloodDonationApp.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::Plugin.InputKit.Resource.Attribute.expandedTitleMarginEnd = global::BloodDonationApp.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::Plugin.InputKit.Resource.Attribute.expandedTitleMarginStart = global::BloodDonationApp.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::Plugin.InputKit.Resource.Attribute.expandedTitleMarginTop = global::BloodDonationApp.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::Plugin.InputKit.Resource.Attribute.expandedTitleTextAppearance = global::BloodDonationApp.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::Plugin.InputKit.Resource.Attribute.fabAlignmentMode = global::BloodDonationApp.Droid.Resource.Attribute.fabAlignmentMode;
+			global::Plugin.InputKit.Resource.Attribute.fabCradleMargin = global::BloodDonationApp.Droid.Resource.Attribute.fabCradleMargin;
+			global::Plugin.InputKit.Resource.Attribute.fabCradleRoundedCornerRadius = global::BloodDonationApp.Droid.Resource.Attribute.fabCradleRoundedCornerRadius;
+			global::Plugin.InputKit.Resource.Attribute.fabCradleVerticalOffset = global::BloodDonationApp.Droid.Resource.Attribute.fabCradleVerticalOffset;
+			global::Plugin.InputKit.Resource.Attribute.fabCustomSize = global::BloodDonationApp.Droid.Resource.Attribute.fabCustomSize;
+			global::Plugin.InputKit.Resource.Attribute.fabSize = global::BloodDonationApp.Droid.Resource.Attribute.fabSize;
+			global::Plugin.InputKit.Resource.Attribute.fastScrollEnabled = global::BloodDonationApp.Droid.Resource.Attribute.fastScrollEnabled;
+			global::Plugin.InputKit.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::BloodDonationApp.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable;
+			global::Plugin.InputKit.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::BloodDonationApp.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable;
+			global::Plugin.InputKit.Resource.Attribute.fastScrollVerticalThumbDrawable = global::BloodDonationApp.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable;
+			global::Plugin.InputKit.Resource.Attribute.fastScrollVerticalTrackDrawable = global::BloodDonationApp.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable;
+			global::Plugin.InputKit.Resource.Attribute.firstBaselineToTopHeight = global::BloodDonationApp.Droid.Resource.Attribute.firstBaselineToTopHeight;
+			global::Plugin.InputKit.Resource.Attribute.floatingActionButtonStyle = global::BloodDonationApp.Droid.Resource.Attribute.floatingActionButtonStyle;
+			global::Plugin.InputKit.Resource.Attribute.font = global::BloodDonationApp.Droid.Resource.Attribute.font;
+			global::Plugin.InputKit.Resource.Attribute.fontFamily = global::BloodDonationApp.Droid.Resource.Attribute.fontFamily;
+			global::Plugin.InputKit.Resource.Attribute.fontProviderAuthority = global::BloodDonationApp.Droid.Resource.Attribute.fontProviderAuthority;
+			global::Plugin.InputKit.Resource.Attribute.fontProviderCerts = global::BloodDonationApp.Droid.Resource.Attribute.fontProviderCerts;
+			global::Plugin.InputKit.Resource.Attribute.fontProviderFetchStrategy = global::BloodDonationApp.Droid.Resource.Attribute.fontProviderFetchStrategy;
+			global::Plugin.InputKit.Resource.Attribute.fontProviderFetchTimeout = global::BloodDonationApp.Droid.Resource.Attribute.fontProviderFetchTimeout;
+			global::Plugin.InputKit.Resource.Attribute.fontProviderPackage = global::BloodDonationApp.Droid.Resource.Attribute.fontProviderPackage;
+			global::Plugin.InputKit.Resource.Attribute.fontProviderQuery = global::BloodDonationApp.Droid.Resource.Attribute.fontProviderQuery;
+			global::Plugin.InputKit.Resource.Attribute.fontStyle = global::BloodDonationApp.Droid.Resource.Attribute.fontStyle;
+			global::Plugin.InputKit.Resource.Attribute.fontVariationSettings = global::BloodDonationApp.Droid.Resource.Attribute.fontVariationSettings;
+			global::Plugin.InputKit.Resource.Attribute.fontWeight = global::BloodDonationApp.Droid.Resource.Attribute.fontWeight;
+			global::Plugin.InputKit.Resource.Attribute.foregroundInsidePadding = global::BloodDonationApp.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::Plugin.InputKit.Resource.Attribute.gapBetweenBars = global::BloodDonationApp.Droid.Resource.Attribute.gapBetweenBars;
+			global::Plugin.InputKit.Resource.Attribute.goIcon = global::BloodDonationApp.Droid.Resource.Attribute.goIcon;
+			global::Plugin.InputKit.Resource.Attribute.headerLayout = global::BloodDonationApp.Droid.Resource.Attribute.headerLayout;
+			global::Plugin.InputKit.Resource.Attribute.height = global::BloodDonationApp.Droid.Resource.Attribute.height;
+			global::Plugin.InputKit.Resource.Attribute.helperText = global::BloodDonationApp.Droid.Resource.Attribute.helperText;
+			global::Plugin.InputKit.Resource.Attribute.helperTextEnabled = global::BloodDonationApp.Droid.Resource.Attribute.helperTextEnabled;
+			global::Plugin.InputKit.Resource.Attribute.helperTextTextAppearance = global::BloodDonationApp.Droid.Resource.Attribute.helperTextTextAppearance;
+			global::Plugin.InputKit.Resource.Attribute.hideMotionSpec = global::BloodDonationApp.Droid.Resource.Attribute.hideMotionSpec;
+			global::Plugin.InputKit.Resource.Attribute.hideOnContentScroll = global::BloodDonationApp.Droid.Resource.Attribute.hideOnContentScroll;
+			global::Plugin.InputKit.Resource.Attribute.hideOnScroll = global::BloodDonationApp.Droid.Resource.Attribute.hideOnScroll;
+			global::Plugin.InputKit.Resource.Attribute.hintAnimationEnabled = global::BloodDonationApp.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::Plugin.InputKit.Resource.Attribute.hintEnabled = global::BloodDonationApp.Droid.Resource.Attribute.hintEnabled;
+			global::Plugin.InputKit.Resource.Attribute.hintTextAppearance = global::BloodDonationApp.Droid.Resource.Attribute.hintTextAppearance;
+			global::Plugin.InputKit.Resource.Attribute.homeAsUpIndicator = global::BloodDonationApp.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::Plugin.InputKit.Resource.Attribute.homeLayout = global::BloodDonationApp.Droid.Resource.Attribute.homeLayout;
+			global::Plugin.InputKit.Resource.Attribute.hoveredFocusedTranslationZ = global::BloodDonationApp.Droid.Resource.Attribute.hoveredFocusedTranslationZ;
+			global::Plugin.InputKit.Resource.Attribute.icon = global::BloodDonationApp.Droid.Resource.Attribute.icon;
+			global::Plugin.InputKit.Resource.Attribute.iconEndPadding = global::BloodDonationApp.Droid.Resource.Attribute.iconEndPadding;
+			global::Plugin.InputKit.Resource.Attribute.iconGravity = global::BloodDonationApp.Droid.Resource.Attribute.iconGravity;
+			global::Plugin.InputKit.Resource.Attribute.iconifiedByDefault = global::BloodDonationApp.Droid.Resource.Attribute.iconifiedByDefault;
+			global::Plugin.InputKit.Resource.Attribute.iconPadding = global::BloodDonationApp.Droid.Resource.Attribute.iconPadding;
+			global::Plugin.InputKit.Resource.Attribute.iconSize = global::BloodDonationApp.Droid.Resource.Attribute.iconSize;
+			global::Plugin.InputKit.Resource.Attribute.iconStartPadding = global::BloodDonationApp.Droid.Resource.Attribute.iconStartPadding;
+			global::Plugin.InputKit.Resource.Attribute.iconTint = global::BloodDonationApp.Droid.Resource.Attribute.iconTint;
+			global::Plugin.InputKit.Resource.Attribute.iconTintMode = global::BloodDonationApp.Droid.Resource.Attribute.iconTintMode;
+			global::Plugin.InputKit.Resource.Attribute.imageButtonStyle = global::BloodDonationApp.Droid.Resource.Attribute.imageButtonStyle;
+			global::Plugin.InputKit.Resource.Attribute.indeterminateProgressStyle = global::BloodDonationApp.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::Plugin.InputKit.Resource.Attribute.initialActivityCount = global::BloodDonationApp.Droid.Resource.Attribute.initialActivityCount;
+			global::Plugin.InputKit.Resource.Attribute.insetForeground = global::BloodDonationApp.Droid.Resource.Attribute.insetForeground;
+			global::Plugin.InputKit.Resource.Attribute.isLightTheme = global::BloodDonationApp.Droid.Resource.Attribute.isLightTheme;
+			global::Plugin.InputKit.Resource.Attribute.itemBackground = global::BloodDonationApp.Droid.Resource.Attribute.itemBackground;
+			global::Plugin.InputKit.Resource.Attribute.itemHorizontalPadding = global::BloodDonationApp.Droid.Resource.Attribute.itemHorizontalPadding;
+			global::Plugin.InputKit.Resource.Attribute.itemHorizontalTranslationEnabled = global::BloodDonationApp.Droid.Resource.Attribute.itemHorizontalTranslationEnabled;
+			global::Plugin.InputKit.Resource.Attribute.itemIconPadding = global::BloodDonationApp.Droid.Resource.Attribute.itemIconPadding;
+			global::Plugin.InputKit.Resource.Attribute.itemIconSize = global::BloodDonationApp.Droid.Resource.Attribute.itemIconSize;
+			global::Plugin.InputKit.Resource.Attribute.itemIconTint = global::BloodDonationApp.Droid.Resource.Attribute.itemIconTint;
+			global::Plugin.InputKit.Resource.Attribute.itemPadding = global::BloodDonationApp.Droid.Resource.Attribute.itemPadding;
+			global::Plugin.InputKit.Resource.Attribute.itemSpacing = global::BloodDonationApp.Droid.Resource.Attribute.itemSpacing;
+			global::Plugin.InputKit.Resource.Attribute.itemTextAppearance = global::BloodDonationApp.Droid.Resource.Attribute.itemTextAppearance;
+			global::Plugin.InputKit.Resource.Attribute.itemTextAppearanceActive = global::BloodDonationApp.Droid.Resource.Attribute.itemTextAppearanceActive;
+			global::Plugin.InputKit.Resource.Attribute.itemTextAppearanceInactive = global::BloodDonationApp.Droid.Resource.Attribute.itemTextAppearanceInactive;
+			global::Plugin.InputKit.Resource.Attribute.itemTextColor = global::BloodDonationApp.Droid.Resource.Attribute.itemTextColor;
+			global::Plugin.InputKit.Resource.Attribute.keylines = global::BloodDonationApp.Droid.Resource.Attribute.keylines;
+			global::Plugin.InputKit.Resource.Attribute.labelVisibilityMode = global::BloodDonationApp.Droid.Resource.Attribute.labelVisibilityMode;
+			global::Plugin.InputKit.Resource.Attribute.lastBaselineToBottomHeight = global::BloodDonationApp.Droid.Resource.Attribute.lastBaselineToBottomHeight;
+			global::Plugin.InputKit.Resource.Attribute.layout = global::BloodDonationApp.Droid.Resource.Attribute.layout;
+			global::Plugin.InputKit.Resource.Attribute.layoutManager = global::BloodDonationApp.Droid.Resource.Attribute.layoutManager;
+			global::Plugin.InputKit.Resource.Attribute.layout_anchor = global::BloodDonationApp.Droid.Resource.Attribute.layout_anchor;
+			global::Plugin.InputKit.Resource.Attribute.layout_anchorGravity = global::BloodDonationApp.Droid.Resource.Attribute.layout_anchorGravity;
+			global::Plugin.InputKit.Resource.Attribute.layout_behavior = global::BloodDonationApp.Droid.Resource.Attribute.layout_behavior;
+			global::Plugin.InputKit.Resource.Attribute.layout_collapseMode = global::BloodDonationApp.Droid.Resource.Attribute.layout_collapseMode;
+			global::Plugin.InputKit.Resource.Attribute.layout_collapseParallaxMultiplier = global::BloodDonationApp.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::Plugin.InputKit.Resource.Attribute.layout_dodgeInsetEdges = global::BloodDonationApp.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::Plugin.InputKit.Resource.Attribute.layout_insetEdge = global::BloodDonationApp.Droid.Resource.Attribute.layout_insetEdge;
+			global::Plugin.InputKit.Resource.Attribute.layout_keyline = global::BloodDonationApp.Droid.Resource.Attribute.layout_keyline;
+			global::Plugin.InputKit.Resource.Attribute.layout_scrollFlags = global::BloodDonationApp.Droid.Resource.Attribute.layout_scrollFlags;
+			global::Plugin.InputKit.Resource.Attribute.layout_scrollInterpolator = global::BloodDonationApp.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::Plugin.InputKit.Resource.Attribute.liftOnScroll = global::BloodDonationApp.Droid.Resource.Attribute.liftOnScroll;
+			global::Plugin.InputKit.Resource.Attribute.lineHeight = global::BloodDonationApp.Droid.Resource.Attribute.lineHeight;
+			global::Plugin.InputKit.Resource.Attribute.lineSpacing = global::BloodDonationApp.Droid.Resource.Attribute.lineSpacing;
+			global::Plugin.InputKit.Resource.Attribute.listChoiceBackgroundIndicator = global::BloodDonationApp.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::Plugin.InputKit.Resource.Attribute.listDividerAlertDialog = global::BloodDonationApp.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::Plugin.InputKit.Resource.Attribute.listItemLayout = global::BloodDonationApp.Droid.Resource.Attribute.listItemLayout;
+			global::Plugin.InputKit.Resource.Attribute.listLayout = global::BloodDonationApp.Droid.Resource.Attribute.listLayout;
+			global::Plugin.InputKit.Resource.Attribute.listMenuViewStyle = global::BloodDonationApp.Droid.Resource.Attribute.listMenuViewStyle;
+			global::Plugin.InputKit.Resource.Attribute.listPopupWindowStyle = global::BloodDonationApp.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::Plugin.InputKit.Resource.Attribute.listPreferredItemHeight = global::BloodDonationApp.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::Plugin.InputKit.Resource.Attribute.listPreferredItemHeightLarge = global::BloodDonationApp.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::Plugin.InputKit.Resource.Attribute.listPreferredItemHeightSmall = global::BloodDonationApp.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::Plugin.InputKit.Resource.Attribute.listPreferredItemPaddingLeft = global::BloodDonationApp.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::Plugin.InputKit.Resource.Attribute.listPreferredItemPaddingRight = global::BloodDonationApp.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::Plugin.InputKit.Resource.Attribute.logo = global::BloodDonationApp.Droid.Resource.Attribute.logo;
+			global::Plugin.InputKit.Resource.Attribute.logoDescription = global::BloodDonationApp.Droid.Resource.Attribute.logoDescription;
+			global::Plugin.InputKit.Resource.Attribute.materialButtonStyle = global::BloodDonationApp.Droid.Resource.Attribute.materialButtonStyle;
+			global::Plugin.InputKit.Resource.Attribute.materialCardViewStyle = global::BloodDonationApp.Droid.Resource.Attribute.materialCardViewStyle;
+			global::Plugin.InputKit.Resource.Attribute.maxActionInlineWidth = global::BloodDonationApp.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::Plugin.InputKit.Resource.Attribute.maxButtonHeight = global::BloodDonationApp.Droid.Resource.Attribute.maxButtonHeight;
+			global::Plugin.InputKit.Resource.Attribute.maxImageSize = global::BloodDonationApp.Droid.Resource.Attribute.maxImageSize;
+			global::Plugin.InputKit.Resource.Attribute.measureWithLargestChild = global::BloodDonationApp.Droid.Resource.Attribute.measureWithLargestChild;
+			global::Plugin.InputKit.Resource.Attribute.menu = global::BloodDonationApp.Droid.Resource.Attribute.menu;
+			global::Plugin.InputKit.Resource.Attribute.multiChoiceItemLayout = global::BloodDonationApp.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::Plugin.InputKit.Resource.Attribute.navigationContentDescription = global::BloodDonationApp.Droid.Resource.Attribute.navigationContentDescription;
+			global::Plugin.InputKit.Resource.Attribute.navigationIcon = global::BloodDonationApp.Droid.Resource.Attribute.navigationIcon;
+			global::Plugin.InputKit.Resource.Attribute.navigationMode = global::BloodDonationApp.Droid.Resource.Attribute.navigationMode;
+			global::Plugin.InputKit.Resource.Attribute.navigationViewStyle = global::BloodDonationApp.Droid.Resource.Attribute.navigationViewStyle;
+			global::Plugin.InputKit.Resource.Attribute.numericModifiers = global::BloodDonationApp.Droid.Resource.Attribute.numericModifiers;
+			global::Plugin.InputKit.Resource.Attribute.overlapAnchor = global::BloodDonationApp.Droid.Resource.Attribute.overlapAnchor;
+			global::Plugin.InputKit.Resource.Attribute.paddingBottomNoButtons = global::BloodDonationApp.Droid.Resource.Attribute.paddingBottomNoButtons;
+			global::Plugin.InputKit.Resource.Attribute.paddingEnd = global::BloodDonationApp.Droid.Resource.Attribute.paddingEnd;
+			global::Plugin.InputKit.Resource.Attribute.paddingStart = global::BloodDonationApp.Droid.Resource.Attribute.paddingStart;
+			global::Plugin.InputKit.Resource.Attribute.paddingTopNoTitle = global::BloodDonationApp.Droid.Resource.Attribute.paddingTopNoTitle;
+			global::Plugin.InputKit.Resource.Attribute.panelBackground = global::BloodDonationApp.Droid.Resource.Attribute.panelBackground;
+			global::Plugin.InputKit.Resource.Attribute.panelMenuListTheme = global::BloodDonationApp.Droid.Resource.Attribute.panelMenuListTheme;
+			global::Plugin.InputKit.Resource.Attribute.panelMenuListWidth = global::BloodDonationApp.Droid.Resource.Attribute.panelMenuListWidth;
+			global::Plugin.InputKit.Resource.Attribute.passwordToggleContentDescription = global::BloodDonationApp.Droid.Resource.Attribute.passwordToggleContentDescription;
+			global::Plugin.InputKit.Resource.Attribute.passwordToggleDrawable = global::BloodDonationApp.Droid.Resource.Attribute.passwordToggleDrawable;
+			global::Plugin.InputKit.Resource.Attribute.passwordToggleEnabled = global::BloodDonationApp.Droid.Resource.Attribute.passwordToggleEnabled;
+			global::Plugin.InputKit.Resource.Attribute.passwordToggleTint = global::BloodDonationApp.Droid.Resource.Attribute.passwordToggleTint;
+			global::Plugin.InputKit.Resource.Attribute.passwordToggleTintMode = global::BloodDonationApp.Droid.Resource.Attribute.passwordToggleTintMode;
+			global::Plugin.InputKit.Resource.Attribute.popupMenuStyle = global::BloodDonationApp.Droid.Resource.Attribute.popupMenuStyle;
+			global::Plugin.InputKit.Resource.Attribute.popupTheme = global::BloodDonationApp.Droid.Resource.Attribute.popupTheme;
+			global::Plugin.InputKit.Resource.Attribute.popupWindowStyle = global::BloodDonationApp.Droid.Resource.Attribute.popupWindowStyle;
+			global::Plugin.InputKit.Resource.Attribute.preserveIconSpacing = global::BloodDonationApp.Droid.Resource.Attribute.preserveIconSpacing;
+			global::Plugin.InputKit.Resource.Attribute.pressedTranslationZ = global::BloodDonationApp.Droid.Resource.Attribute.pressedTranslationZ;
+			global::Plugin.InputKit.Resource.Attribute.progressBarPadding = global::BloodDonationApp.Droid.Resource.Attribute.progressBarPadding;
+			global::Plugin.InputKit.Resource.Attribute.progressBarStyle = global::BloodDonationApp.Droid.Resource.Attribute.progressBarStyle;
+			global::Plugin.InputKit.Resource.Attribute.queryBackground = global::BloodDonationApp.Droid.Resource.Attribute.queryBackground;
+			global::Plugin.InputKit.Resource.Attribute.queryHint = global::BloodDonationApp.Droid.Resource.Attribute.queryHint;
+			global::Plugin.InputKit.Resource.Attribute.radioButtonStyle = global::BloodDonationApp.Droid.Resource.Attribute.radioButtonStyle;
+			global::Plugin.InputKit.Resource.Attribute.ratingBarStyle = global::BloodDonationApp.Droid.Resource.Attribute.ratingBarStyle;
+			global::Plugin.InputKit.Resource.Attribute.ratingBarStyleIndicator = global::BloodDonationApp.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::Plugin.InputKit.Resource.Attribute.ratingBarStyleSmall = global::BloodDonationApp.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::Plugin.InputKit.Resource.Attribute.reverseLayout = global::BloodDonationApp.Droid.Resource.Attribute.reverseLayout;
+			global::Plugin.InputKit.Resource.Attribute.rippleColor = global::BloodDonationApp.Droid.Resource.Attribute.rippleColor;
+			global::Plugin.InputKit.Resource.Attribute.scrimAnimationDuration = global::BloodDonationApp.Droid.Resource.Attribute.scrimAnimationDuration;
+			global::Plugin.InputKit.Resource.Attribute.scrimBackground = global::BloodDonationApp.Droid.Resource.Attribute.scrimBackground;
+			global::Plugin.InputKit.Resource.Attribute.scrimVisibleHeightTrigger = global::BloodDonationApp.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::Plugin.InputKit.Resource.Attribute.searchHintIcon = global::BloodDonationApp.Droid.Resource.Attribute.searchHintIcon;
+			global::Plugin.InputKit.Resource.Attribute.searchIcon = global::BloodDonationApp.Droid.Resource.Attribute.searchIcon;
+			global::Plugin.InputKit.Resource.Attribute.searchViewStyle = global::BloodDonationApp.Droid.Resource.Attribute.searchViewStyle;
+			global::Plugin.InputKit.Resource.Attribute.seekBarStyle = global::BloodDonationApp.Droid.Resource.Attribute.seekBarStyle;
+			global::Plugin.InputKit.Resource.Attribute.selectableItemBackground = global::BloodDonationApp.Droid.Resource.Attribute.selectableItemBackground;
+			global::Plugin.InputKit.Resource.Attribute.selectableItemBackgroundBorderless = global::BloodDonationApp.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::Plugin.InputKit.Resource.Attribute.showAsAction = global::BloodDonationApp.Droid.Resource.Attribute.showAsAction;
+			global::Plugin.InputKit.Resource.Attribute.showDividers = global::BloodDonationApp.Droid.Resource.Attribute.showDividers;
+			global::Plugin.InputKit.Resource.Attribute.showMotionSpec = global::BloodDonationApp.Droid.Resource.Attribute.showMotionSpec;
+			global::Plugin.InputKit.Resource.Attribute.showText = global::BloodDonationApp.Droid.Resource.Attribute.showText;
+			global::Plugin.InputKit.Resource.Attribute.showTitle = global::BloodDonationApp.Droid.Resource.Attribute.showTitle;
+			global::Plugin.InputKit.Resource.Attribute.singleChoiceItemLayout = global::BloodDonationApp.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::Plugin.InputKit.Resource.Attribute.singleLine = global::BloodDonationApp.Droid.Resource.Attribute.singleLine;
+			global::Plugin.InputKit.Resource.Attribute.singleSelection = global::BloodDonationApp.Droid.Resource.Attribute.singleSelection;
+			global::Plugin.InputKit.Resource.Attribute.snackbarButtonStyle = global::BloodDonationApp.Droid.Resource.Attribute.snackbarButtonStyle;
+			global::Plugin.InputKit.Resource.Attribute.snackbarStyle = global::BloodDonationApp.Droid.Resource.Attribute.snackbarStyle;
+			global::Plugin.InputKit.Resource.Attribute.spanCount = global::BloodDonationApp.Droid.Resource.Attribute.spanCount;
+			global::Plugin.InputKit.Resource.Attribute.spinBars = global::BloodDonationApp.Droid.Resource.Attribute.spinBars;
+			global::Plugin.InputKit.Resource.Attribute.spinnerDropDownItemStyle = global::BloodDonationApp.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::Plugin.InputKit.Resource.Attribute.spinnerStyle = global::BloodDonationApp.Droid.Resource.Attribute.spinnerStyle;
+			global::Plugin.InputKit.Resource.Attribute.splitTrack = global::BloodDonationApp.Droid.Resource.Attribute.splitTrack;
+			global::Plugin.InputKit.Resource.Attribute.srcCompat = global::BloodDonationApp.Droid.Resource.Attribute.srcCompat;
+			global::Plugin.InputKit.Resource.Attribute.stackFromEnd = global::BloodDonationApp.Droid.Resource.Attribute.stackFromEnd;
+			global::Plugin.InputKit.Resource.Attribute.state_above_anchor = global::BloodDonationApp.Droid.Resource.Attribute.state_above_anchor;
+			global::Plugin.InputKit.Resource.Attribute.state_collapsed = global::BloodDonationApp.Droid.Resource.Attribute.state_collapsed;
+			global::Plugin.InputKit.Resource.Attribute.state_collapsible = global::BloodDonationApp.Droid.Resource.Attribute.state_collapsible;
+			global::Plugin.InputKit.Resource.Attribute.state_liftable = global::BloodDonationApp.Droid.Resource.Attribute.state_liftable;
+			global::Plugin.InputKit.Resource.Attribute.state_lifted = global::BloodDonationApp.Droid.Resource.Attribute.state_lifted;
+			global::Plugin.InputKit.Resource.Attribute.statusBarBackground = global::BloodDonationApp.Droid.Resource.Attribute.statusBarBackground;
+			global::Plugin.InputKit.Resource.Attribute.statusBarScrim = global::BloodDonationApp.Droid.Resource.Attribute.statusBarScrim;
+			global::Plugin.InputKit.Resource.Attribute.strokeColor = global::BloodDonationApp.Droid.Resource.Attribute.strokeColor;
+			global::Plugin.InputKit.Resource.Attribute.strokeWidth = global::BloodDonationApp.Droid.Resource.Attribute.strokeWidth;
+			global::Plugin.InputKit.Resource.Attribute.subMenuArrow = global::BloodDonationApp.Droid.Resource.Attribute.subMenuArrow;
+			global::Plugin.InputKit.Resource.Attribute.submitBackground = global::BloodDonationApp.Droid.Resource.Attribute.submitBackground;
+			global::Plugin.InputKit.Resource.Attribute.subtitle = global::BloodDonationApp.Droid.Resource.Attribute.subtitle;
+			global::Plugin.InputKit.Resource.Attribute.subtitleTextAppearance = global::BloodDonationApp.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::Plugin.InputKit.Resource.Attribute.subtitleTextColor = global::BloodDonationApp.Droid.Resource.Attribute.subtitleTextColor;
+			global::Plugin.InputKit.Resource.Attribute.subtitleTextStyle = global::BloodDonationApp.Droid.Resource.Attribute.subtitleTextStyle;
+			global::Plugin.InputKit.Resource.Attribute.suggestionRowLayout = global::BloodDonationApp.Droid.Resource.Attribute.suggestionRowLayout;
+			global::Plugin.InputKit.Resource.Attribute.switchMinWidth = global::BloodDonationApp.Droid.Resource.Attribute.switchMinWidth;
+			global::Plugin.InputKit.Resource.Attribute.switchPadding = global::BloodDonationApp.Droid.Resource.Attribute.switchPadding;
+			global::Plugin.InputKit.Resource.Attribute.switchStyle = global::BloodDonationApp.Droid.Resource.Attribute.switchStyle;
+			global::Plugin.InputKit.Resource.Attribute.switchTextAppearance = global::BloodDonationApp.Droid.Resource.Attribute.switchTextAppearance;
+			global::Plugin.InputKit.Resource.Attribute.tabBackground = global::BloodDonationApp.Droid.Resource.Attribute.tabBackground;
+			global::Plugin.InputKit.Resource.Attribute.tabContentStart = global::BloodDonationApp.Droid.Resource.Attribute.tabContentStart;
+			global::Plugin.InputKit.Resource.Attribute.tabGravity = global::BloodDonationApp.Droid.Resource.Attribute.tabGravity;
+			global::Plugin.InputKit.Resource.Attribute.tabIconTint = global::BloodDonationApp.Droid.Resource.Attribute.tabIconTint;
+			global::Plugin.InputKit.Resource.Attribute.tabIconTintMode = global::BloodDonationApp.Droid.Resource.Attribute.tabIconTintMode;
+			global::Plugin.InputKit.Resource.Attribute.tabIndicator = global::BloodDonationApp.Droid.Resource.Attribute.tabIndicator;
+			global::Plugin.InputKit.Resource.Attribute.tabIndicatorAnimationDuration = global::BloodDonationApp.Droid.Resource.Attribute.tabIndicatorAnimationDuration;
+			global::Plugin.InputKit.Resource.Attribute.tabIndicatorColor = global::BloodDonationApp.Droid.Resource.Attribute.tabIndicatorColor;
+			global::Plugin.InputKit.Resource.Attribute.tabIndicatorFullWidth = global::BloodDonationApp.Droid.Resource.Attribute.tabIndicatorFullWidth;
+			global::Plugin.InputKit.Resource.Attribute.tabIndicatorGravity = global::BloodDonationApp.Droid.Resource.Attribute.tabIndicatorGravity;
+			global::Plugin.InputKit.Resource.Attribute.tabIndicatorHeight = global::BloodDonationApp.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::Plugin.InputKit.Resource.Attribute.tabInlineLabel = global::BloodDonationApp.Droid.Resource.Attribute.tabInlineLabel;
+			global::Plugin.InputKit.Resource.Attribute.tabMaxWidth = global::BloodDonationApp.Droid.Resource.Attribute.tabMaxWidth;
+			global::Plugin.InputKit.Resource.Attribute.tabMinWidth = global::BloodDonationApp.Droid.Resource.Attribute.tabMinWidth;
+			global::Plugin.InputKit.Resource.Attribute.tabMode = global::BloodDonationApp.Droid.Resource.Attribute.tabMode;
+			global::Plugin.InputKit.Resource.Attribute.tabPadding = global::BloodDonationApp.Droid.Resource.Attribute.tabPadding;
+			global::Plugin.InputKit.Resource.Attribute.tabPaddingBottom = global::BloodDonationApp.Droid.Resource.Attribute.tabPaddingBottom;
+			global::Plugin.InputKit.Resource.Attribute.tabPaddingEnd = global::BloodDonationApp.Droid.Resource.Attribute.tabPaddingEnd;
+			global::Plugin.InputKit.Resource.Attribute.tabPaddingStart = global::BloodDonationApp.Droid.Resource.Attribute.tabPaddingStart;
+			global::Plugin.InputKit.Resource.Attribute.tabPaddingTop = global::BloodDonationApp.Droid.Resource.Attribute.tabPaddingTop;
+			global::Plugin.InputKit.Resource.Attribute.tabRippleColor = global::BloodDonationApp.Droid.Resource.Attribute.tabRippleColor;
+			global::Plugin.InputKit.Resource.Attribute.tabSelectedTextColor = global::BloodDonationApp.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::Plugin.InputKit.Resource.Attribute.tabStyle = global::BloodDonationApp.Droid.Resource.Attribute.tabStyle;
+			global::Plugin.InputKit.Resource.Attribute.tabTextAppearance = global::BloodDonationApp.Droid.Resource.Attribute.tabTextAppearance;
+			global::Plugin.InputKit.Resource.Attribute.tabTextColor = global::BloodDonationApp.Droid.Resource.Attribute.tabTextColor;
+			global::Plugin.InputKit.Resource.Attribute.tabUnboundedRipple = global::BloodDonationApp.Droid.Resource.Attribute.tabUnboundedRipple;
+			global::Plugin.InputKit.Resource.Attribute.textAllCaps = global::BloodDonationApp.Droid.Resource.Attribute.textAllCaps;
+			global::Plugin.InputKit.Resource.Attribute.textAppearanceBody1 = global::BloodDonationApp.Droid.Resource.Attribute.textAppearanceBody1;
+			global::Plugin.InputKit.Resource.Attribute.textAppearanceBody2 = global::BloodDonationApp.Droid.Resource.Attribute.textAppearanceBody2;
+			global::Plugin.InputKit.Resource.Attribute.textAppearanceButton = global::BloodDonationApp.Droid.Resource.Attribute.textAppearanceButton;
+			global::Plugin.InputKit.Resource.Attribute.textAppearanceCaption = global::BloodDonationApp.Droid.Resource.Attribute.textAppearanceCaption;
+			global::Plugin.InputKit.Resource.Attribute.textAppearanceHeadline1 = global::BloodDonationApp.Droid.Resource.Attribute.textAppearanceHeadline1;
+			global::Plugin.InputKit.Resource.Attribute.textAppearanceHeadline2 = global::BloodDonationApp.Droid.Resource.Attribute.textAppearanceHeadline2;
+			global::Plugin.InputKit.Resource.Attribute.textAppearanceHeadline3 = global::BloodDonationApp.Droid.Resource.Attribute.textAppearanceHeadline3;
+			global::Plugin.InputKit.Resource.Attribute.textAppearanceHeadline4 = global::BloodDonationApp.Droid.Resource.Attribute.textAppearanceHeadline4;
+			global::Plugin.InputKit.Resource.Attribute.textAppearanceHeadline5 = global::BloodDonationApp.Droid.Resource.Attribute.textAppearanceHeadline5;
+			global::Plugin.InputKit.Resource.Attribute.textAppearanceHeadline6 = global::BloodDonationApp.Droid.Resource.Attribute.textAppearanceHeadline6;
+			global::Plugin.InputKit.Resource.Attribute.textAppearanceLargePopupMenu = global::BloodDonationApp.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::Plugin.InputKit.Resource.Attribute.textAppearanceListItem = global::BloodDonationApp.Droid.Resource.Attribute.textAppearanceListItem;
+			global::Plugin.InputKit.Resource.Attribute.textAppearanceListItemSecondary = global::BloodDonationApp.Droid.Resource.Attribute.textAppearanceListItemSecondary;
+			global::Plugin.InputKit.Resource.Attribute.textAppearanceListItemSmall = global::BloodDonationApp.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::Plugin.InputKit.Resource.Attribute.textAppearanceOverline = global::BloodDonationApp.Droid.Resource.Attribute.textAppearanceOverline;
+			global::Plugin.InputKit.Resource.Attribute.textAppearancePopupMenuHeader = global::BloodDonationApp.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::Plugin.InputKit.Resource.Attribute.textAppearanceSearchResultSubtitle = global::BloodDonationApp.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::Plugin.InputKit.Resource.Attribute.textAppearanceSearchResultTitle = global::BloodDonationApp.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::Plugin.InputKit.Resource.Attribute.textAppearanceSmallPopupMenu = global::BloodDonationApp.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::Plugin.InputKit.Resource.Attribute.textAppearanceSubtitle1 = global::BloodDonationApp.Droid.Resource.Attribute.textAppearanceSubtitle1;
+			global::Plugin.InputKit.Resource.Attribute.textAppearanceSubtitle2 = global::BloodDonationApp.Droid.Resource.Attribute.textAppearanceSubtitle2;
+			global::Plugin.InputKit.Resource.Attribute.textColorAlertDialogListItem = global::BloodDonationApp.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::Plugin.InputKit.Resource.Attribute.textColorSearchUrl = global::BloodDonationApp.Droid.Resource.Attribute.textColorSearchUrl;
+			global::Plugin.InputKit.Resource.Attribute.textEndPadding = global::BloodDonationApp.Droid.Resource.Attribute.textEndPadding;
+			global::Plugin.InputKit.Resource.Attribute.textInputStyle = global::BloodDonationApp.Droid.Resource.Attribute.textInputStyle;
+			global::Plugin.InputKit.Resource.Attribute.textStartPadding = global::BloodDonationApp.Droid.Resource.Attribute.textStartPadding;
+			global::Plugin.InputKit.Resource.Attribute.theme = global::BloodDonationApp.Droid.Resource.Attribute.theme;
+			global::Plugin.InputKit.Resource.Attribute.thickness = global::BloodDonationApp.Droid.Resource.Attribute.thickness;
+			global::Plugin.InputKit.Resource.Attribute.thumbTextPadding = global::BloodDonationApp.Droid.Resource.Attribute.thumbTextPadding;
+			global::Plugin.InputKit.Resource.Attribute.thumbTint = global::BloodDonationApp.Droid.Resource.Attribute.thumbTint;
+			global::Plugin.InputKit.Resource.Attribute.thumbTintMode = global::BloodDonationApp.Droid.Resource.Attribute.thumbTintMode;
+			global::Plugin.InputKit.Resource.Attribute.tickMark = global::BloodDonationApp.Droid.Resource.Attribute.tickMark;
+			global::Plugin.InputKit.Resource.Attribute.tickMarkTint = global::BloodDonationApp.Droid.Resource.Attribute.tickMarkTint;
+			global::Plugin.InputKit.Resource.Attribute.tickMarkTintMode = global::BloodDonationApp.Droid.Resource.Attribute.tickMarkTintMode;
+			global::Plugin.InputKit.Resource.Attribute.tint = global::BloodDonationApp.Droid.Resource.Attribute.tint;
+			global::Plugin.InputKit.Resource.Attribute.tintMode = global::BloodDonationApp.Droid.Resource.Attribute.tintMode;
+			global::Plugin.InputKit.Resource.Attribute.title = global::BloodDonationApp.Droid.Resource.Attribute.title;
+			global::Plugin.InputKit.Resource.Attribute.titleEnabled = global::BloodDonationApp.Droid.Resource.Attribute.titleEnabled;
+			global::Plugin.InputKit.Resource.Attribute.titleMargin = global::BloodDonationApp.Droid.Resource.Attribute.titleMargin;
+			global::Plugin.InputKit.Resource.Attribute.titleMarginBottom = global::BloodDonationApp.Droid.Resource.Attribute.titleMarginBottom;
+			global::Plugin.InputKit.Resource.Attribute.titleMarginEnd = global::BloodDonationApp.Droid.Resource.Attribute.titleMarginEnd;
+			global::Plugin.InputKit.Resource.Attribute.titleMargins = global::BloodDonationApp.Droid.Resource.Attribute.titleMargins;
+			global::Plugin.InputKit.Resource.Attribute.titleMarginStart = global::BloodDonationApp.Droid.Resource.Attribute.titleMarginStart;
+			global::Plugin.InputKit.Resource.Attribute.titleMarginTop = global::BloodDonationApp.Droid.Resource.Attribute.titleMarginTop;
+			global::Plugin.InputKit.Resource.Attribute.titleTextAppearance = global::BloodDonationApp.Droid.Resource.Attribute.titleTextAppearance;
+			global::Plugin.InputKit.Resource.Attribute.titleTextColor = global::BloodDonationApp.Droid.Resource.Attribute.titleTextColor;
+			global::Plugin.InputKit.Resource.Attribute.titleTextStyle = global::BloodDonationApp.Droid.Resource.Attribute.titleTextStyle;
+			global::Plugin.InputKit.Resource.Attribute.toolbarId = global::BloodDonationApp.Droid.Resource.Attribute.toolbarId;
+			global::Plugin.InputKit.Resource.Attribute.toolbarNavigationButtonStyle = global::BloodDonationApp.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::Plugin.InputKit.Resource.Attribute.toolbarStyle = global::BloodDonationApp.Droid.Resource.Attribute.toolbarStyle;
+			global::Plugin.InputKit.Resource.Attribute.tooltipForegroundColor = global::BloodDonationApp.Droid.Resource.Attribute.tooltipForegroundColor;
+			global::Plugin.InputKit.Resource.Attribute.tooltipFrameBackground = global::BloodDonationApp.Droid.Resource.Attribute.tooltipFrameBackground;
+			global::Plugin.InputKit.Resource.Attribute.tooltipText = global::BloodDonationApp.Droid.Resource.Attribute.tooltipText;
+			global::Plugin.InputKit.Resource.Attribute.track = global::BloodDonationApp.Droid.Resource.Attribute.track;
+			global::Plugin.InputKit.Resource.Attribute.trackTint = global::BloodDonationApp.Droid.Resource.Attribute.trackTint;
+			global::Plugin.InputKit.Resource.Attribute.trackTintMode = global::BloodDonationApp.Droid.Resource.Attribute.trackTintMode;
+			global::Plugin.InputKit.Resource.Attribute.ttcIndex = global::BloodDonationApp.Droid.Resource.Attribute.ttcIndex;
+			global::Plugin.InputKit.Resource.Attribute.useCompatPadding = global::BloodDonationApp.Droid.Resource.Attribute.useCompatPadding;
+			global::Plugin.InputKit.Resource.Attribute.viewInflaterClass = global::BloodDonationApp.Droid.Resource.Attribute.viewInflaterClass;
+			global::Plugin.InputKit.Resource.Attribute.voiceIcon = global::BloodDonationApp.Droid.Resource.Attribute.voiceIcon;
+			global::Plugin.InputKit.Resource.Attribute.windowActionBar = global::BloodDonationApp.Droid.Resource.Attribute.windowActionBar;
+			global::Plugin.InputKit.Resource.Attribute.windowActionBarOverlay = global::BloodDonationApp.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::Plugin.InputKit.Resource.Attribute.windowActionModeOverlay = global::BloodDonationApp.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::Plugin.InputKit.Resource.Attribute.windowFixedHeightMajor = global::BloodDonationApp.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::Plugin.InputKit.Resource.Attribute.windowFixedHeightMinor = global::BloodDonationApp.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::Plugin.InputKit.Resource.Attribute.windowFixedWidthMajor = global::BloodDonationApp.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::Plugin.InputKit.Resource.Attribute.windowFixedWidthMinor = global::BloodDonationApp.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::Plugin.InputKit.Resource.Attribute.windowMinWidthMajor = global::BloodDonationApp.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::Plugin.InputKit.Resource.Attribute.windowMinWidthMinor = global::BloodDonationApp.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::Plugin.InputKit.Resource.Attribute.windowNoTitle = global::BloodDonationApp.Droid.Resource.Attribute.windowNoTitle;
+			global::Plugin.InputKit.Resource.Boolean.abc_action_bar_embed_tabs = global::BloodDonationApp.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::Plugin.InputKit.Resource.Boolean.abc_allow_stacked_button_bar = global::BloodDonationApp.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::Plugin.InputKit.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::BloodDonationApp.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::Plugin.InputKit.Resource.Boolean.mtrl_btn_textappearance_all_caps = global::BloodDonationApp.Droid.Resource.Boolean.mtrl_btn_textappearance_all_caps;
+			global::Plugin.InputKit.Resource.Color.abc_background_cache_hint_selector_material_dark = global::BloodDonationApp.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::Plugin.InputKit.Resource.Color.abc_background_cache_hint_selector_material_light = global::BloodDonationApp.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::Plugin.InputKit.Resource.Color.abc_btn_colored_borderless_text_material = global::BloodDonationApp.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::Plugin.InputKit.Resource.Color.abc_btn_colored_text_material = global::BloodDonationApp.Droid.Resource.Color.abc_btn_colored_text_material;
+			global::Plugin.InputKit.Resource.Color.abc_color_highlight_material = global::BloodDonationApp.Droid.Resource.Color.abc_color_highlight_material;
+			global::Plugin.InputKit.Resource.Color.abc_hint_foreground_material_dark = global::BloodDonationApp.Droid.Resource.Color.abc_hint_foreground_material_dark;
+			global::Plugin.InputKit.Resource.Color.abc_hint_foreground_material_light = global::BloodDonationApp.Droid.Resource.Color.abc_hint_foreground_material_light;
+			global::Plugin.InputKit.Resource.Color.abc_input_method_navigation_guard = global::BloodDonationApp.Droid.Resource.Color.abc_input_method_navigation_guard;
+			global::Plugin.InputKit.Resource.Color.abc_primary_text_disable_only_material_dark = global::BloodDonationApp.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::Plugin.InputKit.Resource.Color.abc_primary_text_disable_only_material_light = global::BloodDonationApp.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::Plugin.InputKit.Resource.Color.abc_primary_text_material_dark = global::BloodDonationApp.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::Plugin.InputKit.Resource.Color.abc_primary_text_material_light = global::BloodDonationApp.Droid.Resource.Color.abc_primary_text_material_light;
+			global::Plugin.InputKit.Resource.Color.abc_search_url_text = global::BloodDonationApp.Droid.Resource.Color.abc_search_url_text;
+			global::Plugin.InputKit.Resource.Color.abc_search_url_text_normal = global::BloodDonationApp.Droid.Resource.Color.abc_search_url_text_normal;
+			global::Plugin.InputKit.Resource.Color.abc_search_url_text_pressed = global::BloodDonationApp.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::Plugin.InputKit.Resource.Color.abc_search_url_text_selected = global::BloodDonationApp.Droid.Resource.Color.abc_search_url_text_selected;
+			global::Plugin.InputKit.Resource.Color.abc_secondary_text_material_dark = global::BloodDonationApp.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::Plugin.InputKit.Resource.Color.abc_secondary_text_material_light = global::BloodDonationApp.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::Plugin.InputKit.Resource.Color.abc_tint_btn_checkable = global::BloodDonationApp.Droid.Resource.Color.abc_tint_btn_checkable;
+			global::Plugin.InputKit.Resource.Color.abc_tint_default = global::BloodDonationApp.Droid.Resource.Color.abc_tint_default;
+			global::Plugin.InputKit.Resource.Color.abc_tint_edittext = global::BloodDonationApp.Droid.Resource.Color.abc_tint_edittext;
+			global::Plugin.InputKit.Resource.Color.abc_tint_seek_thumb = global::BloodDonationApp.Droid.Resource.Color.abc_tint_seek_thumb;
+			global::Plugin.InputKit.Resource.Color.abc_tint_spinner = global::BloodDonationApp.Droid.Resource.Color.abc_tint_spinner;
+			global::Plugin.InputKit.Resource.Color.abc_tint_switch_track = global::BloodDonationApp.Droid.Resource.Color.abc_tint_switch_track;
+			global::Plugin.InputKit.Resource.Color.accent_material_dark = global::BloodDonationApp.Droid.Resource.Color.accent_material_dark;
+			global::Plugin.InputKit.Resource.Color.accent_material_light = global::BloodDonationApp.Droid.Resource.Color.accent_material_light;
+			global::Plugin.InputKit.Resource.Color.background_floating_material_dark = global::BloodDonationApp.Droid.Resource.Color.background_floating_material_dark;
+			global::Plugin.InputKit.Resource.Color.background_floating_material_light = global::BloodDonationApp.Droid.Resource.Color.background_floating_material_light;
+			global::Plugin.InputKit.Resource.Color.background_material_dark = global::BloodDonationApp.Droid.Resource.Color.background_material_dark;
+			global::Plugin.InputKit.Resource.Color.background_material_light = global::BloodDonationApp.Droid.Resource.Color.background_material_light;
+			global::Plugin.InputKit.Resource.Color.bright_foreground_disabled_material_dark = global::BloodDonationApp.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::Plugin.InputKit.Resource.Color.bright_foreground_disabled_material_light = global::BloodDonationApp.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::Plugin.InputKit.Resource.Color.bright_foreground_inverse_material_dark = global::BloodDonationApp.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::Plugin.InputKit.Resource.Color.bright_foreground_inverse_material_light = global::BloodDonationApp.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::Plugin.InputKit.Resource.Color.bright_foreground_material_dark = global::BloodDonationApp.Droid.Resource.Color.bright_foreground_material_dark;
+			global::Plugin.InputKit.Resource.Color.bright_foreground_material_light = global::BloodDonationApp.Droid.Resource.Color.bright_foreground_material_light;
+			global::Plugin.InputKit.Resource.Color.browser_actions_bg_grey = global::BloodDonationApp.Droid.Resource.Color.browser_actions_bg_grey;
+			global::Plugin.InputKit.Resource.Color.browser_actions_divider_color = global::BloodDonationApp.Droid.Resource.Color.browser_actions_divider_color;
+			global::Plugin.InputKit.Resource.Color.browser_actions_text_color = global::BloodDonationApp.Droid.Resource.Color.browser_actions_text_color;
+			global::Plugin.InputKit.Resource.Color.browser_actions_title_color = global::BloodDonationApp.Droid.Resource.Color.browser_actions_title_color;
+			global::Plugin.InputKit.Resource.Color.button_material_dark = global::BloodDonationApp.Droid.Resource.Color.button_material_dark;
+			global::Plugin.InputKit.Resource.Color.button_material_light = global::BloodDonationApp.Droid.Resource.Color.button_material_light;
+			global::Plugin.InputKit.Resource.Color.cardview_dark_background = global::BloodDonationApp.Droid.Resource.Color.cardview_dark_background;
+			global::Plugin.InputKit.Resource.Color.cardview_light_background = global::BloodDonationApp.Droid.Resource.Color.cardview_light_background;
+			global::Plugin.InputKit.Resource.Color.cardview_shadow_end_color = global::BloodDonationApp.Droid.Resource.Color.cardview_shadow_end_color;
+			global::Plugin.InputKit.Resource.Color.cardview_shadow_start_color = global::BloodDonationApp.Droid.Resource.Color.cardview_shadow_start_color;
+			global::Plugin.InputKit.Resource.Color.design_bottom_navigation_shadow_color = global::BloodDonationApp.Droid.Resource.Color.design_bottom_navigation_shadow_color;
+			global::Plugin.InputKit.Resource.Color.design_default_color_primary = global::BloodDonationApp.Droid.Resource.Color.design_default_color_primary;
+			global::Plugin.InputKit.Resource.Color.design_default_color_primary_dark = global::BloodDonationApp.Droid.Resource.Color.design_default_color_primary_dark;
+			global::Plugin.InputKit.Resource.Color.design_error = global::BloodDonationApp.Droid.Resource.Color.design_error;
+			global::Plugin.InputKit.Resource.Color.design_fab_shadow_end_color = global::BloodDonationApp.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::Plugin.InputKit.Resource.Color.design_fab_shadow_mid_color = global::BloodDonationApp.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::Plugin.InputKit.Resource.Color.design_fab_shadow_start_color = global::BloodDonationApp.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::Plugin.InputKit.Resource.Color.design_fab_stroke_end_inner_color = global::BloodDonationApp.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::Plugin.InputKit.Resource.Color.design_fab_stroke_end_outer_color = global::BloodDonationApp.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::Plugin.InputKit.Resource.Color.design_fab_stroke_top_inner_color = global::BloodDonationApp.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::Plugin.InputKit.Resource.Color.design_fab_stroke_top_outer_color = global::BloodDonationApp.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::Plugin.InputKit.Resource.Color.design_snackbar_background_color = global::BloodDonationApp.Droid.Resource.Color.design_snackbar_background_color;
+			global::Plugin.InputKit.Resource.Color.design_tint_password_toggle = global::BloodDonationApp.Droid.Resource.Color.design_tint_password_toggle;
+			global::Plugin.InputKit.Resource.Color.dim_foreground_disabled_material_dark = global::BloodDonationApp.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::Plugin.InputKit.Resource.Color.dim_foreground_disabled_material_light = global::BloodDonationApp.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::Plugin.InputKit.Resource.Color.dim_foreground_material_dark = global::BloodDonationApp.Droid.Resource.Color.dim_foreground_material_dark;
+			global::Plugin.InputKit.Resource.Color.dim_foreground_material_light = global::BloodDonationApp.Droid.Resource.Color.dim_foreground_material_light;
+			global::Plugin.InputKit.Resource.Color.error_color_material_dark = global::BloodDonationApp.Droid.Resource.Color.error_color_material_dark;
+			global::Plugin.InputKit.Resource.Color.error_color_material_light = global::BloodDonationApp.Droid.Resource.Color.error_color_material_light;
+			global::Plugin.InputKit.Resource.Color.foreground_material_dark = global::BloodDonationApp.Droid.Resource.Color.foreground_material_dark;
+			global::Plugin.InputKit.Resource.Color.foreground_material_light = global::BloodDonationApp.Droid.Resource.Color.foreground_material_light;
+			global::Plugin.InputKit.Resource.Color.highlighted_text_material_dark = global::BloodDonationApp.Droid.Resource.Color.highlighted_text_material_dark;
+			global::Plugin.InputKit.Resource.Color.highlighted_text_material_light = global::BloodDonationApp.Droid.Resource.Color.highlighted_text_material_light;
+			global::Plugin.InputKit.Resource.Color.material_blue_grey_800 = global::BloodDonationApp.Droid.Resource.Color.material_blue_grey_800;
+			global::Plugin.InputKit.Resource.Color.material_blue_grey_900 = global::BloodDonationApp.Droid.Resource.Color.material_blue_grey_900;
+			global::Plugin.InputKit.Resource.Color.material_blue_grey_950 = global::BloodDonationApp.Droid.Resource.Color.material_blue_grey_950;
+			global::Plugin.InputKit.Resource.Color.material_deep_teal_200 = global::BloodDonationApp.Droid.Resource.Color.material_deep_teal_200;
+			global::Plugin.InputKit.Resource.Color.material_deep_teal_500 = global::BloodDonationApp.Droid.Resource.Color.material_deep_teal_500;
+			global::Plugin.InputKit.Resource.Color.material_grey_100 = global::BloodDonationApp.Droid.Resource.Color.material_grey_100;
+			global::Plugin.InputKit.Resource.Color.material_grey_300 = global::BloodDonationApp.Droid.Resource.Color.material_grey_300;
+			global::Plugin.InputKit.Resource.Color.material_grey_50 = global::BloodDonationApp.Droid.Resource.Color.material_grey_50;
+			global::Plugin.InputKit.Resource.Color.material_grey_600 = global::BloodDonationApp.Droid.Resource.Color.material_grey_600;
+			global::Plugin.InputKit.Resource.Color.material_grey_800 = global::BloodDonationApp.Droid.Resource.Color.material_grey_800;
+			global::Plugin.InputKit.Resource.Color.material_grey_850 = global::BloodDonationApp.Droid.Resource.Color.material_grey_850;
+			global::Plugin.InputKit.Resource.Color.material_grey_900 = global::BloodDonationApp.Droid.Resource.Color.material_grey_900;
+			global::Plugin.InputKit.Resource.Color.mtrl_bottom_nav_colored_item_tint = global::BloodDonationApp.Droid.Resource.Color.mtrl_bottom_nav_colored_item_tint;
+			global::Plugin.InputKit.Resource.Color.mtrl_bottom_nav_item_tint = global::BloodDonationApp.Droid.Resource.Color.mtrl_bottom_nav_item_tint;
+			global::Plugin.InputKit.Resource.Color.mtrl_btn_bg_color_disabled = global::BloodDonationApp.Droid.Resource.Color.mtrl_btn_bg_color_disabled;
+			global::Plugin.InputKit.Resource.Color.mtrl_btn_bg_color_selector = global::BloodDonationApp.Droid.Resource.Color.mtrl_btn_bg_color_selector;
+			global::Plugin.InputKit.Resource.Color.mtrl_btn_ripple_color = global::BloodDonationApp.Droid.Resource.Color.mtrl_btn_ripple_color;
+			global::Plugin.InputKit.Resource.Color.mtrl_btn_stroke_color_selector = global::BloodDonationApp.Droid.Resource.Color.mtrl_btn_stroke_color_selector;
+			global::Plugin.InputKit.Resource.Color.mtrl_btn_text_btn_ripple_color = global::BloodDonationApp.Droid.Resource.Color.mtrl_btn_text_btn_ripple_color;
+			global::Plugin.InputKit.Resource.Color.mtrl_btn_text_color_disabled = global::BloodDonationApp.Droid.Resource.Color.mtrl_btn_text_color_disabled;
+			global::Plugin.InputKit.Resource.Color.mtrl_btn_text_color_selector = global::BloodDonationApp.Droid.Resource.Color.mtrl_btn_text_color_selector;
+			global::Plugin.InputKit.Resource.Color.mtrl_btn_transparent_bg_color = global::BloodDonationApp.Droid.Resource.Color.mtrl_btn_transparent_bg_color;
+			global::Plugin.InputKit.Resource.Color.mtrl_chip_background_color = global::BloodDonationApp.Droid.Resource.Color.mtrl_chip_background_color;
+			global::Plugin.InputKit.Resource.Color.mtrl_chip_close_icon_tint = global::BloodDonationApp.Droid.Resource.Color.mtrl_chip_close_icon_tint;
+			global::Plugin.InputKit.Resource.Color.mtrl_chip_ripple_color = global::BloodDonationApp.Droid.Resource.Color.mtrl_chip_ripple_color;
+			global::Plugin.InputKit.Resource.Color.mtrl_chip_text_color = global::BloodDonationApp.Droid.Resource.Color.mtrl_chip_text_color;
+			global::Plugin.InputKit.Resource.Color.mtrl_fab_ripple_color = global::BloodDonationApp.Droid.Resource.Color.mtrl_fab_ripple_color;
+			global::Plugin.InputKit.Resource.Color.mtrl_scrim_color = global::BloodDonationApp.Droid.Resource.Color.mtrl_scrim_color;
+			global::Plugin.InputKit.Resource.Color.mtrl_tabs_colored_ripple_color = global::BloodDonationApp.Droid.Resource.Color.mtrl_tabs_colored_ripple_color;
+			global::Plugin.InputKit.Resource.Color.mtrl_tabs_icon_color_selector = global::BloodDonationApp.Droid.Resource.Color.mtrl_tabs_icon_color_selector;
+			global::Plugin.InputKit.Resource.Color.mtrl_tabs_icon_color_selector_colored = global::BloodDonationApp.Droid.Resource.Color.mtrl_tabs_icon_color_selector_colored;
+			global::Plugin.InputKit.Resource.Color.mtrl_tabs_legacy_text_color_selector = global::BloodDonationApp.Droid.Resource.Color.mtrl_tabs_legacy_text_color_selector;
+			global::Plugin.InputKit.Resource.Color.mtrl_tabs_ripple_color = global::BloodDonationApp.Droid.Resource.Color.mtrl_tabs_ripple_color;
+			global::Plugin.InputKit.Resource.Color.mtrl_textinput_default_box_stroke_color = global::BloodDonationApp.Droid.Resource.Color.mtrl_textinput_default_box_stroke_color;
+			global::Plugin.InputKit.Resource.Color.mtrl_textinput_disabled_color = global::BloodDonationApp.Droid.Resource.Color.mtrl_textinput_disabled_color;
+			global::Plugin.InputKit.Resource.Color.mtrl_textinput_filled_box_default_background_color = global::BloodDonationApp.Droid.Resource.Color.mtrl_textinput_filled_box_default_background_color;
+			global::Plugin.InputKit.Resource.Color.mtrl_textinput_hovered_box_stroke_color = global::BloodDonationApp.Droid.Resource.Color.mtrl_textinput_hovered_box_stroke_color;
+			global::Plugin.InputKit.Resource.Color.mtrl_text_btn_text_color_selector = global::BloodDonationApp.Droid.Resource.Color.mtrl_text_btn_text_color_selector;
+			global::Plugin.InputKit.Resource.Color.notification_action_color_filter = global::BloodDonationApp.Droid.Resource.Color.notification_action_color_filter;
+			global::Plugin.InputKit.Resource.Color.notification_icon_bg_color = global::BloodDonationApp.Droid.Resource.Color.notification_icon_bg_color;
+			global::Plugin.InputKit.Resource.Color.notification_material_background_media_default_color = global::BloodDonationApp.Droid.Resource.Color.notification_material_background_media_default_color;
+			global::Plugin.InputKit.Resource.Color.primary_dark_material_dark = global::BloodDonationApp.Droid.Resource.Color.primary_dark_material_dark;
+			global::Plugin.InputKit.Resource.Color.primary_dark_material_light = global::BloodDonationApp.Droid.Resource.Color.primary_dark_material_light;
+			global::Plugin.InputKit.Resource.Color.primary_material_dark = global::BloodDonationApp.Droid.Resource.Color.primary_material_dark;
+			global::Plugin.InputKit.Resource.Color.primary_material_light = global::BloodDonationApp.Droid.Resource.Color.primary_material_light;
+			global::Plugin.InputKit.Resource.Color.primary_text_default_material_dark = global::BloodDonationApp.Droid.Resource.Color.primary_text_default_material_dark;
+			global::Plugin.InputKit.Resource.Color.primary_text_default_material_light = global::BloodDonationApp.Droid.Resource.Color.primary_text_default_material_light;
+			global::Plugin.InputKit.Resource.Color.primary_text_disabled_material_dark = global::BloodDonationApp.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::Plugin.InputKit.Resource.Color.primary_text_disabled_material_light = global::BloodDonationApp.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::Plugin.InputKit.Resource.Color.ripple_material_dark = global::BloodDonationApp.Droid.Resource.Color.ripple_material_dark;
+			global::Plugin.InputKit.Resource.Color.ripple_material_light = global::BloodDonationApp.Droid.Resource.Color.ripple_material_light;
+			global::Plugin.InputKit.Resource.Color.secondary_text_default_material_dark = global::BloodDonationApp.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::Plugin.InputKit.Resource.Color.secondary_text_default_material_light = global::BloodDonationApp.Droid.Resource.Color.secondary_text_default_material_light;
+			global::Plugin.InputKit.Resource.Color.secondary_text_disabled_material_dark = global::BloodDonationApp.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::Plugin.InputKit.Resource.Color.secondary_text_disabled_material_light = global::BloodDonationApp.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::Plugin.InputKit.Resource.Color.switch_thumb_disabled_material_dark = global::BloodDonationApp.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::Plugin.InputKit.Resource.Color.switch_thumb_disabled_material_light = global::BloodDonationApp.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::Plugin.InputKit.Resource.Color.switch_thumb_material_dark = global::BloodDonationApp.Droid.Resource.Color.switch_thumb_material_dark;
+			global::Plugin.InputKit.Resource.Color.switch_thumb_material_light = global::BloodDonationApp.Droid.Resource.Color.switch_thumb_material_light;
+			global::Plugin.InputKit.Resource.Color.switch_thumb_normal_material_dark = global::BloodDonationApp.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::Plugin.InputKit.Resource.Color.switch_thumb_normal_material_light = global::BloodDonationApp.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::Plugin.InputKit.Resource.Color.tooltip_background_dark = global::BloodDonationApp.Droid.Resource.Color.tooltip_background_dark;
+			global::Plugin.InputKit.Resource.Color.tooltip_background_light = global::BloodDonationApp.Droid.Resource.Color.tooltip_background_light;
+			global::Plugin.InputKit.Resource.Dimension.abc_action_bar_content_inset_material = global::BloodDonationApp.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::BloodDonationApp.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::Plugin.InputKit.Resource.Dimension.abc_action_bar_default_height_material = global::BloodDonationApp.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_action_bar_default_padding_end_material = global::BloodDonationApp.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_action_bar_default_padding_start_material = global::BloodDonationApp.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_action_bar_elevation_material = global::BloodDonationApp.Droid.Resource.Dimension.abc_action_bar_elevation_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::BloodDonationApp.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::BloodDonationApp.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::BloodDonationApp.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_action_bar_stacked_max_height = global::BloodDonationApp.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::Plugin.InputKit.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::BloodDonationApp.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::Plugin.InputKit.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::BloodDonationApp.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::BloodDonationApp.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_action_button_min_height_material = global::BloodDonationApp.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_action_button_min_width_material = global::BloodDonationApp.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_action_button_min_width_overflow_material = global::BloodDonationApp.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_alert_dialog_button_bar_height = global::BloodDonationApp.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::Plugin.InputKit.Resource.Dimension.abc_alert_dialog_button_dimen = global::BloodDonationApp.Droid.Resource.Dimension.abc_alert_dialog_button_dimen;
+			global::Plugin.InputKit.Resource.Dimension.abc_button_inset_horizontal_material = global::BloodDonationApp.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_button_inset_vertical_material = global::BloodDonationApp.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_button_padding_horizontal_material = global::BloodDonationApp.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_button_padding_vertical_material = global::BloodDonationApp.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::BloodDonationApp.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::Plugin.InputKit.Resource.Dimension.abc_config_prefDialogWidth = global::BloodDonationApp.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::Plugin.InputKit.Resource.Dimension.abc_control_corner_material = global::BloodDonationApp.Droid.Resource.Dimension.abc_control_corner_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_control_inset_material = global::BloodDonationApp.Droid.Resource.Dimension.abc_control_inset_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_control_padding_material = global::BloodDonationApp.Droid.Resource.Dimension.abc_control_padding_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_dialog_corner_radius_material = global::BloodDonationApp.Droid.Resource.Dimension.abc_dialog_corner_radius_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_dialog_fixed_height_major = global::BloodDonationApp.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::Plugin.InputKit.Resource.Dimension.abc_dialog_fixed_height_minor = global::BloodDonationApp.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::Plugin.InputKit.Resource.Dimension.abc_dialog_fixed_width_major = global::BloodDonationApp.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::Plugin.InputKit.Resource.Dimension.abc_dialog_fixed_width_minor = global::BloodDonationApp.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::Plugin.InputKit.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::BloodDonationApp.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::Plugin.InputKit.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::BloodDonationApp.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::Plugin.InputKit.Resource.Dimension.abc_dialog_min_width_major = global::BloodDonationApp.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::Plugin.InputKit.Resource.Dimension.abc_dialog_min_width_minor = global::BloodDonationApp.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::Plugin.InputKit.Resource.Dimension.abc_dialog_padding_material = global::BloodDonationApp.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_dialog_padding_top_material = global::BloodDonationApp.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_dialog_title_divider_material = global::BloodDonationApp.Droid.Resource.Dimension.abc_dialog_title_divider_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_disabled_alpha_material_dark = global::BloodDonationApp.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::Plugin.InputKit.Resource.Dimension.abc_disabled_alpha_material_light = global::BloodDonationApp.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::Plugin.InputKit.Resource.Dimension.abc_dropdownitem_icon_width = global::BloodDonationApp.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::Plugin.InputKit.Resource.Dimension.abc_dropdownitem_text_padding_left = global::BloodDonationApp.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::Plugin.InputKit.Resource.Dimension.abc_dropdownitem_text_padding_right = global::BloodDonationApp.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::Plugin.InputKit.Resource.Dimension.abc_edit_text_inset_bottom_material = global::BloodDonationApp.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::BloodDonationApp.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_edit_text_inset_top_material = global::BloodDonationApp.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_floating_window_z = global::BloodDonationApp.Droid.Resource.Dimension.abc_floating_window_z;
+			global::Plugin.InputKit.Resource.Dimension.abc_list_item_padding_horizontal_material = global::BloodDonationApp.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_panel_menu_list_width = global::BloodDonationApp.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::Plugin.InputKit.Resource.Dimension.abc_progress_bar_height_material = global::BloodDonationApp.Droid.Resource.Dimension.abc_progress_bar_height_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_search_view_preferred_height = global::BloodDonationApp.Droid.Resource.Dimension.abc_search_view_preferred_height;
+			global::Plugin.InputKit.Resource.Dimension.abc_search_view_preferred_width = global::BloodDonationApp.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::Plugin.InputKit.Resource.Dimension.abc_seekbar_track_background_height_material = global::BloodDonationApp.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_seekbar_track_progress_height_material = global::BloodDonationApp.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_select_dialog_padding_start_material = global::BloodDonationApp.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_switch_padding = global::BloodDonationApp.Droid.Resource.Dimension.abc_switch_padding;
+			global::Plugin.InputKit.Resource.Dimension.abc_text_size_body_1_material = global::BloodDonationApp.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_text_size_body_2_material = global::BloodDonationApp.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_text_size_button_material = global::BloodDonationApp.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_text_size_caption_material = global::BloodDonationApp.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_text_size_display_1_material = global::BloodDonationApp.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_text_size_display_2_material = global::BloodDonationApp.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_text_size_display_3_material = global::BloodDonationApp.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_text_size_display_4_material = global::BloodDonationApp.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_text_size_headline_material = global::BloodDonationApp.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_text_size_large_material = global::BloodDonationApp.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_text_size_medium_material = global::BloodDonationApp.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_text_size_menu_header_material = global::BloodDonationApp.Droid.Resource.Dimension.abc_text_size_menu_header_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_text_size_menu_material = global::BloodDonationApp.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_text_size_small_material = global::BloodDonationApp.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_text_size_subhead_material = global::BloodDonationApp.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::BloodDonationApp.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::Plugin.InputKit.Resource.Dimension.abc_text_size_title_material = global::BloodDonationApp.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_text_size_title_material_toolbar = global::BloodDonationApp.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::Plugin.InputKit.Resource.Dimension.browser_actions_context_menu_max_width = global::BloodDonationApp.Droid.Resource.Dimension.browser_actions_context_menu_max_width;
+			global::Plugin.InputKit.Resource.Dimension.browser_actions_context_menu_min_padding = global::BloodDonationApp.Droid.Resource.Dimension.browser_actions_context_menu_min_padding;
+			global::Plugin.InputKit.Resource.Dimension.cardview_compat_inset_shadow = global::BloodDonationApp.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::Plugin.InputKit.Resource.Dimension.cardview_default_elevation = global::BloodDonationApp.Droid.Resource.Dimension.cardview_default_elevation;
+			global::Plugin.InputKit.Resource.Dimension.cardview_default_radius = global::BloodDonationApp.Droid.Resource.Dimension.cardview_default_radius;
+			global::Plugin.InputKit.Resource.Dimension.compat_button_inset_horizontal_material = global::BloodDonationApp.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::Plugin.InputKit.Resource.Dimension.compat_button_inset_vertical_material = global::BloodDonationApp.Droid.Resource.Dimension.compat_button_inset_vertical_material;
+			global::Plugin.InputKit.Resource.Dimension.compat_button_padding_horizontal_material = global::BloodDonationApp.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::Plugin.InputKit.Resource.Dimension.compat_button_padding_vertical_material = global::BloodDonationApp.Droid.Resource.Dimension.compat_button_padding_vertical_material;
+			global::Plugin.InputKit.Resource.Dimension.compat_control_corner_material = global::BloodDonationApp.Droid.Resource.Dimension.compat_control_corner_material;
+			global::Plugin.InputKit.Resource.Dimension.compat_notification_large_icon_max_height = global::BloodDonationApp.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
+			global::Plugin.InputKit.Resource.Dimension.compat_notification_large_icon_max_width = global::BloodDonationApp.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
+			global::Plugin.InputKit.Resource.Dimension.design_appbar_elevation = global::BloodDonationApp.Droid.Resource.Dimension.design_appbar_elevation;
+			global::Plugin.InputKit.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::BloodDonationApp.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::Plugin.InputKit.Resource.Dimension.design_bottom_navigation_active_item_min_width = global::BloodDonationApp.Droid.Resource.Dimension.design_bottom_navigation_active_item_min_width;
+			global::Plugin.InputKit.Resource.Dimension.design_bottom_navigation_active_text_size = global::BloodDonationApp.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
+			global::Plugin.InputKit.Resource.Dimension.design_bottom_navigation_elevation = global::BloodDonationApp.Droid.Resource.Dimension.design_bottom_navigation_elevation;
+			global::Plugin.InputKit.Resource.Dimension.design_bottom_navigation_height = global::BloodDonationApp.Droid.Resource.Dimension.design_bottom_navigation_height;
+			global::Plugin.InputKit.Resource.Dimension.design_bottom_navigation_icon_size = global::BloodDonationApp.Droid.Resource.Dimension.design_bottom_navigation_icon_size;
+			global::Plugin.InputKit.Resource.Dimension.design_bottom_navigation_item_max_width = global::BloodDonationApp.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
+			global::Plugin.InputKit.Resource.Dimension.design_bottom_navigation_item_min_width = global::BloodDonationApp.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
+			global::Plugin.InputKit.Resource.Dimension.design_bottom_navigation_margin = global::BloodDonationApp.Droid.Resource.Dimension.design_bottom_navigation_margin;
+			global::Plugin.InputKit.Resource.Dimension.design_bottom_navigation_shadow_height = global::BloodDonationApp.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
+			global::Plugin.InputKit.Resource.Dimension.design_bottom_navigation_text_size = global::BloodDonationApp.Droid.Resource.Dimension.design_bottom_navigation_text_size;
+			global::Plugin.InputKit.Resource.Dimension.design_bottom_sheet_modal_elevation = global::BloodDonationApp.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::Plugin.InputKit.Resource.Dimension.design_bottom_sheet_peek_height_min = global::BloodDonationApp.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
+			global::Plugin.InputKit.Resource.Dimension.design_fab_border_width = global::BloodDonationApp.Droid.Resource.Dimension.design_fab_border_width;
+			global::Plugin.InputKit.Resource.Dimension.design_fab_elevation = global::BloodDonationApp.Droid.Resource.Dimension.design_fab_elevation;
+			global::Plugin.InputKit.Resource.Dimension.design_fab_image_size = global::BloodDonationApp.Droid.Resource.Dimension.design_fab_image_size;
+			global::Plugin.InputKit.Resource.Dimension.design_fab_size_mini = global::BloodDonationApp.Droid.Resource.Dimension.design_fab_size_mini;
+			global::Plugin.InputKit.Resource.Dimension.design_fab_size_normal = global::BloodDonationApp.Droid.Resource.Dimension.design_fab_size_normal;
+			global::Plugin.InputKit.Resource.Dimension.design_fab_translation_z_hovered_focused = global::BloodDonationApp.Droid.Resource.Dimension.design_fab_translation_z_hovered_focused;
+			global::Plugin.InputKit.Resource.Dimension.design_fab_translation_z_pressed = global::BloodDonationApp.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::Plugin.InputKit.Resource.Dimension.design_navigation_elevation = global::BloodDonationApp.Droid.Resource.Dimension.design_navigation_elevation;
+			global::Plugin.InputKit.Resource.Dimension.design_navigation_icon_padding = global::BloodDonationApp.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::Plugin.InputKit.Resource.Dimension.design_navigation_icon_size = global::BloodDonationApp.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::Plugin.InputKit.Resource.Dimension.design_navigation_item_horizontal_padding = global::BloodDonationApp.Droid.Resource.Dimension.design_navigation_item_horizontal_padding;
+			global::Plugin.InputKit.Resource.Dimension.design_navigation_item_icon_padding = global::BloodDonationApp.Droid.Resource.Dimension.design_navigation_item_icon_padding;
+			global::Plugin.InputKit.Resource.Dimension.design_navigation_max_width = global::BloodDonationApp.Droid.Resource.Dimension.design_navigation_max_width;
+			global::Plugin.InputKit.Resource.Dimension.design_navigation_padding_bottom = global::BloodDonationApp.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::Plugin.InputKit.Resource.Dimension.design_navigation_separator_vertical_padding = global::BloodDonationApp.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::Plugin.InputKit.Resource.Dimension.design_snackbar_action_inline_max_width = global::BloodDonationApp.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::Plugin.InputKit.Resource.Dimension.design_snackbar_background_corner_radius = global::BloodDonationApp.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::Plugin.InputKit.Resource.Dimension.design_snackbar_elevation = global::BloodDonationApp.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::Plugin.InputKit.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::BloodDonationApp.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::Plugin.InputKit.Resource.Dimension.design_snackbar_max_width = global::BloodDonationApp.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::Plugin.InputKit.Resource.Dimension.design_snackbar_min_width = global::BloodDonationApp.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::Plugin.InputKit.Resource.Dimension.design_snackbar_padding_horizontal = global::BloodDonationApp.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::Plugin.InputKit.Resource.Dimension.design_snackbar_padding_vertical = global::BloodDonationApp.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::Plugin.InputKit.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::BloodDonationApp.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::Plugin.InputKit.Resource.Dimension.design_snackbar_text_size = global::BloodDonationApp.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::Plugin.InputKit.Resource.Dimension.design_tab_max_width = global::BloodDonationApp.Droid.Resource.Dimension.design_tab_max_width;
+			global::Plugin.InputKit.Resource.Dimension.design_tab_scrollable_min_width = global::BloodDonationApp.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::Plugin.InputKit.Resource.Dimension.design_tab_text_size = global::BloodDonationApp.Droid.Resource.Dimension.design_tab_text_size;
+			global::Plugin.InputKit.Resource.Dimension.design_tab_text_size_2line = global::BloodDonationApp.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::Plugin.InputKit.Resource.Dimension.design_textinput_caption_translate_y = global::BloodDonationApp.Droid.Resource.Dimension.design_textinput_caption_translate_y;
+			global::Plugin.InputKit.Resource.Dimension.disabled_alpha_material_dark = global::BloodDonationApp.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::Plugin.InputKit.Resource.Dimension.disabled_alpha_material_light = global::BloodDonationApp.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::Plugin.InputKit.Resource.Dimension.fastscroll_default_thickness = global::BloodDonationApp.Droid.Resource.Dimension.fastscroll_default_thickness;
+			global::Plugin.InputKit.Resource.Dimension.fastscroll_margin = global::BloodDonationApp.Droid.Resource.Dimension.fastscroll_margin;
+			global::Plugin.InputKit.Resource.Dimension.fastscroll_minimum_range = global::BloodDonationApp.Droid.Resource.Dimension.fastscroll_minimum_range;
+			global::Plugin.InputKit.Resource.Dimension.highlight_alpha_material_colored = global::BloodDonationApp.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::Plugin.InputKit.Resource.Dimension.highlight_alpha_material_dark = global::BloodDonationApp.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::Plugin.InputKit.Resource.Dimension.highlight_alpha_material_light = global::BloodDonationApp.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::Plugin.InputKit.Resource.Dimension.hint_alpha_material_dark = global::BloodDonationApp.Droid.Resource.Dimension.hint_alpha_material_dark;
+			global::Plugin.InputKit.Resource.Dimension.hint_alpha_material_light = global::BloodDonationApp.Droid.Resource.Dimension.hint_alpha_material_light;
+			global::Plugin.InputKit.Resource.Dimension.hint_pressed_alpha_material_dark = global::BloodDonationApp.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::Plugin.InputKit.Resource.Dimension.hint_pressed_alpha_material_light = global::BloodDonationApp.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::Plugin.InputKit.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::BloodDonationApp.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::Plugin.InputKit.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::BloodDonationApp.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::Plugin.InputKit.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::BloodDonationApp.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode = global::BloodDonationApp.Droid.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin = global::BloodDonationApp.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius = global::BloodDonationApp.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset = global::BloodDonationApp.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_bottomappbar_height = global::BloodDonationApp.Droid.Resource.Dimension.mtrl_bottomappbar_height;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_btn_corner_radius = global::BloodDonationApp.Droid.Resource.Dimension.mtrl_btn_corner_radius;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_btn_dialog_btn_min_width = global::BloodDonationApp.Droid.Resource.Dimension.mtrl_btn_dialog_btn_min_width;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_btn_disabled_elevation = global::BloodDonationApp.Droid.Resource.Dimension.mtrl_btn_disabled_elevation;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_btn_disabled_z = global::BloodDonationApp.Droid.Resource.Dimension.mtrl_btn_disabled_z;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_btn_elevation = global::BloodDonationApp.Droid.Resource.Dimension.mtrl_btn_elevation;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_btn_focused_z = global::BloodDonationApp.Droid.Resource.Dimension.mtrl_btn_focused_z;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_btn_hovered_z = global::BloodDonationApp.Droid.Resource.Dimension.mtrl_btn_hovered_z;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_btn_icon_btn_padding_left = global::BloodDonationApp.Droid.Resource.Dimension.mtrl_btn_icon_btn_padding_left;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_btn_icon_padding = global::BloodDonationApp.Droid.Resource.Dimension.mtrl_btn_icon_padding;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_btn_inset = global::BloodDonationApp.Droid.Resource.Dimension.mtrl_btn_inset;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_btn_letter_spacing = global::BloodDonationApp.Droid.Resource.Dimension.mtrl_btn_letter_spacing;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_btn_padding_bottom = global::BloodDonationApp.Droid.Resource.Dimension.mtrl_btn_padding_bottom;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_btn_padding_left = global::BloodDonationApp.Droid.Resource.Dimension.mtrl_btn_padding_left;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_btn_padding_right = global::BloodDonationApp.Droid.Resource.Dimension.mtrl_btn_padding_right;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_btn_padding_top = global::BloodDonationApp.Droid.Resource.Dimension.mtrl_btn_padding_top;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_btn_pressed_z = global::BloodDonationApp.Droid.Resource.Dimension.mtrl_btn_pressed_z;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_btn_stroke_size = global::BloodDonationApp.Droid.Resource.Dimension.mtrl_btn_stroke_size;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_btn_text_btn_icon_padding = global::BloodDonationApp.Droid.Resource.Dimension.mtrl_btn_text_btn_icon_padding;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_btn_text_btn_padding_left = global::BloodDonationApp.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_left;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_btn_text_btn_padding_right = global::BloodDonationApp.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_right;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_btn_text_size = global::BloodDonationApp.Droid.Resource.Dimension.mtrl_btn_text_size;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_btn_z = global::BloodDonationApp.Droid.Resource.Dimension.mtrl_btn_z;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_card_elevation = global::BloodDonationApp.Droid.Resource.Dimension.mtrl_card_elevation;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_card_spacing = global::BloodDonationApp.Droid.Resource.Dimension.mtrl_card_spacing;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_chip_pressed_translation_z = global::BloodDonationApp.Droid.Resource.Dimension.mtrl_chip_pressed_translation_z;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_chip_text_size = global::BloodDonationApp.Droid.Resource.Dimension.mtrl_chip_text_size;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_fab_elevation = global::BloodDonationApp.Droid.Resource.Dimension.mtrl_fab_elevation;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_fab_translation_z_hovered_focused = global::BloodDonationApp.Droid.Resource.Dimension.mtrl_fab_translation_z_hovered_focused;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_fab_translation_z_pressed = global::BloodDonationApp.Droid.Resource.Dimension.mtrl_fab_translation_z_pressed;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_navigation_elevation = global::BloodDonationApp.Droid.Resource.Dimension.mtrl_navigation_elevation;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_navigation_item_horizontal_padding = global::BloodDonationApp.Droid.Resource.Dimension.mtrl_navigation_item_horizontal_padding;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_navigation_item_icon_padding = global::BloodDonationApp.Droid.Resource.Dimension.mtrl_navigation_item_icon_padding;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_snackbar_background_corner_radius = global::BloodDonationApp.Droid.Resource.Dimension.mtrl_snackbar_background_corner_radius;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_snackbar_margin = global::BloodDonationApp.Droid.Resource.Dimension.mtrl_snackbar_margin;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_textinput_box_bottom_offset = global::BloodDonationApp.Droid.Resource.Dimension.mtrl_textinput_box_bottom_offset;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_textinput_box_corner_radius_medium = global::BloodDonationApp.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_medium;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_textinput_box_corner_radius_small = global::BloodDonationApp.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_small;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_textinput_box_label_cutout_padding = global::BloodDonationApp.Droid.Resource.Dimension.mtrl_textinput_box_label_cutout_padding;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_textinput_box_padding_end = global::BloodDonationApp.Droid.Resource.Dimension.mtrl_textinput_box_padding_end;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_textinput_box_stroke_width_default = global::BloodDonationApp.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_default;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_textinput_box_stroke_width_focused = global::BloodDonationApp.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_focused;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding = global::BloodDonationApp.Droid.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_toolbar_default_height = global::BloodDonationApp.Droid.Resource.Dimension.mtrl_toolbar_default_height;
+			global::Plugin.InputKit.Resource.Dimension.notification_action_icon_size = global::BloodDonationApp.Droid.Resource.Dimension.notification_action_icon_size;
+			global::Plugin.InputKit.Resource.Dimension.notification_action_text_size = global::BloodDonationApp.Droid.Resource.Dimension.notification_action_text_size;
+			global::Plugin.InputKit.Resource.Dimension.notification_big_circle_margin = global::BloodDonationApp.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::Plugin.InputKit.Resource.Dimension.notification_content_margin_start = global::BloodDonationApp.Droid.Resource.Dimension.notification_content_margin_start;
+			global::Plugin.InputKit.Resource.Dimension.notification_large_icon_height = global::BloodDonationApp.Droid.Resource.Dimension.notification_large_icon_height;
+			global::Plugin.InputKit.Resource.Dimension.notification_large_icon_width = global::BloodDonationApp.Droid.Resource.Dimension.notification_large_icon_width;
+			global::Plugin.InputKit.Resource.Dimension.notification_main_column_padding_top = global::BloodDonationApp.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::Plugin.InputKit.Resource.Dimension.notification_media_narrow_margin = global::BloodDonationApp.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::Plugin.InputKit.Resource.Dimension.notification_right_icon_size = global::BloodDonationApp.Droid.Resource.Dimension.notification_right_icon_size;
+			global::Plugin.InputKit.Resource.Dimension.notification_right_side_padding_top = global::BloodDonationApp.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::Plugin.InputKit.Resource.Dimension.notification_small_icon_background_padding = global::BloodDonationApp.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::Plugin.InputKit.Resource.Dimension.notification_small_icon_size_as_large = global::BloodDonationApp.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::Plugin.InputKit.Resource.Dimension.notification_subtext_size = global::BloodDonationApp.Droid.Resource.Dimension.notification_subtext_size;
+			global::Plugin.InputKit.Resource.Dimension.notification_top_pad = global::BloodDonationApp.Droid.Resource.Dimension.notification_top_pad;
+			global::Plugin.InputKit.Resource.Dimension.notification_top_pad_large_text = global::BloodDonationApp.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::Plugin.InputKit.Resource.Dimension.subtitle_corner_radius = global::BloodDonationApp.Droid.Resource.Dimension.subtitle_corner_radius;
+			global::Plugin.InputKit.Resource.Dimension.subtitle_outline_width = global::BloodDonationApp.Droid.Resource.Dimension.subtitle_outline_width;
+			global::Plugin.InputKit.Resource.Dimension.subtitle_shadow_offset = global::BloodDonationApp.Droid.Resource.Dimension.subtitle_shadow_offset;
+			global::Plugin.InputKit.Resource.Dimension.subtitle_shadow_radius = global::BloodDonationApp.Droid.Resource.Dimension.subtitle_shadow_radius;
+			global::Plugin.InputKit.Resource.Dimension.tooltip_corner_radius = global::BloodDonationApp.Droid.Resource.Dimension.tooltip_corner_radius;
+			global::Plugin.InputKit.Resource.Dimension.tooltip_horizontal_padding = global::BloodDonationApp.Droid.Resource.Dimension.tooltip_horizontal_padding;
+			global::Plugin.InputKit.Resource.Dimension.tooltip_margin = global::BloodDonationApp.Droid.Resource.Dimension.tooltip_margin;
+			global::Plugin.InputKit.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::BloodDonationApp.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset;
+			global::Plugin.InputKit.Resource.Dimension.tooltip_precise_anchor_threshold = global::BloodDonationApp.Droid.Resource.Dimension.tooltip_precise_anchor_threshold;
+			global::Plugin.InputKit.Resource.Dimension.tooltip_vertical_padding = global::BloodDonationApp.Droid.Resource.Dimension.tooltip_vertical_padding;
+			global::Plugin.InputKit.Resource.Dimension.tooltip_y_offset_non_touch = global::BloodDonationApp.Droid.Resource.Dimension.tooltip_y_offset_non_touch;
+			global::Plugin.InputKit.Resource.Dimension.tooltip_y_offset_touch = global::BloodDonationApp.Droid.Resource.Dimension.tooltip_y_offset_touch;
+			global::Plugin.InputKit.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::BloodDonationApp.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::Plugin.InputKit.Resource.Drawable.abc_action_bar_item_background_material = global::BloodDonationApp.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_btn_borderless_material = global::BloodDonationApp.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_btn_check_material = global::BloodDonationApp.Droid.Resource.Drawable.abc_btn_check_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::BloodDonationApp.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::Plugin.InputKit.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::BloodDonationApp.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::Plugin.InputKit.Resource.Drawable.abc_btn_colored_material = global::BloodDonationApp.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_btn_default_mtrl_shape = global::BloodDonationApp.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::Plugin.InputKit.Resource.Drawable.abc_btn_radio_material = global::BloodDonationApp.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::BloodDonationApp.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::Plugin.InputKit.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::BloodDonationApp.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::Plugin.InputKit.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::BloodDonationApp.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::Plugin.InputKit.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::BloodDonationApp.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::Plugin.InputKit.Resource.Drawable.abc_cab_background_internal_bg = global::BloodDonationApp.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::Plugin.InputKit.Resource.Drawable.abc_cab_background_top_material = global::BloodDonationApp.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::BloodDonationApp.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::Plugin.InputKit.Resource.Drawable.abc_control_background_material = global::BloodDonationApp.Droid.Resource.Drawable.abc_control_background_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_dialog_material_background = global::BloodDonationApp.Droid.Resource.Drawable.abc_dialog_material_background;
+			global::Plugin.InputKit.Resource.Drawable.abc_edit_text_material = global::BloodDonationApp.Droid.Resource.Drawable.abc_edit_text_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_ic_ab_back_material = global::BloodDonationApp.Droid.Resource.Drawable.abc_ic_ab_back_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::BloodDonationApp.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::Plugin.InputKit.Resource.Drawable.abc_ic_clear_material = global::BloodDonationApp.Droid.Resource.Drawable.abc_ic_clear_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::BloodDonationApp.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::Plugin.InputKit.Resource.Drawable.abc_ic_go_search_api_material = global::BloodDonationApp.Droid.Resource.Drawable.abc_ic_go_search_api_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::BloodDonationApp.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::Plugin.InputKit.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::BloodDonationApp.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::Plugin.InputKit.Resource.Drawable.abc_ic_menu_overflow_material = global::BloodDonationApp.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::BloodDonationApp.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::Plugin.InputKit.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::BloodDonationApp.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::Plugin.InputKit.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::BloodDonationApp.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::Plugin.InputKit.Resource.Drawable.abc_ic_search_api_material = global::BloodDonationApp.Droid.Resource.Drawable.abc_ic_search_api_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_ic_star_black_16dp = global::BloodDonationApp.Droid.Resource.Drawable.abc_ic_star_black_16dp;
+			global::Plugin.InputKit.Resource.Drawable.abc_ic_star_black_36dp = global::BloodDonationApp.Droid.Resource.Drawable.abc_ic_star_black_36dp;
+			global::Plugin.InputKit.Resource.Drawable.abc_ic_star_black_48dp = global::BloodDonationApp.Droid.Resource.Drawable.abc_ic_star_black_48dp;
+			global::Plugin.InputKit.Resource.Drawable.abc_ic_star_half_black_16dp = global::BloodDonationApp.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::Plugin.InputKit.Resource.Drawable.abc_ic_star_half_black_36dp = global::BloodDonationApp.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::Plugin.InputKit.Resource.Drawable.abc_ic_star_half_black_48dp = global::BloodDonationApp.Droid.Resource.Drawable.abc_ic_star_half_black_48dp;
+			global::Plugin.InputKit.Resource.Drawable.abc_ic_voice_search_api_material = global::BloodDonationApp.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_item_background_holo_dark = global::BloodDonationApp.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::Plugin.InputKit.Resource.Drawable.abc_item_background_holo_light = global::BloodDonationApp.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::Plugin.InputKit.Resource.Drawable.abc_list_divider_material = global::BloodDonationApp.Droid.Resource.Drawable.abc_list_divider_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_list_divider_mtrl_alpha = global::BloodDonationApp.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::Plugin.InputKit.Resource.Drawable.abc_list_focused_holo = global::BloodDonationApp.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::Plugin.InputKit.Resource.Drawable.abc_list_longpressed_holo = global::BloodDonationApp.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::Plugin.InputKit.Resource.Drawable.abc_list_pressed_holo_dark = global::BloodDonationApp.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::Plugin.InputKit.Resource.Drawable.abc_list_pressed_holo_light = global::BloodDonationApp.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::Plugin.InputKit.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::BloodDonationApp.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::Plugin.InputKit.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::BloodDonationApp.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::Plugin.InputKit.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::BloodDonationApp.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::Plugin.InputKit.Resource.Drawable.abc_list_selector_disabled_holo_light = global::BloodDonationApp.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::Plugin.InputKit.Resource.Drawable.abc_list_selector_holo_dark = global::BloodDonationApp.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::Plugin.InputKit.Resource.Drawable.abc_list_selector_holo_light = global::BloodDonationApp.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::Plugin.InputKit.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::BloodDonationApp.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::Plugin.InputKit.Resource.Drawable.abc_popup_background_mtrl_mult = global::BloodDonationApp.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::Plugin.InputKit.Resource.Drawable.abc_ratingbar_indicator_material = global::BloodDonationApp.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_ratingbar_material = global::BloodDonationApp.Droid.Resource.Drawable.abc_ratingbar_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_ratingbar_small_material = global::BloodDonationApp.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::BloodDonationApp.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::Plugin.InputKit.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::BloodDonationApp.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::Plugin.InputKit.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::BloodDonationApp.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::Plugin.InputKit.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::BloodDonationApp.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::Plugin.InputKit.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::BloodDonationApp.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::Plugin.InputKit.Resource.Drawable.abc_seekbar_thumb_material = global::BloodDonationApp.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_seekbar_tick_mark_material = global::BloodDonationApp.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_seekbar_track_material = global::BloodDonationApp.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::BloodDonationApp.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::Plugin.InputKit.Resource.Drawable.abc_spinner_textfield_background_material = global::BloodDonationApp.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_switch_thumb_material = global::BloodDonationApp.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_switch_track_mtrl_alpha = global::BloodDonationApp.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::Plugin.InputKit.Resource.Drawable.abc_tab_indicator_material = global::BloodDonationApp.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::BloodDonationApp.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::Plugin.InputKit.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::BloodDonationApp.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::Plugin.InputKit.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::BloodDonationApp.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::Plugin.InputKit.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::BloodDonationApp.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::Plugin.InputKit.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::BloodDonationApp.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::Plugin.InputKit.Resource.Drawable.abc_textfield_search_material = global::BloodDonationApp.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_text_cursor_material = global::BloodDonationApp.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::BloodDonationApp.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
+			global::Plugin.InputKit.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::BloodDonationApp.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
+			global::Plugin.InputKit.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::BloodDonationApp.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
+			global::Plugin.InputKit.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::BloodDonationApp.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
+			global::Plugin.InputKit.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::BloodDonationApp.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
+			global::Plugin.InputKit.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::BloodDonationApp.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
+			global::Plugin.InputKit.Resource.Drawable.abc_vector_test = global::BloodDonationApp.Droid.Resource.Drawable.abc_vector_test;
+			global::Plugin.InputKit.Resource.Drawable.avd_hide_password = global::BloodDonationApp.Droid.Resource.Drawable.avd_hide_password;
+			global::Plugin.InputKit.Resource.Drawable.avd_show_password = global::BloodDonationApp.Droid.Resource.Drawable.avd_show_password;
+			global::Plugin.InputKit.Resource.Drawable.design_bottom_navigation_item_background = global::BloodDonationApp.Droid.Resource.Drawable.design_bottom_navigation_item_background;
+			global::Plugin.InputKit.Resource.Drawable.design_fab_background = global::BloodDonationApp.Droid.Resource.Drawable.design_fab_background;
+			global::Plugin.InputKit.Resource.Drawable.design_ic_visibility = global::BloodDonationApp.Droid.Resource.Drawable.design_ic_visibility;
+			global::Plugin.InputKit.Resource.Drawable.design_ic_visibility_off = global::BloodDonationApp.Droid.Resource.Drawable.design_ic_visibility_off;
+			global::Plugin.InputKit.Resource.Drawable.design_password_eye = global::BloodDonationApp.Droid.Resource.Drawable.design_password_eye;
+			global::Plugin.InputKit.Resource.Drawable.design_snackbar_background = global::BloodDonationApp.Droid.Resource.Drawable.design_snackbar_background;
+			global::Plugin.InputKit.Resource.Drawable.ic_mtrl_chip_checked_black = global::BloodDonationApp.Droid.Resource.Drawable.ic_mtrl_chip_checked_black;
+			global::Plugin.InputKit.Resource.Drawable.ic_mtrl_chip_checked_circle = global::BloodDonationApp.Droid.Resource.Drawable.ic_mtrl_chip_checked_circle;
+			global::Plugin.InputKit.Resource.Drawable.ic_mtrl_chip_close_circle = global::BloodDonationApp.Droid.Resource.Drawable.ic_mtrl_chip_close_circle;
+			global::Plugin.InputKit.Resource.Drawable.mtrl_snackbar_background = global::BloodDonationApp.Droid.Resource.Drawable.mtrl_snackbar_background;
+			global::Plugin.InputKit.Resource.Drawable.mtrl_tabs_default_indicator = global::BloodDonationApp.Droid.Resource.Drawable.mtrl_tabs_default_indicator;
+			global::Plugin.InputKit.Resource.Drawable.navigation_empty_icon = global::BloodDonationApp.Droid.Resource.Drawable.navigation_empty_icon;
+			global::Plugin.InputKit.Resource.Drawable.notification_action_background = global::BloodDonationApp.Droid.Resource.Drawable.notification_action_background;
+			global::Plugin.InputKit.Resource.Drawable.notification_bg = global::BloodDonationApp.Droid.Resource.Drawable.notification_bg;
+			global::Plugin.InputKit.Resource.Drawable.notification_bg_low = global::BloodDonationApp.Droid.Resource.Drawable.notification_bg_low;
+			global::Plugin.InputKit.Resource.Drawable.notification_bg_low_normal = global::BloodDonationApp.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::Plugin.InputKit.Resource.Drawable.notification_bg_low_pressed = global::BloodDonationApp.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::Plugin.InputKit.Resource.Drawable.notification_bg_normal = global::BloodDonationApp.Droid.Resource.Drawable.notification_bg_normal;
+			global::Plugin.InputKit.Resource.Drawable.notification_bg_normal_pressed = global::BloodDonationApp.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::Plugin.InputKit.Resource.Drawable.notification_icon_background = global::BloodDonationApp.Droid.Resource.Drawable.notification_icon_background;
+			global::Plugin.InputKit.Resource.Drawable.notification_template_icon_bg = global::BloodDonationApp.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::Plugin.InputKit.Resource.Drawable.notification_template_icon_low_bg = global::BloodDonationApp.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::Plugin.InputKit.Resource.Drawable.notification_tile_bg = global::BloodDonationApp.Droid.Resource.Drawable.notification_tile_bg;
+			global::Plugin.InputKit.Resource.Drawable.notify_panel_notification_icon_bg = global::BloodDonationApp.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::Plugin.InputKit.Resource.Drawable.tooltip_frame_dark = global::BloodDonationApp.Droid.Resource.Drawable.tooltip_frame_dark;
+			global::Plugin.InputKit.Resource.Drawable.tooltip_frame_light = global::BloodDonationApp.Droid.Resource.Drawable.tooltip_frame_light;
+			global::Plugin.InputKit.Resource.Id.action0 = global::BloodDonationApp.Droid.Resource.Id.action0;
+			global::Plugin.InputKit.Resource.Id.actions = global::BloodDonationApp.Droid.Resource.Id.actions;
+			global::Plugin.InputKit.Resource.Id.action_bar = global::BloodDonationApp.Droid.Resource.Id.action_bar;
+			global::Plugin.InputKit.Resource.Id.action_bar_activity_content = global::BloodDonationApp.Droid.Resource.Id.action_bar_activity_content;
+			global::Plugin.InputKit.Resource.Id.action_bar_container = global::BloodDonationApp.Droid.Resource.Id.action_bar_container;
+			global::Plugin.InputKit.Resource.Id.action_bar_root = global::BloodDonationApp.Droid.Resource.Id.action_bar_root;
+			global::Plugin.InputKit.Resource.Id.action_bar_spinner = global::BloodDonationApp.Droid.Resource.Id.action_bar_spinner;
+			global::Plugin.InputKit.Resource.Id.action_bar_subtitle = global::BloodDonationApp.Droid.Resource.Id.action_bar_subtitle;
+			global::Plugin.InputKit.Resource.Id.action_bar_title = global::BloodDonationApp.Droid.Resource.Id.action_bar_title;
+			global::Plugin.InputKit.Resource.Id.action_container = global::BloodDonationApp.Droid.Resource.Id.action_container;
+			global::Plugin.InputKit.Resource.Id.action_context_bar = global::BloodDonationApp.Droid.Resource.Id.action_context_bar;
+			global::Plugin.InputKit.Resource.Id.action_divider = global::BloodDonationApp.Droid.Resource.Id.action_divider;
+			global::Plugin.InputKit.Resource.Id.action_image = global::BloodDonationApp.Droid.Resource.Id.action_image;
+			global::Plugin.InputKit.Resource.Id.action_menu_divider = global::BloodDonationApp.Droid.Resource.Id.action_menu_divider;
+			global::Plugin.InputKit.Resource.Id.action_menu_presenter = global::BloodDonationApp.Droid.Resource.Id.action_menu_presenter;
+			global::Plugin.InputKit.Resource.Id.action_mode_bar = global::BloodDonationApp.Droid.Resource.Id.action_mode_bar;
+			global::Plugin.InputKit.Resource.Id.action_mode_bar_stub = global::BloodDonationApp.Droid.Resource.Id.action_mode_bar_stub;
+			global::Plugin.InputKit.Resource.Id.action_mode_close_button = global::BloodDonationApp.Droid.Resource.Id.action_mode_close_button;
+			global::Plugin.InputKit.Resource.Id.action_text = global::BloodDonationApp.Droid.Resource.Id.action_text;
+			global::Plugin.InputKit.Resource.Id.activity_chooser_view_content = global::BloodDonationApp.Droid.Resource.Id.activity_chooser_view_content;
+			global::Plugin.InputKit.Resource.Id.add = global::BloodDonationApp.Droid.Resource.Id.add;
+			global::Plugin.InputKit.Resource.Id.alertTitle = global::BloodDonationApp.Droid.Resource.Id.alertTitle;
+			global::Plugin.InputKit.Resource.Id.all = global::BloodDonationApp.Droid.Resource.Id.all;
+			global::Plugin.InputKit.Resource.Id.ALT = global::BloodDonationApp.Droid.Resource.Id.ALT;
+			global::Plugin.InputKit.Resource.Id.always = global::BloodDonationApp.Droid.Resource.Id.always;
+			global::Plugin.InputKit.Resource.Id.async = global::BloodDonationApp.Droid.Resource.Id.async;
+			global::Plugin.InputKit.Resource.Id.auto = global::BloodDonationApp.Droid.Resource.Id.auto;
+			global::Plugin.InputKit.Resource.Id.beginning = global::BloodDonationApp.Droid.Resource.Id.beginning;
+			global::Plugin.InputKit.Resource.Id.blocking = global::BloodDonationApp.Droid.Resource.Id.blocking;
+			global::Plugin.InputKit.Resource.Id.bottom = global::BloodDonationApp.Droid.Resource.Id.bottom;
+			global::Plugin.InputKit.Resource.Id.bottomtab_navarea = global::BloodDonationApp.Droid.Resource.Id.bottomtab_navarea;
+			global::Plugin.InputKit.Resource.Id.bottomtab_tabbar = global::BloodDonationApp.Droid.Resource.Id.bottomtab_tabbar;
+			global::Plugin.InputKit.Resource.Id.browser_actions_header_text = global::BloodDonationApp.Droid.Resource.Id.browser_actions_header_text;
+			global::Plugin.InputKit.Resource.Id.browser_actions_menu_items = global::BloodDonationApp.Droid.Resource.Id.browser_actions_menu_items;
+			global::Plugin.InputKit.Resource.Id.browser_actions_menu_item_icon = global::BloodDonationApp.Droid.Resource.Id.browser_actions_menu_item_icon;
+			global::Plugin.InputKit.Resource.Id.browser_actions_menu_item_text = global::BloodDonationApp.Droid.Resource.Id.browser_actions_menu_item_text;
+			global::Plugin.InputKit.Resource.Id.browser_actions_menu_view = global::BloodDonationApp.Droid.Resource.Id.browser_actions_menu_view;
+			global::Plugin.InputKit.Resource.Id.buttonPanel = global::BloodDonationApp.Droid.Resource.Id.buttonPanel;
+			global::Plugin.InputKit.Resource.Id.cancel_action = global::BloodDonationApp.Droid.Resource.Id.cancel_action;
+			global::Plugin.InputKit.Resource.Id.center = global::BloodDonationApp.Droid.Resource.Id.center;
+			global::Plugin.InputKit.Resource.Id.center_horizontal = global::BloodDonationApp.Droid.Resource.Id.center_horizontal;
+			global::Plugin.InputKit.Resource.Id.center_vertical = global::BloodDonationApp.Droid.Resource.Id.center_vertical;
+			global::Plugin.InputKit.Resource.Id.checkbox = global::BloodDonationApp.Droid.Resource.Id.checkbox;
+			global::Plugin.InputKit.Resource.Id.chronometer = global::BloodDonationApp.Droid.Resource.Id.chronometer;
+			global::Plugin.InputKit.Resource.Id.clip_horizontal = global::BloodDonationApp.Droid.Resource.Id.clip_horizontal;
+			global::Plugin.InputKit.Resource.Id.clip_vertical = global::BloodDonationApp.Droid.Resource.Id.clip_vertical;
+			global::Plugin.InputKit.Resource.Id.collapseActionView = global::BloodDonationApp.Droid.Resource.Id.collapseActionView;
+			global::Plugin.InputKit.Resource.Id.container = global::BloodDonationApp.Droid.Resource.Id.container;
+			global::Plugin.InputKit.Resource.Id.content = global::BloodDonationApp.Droid.Resource.Id.content;
+			global::Plugin.InputKit.Resource.Id.contentPanel = global::BloodDonationApp.Droid.Resource.Id.contentPanel;
+			global::Plugin.InputKit.Resource.Id.coordinator = global::BloodDonationApp.Droid.Resource.Id.coordinator;
+			global::Plugin.InputKit.Resource.Id.CTRL = global::BloodDonationApp.Droid.Resource.Id.CTRL;
+			global::Plugin.InputKit.Resource.Id.custom = global::BloodDonationApp.Droid.Resource.Id.custom;
+			global::Plugin.InputKit.Resource.Id.customPanel = global::BloodDonationApp.Droid.Resource.Id.customPanel;
+			global::Plugin.InputKit.Resource.Id.decor_content_parent = global::BloodDonationApp.Droid.Resource.Id.decor_content_parent;
+			global::Plugin.InputKit.Resource.Id.default_activity_button = global::BloodDonationApp.Droid.Resource.Id.default_activity_button;
+			global::Plugin.InputKit.Resource.Id.design_bottom_sheet = global::BloodDonationApp.Droid.Resource.Id.design_bottom_sheet;
+			global::Plugin.InputKit.Resource.Id.design_menu_item_action_area = global::BloodDonationApp.Droid.Resource.Id.design_menu_item_action_area;
+			global::Plugin.InputKit.Resource.Id.design_menu_item_action_area_stub = global::BloodDonationApp.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::Plugin.InputKit.Resource.Id.design_menu_item_text = global::BloodDonationApp.Droid.Resource.Id.design_menu_item_text;
+			global::Plugin.InputKit.Resource.Id.design_navigation_view = global::BloodDonationApp.Droid.Resource.Id.design_navigation_view;
+			global::Plugin.InputKit.Resource.Id.disableHome = global::BloodDonationApp.Droid.Resource.Id.disableHome;
+			global::Plugin.InputKit.Resource.Id.edit_query = global::BloodDonationApp.Droid.Resource.Id.edit_query;
+			global::Plugin.InputKit.Resource.Id.end = global::BloodDonationApp.Droid.Resource.Id.end;
+			global::Plugin.InputKit.Resource.Id.end_padder = global::BloodDonationApp.Droid.Resource.Id.end_padder;
+			global::Plugin.InputKit.Resource.Id.enterAlways = global::BloodDonationApp.Droid.Resource.Id.enterAlways;
+			global::Plugin.InputKit.Resource.Id.enterAlwaysCollapsed = global::BloodDonationApp.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::Plugin.InputKit.Resource.Id.exitUntilCollapsed = global::BloodDonationApp.Droid.Resource.Id.exitUntilCollapsed;
+			global::Plugin.InputKit.Resource.Id.expanded_menu = global::BloodDonationApp.Droid.Resource.Id.expanded_menu;
+			global::Plugin.InputKit.Resource.Id.expand_activities_button = global::BloodDonationApp.Droid.Resource.Id.expand_activities_button;
+			global::Plugin.InputKit.Resource.Id.fill = global::BloodDonationApp.Droid.Resource.Id.fill;
+			global::Plugin.InputKit.Resource.Id.filled = global::BloodDonationApp.Droid.Resource.Id.filled;
+			global::Plugin.InputKit.Resource.Id.fill_horizontal = global::BloodDonationApp.Droid.Resource.Id.fill_horizontal;
+			global::Plugin.InputKit.Resource.Id.fill_vertical = global::BloodDonationApp.Droid.Resource.Id.fill_vertical;
+			global::Plugin.InputKit.Resource.Id.@fixed = global::BloodDonationApp.Droid.Resource.Id.@fixed;
+			global::Plugin.InputKit.Resource.Id.flyoutcontent_appbar = global::BloodDonationApp.Droid.Resource.Id.flyoutcontent_appbar;
+			global::Plugin.InputKit.Resource.Id.flyoutcontent_recycler = global::BloodDonationApp.Droid.Resource.Id.flyoutcontent_recycler;
+			global::Plugin.InputKit.Resource.Id.forever = global::BloodDonationApp.Droid.Resource.Id.forever;
+			global::Plugin.InputKit.Resource.Id.FUNCTION = global::BloodDonationApp.Droid.Resource.Id.FUNCTION;
+			global::Plugin.InputKit.Resource.Id.ghost_view = global::BloodDonationApp.Droid.Resource.Id.ghost_view;
+			global::Plugin.InputKit.Resource.Id.group_divider = global::BloodDonationApp.Droid.Resource.Id.group_divider;
+			global::Plugin.InputKit.Resource.Id.home = global::BloodDonationApp.Droid.Resource.Id.home;
+			global::Plugin.InputKit.Resource.Id.homeAsUp = global::BloodDonationApp.Droid.Resource.Id.homeAsUp;
+			global::Plugin.InputKit.Resource.Id.icon = global::BloodDonationApp.Droid.Resource.Id.icon;
+			global::Plugin.InputKit.Resource.Id.icon_group = global::BloodDonationApp.Droid.Resource.Id.icon_group;
+			global::Plugin.InputKit.Resource.Id.ifRoom = global::BloodDonationApp.Droid.Resource.Id.ifRoom;
+			global::Plugin.InputKit.Resource.Id.image = global::BloodDonationApp.Droid.Resource.Id.image;
+			global::Plugin.InputKit.Resource.Id.info = global::BloodDonationApp.Droid.Resource.Id.info;
+			global::Plugin.InputKit.Resource.Id.italic = global::BloodDonationApp.Droid.Resource.Id.italic;
+			global::Plugin.InputKit.Resource.Id.item_touch_helper_previous_elevation = global::BloodDonationApp.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::Plugin.InputKit.Resource.Id.labeled = global::BloodDonationApp.Droid.Resource.Id.labeled;
+			global::Plugin.InputKit.Resource.Id.largeLabel = global::BloodDonationApp.Droid.Resource.Id.largeLabel;
+			global::Plugin.InputKit.Resource.Id.left = global::BloodDonationApp.Droid.Resource.Id.left;
+			global::Plugin.InputKit.Resource.Id.line1 = global::BloodDonationApp.Droid.Resource.Id.line1;
+			global::Plugin.InputKit.Resource.Id.line3 = global::BloodDonationApp.Droid.Resource.Id.line3;
+			global::Plugin.InputKit.Resource.Id.listMode = global::BloodDonationApp.Droid.Resource.Id.listMode;
+			global::Plugin.InputKit.Resource.Id.list_item = global::BloodDonationApp.Droid.Resource.Id.list_item;
+			global::Plugin.InputKit.Resource.Id.main_appbar = global::BloodDonationApp.Droid.Resource.Id.main_appbar;
+			global::Plugin.InputKit.Resource.Id.main_tablayout = global::BloodDonationApp.Droid.Resource.Id.main_tablayout;
+			global::Plugin.InputKit.Resource.Id.main_toolbar = global::BloodDonationApp.Droid.Resource.Id.main_toolbar;
+			global::Plugin.InputKit.Resource.Id.main_viewpager = global::BloodDonationApp.Droid.Resource.Id.main_viewpager;
+			global::Plugin.InputKit.Resource.Id.masked = global::BloodDonationApp.Droid.Resource.Id.masked;
+			global::Plugin.InputKit.Resource.Id.media_actions = global::BloodDonationApp.Droid.Resource.Id.media_actions;
+			global::Plugin.InputKit.Resource.Id.message = global::BloodDonationApp.Droid.Resource.Id.message;
+			global::Plugin.InputKit.Resource.Id.META = global::BloodDonationApp.Droid.Resource.Id.META;
+			global::Plugin.InputKit.Resource.Id.middle = global::BloodDonationApp.Droid.Resource.Id.middle;
+			global::Plugin.InputKit.Resource.Id.mini = global::BloodDonationApp.Droid.Resource.Id.mini;
+			global::Plugin.InputKit.Resource.Id.mtrl_child_content_container = global::BloodDonationApp.Droid.Resource.Id.mtrl_child_content_container;
+			global::Plugin.InputKit.Resource.Id.mtrl_internal_children_alpha_tag = global::BloodDonationApp.Droid.Resource.Id.mtrl_internal_children_alpha_tag;
+			global::Plugin.InputKit.Resource.Id.multiply = global::BloodDonationApp.Droid.Resource.Id.multiply;
+			global::Plugin.InputKit.Resource.Id.navigation_header_container = global::BloodDonationApp.Droid.Resource.Id.navigation_header_container;
+			global::Plugin.InputKit.Resource.Id.never = global::BloodDonationApp.Droid.Resource.Id.never;
+			global::Plugin.InputKit.Resource.Id.none = global::BloodDonationApp.Droid.Resource.Id.none;
+			global::Plugin.InputKit.Resource.Id.normal = global::BloodDonationApp.Droid.Resource.Id.normal;
+			global::Plugin.InputKit.Resource.Id.notification_background = global::BloodDonationApp.Droid.Resource.Id.notification_background;
+			global::Plugin.InputKit.Resource.Id.notification_main_column = global::BloodDonationApp.Droid.Resource.Id.notification_main_column;
+			global::Plugin.InputKit.Resource.Id.notification_main_column_container = global::BloodDonationApp.Droid.Resource.Id.notification_main_column_container;
+			global::Plugin.InputKit.Resource.Id.outline = global::BloodDonationApp.Droid.Resource.Id.outline;
+			global::Plugin.InputKit.Resource.Id.parallax = global::BloodDonationApp.Droid.Resource.Id.parallax;
+			global::Plugin.InputKit.Resource.Id.parentPanel = global::BloodDonationApp.Droid.Resource.Id.parentPanel;
+			global::Plugin.InputKit.Resource.Id.parent_matrix = global::BloodDonationApp.Droid.Resource.Id.parent_matrix;
+			global::Plugin.InputKit.Resource.Id.pin = global::BloodDonationApp.Droid.Resource.Id.pin;
+			global::Plugin.InputKit.Resource.Id.progress_circular = global::BloodDonationApp.Droid.Resource.Id.progress_circular;
+			global::Plugin.InputKit.Resource.Id.progress_horizontal = global::BloodDonationApp.Droid.Resource.Id.progress_horizontal;
+			global::Plugin.InputKit.Resource.Id.radio = global::BloodDonationApp.Droid.Resource.Id.radio;
+			global::Plugin.InputKit.Resource.Id.right = global::BloodDonationApp.Droid.Resource.Id.right;
+			global::Plugin.InputKit.Resource.Id.right_icon = global::BloodDonationApp.Droid.Resource.Id.right_icon;
+			global::Plugin.InputKit.Resource.Id.right_side = global::BloodDonationApp.Droid.Resource.Id.right_side;
+			global::Plugin.InputKit.Resource.Id.save_image_matrix = global::BloodDonationApp.Droid.Resource.Id.save_image_matrix;
+			global::Plugin.InputKit.Resource.Id.save_non_transition_alpha = global::BloodDonationApp.Droid.Resource.Id.save_non_transition_alpha;
+			global::Plugin.InputKit.Resource.Id.save_scale_type = global::BloodDonationApp.Droid.Resource.Id.save_scale_type;
+			global::Plugin.InputKit.Resource.Id.screen = global::BloodDonationApp.Droid.Resource.Id.screen;
+			global::Plugin.InputKit.Resource.Id.scroll = global::BloodDonationApp.Droid.Resource.Id.scroll;
+			global::Plugin.InputKit.Resource.Id.scrollable = global::BloodDonationApp.Droid.Resource.Id.scrollable;
+			global::Plugin.InputKit.Resource.Id.scrollIndicatorDown = global::BloodDonationApp.Droid.Resource.Id.scrollIndicatorDown;
+			global::Plugin.InputKit.Resource.Id.scrollIndicatorUp = global::BloodDonationApp.Droid.Resource.Id.scrollIndicatorUp;
+			global::Plugin.InputKit.Resource.Id.scrollView = global::BloodDonationApp.Droid.Resource.Id.scrollView;
+			global::Plugin.InputKit.Resource.Id.search_badge = global::BloodDonationApp.Droid.Resource.Id.search_badge;
+			global::Plugin.InputKit.Resource.Id.search_bar = global::BloodDonationApp.Droid.Resource.Id.search_bar;
+			global::Plugin.InputKit.Resource.Id.search_button = global::BloodDonationApp.Droid.Resource.Id.search_button;
+			global::Plugin.InputKit.Resource.Id.search_close_btn = global::BloodDonationApp.Droid.Resource.Id.search_close_btn;
+			global::Plugin.InputKit.Resource.Id.search_edit_frame = global::BloodDonationApp.Droid.Resource.Id.search_edit_frame;
+			global::Plugin.InputKit.Resource.Id.search_go_btn = global::BloodDonationApp.Droid.Resource.Id.search_go_btn;
+			global::Plugin.InputKit.Resource.Id.search_mag_icon = global::BloodDonationApp.Droid.Resource.Id.search_mag_icon;
+			global::Plugin.InputKit.Resource.Id.search_plate = global::BloodDonationApp.Droid.Resource.Id.search_plate;
+			global::Plugin.InputKit.Resource.Id.search_src_text = global::BloodDonationApp.Droid.Resource.Id.search_src_text;
+			global::Plugin.InputKit.Resource.Id.search_voice_btn = global::BloodDonationApp.Droid.Resource.Id.search_voice_btn;
+			global::Plugin.InputKit.Resource.Id.selected = global::BloodDonationApp.Droid.Resource.Id.selected;
+			global::Plugin.InputKit.Resource.Id.select_dialog_listview = global::BloodDonationApp.Droid.Resource.Id.select_dialog_listview;
+			global::Plugin.InputKit.Resource.Id.shellcontent_appbar = global::BloodDonationApp.Droid.Resource.Id.shellcontent_appbar;
+			global::Plugin.InputKit.Resource.Id.shellcontent_toolbar = global::BloodDonationApp.Droid.Resource.Id.shellcontent_toolbar;
+			global::Plugin.InputKit.Resource.Id.SHIFT = global::BloodDonationApp.Droid.Resource.Id.SHIFT;
+			global::Plugin.InputKit.Resource.Id.shortcut = global::BloodDonationApp.Droid.Resource.Id.shortcut;
+			global::Plugin.InputKit.Resource.Id.showCustom = global::BloodDonationApp.Droid.Resource.Id.showCustom;
+			global::Plugin.InputKit.Resource.Id.showHome = global::BloodDonationApp.Droid.Resource.Id.showHome;
+			global::Plugin.InputKit.Resource.Id.showTitle = global::BloodDonationApp.Droid.Resource.Id.showTitle;
+			global::Plugin.InputKit.Resource.Id.smallLabel = global::BloodDonationApp.Droid.Resource.Id.smallLabel;
+			global::Plugin.InputKit.Resource.Id.snackbar_action = global::BloodDonationApp.Droid.Resource.Id.snackbar_action;
+			global::Plugin.InputKit.Resource.Id.snackbar_text = global::BloodDonationApp.Droid.Resource.Id.snackbar_text;
+			global::Plugin.InputKit.Resource.Id.snap = global::BloodDonationApp.Droid.Resource.Id.snap;
+			global::Plugin.InputKit.Resource.Id.snapMargins = global::BloodDonationApp.Droid.Resource.Id.snapMargins;
+			global::Plugin.InputKit.Resource.Id.spacer = global::BloodDonationApp.Droid.Resource.Id.spacer;
+			global::Plugin.InputKit.Resource.Id.split_action_bar = global::BloodDonationApp.Droid.Resource.Id.split_action_bar;
+			global::Plugin.InputKit.Resource.Id.src_atop = global::BloodDonationApp.Droid.Resource.Id.src_atop;
+			global::Plugin.InputKit.Resource.Id.src_in = global::BloodDonationApp.Droid.Resource.Id.src_in;
+			global::Plugin.InputKit.Resource.Id.src_over = global::BloodDonationApp.Droid.Resource.Id.src_over;
+			global::Plugin.InputKit.Resource.Id.start = global::BloodDonationApp.Droid.Resource.Id.start;
+			global::Plugin.InputKit.Resource.Id.status_bar_latest_event_content = global::BloodDonationApp.Droid.Resource.Id.status_bar_latest_event_content;
+			global::Plugin.InputKit.Resource.Id.stretch = global::BloodDonationApp.Droid.Resource.Id.stretch;
+			global::Plugin.InputKit.Resource.Id.submenuarrow = global::BloodDonationApp.Droid.Resource.Id.submenuarrow;
+			global::Plugin.InputKit.Resource.Id.submit_area = global::BloodDonationApp.Droid.Resource.Id.submit_area;
+			global::Plugin.InputKit.Resource.Id.SYM = global::BloodDonationApp.Droid.Resource.Id.SYM;
+			global::Plugin.InputKit.Resource.Id.tabMode = global::BloodDonationApp.Droid.Resource.Id.tabMode;
+			global::Plugin.InputKit.Resource.Id.tag_transition_group = global::BloodDonationApp.Droid.Resource.Id.tag_transition_group;
+			global::Plugin.InputKit.Resource.Id.tag_unhandled_key_event_manager = global::BloodDonationApp.Droid.Resource.Id.tag_unhandled_key_event_manager;
+			global::Plugin.InputKit.Resource.Id.tag_unhandled_key_listeners = global::BloodDonationApp.Droid.Resource.Id.tag_unhandled_key_listeners;
+			global::Plugin.InputKit.Resource.Id.text = global::BloodDonationApp.Droid.Resource.Id.text;
+			global::Plugin.InputKit.Resource.Id.text2 = global::BloodDonationApp.Droid.Resource.Id.text2;
+			global::Plugin.InputKit.Resource.Id.textinput_counter = global::BloodDonationApp.Droid.Resource.Id.textinput_counter;
+			global::Plugin.InputKit.Resource.Id.textinput_error = global::BloodDonationApp.Droid.Resource.Id.textinput_error;
+			global::Plugin.InputKit.Resource.Id.textinput_helper_text = global::BloodDonationApp.Droid.Resource.Id.textinput_helper_text;
+			global::Plugin.InputKit.Resource.Id.textSpacerNoButtons = global::BloodDonationApp.Droid.Resource.Id.textSpacerNoButtons;
+			global::Plugin.InputKit.Resource.Id.textSpacerNoTitle = global::BloodDonationApp.Droid.Resource.Id.textSpacerNoTitle;
+			global::Plugin.InputKit.Resource.Id.textStart = global::BloodDonationApp.Droid.Resource.Id.textStart;
+			global::Plugin.InputKit.Resource.Id.text_input_password_toggle = global::BloodDonationApp.Droid.Resource.Id.text_input_password_toggle;
+			global::Plugin.InputKit.Resource.Id.time = global::BloodDonationApp.Droid.Resource.Id.time;
+			global::Plugin.InputKit.Resource.Id.title = global::BloodDonationApp.Droid.Resource.Id.title;
+			global::Plugin.InputKit.Resource.Id.titleDividerNoCustom = global::BloodDonationApp.Droid.Resource.Id.titleDividerNoCustom;
+			global::Plugin.InputKit.Resource.Id.title_template = global::BloodDonationApp.Droid.Resource.Id.title_template;
+			global::Plugin.InputKit.Resource.Id.top = global::BloodDonationApp.Droid.Resource.Id.top;
+			global::Plugin.InputKit.Resource.Id.topPanel = global::BloodDonationApp.Droid.Resource.Id.topPanel;
+			global::Plugin.InputKit.Resource.Id.touch_outside = global::BloodDonationApp.Droid.Resource.Id.touch_outside;
+			global::Plugin.InputKit.Resource.Id.transition_current_scene = global::BloodDonationApp.Droid.Resource.Id.transition_current_scene;
+			global::Plugin.InputKit.Resource.Id.transition_layout_save = global::BloodDonationApp.Droid.Resource.Id.transition_layout_save;
+			global::Plugin.InputKit.Resource.Id.transition_position = global::BloodDonationApp.Droid.Resource.Id.transition_position;
+			global::Plugin.InputKit.Resource.Id.transition_scene_layoutid_cache = global::BloodDonationApp.Droid.Resource.Id.transition_scene_layoutid_cache;
+			global::Plugin.InputKit.Resource.Id.transition_transform = global::BloodDonationApp.Droid.Resource.Id.transition_transform;
+			global::Plugin.InputKit.Resource.Id.uniform = global::BloodDonationApp.Droid.Resource.Id.uniform;
+			global::Plugin.InputKit.Resource.Id.unlabeled = global::BloodDonationApp.Droid.Resource.Id.unlabeled;
+			global::Plugin.InputKit.Resource.Id.up = global::BloodDonationApp.Droid.Resource.Id.up;
+			global::Plugin.InputKit.Resource.Id.useLogo = global::BloodDonationApp.Droid.Resource.Id.useLogo;
+			global::Plugin.InputKit.Resource.Id.view_offset_helper = global::BloodDonationApp.Droid.Resource.Id.view_offset_helper;
+			global::Plugin.InputKit.Resource.Id.visible = global::BloodDonationApp.Droid.Resource.Id.visible;
+			global::Plugin.InputKit.Resource.Id.withText = global::BloodDonationApp.Droid.Resource.Id.withText;
+			global::Plugin.InputKit.Resource.Id.wrap_content = global::BloodDonationApp.Droid.Resource.Id.wrap_content;
+			global::Plugin.InputKit.Resource.Integer.abc_config_activityDefaultDur = global::BloodDonationApp.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::Plugin.InputKit.Resource.Integer.abc_config_activityShortDur = global::BloodDonationApp.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::Plugin.InputKit.Resource.Integer.app_bar_elevation_anim_duration = global::BloodDonationApp.Droid.Resource.Integer.app_bar_elevation_anim_duration;
+			global::Plugin.InputKit.Resource.Integer.bottom_sheet_slide_duration = global::BloodDonationApp.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::Plugin.InputKit.Resource.Integer.cancel_button_image_alpha = global::BloodDonationApp.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::Plugin.InputKit.Resource.Integer.config_tooltipAnimTime = global::BloodDonationApp.Droid.Resource.Integer.config_tooltipAnimTime;
+			global::Plugin.InputKit.Resource.Integer.design_snackbar_text_max_lines = global::BloodDonationApp.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::Plugin.InputKit.Resource.Integer.design_tab_indicator_anim_duration_ms = global::BloodDonationApp.Droid.Resource.Integer.design_tab_indicator_anim_duration_ms;
+			global::Plugin.InputKit.Resource.Integer.hide_password_duration = global::BloodDonationApp.Droid.Resource.Integer.hide_password_duration;
+			global::Plugin.InputKit.Resource.Integer.mtrl_btn_anim_delay_ms = global::BloodDonationApp.Droid.Resource.Integer.mtrl_btn_anim_delay_ms;
+			global::Plugin.InputKit.Resource.Integer.mtrl_btn_anim_duration_ms = global::BloodDonationApp.Droid.Resource.Integer.mtrl_btn_anim_duration_ms;
+			global::Plugin.InputKit.Resource.Integer.mtrl_chip_anim_duration = global::BloodDonationApp.Droid.Resource.Integer.mtrl_chip_anim_duration;
+			global::Plugin.InputKit.Resource.Integer.mtrl_tab_indicator_anim_duration_ms = global::BloodDonationApp.Droid.Resource.Integer.mtrl_tab_indicator_anim_duration_ms;
+			global::Plugin.InputKit.Resource.Integer.show_password_duration = global::BloodDonationApp.Droid.Resource.Integer.show_password_duration;
+			global::Plugin.InputKit.Resource.Integer.status_bar_notification_info_maxnum = global::BloodDonationApp.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Plugin.InputKit.Resource.Interpolator.mtrl_fast_out_linear_in = global::BloodDonationApp.Droid.Resource.Interpolator.mtrl_fast_out_linear_in;
+			global::Plugin.InputKit.Resource.Interpolator.mtrl_fast_out_slow_in = global::BloodDonationApp.Droid.Resource.Interpolator.mtrl_fast_out_slow_in;
+			global::Plugin.InputKit.Resource.Interpolator.mtrl_linear = global::BloodDonationApp.Droid.Resource.Interpolator.mtrl_linear;
+			global::Plugin.InputKit.Resource.Interpolator.mtrl_linear_out_slow_in = global::BloodDonationApp.Droid.Resource.Interpolator.mtrl_linear_out_slow_in;
+			global::Plugin.InputKit.Resource.Layout.abc_action_bar_title_item = global::BloodDonationApp.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::Plugin.InputKit.Resource.Layout.abc_action_bar_up_container = global::BloodDonationApp.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::Plugin.InputKit.Resource.Layout.abc_action_menu_item_layout = global::BloodDonationApp.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::Plugin.InputKit.Resource.Layout.abc_action_menu_layout = global::BloodDonationApp.Droid.Resource.Layout.abc_action_menu_layout;
+			global::Plugin.InputKit.Resource.Layout.abc_action_mode_bar = global::BloodDonationApp.Droid.Resource.Layout.abc_action_mode_bar;
+			global::Plugin.InputKit.Resource.Layout.abc_action_mode_close_item_material = global::BloodDonationApp.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::Plugin.InputKit.Resource.Layout.abc_activity_chooser_view = global::BloodDonationApp.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::Plugin.InputKit.Resource.Layout.abc_activity_chooser_view_list_item = global::BloodDonationApp.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::Plugin.InputKit.Resource.Layout.abc_alert_dialog_button_bar_material = global::BloodDonationApp.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::Plugin.InputKit.Resource.Layout.abc_alert_dialog_material = global::BloodDonationApp.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::Plugin.InputKit.Resource.Layout.abc_alert_dialog_title_material = global::BloodDonationApp.Droid.Resource.Layout.abc_alert_dialog_title_material;
+			global::Plugin.InputKit.Resource.Layout.abc_cascading_menu_item_layout = global::BloodDonationApp.Droid.Resource.Layout.abc_cascading_menu_item_layout;
+			global::Plugin.InputKit.Resource.Layout.abc_dialog_title_material = global::BloodDonationApp.Droid.Resource.Layout.abc_dialog_title_material;
+			global::Plugin.InputKit.Resource.Layout.abc_expanded_menu_layout = global::BloodDonationApp.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::Plugin.InputKit.Resource.Layout.abc_list_menu_item_checkbox = global::BloodDonationApp.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::Plugin.InputKit.Resource.Layout.abc_list_menu_item_icon = global::BloodDonationApp.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::Plugin.InputKit.Resource.Layout.abc_list_menu_item_layout = global::BloodDonationApp.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::Plugin.InputKit.Resource.Layout.abc_list_menu_item_radio = global::BloodDonationApp.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::Plugin.InputKit.Resource.Layout.abc_popup_menu_header_item_layout = global::BloodDonationApp.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::Plugin.InputKit.Resource.Layout.abc_popup_menu_item_layout = global::BloodDonationApp.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::Plugin.InputKit.Resource.Layout.abc_screen_content_include = global::BloodDonationApp.Droid.Resource.Layout.abc_screen_content_include;
+			global::Plugin.InputKit.Resource.Layout.abc_screen_simple = global::BloodDonationApp.Droid.Resource.Layout.abc_screen_simple;
+			global::Plugin.InputKit.Resource.Layout.abc_screen_simple_overlay_action_mode = global::BloodDonationApp.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::Plugin.InputKit.Resource.Layout.abc_screen_toolbar = global::BloodDonationApp.Droid.Resource.Layout.abc_screen_toolbar;
+			global::Plugin.InputKit.Resource.Layout.abc_search_dropdown_item_icons_2line = global::BloodDonationApp.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::Plugin.InputKit.Resource.Layout.abc_search_view = global::BloodDonationApp.Droid.Resource.Layout.abc_search_view;
+			global::Plugin.InputKit.Resource.Layout.abc_select_dialog_material = global::BloodDonationApp.Droid.Resource.Layout.abc_select_dialog_material;
+			global::Plugin.InputKit.Resource.Layout.abc_tooltip = global::BloodDonationApp.Droid.Resource.Layout.abc_tooltip;
+			global::Plugin.InputKit.Resource.Layout.BottomTabLayout = global::BloodDonationApp.Droid.Resource.Layout.BottomTabLayout;
+			global::Plugin.InputKit.Resource.Layout.browser_actions_context_menu_page = global::BloodDonationApp.Droid.Resource.Layout.browser_actions_context_menu_page;
+			global::Plugin.InputKit.Resource.Layout.browser_actions_context_menu_row = global::BloodDonationApp.Droid.Resource.Layout.browser_actions_context_menu_row;
+			global::Plugin.InputKit.Resource.Layout.design_bottom_navigation_item = global::BloodDonationApp.Droid.Resource.Layout.design_bottom_navigation_item;
+			global::Plugin.InputKit.Resource.Layout.design_bottom_sheet_dialog = global::BloodDonationApp.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::Plugin.InputKit.Resource.Layout.design_layout_snackbar = global::BloodDonationApp.Droid.Resource.Layout.design_layout_snackbar;
+			global::Plugin.InputKit.Resource.Layout.design_layout_snackbar_include = global::BloodDonationApp.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::Plugin.InputKit.Resource.Layout.design_layout_tab_icon = global::BloodDonationApp.Droid.Resource.Layout.design_layout_tab_icon;
+			global::Plugin.InputKit.Resource.Layout.design_layout_tab_text = global::BloodDonationApp.Droid.Resource.Layout.design_layout_tab_text;
+			global::Plugin.InputKit.Resource.Layout.design_menu_item_action_area = global::BloodDonationApp.Droid.Resource.Layout.design_menu_item_action_area;
+			global::Plugin.InputKit.Resource.Layout.design_navigation_item = global::BloodDonationApp.Droid.Resource.Layout.design_navigation_item;
+			global::Plugin.InputKit.Resource.Layout.design_navigation_item_header = global::BloodDonationApp.Droid.Resource.Layout.design_navigation_item_header;
+			global::Plugin.InputKit.Resource.Layout.design_navigation_item_separator = global::BloodDonationApp.Droid.Resource.Layout.design_navigation_item_separator;
+			global::Plugin.InputKit.Resource.Layout.design_navigation_item_subheader = global::BloodDonationApp.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::Plugin.InputKit.Resource.Layout.design_navigation_menu = global::BloodDonationApp.Droid.Resource.Layout.design_navigation_menu;
+			global::Plugin.InputKit.Resource.Layout.design_navigation_menu_item = global::BloodDonationApp.Droid.Resource.Layout.design_navigation_menu_item;
+			global::Plugin.InputKit.Resource.Layout.design_text_input_password_icon = global::BloodDonationApp.Droid.Resource.Layout.design_text_input_password_icon;
+			global::Plugin.InputKit.Resource.Layout.FlyoutContent = global::BloodDonationApp.Droid.Resource.Layout.FlyoutContent;
+			global::Plugin.InputKit.Resource.Layout.mtrl_layout_snackbar = global::BloodDonationApp.Droid.Resource.Layout.mtrl_layout_snackbar;
+			global::Plugin.InputKit.Resource.Layout.mtrl_layout_snackbar_include = global::BloodDonationApp.Droid.Resource.Layout.mtrl_layout_snackbar_include;
+			global::Plugin.InputKit.Resource.Layout.notification_action = global::BloodDonationApp.Droid.Resource.Layout.notification_action;
+			global::Plugin.InputKit.Resource.Layout.notification_action_tombstone = global::BloodDonationApp.Droid.Resource.Layout.notification_action_tombstone;
+			global::Plugin.InputKit.Resource.Layout.notification_media_action = global::BloodDonationApp.Droid.Resource.Layout.notification_media_action;
+			global::Plugin.InputKit.Resource.Layout.notification_media_cancel_action = global::BloodDonationApp.Droid.Resource.Layout.notification_media_cancel_action;
+			global::Plugin.InputKit.Resource.Layout.notification_template_big_media = global::BloodDonationApp.Droid.Resource.Layout.notification_template_big_media;
+			global::Plugin.InputKit.Resource.Layout.notification_template_big_media_custom = global::BloodDonationApp.Droid.Resource.Layout.notification_template_big_media_custom;
+			global::Plugin.InputKit.Resource.Layout.notification_template_big_media_narrow = global::BloodDonationApp.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::Plugin.InputKit.Resource.Layout.notification_template_big_media_narrow_custom = global::BloodDonationApp.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
+			global::Plugin.InputKit.Resource.Layout.notification_template_custom_big = global::BloodDonationApp.Droid.Resource.Layout.notification_template_custom_big;
+			global::Plugin.InputKit.Resource.Layout.notification_template_icon_group = global::BloodDonationApp.Droid.Resource.Layout.notification_template_icon_group;
+			global::Plugin.InputKit.Resource.Layout.notification_template_lines_media = global::BloodDonationApp.Droid.Resource.Layout.notification_template_lines_media;
+			global::Plugin.InputKit.Resource.Layout.notification_template_media = global::BloodDonationApp.Droid.Resource.Layout.notification_template_media;
+			global::Plugin.InputKit.Resource.Layout.notification_template_media_custom = global::BloodDonationApp.Droid.Resource.Layout.notification_template_media_custom;
+			global::Plugin.InputKit.Resource.Layout.notification_template_part_chronometer = global::BloodDonationApp.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::Plugin.InputKit.Resource.Layout.notification_template_part_time = global::BloodDonationApp.Droid.Resource.Layout.notification_template_part_time;
+			global::Plugin.InputKit.Resource.Layout.RootLayout = global::BloodDonationApp.Droid.Resource.Layout.RootLayout;
+			global::Plugin.InputKit.Resource.Layout.select_dialog_item_material = global::BloodDonationApp.Droid.Resource.Layout.select_dialog_item_material;
+			global::Plugin.InputKit.Resource.Layout.select_dialog_multichoice_material = global::BloodDonationApp.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::Plugin.InputKit.Resource.Layout.select_dialog_singlechoice_material = global::BloodDonationApp.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::Plugin.InputKit.Resource.Layout.ShellContent = global::BloodDonationApp.Droid.Resource.Layout.ShellContent;
+			global::Plugin.InputKit.Resource.Layout.support_simple_spinner_dropdown_item = global::BloodDonationApp.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::Plugin.InputKit.Resource.String.abc_action_bar_home_description = global::BloodDonationApp.Droid.Resource.String.abc_action_bar_home_description;
+			global::Plugin.InputKit.Resource.String.abc_action_bar_up_description = global::BloodDonationApp.Droid.Resource.String.abc_action_bar_up_description;
+			global::Plugin.InputKit.Resource.String.abc_action_menu_overflow_description = global::BloodDonationApp.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::Plugin.InputKit.Resource.String.abc_action_mode_done = global::BloodDonationApp.Droid.Resource.String.abc_action_mode_done;
+			global::Plugin.InputKit.Resource.String.abc_activitychooserview_choose_application = global::BloodDonationApp.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::Plugin.InputKit.Resource.String.abc_activity_chooser_view_see_all = global::BloodDonationApp.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::Plugin.InputKit.Resource.String.abc_capital_off = global::BloodDonationApp.Droid.Resource.String.abc_capital_off;
+			global::Plugin.InputKit.Resource.String.abc_capital_on = global::BloodDonationApp.Droid.Resource.String.abc_capital_on;
+			global::Plugin.InputKit.Resource.String.abc_font_family_body_1_material = global::BloodDonationApp.Droid.Resource.String.abc_font_family_body_1_material;
+			global::Plugin.InputKit.Resource.String.abc_font_family_body_2_material = global::BloodDonationApp.Droid.Resource.String.abc_font_family_body_2_material;
+			global::Plugin.InputKit.Resource.String.abc_font_family_button_material = global::BloodDonationApp.Droid.Resource.String.abc_font_family_button_material;
+			global::Plugin.InputKit.Resource.String.abc_font_family_caption_material = global::BloodDonationApp.Droid.Resource.String.abc_font_family_caption_material;
+			global::Plugin.InputKit.Resource.String.abc_font_family_display_1_material = global::BloodDonationApp.Droid.Resource.String.abc_font_family_display_1_material;
+			global::Plugin.InputKit.Resource.String.abc_font_family_display_2_material = global::BloodDonationApp.Droid.Resource.String.abc_font_family_display_2_material;
+			global::Plugin.InputKit.Resource.String.abc_font_family_display_3_material = global::BloodDonationApp.Droid.Resource.String.abc_font_family_display_3_material;
+			global::Plugin.InputKit.Resource.String.abc_font_family_display_4_material = global::BloodDonationApp.Droid.Resource.String.abc_font_family_display_4_material;
+			global::Plugin.InputKit.Resource.String.abc_font_family_headline_material = global::BloodDonationApp.Droid.Resource.String.abc_font_family_headline_material;
+			global::Plugin.InputKit.Resource.String.abc_font_family_menu_material = global::BloodDonationApp.Droid.Resource.String.abc_font_family_menu_material;
+			global::Plugin.InputKit.Resource.String.abc_font_family_subhead_material = global::BloodDonationApp.Droid.Resource.String.abc_font_family_subhead_material;
+			global::Plugin.InputKit.Resource.String.abc_font_family_title_material = global::BloodDonationApp.Droid.Resource.String.abc_font_family_title_material;
+			global::Plugin.InputKit.Resource.String.abc_menu_alt_shortcut_label = global::BloodDonationApp.Droid.Resource.String.abc_menu_alt_shortcut_label;
+			global::Plugin.InputKit.Resource.String.abc_menu_ctrl_shortcut_label = global::BloodDonationApp.Droid.Resource.String.abc_menu_ctrl_shortcut_label;
+			global::Plugin.InputKit.Resource.String.abc_menu_delete_shortcut_label = global::BloodDonationApp.Droid.Resource.String.abc_menu_delete_shortcut_label;
+			global::Plugin.InputKit.Resource.String.abc_menu_enter_shortcut_label = global::BloodDonationApp.Droid.Resource.String.abc_menu_enter_shortcut_label;
+			global::Plugin.InputKit.Resource.String.abc_menu_function_shortcut_label = global::BloodDonationApp.Droid.Resource.String.abc_menu_function_shortcut_label;
+			global::Plugin.InputKit.Resource.String.abc_menu_meta_shortcut_label = global::BloodDonationApp.Droid.Resource.String.abc_menu_meta_shortcut_label;
+			global::Plugin.InputKit.Resource.String.abc_menu_shift_shortcut_label = global::BloodDonationApp.Droid.Resource.String.abc_menu_shift_shortcut_label;
+			global::Plugin.InputKit.Resource.String.abc_menu_space_shortcut_label = global::BloodDonationApp.Droid.Resource.String.abc_menu_space_shortcut_label;
+			global::Plugin.InputKit.Resource.String.abc_menu_sym_shortcut_label = global::BloodDonationApp.Droid.Resource.String.abc_menu_sym_shortcut_label;
+			global::Plugin.InputKit.Resource.String.abc_prepend_shortcut_label = global::BloodDonationApp.Droid.Resource.String.abc_prepend_shortcut_label;
+			global::Plugin.InputKit.Resource.String.abc_searchview_description_clear = global::BloodDonationApp.Droid.Resource.String.abc_searchview_description_clear;
+			global::Plugin.InputKit.Resource.String.abc_searchview_description_query = global::BloodDonationApp.Droid.Resource.String.abc_searchview_description_query;
+			global::Plugin.InputKit.Resource.String.abc_searchview_description_search = global::BloodDonationApp.Droid.Resource.String.abc_searchview_description_search;
+			global::Plugin.InputKit.Resource.String.abc_searchview_description_submit = global::BloodDonationApp.Droid.Resource.String.abc_searchview_description_submit;
+			global::Plugin.InputKit.Resource.String.abc_searchview_description_voice = global::BloodDonationApp.Droid.Resource.String.abc_searchview_description_voice;
+			global::Plugin.InputKit.Resource.String.abc_search_hint = global::BloodDonationApp.Droid.Resource.String.abc_search_hint;
+			global::Plugin.InputKit.Resource.String.abc_shareactionprovider_share_with = global::BloodDonationApp.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::Plugin.InputKit.Resource.String.abc_shareactionprovider_share_with_application = global::BloodDonationApp.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::Plugin.InputKit.Resource.String.abc_toolbar_collapse_description = global::BloodDonationApp.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::Plugin.InputKit.Resource.String.appbar_scrolling_view_behavior = global::BloodDonationApp.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::Plugin.InputKit.Resource.String.bottom_sheet_behavior = global::BloodDonationApp.Droid.Resource.String.bottom_sheet_behavior;
+			global::Plugin.InputKit.Resource.String.character_counter_content_description = global::BloodDonationApp.Droid.Resource.String.character_counter_content_description;
+			global::Plugin.InputKit.Resource.String.character_counter_pattern = global::BloodDonationApp.Droid.Resource.String.character_counter_pattern;
+			global::Plugin.InputKit.Resource.String.fab_transformation_scrim_behavior = global::BloodDonationApp.Droid.Resource.String.fab_transformation_scrim_behavior;
+			global::Plugin.InputKit.Resource.String.fab_transformation_sheet_behavior = global::BloodDonationApp.Droid.Resource.String.fab_transformation_sheet_behavior;
+			global::Plugin.InputKit.Resource.String.hide_bottom_view_on_scroll_behavior = global::BloodDonationApp.Droid.Resource.String.hide_bottom_view_on_scroll_behavior;
+			global::Plugin.InputKit.Resource.String.mtrl_chip_close_icon_content_description = global::BloodDonationApp.Droid.Resource.String.mtrl_chip_close_icon_content_description;
+			global::Plugin.InputKit.Resource.String.overflow_tab_title = global::BloodDonationApp.Droid.Resource.String.overflow_tab_title;
+			global::Plugin.InputKit.Resource.String.password_toggle_content_description = global::BloodDonationApp.Droid.Resource.String.password_toggle_content_description;
+			global::Plugin.InputKit.Resource.String.path_password_eye = global::BloodDonationApp.Droid.Resource.String.path_password_eye;
+			global::Plugin.InputKit.Resource.String.path_password_eye_mask_strike_through = global::BloodDonationApp.Droid.Resource.String.path_password_eye_mask_strike_through;
+			global::Plugin.InputKit.Resource.String.path_password_eye_mask_visible = global::BloodDonationApp.Droid.Resource.String.path_password_eye_mask_visible;
+			global::Plugin.InputKit.Resource.String.path_password_strike_through = global::BloodDonationApp.Droid.Resource.String.path_password_strike_through;
+			global::Plugin.InputKit.Resource.String.search_menu_title = global::BloodDonationApp.Droid.Resource.String.search_menu_title;
+			global::Plugin.InputKit.Resource.String.status_bar_notification_info_overflow = global::BloodDonationApp.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::Plugin.InputKit.Resource.Style.AlertDialog_AppCompat = global::BloodDonationApp.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::Plugin.InputKit.Resource.Style.AlertDialog_AppCompat_Light = global::BloodDonationApp.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::Plugin.InputKit.Resource.Style.Animation_AppCompat_Dialog = global::BloodDonationApp.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::Plugin.InputKit.Resource.Style.Animation_AppCompat_DropDownUp = global::BloodDonationApp.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::Plugin.InputKit.Resource.Style.Animation_AppCompat_Tooltip = global::BloodDonationApp.Droid.Resource.Style.Animation_AppCompat_Tooltip;
+			global::Plugin.InputKit.Resource.Style.Animation_Design_BottomSheetDialog = global::BloodDonationApp.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::Plugin.InputKit.Resource.Style.AppCompatDialogStyle = global::BloodDonationApp.Droid.Resource.Style.AppCompatDialogStyle;
+			global::Plugin.InputKit.Resource.Style.Base_AlertDialog_AppCompat = global::BloodDonationApp.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::Plugin.InputKit.Resource.Style.Base_AlertDialog_AppCompat_Light = global::BloodDonationApp.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::Plugin.InputKit.Resource.Style.Base_Animation_AppCompat_Dialog = global::BloodDonationApp.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::Plugin.InputKit.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::BloodDonationApp.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::Plugin.InputKit.Resource.Style.Base_Animation_AppCompat_Tooltip = global::BloodDonationApp.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip;
+			global::Plugin.InputKit.Resource.Style.Base_CardView = global::BloodDonationApp.Droid.Resource.Style.Base_CardView;
+			global::Plugin.InputKit.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::BloodDonationApp.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::Plugin.InputKit.Resource.Style.Base_DialogWindowTitle_AppCompat = global::BloodDonationApp.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat = global::BloodDonationApp.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::BloodDonationApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::BloodDonationApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Button = global::BloodDonationApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::BloodDonationApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::BloodDonationApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::BloodDonationApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::BloodDonationApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::BloodDonationApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::BloodDonationApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::BloodDonationApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Large = global::BloodDonationApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::BloodDonationApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::BloodDonationApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::BloodDonationApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::BloodDonationApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::BloodDonationApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::BloodDonationApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::BloodDonationApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::BloodDonationApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::BloodDonationApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Small = global::BloodDonationApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::BloodDonationApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::BloodDonationApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::BloodDonationApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Title = global::BloodDonationApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::BloodDonationApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::BloodDonationApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::BloodDonationApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::BloodDonationApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::BloodDonationApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::BloodDonationApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::BloodDonationApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::BloodDonationApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::BloodDonationApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::BloodDonationApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::BloodDonationApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::BloodDonationApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::BloodDonationApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::BloodDonationApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::BloodDonationApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::BloodDonationApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::BloodDonationApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::BloodDonationApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::BloodDonationApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::BloodDonationApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::BloodDonationApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::BloodDonationApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Plugin.InputKit.Resource.Style.Base_ThemeOverlay_AppCompat = global::BloodDonationApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::Plugin.InputKit.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::BloodDonationApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::Plugin.InputKit.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::BloodDonationApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::Plugin.InputKit.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::BloodDonationApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Plugin.InputKit.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::BloodDonationApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::Plugin.InputKit.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::BloodDonationApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Plugin.InputKit.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::BloodDonationApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::Plugin.InputKit.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog = global::BloodDonationApp.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog;
+			global::Plugin.InputKit.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert = global::BloodDonationApp.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_AppCompat = global::BloodDonationApp.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::BloodDonationApp.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_AppCompat_Dialog = global::BloodDonationApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::BloodDonationApp.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::BloodDonationApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::BloodDonationApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::BloodDonationApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_AppCompat_Light = global::BloodDonationApp.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::BloodDonationApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::BloodDonationApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::BloodDonationApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::BloodDonationApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::BloodDonationApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::BloodDonationApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_MaterialComponents = global::BloodDonationApp.Droid.Resource.Style.Base_Theme_MaterialComponents;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_MaterialComponents_Bridge = global::BloodDonationApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Bridge;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_MaterialComponents_CompactMenu = global::BloodDonationApp.Droid.Resource.Style.Base_Theme_MaterialComponents_CompactMenu;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_MaterialComponents_Dialog = global::BloodDonationApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge = global::BloodDonationApp.Droid.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert = global::BloodDonationApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize = global::BloodDonationApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth = global::BloodDonationApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_MaterialComponents_Light = global::BloodDonationApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge = global::BloodDonationApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar = global::BloodDonationApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::BloodDonationApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog = global::BloodDonationApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge = global::BloodDonationApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert = global::BloodDonationApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize = global::BloodDonationApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth = global::BloodDonationApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::Plugin.InputKit.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog = global::BloodDonationApp.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog;
+			global::Plugin.InputKit.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert = global::BloodDonationApp.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Plugin.InputKit.Resource.Style.Base_V14_Theme_MaterialComponents = global::BloodDonationApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents;
+			global::Plugin.InputKit.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge = global::BloodDonationApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge;
+			global::Plugin.InputKit.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog = global::BloodDonationApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog;
+			global::Plugin.InputKit.Resource.Style.Base_V14_Theme_MaterialComponents_Light = global::BloodDonationApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light;
+			global::Plugin.InputKit.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge = global::BloodDonationApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge;
+			global::Plugin.InputKit.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::BloodDonationApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Plugin.InputKit.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog = global::BloodDonationApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog;
+			global::Plugin.InputKit.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::BloodDonationApp.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::Plugin.InputKit.Resource.Style.Base_V21_Theme_AppCompat = global::BloodDonationApp.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::Plugin.InputKit.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::BloodDonationApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::Plugin.InputKit.Resource.Style.Base_V21_Theme_AppCompat_Light = global::BloodDonationApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::Plugin.InputKit.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::BloodDonationApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::Plugin.InputKit.Resource.Style.Base_V22_Theme_AppCompat = global::BloodDonationApp.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::Plugin.InputKit.Resource.Style.Base_V22_Theme_AppCompat_Light = global::BloodDonationApp.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::Plugin.InputKit.Resource.Style.Base_V23_Theme_AppCompat = global::BloodDonationApp.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::Plugin.InputKit.Resource.Style.Base_V23_Theme_AppCompat_Light = global::BloodDonationApp.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::Plugin.InputKit.Resource.Style.Base_V26_Theme_AppCompat = global::BloodDonationApp.Droid.Resource.Style.Base_V26_Theme_AppCompat;
+			global::Plugin.InputKit.Resource.Style.Base_V26_Theme_AppCompat_Light = global::BloodDonationApp.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light;
+			global::Plugin.InputKit.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::BloodDonationApp.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
+			global::Plugin.InputKit.Resource.Style.Base_V28_Theme_AppCompat = global::BloodDonationApp.Droid.Resource.Style.Base_V28_Theme_AppCompat;
+			global::Plugin.InputKit.Resource.Style.Base_V28_Theme_AppCompat_Light = global::BloodDonationApp.Droid.Resource.Style.Base_V28_Theme_AppCompat_Light;
+			global::Plugin.InputKit.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::BloodDonationApp.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::Plugin.InputKit.Resource.Style.Base_V7_Theme_AppCompat = global::BloodDonationApp.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::Plugin.InputKit.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::BloodDonationApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::Plugin.InputKit.Resource.Style.Base_V7_Theme_AppCompat_Light = global::BloodDonationApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::Plugin.InputKit.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::BloodDonationApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::Plugin.InputKit.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::BloodDonationApp.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::Plugin.InputKit.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::BloodDonationApp.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::Plugin.InputKit.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::BloodDonationApp.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ActionBar = global::BloodDonationApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::BloodDonationApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::BloodDonationApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::BloodDonationApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::BloodDonationApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ActionButton = global::BloodDonationApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::BloodDonationApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::BloodDonationApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ActionMode = global::BloodDonationApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::BloodDonationApp.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::BloodDonationApp.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_Button = global::BloodDonationApp.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::BloodDonationApp.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::BloodDonationApp.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::BloodDonationApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::BloodDonationApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::BloodDonationApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::BloodDonationApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_Button_Small = global::BloodDonationApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::BloodDonationApp.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::BloodDonationApp.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::BloodDonationApp.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::BloodDonationApp.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::BloodDonationApp.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::BloodDonationApp.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_EditText = global::BloodDonationApp.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ImageButton = global::BloodDonationApp.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::BloodDonationApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::BloodDonationApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::BloodDonationApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::BloodDonationApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::BloodDonationApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::BloodDonationApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::BloodDonationApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::BloodDonationApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::BloodDonationApp.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::BloodDonationApp.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ListView = global::BloodDonationApp.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::BloodDonationApp.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::BloodDonationApp.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::BloodDonationApp.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::BloodDonationApp.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::BloodDonationApp.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::BloodDonationApp.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::BloodDonationApp.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_RatingBar = global::BloodDonationApp.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::BloodDonationApp.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::BloodDonationApp.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_SearchView = global::BloodDonationApp.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::BloodDonationApp.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_SeekBar = global::BloodDonationApp.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::BloodDonationApp.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_Spinner = global::BloodDonationApp.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::BloodDonationApp.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::BloodDonationApp.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_Toolbar = global::BloodDonationApp.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::BloodDonationApp.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_Design_TabLayout = global::BloodDonationApp.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_MaterialComponents_Chip = global::BloodDonationApp.Droid.Resource.Style.Base_Widget_MaterialComponents_Chip;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText = global::BloodDonationApp.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout = global::BloodDonationApp.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout;
+			global::Plugin.InputKit.Resource.Style.CardView = global::BloodDonationApp.Droid.Resource.Style.CardView;
+			global::Plugin.InputKit.Resource.Style.CardView_Dark = global::BloodDonationApp.Droid.Resource.Style.CardView_Dark;
+			global::Plugin.InputKit.Resource.Style.CardView_Light = global::BloodDonationApp.Droid.Resource.Style.CardView_Light;
+			global::Plugin.InputKit.Resource.Style.collectionViewTheme = global::BloodDonationApp.Droid.Resource.Style.collectionViewTheme;
+			global::Plugin.InputKit.Resource.Style.MainTheme = global::BloodDonationApp.Droid.Resource.Style.MainTheme;
+			global::Plugin.InputKit.Resource.Style.MainTheme_Base = global::BloodDonationApp.Droid.Resource.Style.MainTheme_Base;
+			global::Plugin.InputKit.Resource.Style.MyPopupMenu = global::BloodDonationApp.Droid.Resource.Style.MyPopupMenu;
+			global::Plugin.InputKit.Resource.Style.Platform_AppCompat = global::BloodDonationApp.Droid.Resource.Style.Platform_AppCompat;
+			global::Plugin.InputKit.Resource.Style.Platform_AppCompat_Light = global::BloodDonationApp.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::Plugin.InputKit.Resource.Style.Platform_MaterialComponents = global::BloodDonationApp.Droid.Resource.Style.Platform_MaterialComponents;
+			global::Plugin.InputKit.Resource.Style.Platform_MaterialComponents_Dialog = global::BloodDonationApp.Droid.Resource.Style.Platform_MaterialComponents_Dialog;
+			global::Plugin.InputKit.Resource.Style.Platform_MaterialComponents_Light = global::BloodDonationApp.Droid.Resource.Style.Platform_MaterialComponents_Light;
+			global::Plugin.InputKit.Resource.Style.Platform_MaterialComponents_Light_Dialog = global::BloodDonationApp.Droid.Resource.Style.Platform_MaterialComponents_Light_Dialog;
+			global::Plugin.InputKit.Resource.Style.Platform_ThemeOverlay_AppCompat = global::BloodDonationApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::Plugin.InputKit.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::BloodDonationApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::Plugin.InputKit.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::BloodDonationApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::Plugin.InputKit.Resource.Style.Platform_V21_AppCompat = global::BloodDonationApp.Droid.Resource.Style.Platform_V21_AppCompat;
+			global::Plugin.InputKit.Resource.Style.Platform_V21_AppCompat_Light = global::BloodDonationApp.Droid.Resource.Style.Platform_V21_AppCompat_Light;
+			global::Plugin.InputKit.Resource.Style.Platform_V25_AppCompat = global::BloodDonationApp.Droid.Resource.Style.Platform_V25_AppCompat;
+			global::Plugin.InputKit.Resource.Style.Platform_V25_AppCompat_Light = global::BloodDonationApp.Droid.Resource.Style.Platform_V25_AppCompat_Light;
+			global::Plugin.InputKit.Resource.Style.Platform_Widget_AppCompat_Spinner = global::BloodDonationApp.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::Plugin.InputKit.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::BloodDonationApp.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::Plugin.InputKit.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::BloodDonationApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::Plugin.InputKit.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::BloodDonationApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::Plugin.InputKit.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::BloodDonationApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::Plugin.InputKit.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::BloodDonationApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::Plugin.InputKit.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = global::BloodDonationApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut;
+			global::Plugin.InputKit.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = global::BloodDonationApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow;
+			global::Plugin.InputKit.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::BloodDonationApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::Plugin.InputKit.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = global::BloodDonationApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title;
+			global::Plugin.InputKit.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::BloodDonationApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::Plugin.InputKit.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::BloodDonationApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::Plugin.InputKit.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::BloodDonationApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::Plugin.InputKit.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::BloodDonationApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::Plugin.InputKit.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::BloodDonationApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::Plugin.InputKit.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::BloodDonationApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::Plugin.InputKit.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::BloodDonationApp.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::Plugin.InputKit.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::BloodDonationApp.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat = global::BloodDonationApp.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Body1 = global::BloodDonationApp.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Body2 = global::BloodDonationApp.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Button = global::BloodDonationApp.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Caption = global::BloodDonationApp.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Display1 = global::BloodDonationApp.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Display2 = global::BloodDonationApp.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Display3 = global::BloodDonationApp.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Display4 = global::BloodDonationApp.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Headline = global::BloodDonationApp.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Inverse = global::BloodDonationApp.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Large = global::BloodDonationApp.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::BloodDonationApp.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::BloodDonationApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::BloodDonationApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::BloodDonationApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::BloodDonationApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Medium = global::BloodDonationApp.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::BloodDonationApp.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Menu = global::BloodDonationApp.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::BloodDonationApp.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::BloodDonationApp.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Small = global::BloodDonationApp.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::BloodDonationApp.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Subhead = global::BloodDonationApp.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::BloodDonationApp.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Title = global::BloodDonationApp.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::BloodDonationApp.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Tooltip = global::BloodDonationApp.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::BloodDonationApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::BloodDonationApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::BloodDonationApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::BloodDonationApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::BloodDonationApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::BloodDonationApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::BloodDonationApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::BloodDonationApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::BloodDonationApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::BloodDonationApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::BloodDonationApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::BloodDonationApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::BloodDonationApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::BloodDonationApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::BloodDonationApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::BloodDonationApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::BloodDonationApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::BloodDonationApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::BloodDonationApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_Compat_Notification = global::BloodDonationApp.Droid.Resource.Style.TextAppearance_Compat_Notification;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_Compat_Notification_Info = global::BloodDonationApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_Compat_Notification_Info_Media = global::BloodDonationApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::BloodDonationApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_Compat_Notification_Line2_Media = global::BloodDonationApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_Compat_Notification_Media = global::BloodDonationApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Media;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_Compat_Notification_Time = global::BloodDonationApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_Compat_Notification_Time_Media = global::BloodDonationApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_Compat_Notification_Title = global::BloodDonationApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_Compat_Notification_Title_Media = global::BloodDonationApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::BloodDonationApp.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_Design_Counter = global::BloodDonationApp.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_Design_Counter_Overflow = global::BloodDonationApp.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_Design_Error = global::BloodDonationApp.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_Design_HelperText = global::BloodDonationApp.Droid.Resource.Style.TextAppearance_Design_HelperText;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_Design_Hint = global::BloodDonationApp.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_Design_Snackbar_Message = global::BloodDonationApp.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_Design_Tab = global::BloodDonationApp.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_MaterialComponents_Body1 = global::BloodDonationApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Body1;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_MaterialComponents_Body2 = global::BloodDonationApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Body2;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_MaterialComponents_Button = global::BloodDonationApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Button;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_MaterialComponents_Caption = global::BloodDonationApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Caption;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_MaterialComponents_Chip = global::BloodDonationApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Chip;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_MaterialComponents_Headline1 = global::BloodDonationApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline1;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_MaterialComponents_Headline2 = global::BloodDonationApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline2;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_MaterialComponents_Headline3 = global::BloodDonationApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline3;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_MaterialComponents_Headline4 = global::BloodDonationApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline4;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_MaterialComponents_Headline5 = global::BloodDonationApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline5;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_MaterialComponents_Headline6 = global::BloodDonationApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline6;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_MaterialComponents_Overline = global::BloodDonationApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Overline;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_MaterialComponents_Subtitle1 = global::BloodDonationApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle1;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_MaterialComponents_Subtitle2 = global::BloodDonationApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle2;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_MaterialComponents_Tab = global::BloodDonationApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Tab;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::BloodDonationApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::BloodDonationApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::BloodDonationApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Plugin.InputKit.Resource.Style.ThemeOverlay_AppCompat = global::BloodDonationApp.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::Plugin.InputKit.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::BloodDonationApp.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::Plugin.InputKit.Resource.Style.ThemeOverlay_AppCompat_Dark = global::BloodDonationApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::Plugin.InputKit.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::BloodDonationApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Plugin.InputKit.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::BloodDonationApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::Plugin.InputKit.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::BloodDonationApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Plugin.InputKit.Resource.Style.ThemeOverlay_AppCompat_Light = global::BloodDonationApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::Plugin.InputKit.Resource.Style.ThemeOverlay_MaterialComponents = global::BloodDonationApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents;
+			global::Plugin.InputKit.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar = global::BloodDonationApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar;
+			global::Plugin.InputKit.Resource.Style.ThemeOverlay_MaterialComponents_Dark = global::BloodDonationApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark;
+			global::Plugin.InputKit.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar = global::BloodDonationApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar;
+			global::Plugin.InputKit.Resource.Style.ThemeOverlay_MaterialComponents_Dialog = global::BloodDonationApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog;
+			global::Plugin.InputKit.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert = global::BloodDonationApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Plugin.InputKit.Resource.Style.ThemeOverlay_MaterialComponents_Light = global::BloodDonationApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light;
+			global::Plugin.InputKit.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText = global::BloodDonationApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText;
+			global::Plugin.InputKit.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = global::BloodDonationApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox;
+			global::Plugin.InputKit.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = global::BloodDonationApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::Plugin.InputKit.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = global::BloodDonationApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::Plugin.InputKit.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::BloodDonationApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::Plugin.InputKit.Resource.Style.Theme_AppCompat = global::BloodDonationApp.Droid.Resource.Style.Theme_AppCompat;
+			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_CompactMenu = global::BloodDonationApp.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_DayNight = global::BloodDonationApp.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::BloodDonationApp.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::BloodDonationApp.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::BloodDonationApp.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::BloodDonationApp.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::BloodDonationApp.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::BloodDonationApp.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_Dialog = global::BloodDonationApp.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::BloodDonationApp.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_Dialog_Alert = global::BloodDonationApp.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::BloodDonationApp.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_Light = global::BloodDonationApp.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::BloodDonationApp.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_Light_Dialog = global::BloodDonationApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::BloodDonationApp.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::BloodDonationApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::BloodDonationApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::BloodDonationApp.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_NoActionBar = global::BloodDonationApp.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::Plugin.InputKit.Resource.Style.Theme_Design = global::BloodDonationApp.Droid.Resource.Style.Theme_Design;
+			global::Plugin.InputKit.Resource.Style.Theme_Design_BottomSheetDialog = global::BloodDonationApp.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::Plugin.InputKit.Resource.Style.Theme_Design_Light = global::BloodDonationApp.Droid.Resource.Style.Theme_Design_Light;
+			global::Plugin.InputKit.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::BloodDonationApp.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::Plugin.InputKit.Resource.Style.Theme_Design_Light_NoActionBar = global::BloodDonationApp.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::Plugin.InputKit.Resource.Style.Theme_Design_NoActionBar = global::BloodDonationApp.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::Plugin.InputKit.Resource.Style.Theme_MaterialComponents = global::BloodDonationApp.Droid.Resource.Style.Theme_MaterialComponents;
+			global::Plugin.InputKit.Resource.Style.Theme_MaterialComponents_BottomSheetDialog = global::BloodDonationApp.Droid.Resource.Style.Theme_MaterialComponents_BottomSheetDialog;
+			global::Plugin.InputKit.Resource.Style.Theme_MaterialComponents_Bridge = global::BloodDonationApp.Droid.Resource.Style.Theme_MaterialComponents_Bridge;
+			global::Plugin.InputKit.Resource.Style.Theme_MaterialComponents_CompactMenu = global::BloodDonationApp.Droid.Resource.Style.Theme_MaterialComponents_CompactMenu;
+			global::Plugin.InputKit.Resource.Style.Theme_MaterialComponents_Dialog = global::BloodDonationApp.Droid.Resource.Style.Theme_MaterialComponents_Dialog;
+			global::Plugin.InputKit.Resource.Style.Theme_MaterialComponents_DialogWhenLarge = global::BloodDonationApp.Droid.Resource.Style.Theme_MaterialComponents_DialogWhenLarge;
+			global::Plugin.InputKit.Resource.Style.Theme_MaterialComponents_Dialog_Alert = global::BloodDonationApp.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert;
+			global::Plugin.InputKit.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth = global::BloodDonationApp.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth;
+			global::Plugin.InputKit.Resource.Style.Theme_MaterialComponents_Light = global::BloodDonationApp.Droid.Resource.Style.Theme_MaterialComponents_Light;
+			global::Plugin.InputKit.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog = global::BloodDonationApp.Droid.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog;
+			global::Plugin.InputKit.Resource.Style.Theme_MaterialComponents_Light_Bridge = global::BloodDonationApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Bridge;
+			global::Plugin.InputKit.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar = global::BloodDonationApp.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar;
+			global::Plugin.InputKit.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::BloodDonationApp.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Plugin.InputKit.Resource.Style.Theme_MaterialComponents_Light_Dialog = global::BloodDonationApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog;
+			global::Plugin.InputKit.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge = global::BloodDonationApp.Droid.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::Plugin.InputKit.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert = global::BloodDonationApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert;
+			global::Plugin.InputKit.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth = global::BloodDonationApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::Plugin.InputKit.Resource.Style.Theme_MaterialComponents_Light_NoActionBar = global::BloodDonationApp.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar;
+			global::Plugin.InputKit.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge = global::BloodDonationApp.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge;
+			global::Plugin.InputKit.Resource.Style.Theme_MaterialComponents_NoActionBar = global::BloodDonationApp.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar;
+			global::Plugin.InputKit.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge = global::BloodDonationApp.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ActionBar = global::BloodDonationApp.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::BloodDonationApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::BloodDonationApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::BloodDonationApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::BloodDonationApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ActionButton = global::BloodDonationApp.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::BloodDonationApp.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::BloodDonationApp.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ActionMode = global::BloodDonationApp.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ActivityChooserView = global::BloodDonationApp.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::BloodDonationApp.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Button = global::BloodDonationApp.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ButtonBar = global::BloodDonationApp.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::BloodDonationApp.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Button_Borderless = global::BloodDonationApp.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::BloodDonationApp.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::BloodDonationApp.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Button_Colored = global::BloodDonationApp.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Button_Small = global::BloodDonationApp.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::BloodDonationApp.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::BloodDonationApp.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::BloodDonationApp.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::BloodDonationApp.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::BloodDonationApp.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_EditText = global::BloodDonationApp.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ImageButton = global::BloodDonationApp.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_ActionBar = global::BloodDonationApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::BloodDonationApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::BloodDonationApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::BloodDonationApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::BloodDonationApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::BloodDonationApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::BloodDonationApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::BloodDonationApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::BloodDonationApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_ActionButton = global::BloodDonationApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::BloodDonationApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::BloodDonationApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::BloodDonationApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::BloodDonationApp.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::BloodDonationApp.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::BloodDonationApp.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::BloodDonationApp.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::BloodDonationApp.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::BloodDonationApp.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::BloodDonationApp.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_SearchView = global::BloodDonationApp.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::BloodDonationApp.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ListMenuView = global::BloodDonationApp.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ListPopupWindow = global::BloodDonationApp.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ListView = global::BloodDonationApp.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ListView_DropDown = global::BloodDonationApp.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ListView_Menu = global::BloodDonationApp.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_PopupMenu = global::BloodDonationApp.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::BloodDonationApp.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_PopupWindow = global::BloodDonationApp.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ProgressBar = global::BloodDonationApp.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::BloodDonationApp.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_RatingBar = global::BloodDonationApp.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::BloodDonationApp.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_RatingBar_Small = global::BloodDonationApp.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_SearchView = global::BloodDonationApp.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::BloodDonationApp.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_SeekBar = global::BloodDonationApp.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::BloodDonationApp.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Spinner = global::BloodDonationApp.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::BloodDonationApp.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::BloodDonationApp.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::BloodDonationApp.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::BloodDonationApp.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Toolbar = global::BloodDonationApp.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::BloodDonationApp.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Plugin.InputKit.Resource.Style.Widget_Compat_NotificationActionContainer = global::BloodDonationApp.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::Plugin.InputKit.Resource.Style.Widget_Compat_NotificationActionText = global::BloodDonationApp.Droid.Resource.Style.Widget_Compat_NotificationActionText;
+			global::Plugin.InputKit.Resource.Style.Widget_Design_AppBarLayout = global::BloodDonationApp.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::Plugin.InputKit.Resource.Style.Widget_Design_BottomNavigationView = global::BloodDonationApp.Droid.Resource.Style.Widget_Design_BottomNavigationView;
+			global::Plugin.InputKit.Resource.Style.Widget_Design_BottomSheet_Modal = global::BloodDonationApp.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::Plugin.InputKit.Resource.Style.Widget_Design_CollapsingToolbar = global::BloodDonationApp.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::Plugin.InputKit.Resource.Style.Widget_Design_FloatingActionButton = global::BloodDonationApp.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::Plugin.InputKit.Resource.Style.Widget_Design_NavigationView = global::BloodDonationApp.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::Plugin.InputKit.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::BloodDonationApp.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::Plugin.InputKit.Resource.Style.Widget_Design_Snackbar = global::BloodDonationApp.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::Plugin.InputKit.Resource.Style.Widget_Design_TabLayout = global::BloodDonationApp.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::Plugin.InputKit.Resource.Style.Widget_Design_TextInputLayout = global::BloodDonationApp.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_BottomAppBar = global::BloodDonationApp.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored = global::BloodDonationApp.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_BottomNavigationView = global::BloodDonationApp.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored = global::BloodDonationApp.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal = global::BloodDonationApp.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_Button = global::BloodDonationApp.Droid.Resource.Style.Widget_MaterialComponents_Button;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_Button_Icon = global::BloodDonationApp.Droid.Resource.Style.Widget_MaterialComponents_Button_Icon;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton = global::BloodDonationApp.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon = global::BloodDonationApp.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_Button_TextButton = global::BloodDonationApp.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog = global::BloodDonationApp.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon = global::BloodDonationApp.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon = global::BloodDonationApp.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton = global::BloodDonationApp.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon = global::BloodDonationApp.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_CardView = global::BloodDonationApp.Droid.Resource.Style.Widget_MaterialComponents_CardView;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_ChipGroup = global::BloodDonationApp.Droid.Resource.Style.Widget_MaterialComponents_ChipGroup;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_Chip_Action = global::BloodDonationApp.Droid.Resource.Style.Widget_MaterialComponents_Chip_Action;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_Chip_Choice = global::BloodDonationApp.Droid.Resource.Style.Widget_MaterialComponents_Chip_Choice;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_Chip_Entry = global::BloodDonationApp.Droid.Resource.Style.Widget_MaterialComponents_Chip_Entry;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_Chip_Filter = global::BloodDonationApp.Droid.Resource.Style.Widget_MaterialComponents_Chip_Filter;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_FloatingActionButton = global::BloodDonationApp.Droid.Resource.Style.Widget_MaterialComponents_FloatingActionButton;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_NavigationView = global::BloodDonationApp.Droid.Resource.Style.Widget_MaterialComponents_NavigationView;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_Snackbar = global::BloodDonationApp.Droid.Resource.Style.Widget_MaterialComponents_Snackbar;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth = global::BloodDonationApp.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_TabLayout = global::BloodDonationApp.Droid.Resource.Style.Widget_MaterialComponents_TabLayout;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_TabLayout_Colored = global::BloodDonationApp.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_Colored;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox = global::BloodDonationApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = global::BloodDonationApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox = global::BloodDonationApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::BloodDonationApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox = global::BloodDonationApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = global::BloodDonationApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox = global::BloodDonationApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = global::BloodDonationApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_Toolbar = global::BloodDonationApp.Droid.Resource.Style.Widget_MaterialComponents_Toolbar;
+			global::Plugin.InputKit.Resource.Style.Widget_Support_CoordinatorLayout = global::BloodDonationApp.Droid.Resource.Style.Widget_Support_CoordinatorLayout;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar = global::BloodDonationApp.Droid.Resource.Styleable.ActionBar;
+			global::Plugin.InputKit.Resource.Styleable.ActionBarLayout = global::BloodDonationApp.Droid.Resource.Styleable.ActionBarLayout;
+			global::Plugin.InputKit.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::BloodDonationApp.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_background = global::BloodDonationApp.Droid.Resource.Styleable.ActionBar_background;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_backgroundSplit = global::BloodDonationApp.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_backgroundStacked = global::BloodDonationApp.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_contentInsetEnd = global::BloodDonationApp.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::BloodDonationApp.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_contentInsetLeft = global::BloodDonationApp.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_contentInsetRight = global::BloodDonationApp.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_contentInsetStart = global::BloodDonationApp.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::BloodDonationApp.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_customNavigationLayout = global::BloodDonationApp.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_displayOptions = global::BloodDonationApp.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_divider = global::BloodDonationApp.Droid.Resource.Styleable.ActionBar_divider;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_elevation = global::BloodDonationApp.Droid.Resource.Styleable.ActionBar_elevation;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_height = global::BloodDonationApp.Droid.Resource.Styleable.ActionBar_height;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_hideOnContentScroll = global::BloodDonationApp.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_homeAsUpIndicator = global::BloodDonationApp.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_homeLayout = global::BloodDonationApp.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_icon = global::BloodDonationApp.Droid.Resource.Styleable.ActionBar_icon;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::BloodDonationApp.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_itemPadding = global::BloodDonationApp.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_logo = global::BloodDonationApp.Droid.Resource.Styleable.ActionBar_logo;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_navigationMode = global::BloodDonationApp.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_popupTheme = global::BloodDonationApp.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_progressBarPadding = global::BloodDonationApp.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_progressBarStyle = global::BloodDonationApp.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_subtitle = global::BloodDonationApp.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_subtitleTextStyle = global::BloodDonationApp.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_title = global::BloodDonationApp.Droid.Resource.Styleable.ActionBar_title;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_titleTextStyle = global::BloodDonationApp.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::Plugin.InputKit.Resource.Styleable.ActionMenuItemView = global::BloodDonationApp.Droid.Resource.Styleable.ActionMenuItemView;
+			global::Plugin.InputKit.Resource.Styleable.ActionMenuItemView_android_minWidth = global::BloodDonationApp.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::Plugin.InputKit.Resource.Styleable.ActionMenuView = global::BloodDonationApp.Droid.Resource.Styleable.ActionMenuView;
+			global::Plugin.InputKit.Resource.Styleable.ActionMode = global::BloodDonationApp.Droid.Resource.Styleable.ActionMode;
+			global::Plugin.InputKit.Resource.Styleable.ActionMode_background = global::BloodDonationApp.Droid.Resource.Styleable.ActionMode_background;
+			global::Plugin.InputKit.Resource.Styleable.ActionMode_backgroundSplit = global::BloodDonationApp.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::Plugin.InputKit.Resource.Styleable.ActionMode_closeItemLayout = global::BloodDonationApp.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::Plugin.InputKit.Resource.Styleable.ActionMode_height = global::BloodDonationApp.Droid.Resource.Styleable.ActionMode_height;
+			global::Plugin.InputKit.Resource.Styleable.ActionMode_subtitleTextStyle = global::BloodDonationApp.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::Plugin.InputKit.Resource.Styleable.ActionMode_titleTextStyle = global::BloodDonationApp.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::Plugin.InputKit.Resource.Styleable.ActivityChooserView = global::BloodDonationApp.Droid.Resource.Styleable.ActivityChooserView;
+			global::Plugin.InputKit.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::BloodDonationApp.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::Plugin.InputKit.Resource.Styleable.ActivityChooserView_initialActivityCount = global::BloodDonationApp.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::Plugin.InputKit.Resource.Styleable.AlertDialog = global::BloodDonationApp.Droid.Resource.Styleable.AlertDialog;
+			global::Plugin.InputKit.Resource.Styleable.AlertDialog_android_layout = global::BloodDonationApp.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::Plugin.InputKit.Resource.Styleable.AlertDialog_buttonIconDimen = global::BloodDonationApp.Droid.Resource.Styleable.AlertDialog_buttonIconDimen;
+			global::Plugin.InputKit.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::BloodDonationApp.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::Plugin.InputKit.Resource.Styleable.AlertDialog_listItemLayout = global::BloodDonationApp.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::Plugin.InputKit.Resource.Styleable.AlertDialog_listLayout = global::BloodDonationApp.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::Plugin.InputKit.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::BloodDonationApp.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::Plugin.InputKit.Resource.Styleable.AlertDialog_showTitle = global::BloodDonationApp.Droid.Resource.Styleable.AlertDialog_showTitle;
+			global::Plugin.InputKit.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::BloodDonationApp.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::Plugin.InputKit.Resource.Styleable.AnimatedStateListDrawableCompat = global::BloodDonationApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat;
+			global::Plugin.InputKit.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize = global::BloodDonationApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize;
+			global::Plugin.InputKit.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither = global::BloodDonationApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither;
+			global::Plugin.InputKit.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration = global::BloodDonationApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration;
+			global::Plugin.InputKit.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration = global::BloodDonationApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration;
+			global::Plugin.InputKit.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding = global::BloodDonationApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding;
+			global::Plugin.InputKit.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible = global::BloodDonationApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible;
+			global::Plugin.InputKit.Resource.Styleable.AnimatedStateListDrawableItem = global::BloodDonationApp.Droid.Resource.Styleable.AnimatedStateListDrawableItem;
+			global::Plugin.InputKit.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable = global::BloodDonationApp.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable;
+			global::Plugin.InputKit.Resource.Styleable.AnimatedStateListDrawableItem_android_id = global::BloodDonationApp.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_id;
+			global::Plugin.InputKit.Resource.Styleable.AnimatedStateListDrawableTransition = global::BloodDonationApp.Droid.Resource.Styleable.AnimatedStateListDrawableTransition;
+			global::Plugin.InputKit.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable = global::BloodDonationApp.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable;
+			global::Plugin.InputKit.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId = global::BloodDonationApp.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId;
+			global::Plugin.InputKit.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible = global::BloodDonationApp.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible;
+			global::Plugin.InputKit.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId = global::BloodDonationApp.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId;
+			global::Plugin.InputKit.Resource.Styleable.AppBarLayout = global::BloodDonationApp.Droid.Resource.Styleable.AppBarLayout;
+			global::Plugin.InputKit.Resource.Styleable.AppBarLayoutStates = global::BloodDonationApp.Droid.Resource.Styleable.AppBarLayoutStates;
+			global::Plugin.InputKit.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::BloodDonationApp.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
+			global::Plugin.InputKit.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::BloodDonationApp.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::Plugin.InputKit.Resource.Styleable.AppBarLayoutStates_state_liftable = global::BloodDonationApp.Droid.Resource.Styleable.AppBarLayoutStates_state_liftable;
+			global::Plugin.InputKit.Resource.Styleable.AppBarLayoutStates_state_lifted = global::BloodDonationApp.Droid.Resource.Styleable.AppBarLayoutStates_state_lifted;
+			global::Plugin.InputKit.Resource.Styleable.AppBarLayout_android_background = global::BloodDonationApp.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::Plugin.InputKit.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster = global::BloodDonationApp.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster;
+			global::Plugin.InputKit.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus = global::BloodDonationApp.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus;
+			global::Plugin.InputKit.Resource.Styleable.AppBarLayout_elevation = global::BloodDonationApp.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::Plugin.InputKit.Resource.Styleable.AppBarLayout_expanded = global::BloodDonationApp.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::Plugin.InputKit.Resource.Styleable.AppBarLayout_Layout = global::BloodDonationApp.Droid.Resource.Styleable.AppBarLayout_Layout;
+			global::Plugin.InputKit.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::BloodDonationApp.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
+			global::Plugin.InputKit.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::BloodDonationApp.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
+			global::Plugin.InputKit.Resource.Styleable.AppBarLayout_liftOnScroll = global::BloodDonationApp.Droid.Resource.Styleable.AppBarLayout_liftOnScroll;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatImageView = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatImageView;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatImageView_android_src = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatImageView_srcCompat = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatImageView_tint = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatImageView_tint;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatImageView_tintMode = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatImageView_tintMode;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatSeekBar = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatSeekBar;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatSeekBar_android_thumb = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatSeekBar_tickMark = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextHelper = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTextHelper;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextView = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTextView;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextView_android_textAppearance = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextView_fontFamily = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextView_lineHeight = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTextView_lineHeight;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextView_textAllCaps = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionBarDivider = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionBarSize = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionBarStyle = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionBarTheme = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionModeBackground = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionModeStyle = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_buttonStyle = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_checkboxStyle = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_colorAccent = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_colorControlActivated = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_colorControlNormal = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_colorError = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_colorError;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_colorPrimary = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_controlBackground = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_dialogCornerRadius = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_dialogCornerRadius;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_dialogTheme = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_dividerVertical = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_editTextBackground = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_editTextColor = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_editTextStyle = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_panelBackground = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_searchViewStyle = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_seekBarStyle = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_spinnerStyle = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_switchStyle = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_toolbarStyle = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_viewInflaterClass = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_viewInflaterClass;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_windowActionBar = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_windowNoTitle = global::BloodDonationApp.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::Plugin.InputKit.Resource.Styleable.BottomAppBar = global::BloodDonationApp.Droid.Resource.Styleable.BottomAppBar;
+			global::Plugin.InputKit.Resource.Styleable.BottomAppBar_backgroundTint = global::BloodDonationApp.Droid.Resource.Styleable.BottomAppBar_backgroundTint;
+			global::Plugin.InputKit.Resource.Styleable.BottomAppBar_fabAlignmentMode = global::BloodDonationApp.Droid.Resource.Styleable.BottomAppBar_fabAlignmentMode;
+			global::Plugin.InputKit.Resource.Styleable.BottomAppBar_fabCradleMargin = global::BloodDonationApp.Droid.Resource.Styleable.BottomAppBar_fabCradleMargin;
+			global::Plugin.InputKit.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius = global::BloodDonationApp.Droid.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius;
+			global::Plugin.InputKit.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset = global::BloodDonationApp.Droid.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset;
+			global::Plugin.InputKit.Resource.Styleable.BottomAppBar_hideOnScroll = global::BloodDonationApp.Droid.Resource.Styleable.BottomAppBar_hideOnScroll;
+			global::Plugin.InputKit.Resource.Styleable.BottomNavigationView = global::BloodDonationApp.Droid.Resource.Styleable.BottomNavigationView;
+			global::Plugin.InputKit.Resource.Styleable.BottomNavigationView_elevation = global::BloodDonationApp.Droid.Resource.Styleable.BottomNavigationView_elevation;
+			global::Plugin.InputKit.Resource.Styleable.BottomNavigationView_itemBackground = global::BloodDonationApp.Droid.Resource.Styleable.BottomNavigationView_itemBackground;
+			global::Plugin.InputKit.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled = global::BloodDonationApp.Droid.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled;
+			global::Plugin.InputKit.Resource.Styleable.BottomNavigationView_itemIconSize = global::BloodDonationApp.Droid.Resource.Styleable.BottomNavigationView_itemIconSize;
+			global::Plugin.InputKit.Resource.Styleable.BottomNavigationView_itemIconTint = global::BloodDonationApp.Droid.Resource.Styleable.BottomNavigationView_itemIconTint;
+			global::Plugin.InputKit.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive = global::BloodDonationApp.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive;
+			global::Plugin.InputKit.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive = global::BloodDonationApp.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive;
+			global::Plugin.InputKit.Resource.Styleable.BottomNavigationView_itemTextColor = global::BloodDonationApp.Droid.Resource.Styleable.BottomNavigationView_itemTextColor;
+			global::Plugin.InputKit.Resource.Styleable.BottomNavigationView_labelVisibilityMode = global::BloodDonationApp.Droid.Resource.Styleable.BottomNavigationView_labelVisibilityMode;
+			global::Plugin.InputKit.Resource.Styleable.BottomNavigationView_menu = global::BloodDonationApp.Droid.Resource.Styleable.BottomNavigationView_menu;
+			global::Plugin.InputKit.Resource.Styleable.BottomSheetBehavior_Layout = global::BloodDonationApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::Plugin.InputKit.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents = global::BloodDonationApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents;
+			global::Plugin.InputKit.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::BloodDonationApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
+			global::Plugin.InputKit.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::BloodDonationApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::Plugin.InputKit.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::BloodDonationApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::Plugin.InputKit.Resource.Styleable.ButtonBarLayout = global::BloodDonationApp.Droid.Resource.Styleable.ButtonBarLayout;
+			global::Plugin.InputKit.Resource.Styleable.ButtonBarLayout_allowStacking = global::BloodDonationApp.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::Plugin.InputKit.Resource.Styleable.CardView = global::BloodDonationApp.Droid.Resource.Styleable.CardView;
+			global::Plugin.InputKit.Resource.Styleable.CardView_android_minHeight = global::BloodDonationApp.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::Plugin.InputKit.Resource.Styleable.CardView_android_minWidth = global::BloodDonationApp.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::Plugin.InputKit.Resource.Styleable.CardView_cardBackgroundColor = global::BloodDonationApp.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::Plugin.InputKit.Resource.Styleable.CardView_cardCornerRadius = global::BloodDonationApp.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::Plugin.InputKit.Resource.Styleable.CardView_cardElevation = global::BloodDonationApp.Droid.Resource.Styleable.CardView_cardElevation;
+			global::Plugin.InputKit.Resource.Styleable.CardView_cardMaxElevation = global::BloodDonationApp.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::Plugin.InputKit.Resource.Styleable.CardView_cardPreventCornerOverlap = global::BloodDonationApp.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::Plugin.InputKit.Resource.Styleable.CardView_cardUseCompatPadding = global::BloodDonationApp.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::Plugin.InputKit.Resource.Styleable.CardView_contentPadding = global::BloodDonationApp.Droid.Resource.Styleable.CardView_contentPadding;
+			global::Plugin.InputKit.Resource.Styleable.CardView_contentPaddingBottom = global::BloodDonationApp.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::Plugin.InputKit.Resource.Styleable.CardView_contentPaddingLeft = global::BloodDonationApp.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::Plugin.InputKit.Resource.Styleable.CardView_contentPaddingRight = global::BloodDonationApp.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::Plugin.InputKit.Resource.Styleable.CardView_contentPaddingTop = global::BloodDonationApp.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::Plugin.InputKit.Resource.Styleable.Chip = global::BloodDonationApp.Droid.Resource.Styleable.Chip;
+			global::Plugin.InputKit.Resource.Styleable.ChipGroup = global::BloodDonationApp.Droid.Resource.Styleable.ChipGroup;
+			global::Plugin.InputKit.Resource.Styleable.ChipGroup_checkedChip = global::BloodDonationApp.Droid.Resource.Styleable.ChipGroup_checkedChip;
+			global::Plugin.InputKit.Resource.Styleable.ChipGroup_chipSpacing = global::BloodDonationApp.Droid.Resource.Styleable.ChipGroup_chipSpacing;
+			global::Plugin.InputKit.Resource.Styleable.ChipGroup_chipSpacingHorizontal = global::BloodDonationApp.Droid.Resource.Styleable.ChipGroup_chipSpacingHorizontal;
+			global::Plugin.InputKit.Resource.Styleable.ChipGroup_chipSpacingVertical = global::BloodDonationApp.Droid.Resource.Styleable.ChipGroup_chipSpacingVertical;
+			global::Plugin.InputKit.Resource.Styleable.ChipGroup_singleLine = global::BloodDonationApp.Droid.Resource.Styleable.ChipGroup_singleLine;
+			global::Plugin.InputKit.Resource.Styleable.ChipGroup_singleSelection = global::BloodDonationApp.Droid.Resource.Styleable.ChipGroup_singleSelection;
+			global::Plugin.InputKit.Resource.Styleable.Chip_android_checkable = global::BloodDonationApp.Droid.Resource.Styleable.Chip_android_checkable;
+			global::Plugin.InputKit.Resource.Styleable.Chip_android_ellipsize = global::BloodDonationApp.Droid.Resource.Styleable.Chip_android_ellipsize;
+			global::Plugin.InputKit.Resource.Styleable.Chip_android_maxWidth = global::BloodDonationApp.Droid.Resource.Styleable.Chip_android_maxWidth;
+			global::Plugin.InputKit.Resource.Styleable.Chip_android_text = global::BloodDonationApp.Droid.Resource.Styleable.Chip_android_text;
+			global::Plugin.InputKit.Resource.Styleable.Chip_android_textAppearance = global::BloodDonationApp.Droid.Resource.Styleable.Chip_android_textAppearance;
+			global::Plugin.InputKit.Resource.Styleable.Chip_checkedIcon = global::BloodDonationApp.Droid.Resource.Styleable.Chip_checkedIcon;
+			global::Plugin.InputKit.Resource.Styleable.Chip_checkedIconEnabled = global::BloodDonationApp.Droid.Resource.Styleable.Chip_checkedIconEnabled;
+			global::Plugin.InputKit.Resource.Styleable.Chip_checkedIconVisible = global::BloodDonationApp.Droid.Resource.Styleable.Chip_checkedIconVisible;
+			global::Plugin.InputKit.Resource.Styleable.Chip_chipBackgroundColor = global::BloodDonationApp.Droid.Resource.Styleable.Chip_chipBackgroundColor;
+			global::Plugin.InputKit.Resource.Styleable.Chip_chipCornerRadius = global::BloodDonationApp.Droid.Resource.Styleable.Chip_chipCornerRadius;
+			global::Plugin.InputKit.Resource.Styleable.Chip_chipEndPadding = global::BloodDonationApp.Droid.Resource.Styleable.Chip_chipEndPadding;
+			global::Plugin.InputKit.Resource.Styleable.Chip_chipIcon = global::BloodDonationApp.Droid.Resource.Styleable.Chip_chipIcon;
+			global::Plugin.InputKit.Resource.Styleable.Chip_chipIconEnabled = global::BloodDonationApp.Droid.Resource.Styleable.Chip_chipIconEnabled;
+			global::Plugin.InputKit.Resource.Styleable.Chip_chipIconSize = global::BloodDonationApp.Droid.Resource.Styleable.Chip_chipIconSize;
+			global::Plugin.InputKit.Resource.Styleable.Chip_chipIconTint = global::BloodDonationApp.Droid.Resource.Styleable.Chip_chipIconTint;
+			global::Plugin.InputKit.Resource.Styleable.Chip_chipIconVisible = global::BloodDonationApp.Droid.Resource.Styleable.Chip_chipIconVisible;
+			global::Plugin.InputKit.Resource.Styleable.Chip_chipMinHeight = global::BloodDonationApp.Droid.Resource.Styleable.Chip_chipMinHeight;
+			global::Plugin.InputKit.Resource.Styleable.Chip_chipStartPadding = global::BloodDonationApp.Droid.Resource.Styleable.Chip_chipStartPadding;
+			global::Plugin.InputKit.Resource.Styleable.Chip_chipStrokeColor = global::BloodDonationApp.Droid.Resource.Styleable.Chip_chipStrokeColor;
+			global::Plugin.InputKit.Resource.Styleable.Chip_chipStrokeWidth = global::BloodDonationApp.Droid.Resource.Styleable.Chip_chipStrokeWidth;
+			global::Plugin.InputKit.Resource.Styleable.Chip_closeIcon = global::BloodDonationApp.Droid.Resource.Styleable.Chip_closeIcon;
+			global::Plugin.InputKit.Resource.Styleable.Chip_closeIconEnabled = global::BloodDonationApp.Droid.Resource.Styleable.Chip_closeIconEnabled;
+			global::Plugin.InputKit.Resource.Styleable.Chip_closeIconEndPadding = global::BloodDonationApp.Droid.Resource.Styleable.Chip_closeIconEndPadding;
+			global::Plugin.InputKit.Resource.Styleable.Chip_closeIconSize = global::BloodDonationApp.Droid.Resource.Styleable.Chip_closeIconSize;
+			global::Plugin.InputKit.Resource.Styleable.Chip_closeIconStartPadding = global::BloodDonationApp.Droid.Resource.Styleable.Chip_closeIconStartPadding;
+			global::Plugin.InputKit.Resource.Styleable.Chip_closeIconTint = global::BloodDonationApp.Droid.Resource.Styleable.Chip_closeIconTint;
+			global::Plugin.InputKit.Resource.Styleable.Chip_closeIconVisible = global::BloodDonationApp.Droid.Resource.Styleable.Chip_closeIconVisible;
+			global::Plugin.InputKit.Resource.Styleable.Chip_hideMotionSpec = global::BloodDonationApp.Droid.Resource.Styleable.Chip_hideMotionSpec;
+			global::Plugin.InputKit.Resource.Styleable.Chip_iconEndPadding = global::BloodDonationApp.Droid.Resource.Styleable.Chip_iconEndPadding;
+			global::Plugin.InputKit.Resource.Styleable.Chip_iconStartPadding = global::BloodDonationApp.Droid.Resource.Styleable.Chip_iconStartPadding;
+			global::Plugin.InputKit.Resource.Styleable.Chip_rippleColor = global::BloodDonationApp.Droid.Resource.Styleable.Chip_rippleColor;
+			global::Plugin.InputKit.Resource.Styleable.Chip_showMotionSpec = global::BloodDonationApp.Droid.Resource.Styleable.Chip_showMotionSpec;
+			global::Plugin.InputKit.Resource.Styleable.Chip_textEndPadding = global::BloodDonationApp.Droid.Resource.Styleable.Chip_textEndPadding;
+			global::Plugin.InputKit.Resource.Styleable.Chip_textStartPadding = global::BloodDonationApp.Droid.Resource.Styleable.Chip_textStartPadding;
+			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout = global::BloodDonationApp.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::BloodDonationApp.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::BloodDonationApp.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::BloodDonationApp.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::BloodDonationApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::BloodDonationApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::BloodDonationApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::BloodDonationApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::BloodDonationApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::BloodDonationApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::BloodDonationApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_Layout = global::BloodDonationApp.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
+			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::BloodDonationApp.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
+			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::BloodDonationApp.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::BloodDonationApp.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
+			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::BloodDonationApp.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
+			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::BloodDonationApp.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_title = global::BloodDonationApp.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::BloodDonationApp.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::BloodDonationApp.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::Plugin.InputKit.Resource.Styleable.ColorStateListItem = global::BloodDonationApp.Droid.Resource.Styleable.ColorStateListItem;
+			global::Plugin.InputKit.Resource.Styleable.ColorStateListItem_alpha = global::BloodDonationApp.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::Plugin.InputKit.Resource.Styleable.ColorStateListItem_android_alpha = global::BloodDonationApp.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::Plugin.InputKit.Resource.Styleable.ColorStateListItem_android_color = global::BloodDonationApp.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::Plugin.InputKit.Resource.Styleable.CompoundButton = global::BloodDonationApp.Droid.Resource.Styleable.CompoundButton;
+			global::Plugin.InputKit.Resource.Styleable.CompoundButton_android_button = global::BloodDonationApp.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::Plugin.InputKit.Resource.Styleable.CompoundButton_buttonTint = global::BloodDonationApp.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::Plugin.InputKit.Resource.Styleable.CompoundButton_buttonTintMode = global::BloodDonationApp.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::Plugin.InputKit.Resource.Styleable.CoordinatorLayout = global::BloodDonationApp.Droid.Resource.Styleable.CoordinatorLayout;
+			global::Plugin.InputKit.Resource.Styleable.CoordinatorLayout_keylines = global::BloodDonationApp.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::Plugin.InputKit.Resource.Styleable.CoordinatorLayout_Layout = global::BloodDonationApp.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::Plugin.InputKit.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::BloodDonationApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::Plugin.InputKit.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::BloodDonationApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::Plugin.InputKit.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::BloodDonationApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::Plugin.InputKit.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::BloodDonationApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::Plugin.InputKit.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::BloodDonationApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::Plugin.InputKit.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::BloodDonationApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::Plugin.InputKit.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::BloodDonationApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::Plugin.InputKit.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::BloodDonationApp.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::Plugin.InputKit.Resource.Styleable.DesignTheme = global::BloodDonationApp.Droid.Resource.Styleable.DesignTheme;
+			global::Plugin.InputKit.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::BloodDonationApp.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
+			global::Plugin.InputKit.Resource.Styleable.DesignTheme_bottomSheetStyle = global::BloodDonationApp.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
+			global::Plugin.InputKit.Resource.Styleable.DrawerArrowToggle = global::BloodDonationApp.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::Plugin.InputKit.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::BloodDonationApp.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::Plugin.InputKit.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::BloodDonationApp.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::Plugin.InputKit.Resource.Styleable.DrawerArrowToggle_barLength = global::BloodDonationApp.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::Plugin.InputKit.Resource.Styleable.DrawerArrowToggle_color = global::BloodDonationApp.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::Plugin.InputKit.Resource.Styleable.DrawerArrowToggle_drawableSize = global::BloodDonationApp.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::Plugin.InputKit.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::BloodDonationApp.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::Plugin.InputKit.Resource.Styleable.DrawerArrowToggle_spinBars = global::BloodDonationApp.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::Plugin.InputKit.Resource.Styleable.DrawerArrowToggle_thickness = global::BloodDonationApp.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::Plugin.InputKit.Resource.Styleable.FloatingActionButton = global::BloodDonationApp.Droid.Resource.Styleable.FloatingActionButton;
+			global::Plugin.InputKit.Resource.Styleable.FloatingActionButton_backgroundTint = global::BloodDonationApp.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::Plugin.InputKit.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::BloodDonationApp.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::Plugin.InputKit.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::BloodDonationApp.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
+			global::Plugin.InputKit.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::BloodDonationApp.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::Plugin.InputKit.Resource.Styleable.FloatingActionButton_borderWidth = global::BloodDonationApp.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::Plugin.InputKit.Resource.Styleable.FloatingActionButton_elevation = global::BloodDonationApp.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::Plugin.InputKit.Resource.Styleable.FloatingActionButton_fabCustomSize = global::BloodDonationApp.Droid.Resource.Styleable.FloatingActionButton_fabCustomSize;
+			global::Plugin.InputKit.Resource.Styleable.FloatingActionButton_fabSize = global::BloodDonationApp.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::Plugin.InputKit.Resource.Styleable.FloatingActionButton_hideMotionSpec = global::BloodDonationApp.Droid.Resource.Styleable.FloatingActionButton_hideMotionSpec;
+			global::Plugin.InputKit.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ = global::BloodDonationApp.Droid.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ;
+			global::Plugin.InputKit.Resource.Styleable.FloatingActionButton_maxImageSize = global::BloodDonationApp.Droid.Resource.Styleable.FloatingActionButton_maxImageSize;
+			global::Plugin.InputKit.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::BloodDonationApp.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::Plugin.InputKit.Resource.Styleable.FloatingActionButton_rippleColor = global::BloodDonationApp.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::Plugin.InputKit.Resource.Styleable.FloatingActionButton_showMotionSpec = global::BloodDonationApp.Droid.Resource.Styleable.FloatingActionButton_showMotionSpec;
+			global::Plugin.InputKit.Resource.Styleable.FloatingActionButton_useCompatPadding = global::BloodDonationApp.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::Plugin.InputKit.Resource.Styleable.FlowLayout = global::BloodDonationApp.Droid.Resource.Styleable.FlowLayout;
+			global::Plugin.InputKit.Resource.Styleable.FlowLayout_itemSpacing = global::BloodDonationApp.Droid.Resource.Styleable.FlowLayout_itemSpacing;
+			global::Plugin.InputKit.Resource.Styleable.FlowLayout_lineSpacing = global::BloodDonationApp.Droid.Resource.Styleable.FlowLayout_lineSpacing;
+			global::Plugin.InputKit.Resource.Styleable.FontFamily = global::BloodDonationApp.Droid.Resource.Styleable.FontFamily;
+			global::Plugin.InputKit.Resource.Styleable.FontFamilyFont = global::BloodDonationApp.Droid.Resource.Styleable.FontFamilyFont;
+			global::Plugin.InputKit.Resource.Styleable.FontFamilyFont_android_font = global::BloodDonationApp.Droid.Resource.Styleable.FontFamilyFont_android_font;
+			global::Plugin.InputKit.Resource.Styleable.FontFamilyFont_android_fontStyle = global::BloodDonationApp.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::Plugin.InputKit.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::BloodDonationApp.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
+			global::Plugin.InputKit.Resource.Styleable.FontFamilyFont_android_fontWeight = global::BloodDonationApp.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::Plugin.InputKit.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::BloodDonationApp.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex;
+			global::Plugin.InputKit.Resource.Styleable.FontFamilyFont_font = global::BloodDonationApp.Droid.Resource.Styleable.FontFamilyFont_font;
+			global::Plugin.InputKit.Resource.Styleable.FontFamilyFont_fontStyle = global::BloodDonationApp.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::Plugin.InputKit.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::BloodDonationApp.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings;
+			global::Plugin.InputKit.Resource.Styleable.FontFamilyFont_fontWeight = global::BloodDonationApp.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::Plugin.InputKit.Resource.Styleable.FontFamilyFont_ttcIndex = global::BloodDonationApp.Droid.Resource.Styleable.FontFamilyFont_ttcIndex;
+			global::Plugin.InputKit.Resource.Styleable.FontFamily_fontProviderAuthority = global::BloodDonationApp.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::Plugin.InputKit.Resource.Styleable.FontFamily_fontProviderCerts = global::BloodDonationApp.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::Plugin.InputKit.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::BloodDonationApp.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::Plugin.InputKit.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::BloodDonationApp.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::Plugin.InputKit.Resource.Styleable.FontFamily_fontProviderPackage = global::BloodDonationApp.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::Plugin.InputKit.Resource.Styleable.FontFamily_fontProviderQuery = global::BloodDonationApp.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::Plugin.InputKit.Resource.Styleable.ForegroundLinearLayout = global::BloodDonationApp.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::Plugin.InputKit.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::BloodDonationApp.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::Plugin.InputKit.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::BloodDonationApp.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::Plugin.InputKit.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::BloodDonationApp.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::Plugin.InputKit.Resource.Styleable.GradientColor = global::BloodDonationApp.Droid.Resource.Styleable.GradientColor;
+			global::Plugin.InputKit.Resource.Styleable.GradientColorItem = global::BloodDonationApp.Droid.Resource.Styleable.GradientColorItem;
+			global::Plugin.InputKit.Resource.Styleable.GradientColorItem_android_color = global::BloodDonationApp.Droid.Resource.Styleable.GradientColorItem_android_color;
+			global::Plugin.InputKit.Resource.Styleable.GradientColorItem_android_offset = global::BloodDonationApp.Droid.Resource.Styleable.GradientColorItem_android_offset;
+			global::Plugin.InputKit.Resource.Styleable.GradientColor_android_centerColor = global::BloodDonationApp.Droid.Resource.Styleable.GradientColor_android_centerColor;
+			global::Plugin.InputKit.Resource.Styleable.GradientColor_android_centerX = global::BloodDonationApp.Droid.Resource.Styleable.GradientColor_android_centerX;
+			global::Plugin.InputKit.Resource.Styleable.GradientColor_android_centerY = global::BloodDonationApp.Droid.Resource.Styleable.GradientColor_android_centerY;
+			global::Plugin.InputKit.Resource.Styleable.GradientColor_android_endColor = global::BloodDonationApp.Droid.Resource.Styleable.GradientColor_android_endColor;
+			global::Plugin.InputKit.Resource.Styleable.GradientColor_android_endX = global::BloodDonationApp.Droid.Resource.Styleable.GradientColor_android_endX;
+			global::Plugin.InputKit.Resource.Styleable.GradientColor_android_endY = global::BloodDonationApp.Droid.Resource.Styleable.GradientColor_android_endY;
+			global::Plugin.InputKit.Resource.Styleable.GradientColor_android_gradientRadius = global::BloodDonationApp.Droid.Resource.Styleable.GradientColor_android_gradientRadius;
+			global::Plugin.InputKit.Resource.Styleable.GradientColor_android_startColor = global::BloodDonationApp.Droid.Resource.Styleable.GradientColor_android_startColor;
+			global::Plugin.InputKit.Resource.Styleable.GradientColor_android_startX = global::BloodDonationApp.Droid.Resource.Styleable.GradientColor_android_startX;
+			global::Plugin.InputKit.Resource.Styleable.GradientColor_android_startY = global::BloodDonationApp.Droid.Resource.Styleable.GradientColor_android_startY;
+			global::Plugin.InputKit.Resource.Styleable.GradientColor_android_tileMode = global::BloodDonationApp.Droid.Resource.Styleable.GradientColor_android_tileMode;
+			global::Plugin.InputKit.Resource.Styleable.GradientColor_android_type = global::BloodDonationApp.Droid.Resource.Styleable.GradientColor_android_type;
+			global::Plugin.InputKit.Resource.Styleable.ItemsViewRendererTheme = global::BloodDonationApp.Droid.Resource.Styleable.ItemsViewRendererTheme;
+			global::Plugin.InputKit.Resource.Styleable.ItemsViewRendererTheme_collectionViewStyle = global::BloodDonationApp.Droid.Resource.Styleable.ItemsViewRendererTheme_collectionViewStyle;
+			global::Plugin.InputKit.Resource.Styleable.LinearLayoutCompat = global::BloodDonationApp.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::Plugin.InputKit.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::BloodDonationApp.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::Plugin.InputKit.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::BloodDonationApp.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::Plugin.InputKit.Resource.Styleable.LinearLayoutCompat_android_gravity = global::BloodDonationApp.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::Plugin.InputKit.Resource.Styleable.LinearLayoutCompat_android_orientation = global::BloodDonationApp.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::Plugin.InputKit.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::BloodDonationApp.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::Plugin.InputKit.Resource.Styleable.LinearLayoutCompat_divider = global::BloodDonationApp.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::Plugin.InputKit.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::BloodDonationApp.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::Plugin.InputKit.Resource.Styleable.LinearLayoutCompat_Layout = global::BloodDonationApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::Plugin.InputKit.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::BloodDonationApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::Plugin.InputKit.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::BloodDonationApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::Plugin.InputKit.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::BloodDonationApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::Plugin.InputKit.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::BloodDonationApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::Plugin.InputKit.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::BloodDonationApp.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::Plugin.InputKit.Resource.Styleable.LinearLayoutCompat_showDividers = global::BloodDonationApp.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::Plugin.InputKit.Resource.Styleable.ListPopupWindow = global::BloodDonationApp.Droid.Resource.Styleable.ListPopupWindow;
+			global::Plugin.InputKit.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::BloodDonationApp.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::Plugin.InputKit.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::BloodDonationApp.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::Plugin.InputKit.Resource.Styleable.MaterialButton = global::BloodDonationApp.Droid.Resource.Styleable.MaterialButton;
+			global::Plugin.InputKit.Resource.Styleable.MaterialButton_android_insetBottom = global::BloodDonationApp.Droid.Resource.Styleable.MaterialButton_android_insetBottom;
+			global::Plugin.InputKit.Resource.Styleable.MaterialButton_android_insetLeft = global::BloodDonationApp.Droid.Resource.Styleable.MaterialButton_android_insetLeft;
+			global::Plugin.InputKit.Resource.Styleable.MaterialButton_android_insetRight = global::BloodDonationApp.Droid.Resource.Styleable.MaterialButton_android_insetRight;
+			global::Plugin.InputKit.Resource.Styleable.MaterialButton_android_insetTop = global::BloodDonationApp.Droid.Resource.Styleable.MaterialButton_android_insetTop;
+			global::Plugin.InputKit.Resource.Styleable.MaterialButton_backgroundTint = global::BloodDonationApp.Droid.Resource.Styleable.MaterialButton_backgroundTint;
+			global::Plugin.InputKit.Resource.Styleable.MaterialButton_backgroundTintMode = global::BloodDonationApp.Droid.Resource.Styleable.MaterialButton_backgroundTintMode;
+			global::Plugin.InputKit.Resource.Styleable.MaterialButton_cornerRadius = global::BloodDonationApp.Droid.Resource.Styleable.MaterialButton_cornerRadius;
+			global::Plugin.InputKit.Resource.Styleable.MaterialButton_icon = global::BloodDonationApp.Droid.Resource.Styleable.MaterialButton_icon;
+			global::Plugin.InputKit.Resource.Styleable.MaterialButton_iconGravity = global::BloodDonationApp.Droid.Resource.Styleable.MaterialButton_iconGravity;
+			global::Plugin.InputKit.Resource.Styleable.MaterialButton_iconPadding = global::BloodDonationApp.Droid.Resource.Styleable.MaterialButton_iconPadding;
+			global::Plugin.InputKit.Resource.Styleable.MaterialButton_iconSize = global::BloodDonationApp.Droid.Resource.Styleable.MaterialButton_iconSize;
+			global::Plugin.InputKit.Resource.Styleable.MaterialButton_iconTint = global::BloodDonationApp.Droid.Resource.Styleable.MaterialButton_iconTint;
+			global::Plugin.InputKit.Resource.Styleable.MaterialButton_iconTintMode = global::BloodDonationApp.Droid.Resource.Styleable.MaterialButton_iconTintMode;
+			global::Plugin.InputKit.Resource.Styleable.MaterialButton_rippleColor = global::BloodDonationApp.Droid.Resource.Styleable.MaterialButton_rippleColor;
+			global::Plugin.InputKit.Resource.Styleable.MaterialButton_strokeColor = global::BloodDonationApp.Droid.Resource.Styleable.MaterialButton_strokeColor;
+			global::Plugin.InputKit.Resource.Styleable.MaterialButton_strokeWidth = global::BloodDonationApp.Droid.Resource.Styleable.MaterialButton_strokeWidth;
+			global::Plugin.InputKit.Resource.Styleable.MaterialCardView = global::BloodDonationApp.Droid.Resource.Styleable.MaterialCardView;
+			global::Plugin.InputKit.Resource.Styleable.MaterialCardView_strokeColor = global::BloodDonationApp.Droid.Resource.Styleable.MaterialCardView_strokeColor;
+			global::Plugin.InputKit.Resource.Styleable.MaterialCardView_strokeWidth = global::BloodDonationApp.Droid.Resource.Styleable.MaterialCardView_strokeWidth;
+			global::Plugin.InputKit.Resource.Styleable.MaterialComponentsTheme = global::BloodDonationApp.Droid.Resource.Styleable.MaterialComponentsTheme;
+			global::Plugin.InputKit.Resource.Styleable.MaterialComponentsTheme_bottomSheetDialogTheme = global::BloodDonationApp.Droid.Resource.Styleable.MaterialComponentsTheme_bottomSheetDialogTheme;
+			global::Plugin.InputKit.Resource.Styleable.MaterialComponentsTheme_bottomSheetStyle = global::BloodDonationApp.Droid.Resource.Styleable.MaterialComponentsTheme_bottomSheetStyle;
+			global::Plugin.InputKit.Resource.Styleable.MaterialComponentsTheme_chipGroupStyle = global::BloodDonationApp.Droid.Resource.Styleable.MaterialComponentsTheme_chipGroupStyle;
+			global::Plugin.InputKit.Resource.Styleable.MaterialComponentsTheme_chipStandaloneStyle = global::BloodDonationApp.Droid.Resource.Styleable.MaterialComponentsTheme_chipStandaloneStyle;
+			global::Plugin.InputKit.Resource.Styleable.MaterialComponentsTheme_chipStyle = global::BloodDonationApp.Droid.Resource.Styleable.MaterialComponentsTheme_chipStyle;
+			global::Plugin.InputKit.Resource.Styleable.MaterialComponentsTheme_colorAccent = global::BloodDonationApp.Droid.Resource.Styleable.MaterialComponentsTheme_colorAccent;
+			global::Plugin.InputKit.Resource.Styleable.MaterialComponentsTheme_colorBackgroundFloating = global::BloodDonationApp.Droid.Resource.Styleable.MaterialComponentsTheme_colorBackgroundFloating;
+			global::Plugin.InputKit.Resource.Styleable.MaterialComponentsTheme_colorPrimary = global::BloodDonationApp.Droid.Resource.Styleable.MaterialComponentsTheme_colorPrimary;
+			global::Plugin.InputKit.Resource.Styleable.MaterialComponentsTheme_colorPrimaryDark = global::BloodDonationApp.Droid.Resource.Styleable.MaterialComponentsTheme_colorPrimaryDark;
+			global::Plugin.InputKit.Resource.Styleable.MaterialComponentsTheme_colorSecondary = global::BloodDonationApp.Droid.Resource.Styleable.MaterialComponentsTheme_colorSecondary;
+			global::Plugin.InputKit.Resource.Styleable.MaterialComponentsTheme_editTextStyle = global::BloodDonationApp.Droid.Resource.Styleable.MaterialComponentsTheme_editTextStyle;
+			global::Plugin.InputKit.Resource.Styleable.MaterialComponentsTheme_floatingActionButtonStyle = global::BloodDonationApp.Droid.Resource.Styleable.MaterialComponentsTheme_floatingActionButtonStyle;
+			global::Plugin.InputKit.Resource.Styleable.MaterialComponentsTheme_materialButtonStyle = global::BloodDonationApp.Droid.Resource.Styleable.MaterialComponentsTheme_materialButtonStyle;
+			global::Plugin.InputKit.Resource.Styleable.MaterialComponentsTheme_materialCardViewStyle = global::BloodDonationApp.Droid.Resource.Styleable.MaterialComponentsTheme_materialCardViewStyle;
+			global::Plugin.InputKit.Resource.Styleable.MaterialComponentsTheme_navigationViewStyle = global::BloodDonationApp.Droid.Resource.Styleable.MaterialComponentsTheme_navigationViewStyle;
+			global::Plugin.InputKit.Resource.Styleable.MaterialComponentsTheme_scrimBackground = global::BloodDonationApp.Droid.Resource.Styleable.MaterialComponentsTheme_scrimBackground;
+			global::Plugin.InputKit.Resource.Styleable.MaterialComponentsTheme_snackbarButtonStyle = global::BloodDonationApp.Droid.Resource.Styleable.MaterialComponentsTheme_snackbarButtonStyle;
+			global::Plugin.InputKit.Resource.Styleable.MaterialComponentsTheme_tabStyle = global::BloodDonationApp.Droid.Resource.Styleable.MaterialComponentsTheme_tabStyle;
+			global::Plugin.InputKit.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody1 = global::BloodDonationApp.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody1;
+			global::Plugin.InputKit.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody2 = global::BloodDonationApp.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody2;
+			global::Plugin.InputKit.Resource.Styleable.MaterialComponentsTheme_textAppearanceButton = global::BloodDonationApp.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceButton;
+			global::Plugin.InputKit.Resource.Styleable.MaterialComponentsTheme_textAppearanceCaption = global::BloodDonationApp.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceCaption;
+			global::Plugin.InputKit.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline1 = global::BloodDonationApp.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline1;
+			global::Plugin.InputKit.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline2 = global::BloodDonationApp.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline2;
+			global::Plugin.InputKit.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline3 = global::BloodDonationApp.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline3;
+			global::Plugin.InputKit.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline4 = global::BloodDonationApp.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline4;
+			global::Plugin.InputKit.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline5 = global::BloodDonationApp.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline5;
+			global::Plugin.InputKit.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline6 = global::BloodDonationApp.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline6;
+			global::Plugin.InputKit.Resource.Styleable.MaterialComponentsTheme_textAppearanceOverline = global::BloodDonationApp.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceOverline;
+			global::Plugin.InputKit.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle1 = global::BloodDonationApp.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle1;
+			global::Plugin.InputKit.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle2 = global::BloodDonationApp.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle2;
+			global::Plugin.InputKit.Resource.Styleable.MaterialComponentsTheme_textInputStyle = global::BloodDonationApp.Droid.Resource.Styleable.MaterialComponentsTheme_textInputStyle;
+			global::Plugin.InputKit.Resource.Styleable.MenuGroup = global::BloodDonationApp.Droid.Resource.Styleable.MenuGroup;
+			global::Plugin.InputKit.Resource.Styleable.MenuGroup_android_checkableBehavior = global::BloodDonationApp.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::Plugin.InputKit.Resource.Styleable.MenuGroup_android_enabled = global::BloodDonationApp.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::Plugin.InputKit.Resource.Styleable.MenuGroup_android_id = global::BloodDonationApp.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::Plugin.InputKit.Resource.Styleable.MenuGroup_android_menuCategory = global::BloodDonationApp.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::Plugin.InputKit.Resource.Styleable.MenuGroup_android_orderInCategory = global::BloodDonationApp.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::Plugin.InputKit.Resource.Styleable.MenuGroup_android_visible = global::BloodDonationApp.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem = global::BloodDonationApp.Droid.Resource.Styleable.MenuItem;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem_actionLayout = global::BloodDonationApp.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem_actionProviderClass = global::BloodDonationApp.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem_actionViewClass = global::BloodDonationApp.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem_alphabeticModifiers = global::BloodDonationApp.Droid.Resource.Styleable.MenuItem_alphabeticModifiers;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::BloodDonationApp.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem_android_checkable = global::BloodDonationApp.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem_android_checked = global::BloodDonationApp.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem_android_enabled = global::BloodDonationApp.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem_android_icon = global::BloodDonationApp.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem_android_id = global::BloodDonationApp.Droid.Resource.Styleable.MenuItem_android_id;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem_android_menuCategory = global::BloodDonationApp.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem_android_numericShortcut = global::BloodDonationApp.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem_android_onClick = global::BloodDonationApp.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem_android_orderInCategory = global::BloodDonationApp.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem_android_title = global::BloodDonationApp.Droid.Resource.Styleable.MenuItem_android_title;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem_android_titleCondensed = global::BloodDonationApp.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem_android_visible = global::BloodDonationApp.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem_contentDescription = global::BloodDonationApp.Droid.Resource.Styleable.MenuItem_contentDescription;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem_iconTint = global::BloodDonationApp.Droid.Resource.Styleable.MenuItem_iconTint;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem_iconTintMode = global::BloodDonationApp.Droid.Resource.Styleable.MenuItem_iconTintMode;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem_numericModifiers = global::BloodDonationApp.Droid.Resource.Styleable.MenuItem_numericModifiers;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem_showAsAction = global::BloodDonationApp.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem_tooltipText = global::BloodDonationApp.Droid.Resource.Styleable.MenuItem_tooltipText;
+			global::Plugin.InputKit.Resource.Styleable.MenuView = global::BloodDonationApp.Droid.Resource.Styleable.MenuView;
+			global::Plugin.InputKit.Resource.Styleable.MenuView_android_headerBackground = global::BloodDonationApp.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::Plugin.InputKit.Resource.Styleable.MenuView_android_horizontalDivider = global::BloodDonationApp.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::Plugin.InputKit.Resource.Styleable.MenuView_android_itemBackground = global::BloodDonationApp.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::Plugin.InputKit.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::BloodDonationApp.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::Plugin.InputKit.Resource.Styleable.MenuView_android_itemTextAppearance = global::BloodDonationApp.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::Plugin.InputKit.Resource.Styleable.MenuView_android_verticalDivider = global::BloodDonationApp.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::Plugin.InputKit.Resource.Styleable.MenuView_android_windowAnimationStyle = global::BloodDonationApp.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::Plugin.InputKit.Resource.Styleable.MenuView_preserveIconSpacing = global::BloodDonationApp.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::Plugin.InputKit.Resource.Styleable.MenuView_subMenuArrow = global::BloodDonationApp.Droid.Resource.Styleable.MenuView_subMenuArrow;
+			global::Plugin.InputKit.Resource.Styleable.NavigationView = global::BloodDonationApp.Droid.Resource.Styleable.NavigationView;
+			global::Plugin.InputKit.Resource.Styleable.NavigationView_android_background = global::BloodDonationApp.Droid.Resource.Styleable.NavigationView_android_background;
+			global::Plugin.InputKit.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::BloodDonationApp.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::Plugin.InputKit.Resource.Styleable.NavigationView_android_maxWidth = global::BloodDonationApp.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::Plugin.InputKit.Resource.Styleable.NavigationView_elevation = global::BloodDonationApp.Droid.Resource.Styleable.NavigationView_elevation;
+			global::Plugin.InputKit.Resource.Styleable.NavigationView_headerLayout = global::BloodDonationApp.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::Plugin.InputKit.Resource.Styleable.NavigationView_itemBackground = global::BloodDonationApp.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::Plugin.InputKit.Resource.Styleable.NavigationView_itemHorizontalPadding = global::BloodDonationApp.Droid.Resource.Styleable.NavigationView_itemHorizontalPadding;
+			global::Plugin.InputKit.Resource.Styleable.NavigationView_itemIconPadding = global::BloodDonationApp.Droid.Resource.Styleable.NavigationView_itemIconPadding;
+			global::Plugin.InputKit.Resource.Styleable.NavigationView_itemIconTint = global::BloodDonationApp.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::Plugin.InputKit.Resource.Styleable.NavigationView_itemTextAppearance = global::BloodDonationApp.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::Plugin.InputKit.Resource.Styleable.NavigationView_itemTextColor = global::BloodDonationApp.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::Plugin.InputKit.Resource.Styleable.NavigationView_menu = global::BloodDonationApp.Droid.Resource.Styleable.NavigationView_menu;
+			global::Plugin.InputKit.Resource.Styleable.PopupWindow = global::BloodDonationApp.Droid.Resource.Styleable.PopupWindow;
+			global::Plugin.InputKit.Resource.Styleable.PopupWindowBackgroundState = global::BloodDonationApp.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::Plugin.InputKit.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::BloodDonationApp.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::Plugin.InputKit.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::BloodDonationApp.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::Plugin.InputKit.Resource.Styleable.PopupWindow_android_popupBackground = global::BloodDonationApp.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::Plugin.InputKit.Resource.Styleable.PopupWindow_overlapAnchor = global::BloodDonationApp.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::Plugin.InputKit.Resource.Styleable.RecycleListView = global::BloodDonationApp.Droid.Resource.Styleable.RecycleListView;
+			global::Plugin.InputKit.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::BloodDonationApp.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::Plugin.InputKit.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::BloodDonationApp.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::Plugin.InputKit.Resource.Styleable.RecyclerView = global::BloodDonationApp.Droid.Resource.Styleable.RecyclerView;
+			global::Plugin.InputKit.Resource.Styleable.RecyclerView_android_descendantFocusability = global::BloodDonationApp.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::Plugin.InputKit.Resource.Styleable.RecyclerView_android_orientation = global::BloodDonationApp.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::Plugin.InputKit.Resource.Styleable.RecyclerView_fastScrollEnabled = global::BloodDonationApp.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled;
+			global::Plugin.InputKit.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable = global::BloodDonationApp.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable;
+			global::Plugin.InputKit.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable = global::BloodDonationApp.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable;
+			global::Plugin.InputKit.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable = global::BloodDonationApp.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable;
+			global::Plugin.InputKit.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable = global::BloodDonationApp.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable;
+			global::Plugin.InputKit.Resource.Styleable.RecyclerView_layoutManager = global::BloodDonationApp.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::Plugin.InputKit.Resource.Styleable.RecyclerView_reverseLayout = global::BloodDonationApp.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::Plugin.InputKit.Resource.Styleable.RecyclerView_spanCount = global::BloodDonationApp.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::Plugin.InputKit.Resource.Styleable.RecyclerView_stackFromEnd = global::BloodDonationApp.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::Plugin.InputKit.Resource.Styleable.ScrimInsetsFrameLayout = global::BloodDonationApp.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::Plugin.InputKit.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::BloodDonationApp.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::Plugin.InputKit.Resource.Styleable.ScrollingViewBehavior_Layout = global::BloodDonationApp.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
+			global::Plugin.InputKit.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::BloodDonationApp.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::Plugin.InputKit.Resource.Styleable.SearchView = global::BloodDonationApp.Droid.Resource.Styleable.SearchView;
+			global::Plugin.InputKit.Resource.Styleable.SearchView_android_focusable = global::BloodDonationApp.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::Plugin.InputKit.Resource.Styleable.SearchView_android_imeOptions = global::BloodDonationApp.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::Plugin.InputKit.Resource.Styleable.SearchView_android_inputType = global::BloodDonationApp.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::Plugin.InputKit.Resource.Styleable.SearchView_android_maxWidth = global::BloodDonationApp.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::Plugin.InputKit.Resource.Styleable.SearchView_closeIcon = global::BloodDonationApp.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::Plugin.InputKit.Resource.Styleable.SearchView_commitIcon = global::BloodDonationApp.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::Plugin.InputKit.Resource.Styleable.SearchView_defaultQueryHint = global::BloodDonationApp.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::Plugin.InputKit.Resource.Styleable.SearchView_goIcon = global::BloodDonationApp.Droid.Resource.Styleable.SearchView_goIcon;
+			global::Plugin.InputKit.Resource.Styleable.SearchView_iconifiedByDefault = global::BloodDonationApp.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::Plugin.InputKit.Resource.Styleable.SearchView_layout = global::BloodDonationApp.Droid.Resource.Styleable.SearchView_layout;
+			global::Plugin.InputKit.Resource.Styleable.SearchView_queryBackground = global::BloodDonationApp.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::Plugin.InputKit.Resource.Styleable.SearchView_queryHint = global::BloodDonationApp.Droid.Resource.Styleable.SearchView_queryHint;
+			global::Plugin.InputKit.Resource.Styleable.SearchView_searchHintIcon = global::BloodDonationApp.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::Plugin.InputKit.Resource.Styleable.SearchView_searchIcon = global::BloodDonationApp.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::Plugin.InputKit.Resource.Styleable.SearchView_submitBackground = global::BloodDonationApp.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::Plugin.InputKit.Resource.Styleable.SearchView_suggestionRowLayout = global::BloodDonationApp.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::Plugin.InputKit.Resource.Styleable.SearchView_voiceIcon = global::BloodDonationApp.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::Plugin.InputKit.Resource.Styleable.Snackbar = global::BloodDonationApp.Droid.Resource.Styleable.Snackbar;
+			global::Plugin.InputKit.Resource.Styleable.SnackbarLayout = global::BloodDonationApp.Droid.Resource.Styleable.SnackbarLayout;
+			global::Plugin.InputKit.Resource.Styleable.SnackbarLayout_android_maxWidth = global::BloodDonationApp.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::Plugin.InputKit.Resource.Styleable.SnackbarLayout_elevation = global::BloodDonationApp.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::Plugin.InputKit.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::BloodDonationApp.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::Plugin.InputKit.Resource.Styleable.Snackbar_snackbarButtonStyle = global::BloodDonationApp.Droid.Resource.Styleable.Snackbar_snackbarButtonStyle;
+			global::Plugin.InputKit.Resource.Styleable.Snackbar_snackbarStyle = global::BloodDonationApp.Droid.Resource.Styleable.Snackbar_snackbarStyle;
+			global::Plugin.InputKit.Resource.Styleable.Spinner = global::BloodDonationApp.Droid.Resource.Styleable.Spinner;
+			global::Plugin.InputKit.Resource.Styleable.Spinner_android_dropDownWidth = global::BloodDonationApp.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::Plugin.InputKit.Resource.Styleable.Spinner_android_entries = global::BloodDonationApp.Droid.Resource.Styleable.Spinner_android_entries;
+			global::Plugin.InputKit.Resource.Styleable.Spinner_android_popupBackground = global::BloodDonationApp.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::Plugin.InputKit.Resource.Styleable.Spinner_android_prompt = global::BloodDonationApp.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::Plugin.InputKit.Resource.Styleable.Spinner_popupTheme = global::BloodDonationApp.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::Plugin.InputKit.Resource.Styleable.StateListDrawable = global::BloodDonationApp.Droid.Resource.Styleable.StateListDrawable;
+			global::Plugin.InputKit.Resource.Styleable.StateListDrawableItem = global::BloodDonationApp.Droid.Resource.Styleable.StateListDrawableItem;
+			global::Plugin.InputKit.Resource.Styleable.StateListDrawableItem_android_drawable = global::BloodDonationApp.Droid.Resource.Styleable.StateListDrawableItem_android_drawable;
+			global::Plugin.InputKit.Resource.Styleable.StateListDrawable_android_constantSize = global::BloodDonationApp.Droid.Resource.Styleable.StateListDrawable_android_constantSize;
+			global::Plugin.InputKit.Resource.Styleable.StateListDrawable_android_dither = global::BloodDonationApp.Droid.Resource.Styleable.StateListDrawable_android_dither;
+			global::Plugin.InputKit.Resource.Styleable.StateListDrawable_android_enterFadeDuration = global::BloodDonationApp.Droid.Resource.Styleable.StateListDrawable_android_enterFadeDuration;
+			global::Plugin.InputKit.Resource.Styleable.StateListDrawable_android_exitFadeDuration = global::BloodDonationApp.Droid.Resource.Styleable.StateListDrawable_android_exitFadeDuration;
+			global::Plugin.InputKit.Resource.Styleable.StateListDrawable_android_variablePadding = global::BloodDonationApp.Droid.Resource.Styleable.StateListDrawable_android_variablePadding;
+			global::Plugin.InputKit.Resource.Styleable.StateListDrawable_android_visible = global::BloodDonationApp.Droid.Resource.Styleable.StateListDrawable_android_visible;
+			global::Plugin.InputKit.Resource.Styleable.SwitchCompat = global::BloodDonationApp.Droid.Resource.Styleable.SwitchCompat;
+			global::Plugin.InputKit.Resource.Styleable.SwitchCompat_android_textOff = global::BloodDonationApp.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::Plugin.InputKit.Resource.Styleable.SwitchCompat_android_textOn = global::BloodDonationApp.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::Plugin.InputKit.Resource.Styleable.SwitchCompat_android_thumb = global::BloodDonationApp.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::Plugin.InputKit.Resource.Styleable.SwitchCompat_showText = global::BloodDonationApp.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::Plugin.InputKit.Resource.Styleable.SwitchCompat_splitTrack = global::BloodDonationApp.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::Plugin.InputKit.Resource.Styleable.SwitchCompat_switchMinWidth = global::BloodDonationApp.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::Plugin.InputKit.Resource.Styleable.SwitchCompat_switchPadding = global::BloodDonationApp.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::Plugin.InputKit.Resource.Styleable.SwitchCompat_switchTextAppearance = global::BloodDonationApp.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::Plugin.InputKit.Resource.Styleable.SwitchCompat_thumbTextPadding = global::BloodDonationApp.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::Plugin.InputKit.Resource.Styleable.SwitchCompat_thumbTint = global::BloodDonationApp.Droid.Resource.Styleable.SwitchCompat_thumbTint;
+			global::Plugin.InputKit.Resource.Styleable.SwitchCompat_thumbTintMode = global::BloodDonationApp.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::Plugin.InputKit.Resource.Styleable.SwitchCompat_track = global::BloodDonationApp.Droid.Resource.Styleable.SwitchCompat_track;
+			global::Plugin.InputKit.Resource.Styleable.SwitchCompat_trackTint = global::BloodDonationApp.Droid.Resource.Styleable.SwitchCompat_trackTint;
+			global::Plugin.InputKit.Resource.Styleable.SwitchCompat_trackTintMode = global::BloodDonationApp.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::Plugin.InputKit.Resource.Styleable.TabItem = global::BloodDonationApp.Droid.Resource.Styleable.TabItem;
+			global::Plugin.InputKit.Resource.Styleable.TabItem_android_icon = global::BloodDonationApp.Droid.Resource.Styleable.TabItem_android_icon;
+			global::Plugin.InputKit.Resource.Styleable.TabItem_android_layout = global::BloodDonationApp.Droid.Resource.Styleable.TabItem_android_layout;
+			global::Plugin.InputKit.Resource.Styleable.TabItem_android_text = global::BloodDonationApp.Droid.Resource.Styleable.TabItem_android_text;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout = global::BloodDonationApp.Droid.Resource.Styleable.TabLayout;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabBackground = global::BloodDonationApp.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabContentStart = global::BloodDonationApp.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabGravity = global::BloodDonationApp.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabIconTint = global::BloodDonationApp.Droid.Resource.Styleable.TabLayout_tabIconTint;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabIconTintMode = global::BloodDonationApp.Droid.Resource.Styleable.TabLayout_tabIconTintMode;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabIndicator = global::BloodDonationApp.Droid.Resource.Styleable.TabLayout_tabIndicator;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration = global::BloodDonationApp.Droid.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabIndicatorColor = global::BloodDonationApp.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabIndicatorFullWidth = global::BloodDonationApp.Droid.Resource.Styleable.TabLayout_tabIndicatorFullWidth;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabIndicatorGravity = global::BloodDonationApp.Droid.Resource.Styleable.TabLayout_tabIndicatorGravity;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabIndicatorHeight = global::BloodDonationApp.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabInlineLabel = global::BloodDonationApp.Droid.Resource.Styleable.TabLayout_tabInlineLabel;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabMaxWidth = global::BloodDonationApp.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabMinWidth = global::BloodDonationApp.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabMode = global::BloodDonationApp.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabPadding = global::BloodDonationApp.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabPaddingBottom = global::BloodDonationApp.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabPaddingEnd = global::BloodDonationApp.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabPaddingStart = global::BloodDonationApp.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabPaddingTop = global::BloodDonationApp.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabRippleColor = global::BloodDonationApp.Droid.Resource.Styleable.TabLayout_tabRippleColor;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabSelectedTextColor = global::BloodDonationApp.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabTextAppearance = global::BloodDonationApp.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabTextColor = global::BloodDonationApp.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabUnboundedRipple = global::BloodDonationApp.Droid.Resource.Styleable.TabLayout_tabUnboundedRipple;
+			global::Plugin.InputKit.Resource.Styleable.TextAppearance = global::BloodDonationApp.Droid.Resource.Styleable.TextAppearance;
+			global::Plugin.InputKit.Resource.Styleable.TextAppearance_android_fontFamily = global::BloodDonationApp.Droid.Resource.Styleable.TextAppearance_android_fontFamily;
+			global::Plugin.InputKit.Resource.Styleable.TextAppearance_android_shadowColor = global::BloodDonationApp.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::Plugin.InputKit.Resource.Styleable.TextAppearance_android_shadowDx = global::BloodDonationApp.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::Plugin.InputKit.Resource.Styleable.TextAppearance_android_shadowDy = global::BloodDonationApp.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::Plugin.InputKit.Resource.Styleable.TextAppearance_android_shadowRadius = global::BloodDonationApp.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::Plugin.InputKit.Resource.Styleable.TextAppearance_android_textColor = global::BloodDonationApp.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::Plugin.InputKit.Resource.Styleable.TextAppearance_android_textColorHint = global::BloodDonationApp.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::Plugin.InputKit.Resource.Styleable.TextAppearance_android_textColorLink = global::BloodDonationApp.Droid.Resource.Styleable.TextAppearance_android_textColorLink;
+			global::Plugin.InputKit.Resource.Styleable.TextAppearance_android_textSize = global::BloodDonationApp.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::Plugin.InputKit.Resource.Styleable.TextAppearance_android_textStyle = global::BloodDonationApp.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::Plugin.InputKit.Resource.Styleable.TextAppearance_android_typeface = global::BloodDonationApp.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::Plugin.InputKit.Resource.Styleable.TextAppearance_fontFamily = global::BloodDonationApp.Droid.Resource.Styleable.TextAppearance_fontFamily;
+			global::Plugin.InputKit.Resource.Styleable.TextAppearance_textAllCaps = global::BloodDonationApp.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout = global::BloodDonationApp.Droid.Resource.Styleable.TextInputLayout;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_android_hint = global::BloodDonationApp.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_android_textColorHint = global::BloodDonationApp.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_boxBackgroundColor = global::BloodDonationApp.Droid.Resource.Styleable.TextInputLayout_boxBackgroundColor;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_boxBackgroundMode = global::BloodDonationApp.Droid.Resource.Styleable.TextInputLayout_boxBackgroundMode;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop = global::BloodDonationApp.Droid.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd = global::BloodDonationApp.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart = global::BloodDonationApp.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd = global::BloodDonationApp.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart = global::BloodDonationApp.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_boxStrokeColor = global::BloodDonationApp.Droid.Resource.Styleable.TextInputLayout_boxStrokeColor;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_boxStrokeWidth = global::BloodDonationApp.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidth;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_counterEnabled = global::BloodDonationApp.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_counterMaxLength = global::BloodDonationApp.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::BloodDonationApp.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_counterTextAppearance = global::BloodDonationApp.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_errorEnabled = global::BloodDonationApp.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_errorTextAppearance = global::BloodDonationApp.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_helperText = global::BloodDonationApp.Droid.Resource.Styleable.TextInputLayout_helperText;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_helperTextEnabled = global::BloodDonationApp.Droid.Resource.Styleable.TextInputLayout_helperTextEnabled;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_helperTextTextAppearance = global::BloodDonationApp.Droid.Resource.Styleable.TextInputLayout_helperTextTextAppearance;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::BloodDonationApp.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_hintEnabled = global::BloodDonationApp.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_hintTextAppearance = global::BloodDonationApp.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::BloodDonationApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::BloodDonationApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::BloodDonationApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_passwordToggleTint = global::BloodDonationApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::BloodDonationApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::Plugin.InputKit.Resource.Styleable.ThemeEnforcement = global::BloodDonationApp.Droid.Resource.Styleable.ThemeEnforcement;
+			global::Plugin.InputKit.Resource.Styleable.ThemeEnforcement_android_textAppearance = global::BloodDonationApp.Droid.Resource.Styleable.ThemeEnforcement_android_textAppearance;
+			global::Plugin.InputKit.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme = global::BloodDonationApp.Droid.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme;
+			global::Plugin.InputKit.Resource.Styleable.ThemeEnforcement_enforceTextAppearance = global::BloodDonationApp.Droid.Resource.Styleable.ThemeEnforcement_enforceTextAppearance;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar = global::BloodDonationApp.Droid.Resource.Styleable.Toolbar;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_android_gravity = global::BloodDonationApp.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_android_minHeight = global::BloodDonationApp.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_buttonGravity = global::BloodDonationApp.Droid.Resource.Styleable.Toolbar_buttonGravity;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_collapseContentDescription = global::BloodDonationApp.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_collapseIcon = global::BloodDonationApp.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_contentInsetEnd = global::BloodDonationApp.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::BloodDonationApp.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_contentInsetLeft = global::BloodDonationApp.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_contentInsetRight = global::BloodDonationApp.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_contentInsetStart = global::BloodDonationApp.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::BloodDonationApp.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_logo = global::BloodDonationApp.Droid.Resource.Styleable.Toolbar_logo;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_logoDescription = global::BloodDonationApp.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_maxButtonHeight = global::BloodDonationApp.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_navigationContentDescription = global::BloodDonationApp.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_navigationIcon = global::BloodDonationApp.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_popupTheme = global::BloodDonationApp.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_subtitle = global::BloodDonationApp.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_subtitleTextAppearance = global::BloodDonationApp.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_subtitleTextColor = global::BloodDonationApp.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_title = global::BloodDonationApp.Droid.Resource.Styleable.Toolbar_title;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_titleMargin = global::BloodDonationApp.Droid.Resource.Styleable.Toolbar_titleMargin;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_titleMarginBottom = global::BloodDonationApp.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_titleMarginEnd = global::BloodDonationApp.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_titleMargins = global::BloodDonationApp.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_titleMarginStart = global::BloodDonationApp.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_titleMarginTop = global::BloodDonationApp.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_titleTextAppearance = global::BloodDonationApp.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_titleTextColor = global::BloodDonationApp.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::Plugin.InputKit.Resource.Styleable.View = global::BloodDonationApp.Droid.Resource.Styleable.View;
+			global::Plugin.InputKit.Resource.Styleable.ViewBackgroundHelper = global::BloodDonationApp.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::Plugin.InputKit.Resource.Styleable.ViewBackgroundHelper_android_background = global::BloodDonationApp.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::Plugin.InputKit.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::BloodDonationApp.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::Plugin.InputKit.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::BloodDonationApp.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::Plugin.InputKit.Resource.Styleable.ViewStubCompat = global::BloodDonationApp.Droid.Resource.Styleable.ViewStubCompat;
+			global::Plugin.InputKit.Resource.Styleable.ViewStubCompat_android_id = global::BloodDonationApp.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::Plugin.InputKit.Resource.Styleable.ViewStubCompat_android_inflatedId = global::BloodDonationApp.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::Plugin.InputKit.Resource.Styleable.ViewStubCompat_android_layout = global::BloodDonationApp.Droid.Resource.Styleable.ViewStubCompat_android_layout;
+			global::Plugin.InputKit.Resource.Styleable.View_android_focusable = global::BloodDonationApp.Droid.Resource.Styleable.View_android_focusable;
+			global::Plugin.InputKit.Resource.Styleable.View_android_theme = global::BloodDonationApp.Droid.Resource.Styleable.View_android_theme;
+			global::Plugin.InputKit.Resource.Styleable.View_paddingEnd = global::BloodDonationApp.Droid.Resource.Styleable.View_paddingEnd;
+			global::Plugin.InputKit.Resource.Styleable.View_paddingStart = global::BloodDonationApp.Droid.Resource.Styleable.View_paddingStart;
+			global::Plugin.InputKit.Resource.Styleable.View_theme = global::BloodDonationApp.Droid.Resource.Styleable.View_theme;
 			global::Xamarin.Essentials.Resource.Attribute.alpha = global::BloodDonationApp.Droid.Resource.Attribute.alpha;
 			global::Xamarin.Essentials.Resource.Attribute.coordinatorLayoutStyle = global::BloodDonationApp.Droid.Resource.Attribute.coordinatorLayoutStyle;
 			global::Xamarin.Essentials.Resource.Attribute.font = global::BloodDonationApp.Droid.Resource.Attribute.font;
@@ -10173,8 +12756,8 @@ namespace BloodDonationApp.Droid
 			// aapt resource value: 0x7F0E00C5
 			public const int CardView_Light = 2131624133;
 			
-			// aapt resource value: 0x7F0E01F7
-			public const int collectionViewTheme = 2131624439;
+			// aapt resource value: 0x7F0E01F8
+			public const int collectionViewTheme = 2131624440;
 			
 			// aapt resource value: 0x7F0E00C6
 			public const int MainTheme = 2131624134;
@@ -10183,919 +12766,922 @@ namespace BloodDonationApp.Droid
 			public const int MainTheme_Base = 2131624135;
 			
 			// aapt resource value: 0x7F0E00C8
-			public const int Platform_AppCompat = 2131624136;
+			public const int MyPopupMenu = 2131624136;
 			
 			// aapt resource value: 0x7F0E00C9
-			public const int Platform_AppCompat_Light = 2131624137;
+			public const int Platform_AppCompat = 2131624137;
 			
 			// aapt resource value: 0x7F0E00CA
-			public const int Platform_MaterialComponents = 2131624138;
+			public const int Platform_AppCompat_Light = 2131624138;
 			
 			// aapt resource value: 0x7F0E00CB
-			public const int Platform_MaterialComponents_Dialog = 2131624139;
+			public const int Platform_MaterialComponents = 2131624139;
 			
 			// aapt resource value: 0x7F0E00CC
-			public const int Platform_MaterialComponents_Light = 2131624140;
+			public const int Platform_MaterialComponents_Dialog = 2131624140;
 			
 			// aapt resource value: 0x7F0E00CD
-			public const int Platform_MaterialComponents_Light_Dialog = 2131624141;
+			public const int Platform_MaterialComponents_Light = 2131624141;
 			
 			// aapt resource value: 0x7F0E00CE
-			public const int Platform_ThemeOverlay_AppCompat = 2131624142;
+			public const int Platform_MaterialComponents_Light_Dialog = 2131624142;
 			
 			// aapt resource value: 0x7F0E00CF
-			public const int Platform_ThemeOverlay_AppCompat_Dark = 2131624143;
+			public const int Platform_ThemeOverlay_AppCompat = 2131624143;
 			
 			// aapt resource value: 0x7F0E00D0
-			public const int Platform_ThemeOverlay_AppCompat_Light = 2131624144;
+			public const int Platform_ThemeOverlay_AppCompat_Dark = 2131624144;
 			
 			// aapt resource value: 0x7F0E00D1
-			public const int Platform_V21_AppCompat = 2131624145;
+			public const int Platform_ThemeOverlay_AppCompat_Light = 2131624145;
 			
 			// aapt resource value: 0x7F0E00D2
-			public const int Platform_V21_AppCompat_Light = 2131624146;
+			public const int Platform_V21_AppCompat = 2131624146;
 			
 			// aapt resource value: 0x7F0E00D3
-			public const int Platform_V25_AppCompat = 2131624147;
+			public const int Platform_V21_AppCompat_Light = 2131624147;
 			
 			// aapt resource value: 0x7F0E00D4
-			public const int Platform_V25_AppCompat_Light = 2131624148;
+			public const int Platform_V25_AppCompat = 2131624148;
 			
 			// aapt resource value: 0x7F0E00D5
-			public const int Platform_Widget_AppCompat_Spinner = 2131624149;
+			public const int Platform_V25_AppCompat_Light = 2131624149;
 			
 			// aapt resource value: 0x7F0E00D6
-			public const int RtlOverlay_DialogWindowTitle_AppCompat = 2131624150;
+			public const int Platform_Widget_AppCompat_Spinner = 2131624150;
 			
 			// aapt resource value: 0x7F0E00D7
-			public const int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = 2131624151;
+			public const int RtlOverlay_DialogWindowTitle_AppCompat = 2131624151;
 			
 			// aapt resource value: 0x7F0E00D8
-			public const int RtlOverlay_Widget_AppCompat_DialogTitle_Icon = 2131624152;
+			public const int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = 2131624152;
 			
 			// aapt resource value: 0x7F0E00D9
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem = 2131624153;
+			public const int RtlOverlay_Widget_AppCompat_DialogTitle_Icon = 2131624153;
 			
 			// aapt resource value: 0x7F0E00DA
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = 2131624154;
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem = 2131624154;
 			
 			// aapt resource value: 0x7F0E00DB
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = 2131624155;
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = 2131624155;
 			
 			// aapt resource value: 0x7F0E00DC
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = 2131624156;
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = 2131624156;
 			
 			// aapt resource value: 0x7F0E00DD
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = 2131624157;
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = 2131624157;
 			
 			// aapt resource value: 0x7F0E00DE
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = 2131624158;
-			
-			// aapt resource value: 0x7F0E00E4
-			public const int RtlOverlay_Widget_AppCompat_SearchView_MagIcon = 2131624164;
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = 2131624158;
 			
 			// aapt resource value: 0x7F0E00DF
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown = 2131624159;
-			
-			// aapt resource value: 0x7F0E00E0
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = 2131624160;
-			
-			// aapt resource value: 0x7F0E00E1
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = 2131624161;
-			
-			// aapt resource value: 0x7F0E00E2
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Query = 2131624162;
-			
-			// aapt resource value: 0x7F0E00E3
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Text = 2131624163;
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = 2131624159;
 			
 			// aapt resource value: 0x7F0E00E5
-			public const int RtlUnderlay_Widget_AppCompat_ActionButton = 2131624165;
+			public const int RtlOverlay_Widget_AppCompat_SearchView_MagIcon = 2131624165;
+			
+			// aapt resource value: 0x7F0E00E0
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown = 2131624160;
+			
+			// aapt resource value: 0x7F0E00E1
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = 2131624161;
+			
+			// aapt resource value: 0x7F0E00E2
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = 2131624162;
+			
+			// aapt resource value: 0x7F0E00E3
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Query = 2131624163;
+			
+			// aapt resource value: 0x7F0E00E4
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Text = 2131624164;
 			
 			// aapt resource value: 0x7F0E00E6
-			public const int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = 2131624166;
-			
-			// aapt resource value: 0x7F0E01F8
-			public const int scrollViewScrollBars = 2131624440;
-			
-			// aapt resource value: 0x7F0E01F9
-			public const int scrollViewTheme = 2131624441;
+			public const int RtlUnderlay_Widget_AppCompat_ActionButton = 2131624166;
 			
 			// aapt resource value: 0x7F0E00E7
-			public const int TextAppearance_AppCompat = 2131624167;
+			public const int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = 2131624167;
+			
+			// aapt resource value: 0x7F0E01F9
+			public const int scrollViewScrollBars = 2131624441;
+			
+			// aapt resource value: 0x7F0E01FA
+			public const int scrollViewTheme = 2131624442;
 			
 			// aapt resource value: 0x7F0E00E8
-			public const int TextAppearance_AppCompat_Body1 = 2131624168;
+			public const int TextAppearance_AppCompat = 2131624168;
 			
 			// aapt resource value: 0x7F0E00E9
-			public const int TextAppearance_AppCompat_Body2 = 2131624169;
+			public const int TextAppearance_AppCompat_Body1 = 2131624169;
 			
 			// aapt resource value: 0x7F0E00EA
-			public const int TextAppearance_AppCompat_Button = 2131624170;
+			public const int TextAppearance_AppCompat_Body2 = 2131624170;
 			
 			// aapt resource value: 0x7F0E00EB
-			public const int TextAppearance_AppCompat_Caption = 2131624171;
+			public const int TextAppearance_AppCompat_Button = 2131624171;
 			
 			// aapt resource value: 0x7F0E00EC
-			public const int TextAppearance_AppCompat_Display1 = 2131624172;
+			public const int TextAppearance_AppCompat_Caption = 2131624172;
 			
 			// aapt resource value: 0x7F0E00ED
-			public const int TextAppearance_AppCompat_Display2 = 2131624173;
+			public const int TextAppearance_AppCompat_Display1 = 2131624173;
 			
 			// aapt resource value: 0x7F0E00EE
-			public const int TextAppearance_AppCompat_Display3 = 2131624174;
+			public const int TextAppearance_AppCompat_Display2 = 2131624174;
 			
 			// aapt resource value: 0x7F0E00EF
-			public const int TextAppearance_AppCompat_Display4 = 2131624175;
+			public const int TextAppearance_AppCompat_Display3 = 2131624175;
 			
 			// aapt resource value: 0x7F0E00F0
-			public const int TextAppearance_AppCompat_Headline = 2131624176;
+			public const int TextAppearance_AppCompat_Display4 = 2131624176;
 			
 			// aapt resource value: 0x7F0E00F1
-			public const int TextAppearance_AppCompat_Inverse = 2131624177;
+			public const int TextAppearance_AppCompat_Headline = 2131624177;
 			
 			// aapt resource value: 0x7F0E00F2
-			public const int TextAppearance_AppCompat_Large = 2131624178;
+			public const int TextAppearance_AppCompat_Inverse = 2131624178;
 			
 			// aapt resource value: 0x7F0E00F3
-			public const int TextAppearance_AppCompat_Large_Inverse = 2131624179;
+			public const int TextAppearance_AppCompat_Large = 2131624179;
 			
 			// aapt resource value: 0x7F0E00F4
-			public const int TextAppearance_AppCompat_Light_SearchResult_Subtitle = 2131624180;
+			public const int TextAppearance_AppCompat_Large_Inverse = 2131624180;
 			
 			// aapt resource value: 0x7F0E00F5
-			public const int TextAppearance_AppCompat_Light_SearchResult_Title = 2131624181;
+			public const int TextAppearance_AppCompat_Light_SearchResult_Subtitle = 2131624181;
 			
 			// aapt resource value: 0x7F0E00F6
-			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = 2131624182;
+			public const int TextAppearance_AppCompat_Light_SearchResult_Title = 2131624182;
 			
 			// aapt resource value: 0x7F0E00F7
-			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = 2131624183;
+			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = 2131624183;
 			
 			// aapt resource value: 0x7F0E00F8
-			public const int TextAppearance_AppCompat_Medium = 2131624184;
+			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = 2131624184;
 			
 			// aapt resource value: 0x7F0E00F9
-			public const int TextAppearance_AppCompat_Medium_Inverse = 2131624185;
+			public const int TextAppearance_AppCompat_Medium = 2131624185;
 			
 			// aapt resource value: 0x7F0E00FA
-			public const int TextAppearance_AppCompat_Menu = 2131624186;
+			public const int TextAppearance_AppCompat_Medium_Inverse = 2131624186;
 			
 			// aapt resource value: 0x7F0E00FB
-			public const int TextAppearance_AppCompat_SearchResult_Subtitle = 2131624187;
+			public const int TextAppearance_AppCompat_Menu = 2131624187;
 			
 			// aapt resource value: 0x7F0E00FC
-			public const int TextAppearance_AppCompat_SearchResult_Title = 2131624188;
+			public const int TextAppearance_AppCompat_SearchResult_Subtitle = 2131624188;
 			
 			// aapt resource value: 0x7F0E00FD
-			public const int TextAppearance_AppCompat_Small = 2131624189;
+			public const int TextAppearance_AppCompat_SearchResult_Title = 2131624189;
 			
 			// aapt resource value: 0x7F0E00FE
-			public const int TextAppearance_AppCompat_Small_Inverse = 2131624190;
+			public const int TextAppearance_AppCompat_Small = 2131624190;
 			
 			// aapt resource value: 0x7F0E00FF
-			public const int TextAppearance_AppCompat_Subhead = 2131624191;
+			public const int TextAppearance_AppCompat_Small_Inverse = 2131624191;
 			
 			// aapt resource value: 0x7F0E0100
-			public const int TextAppearance_AppCompat_Subhead_Inverse = 2131624192;
+			public const int TextAppearance_AppCompat_Subhead = 2131624192;
 			
 			// aapt resource value: 0x7F0E0101
-			public const int TextAppearance_AppCompat_Title = 2131624193;
+			public const int TextAppearance_AppCompat_Subhead_Inverse = 2131624193;
 			
 			// aapt resource value: 0x7F0E0102
-			public const int TextAppearance_AppCompat_Title_Inverse = 2131624194;
+			public const int TextAppearance_AppCompat_Title = 2131624194;
 			
 			// aapt resource value: 0x7F0E0103
-			public const int TextAppearance_AppCompat_Tooltip = 2131624195;
+			public const int TextAppearance_AppCompat_Title_Inverse = 2131624195;
 			
 			// aapt resource value: 0x7F0E0104
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131624196;
+			public const int TextAppearance_AppCompat_Tooltip = 2131624196;
 			
 			// aapt resource value: 0x7F0E0105
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 2131624197;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131624197;
 			
 			// aapt resource value: 0x7F0E0106
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = 2131624198;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 2131624198;
 			
 			// aapt resource value: 0x7F0E0107
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Title = 2131624199;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = 2131624199;
 			
 			// aapt resource value: 0x7F0E0108
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = 2131624200;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Title = 2131624200;
 			
 			// aapt resource value: 0x7F0E0109
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle = 2131624201;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = 2131624201;
 			
 			// aapt resource value: 0x7F0E010A
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = 2131624202;
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle = 2131624202;
 			
 			// aapt resource value: 0x7F0E010B
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Title = 2131624203;
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = 2131624203;
 			
 			// aapt resource value: 0x7F0E010C
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = 2131624204;
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Title = 2131624204;
 			
 			// aapt resource value: 0x7F0E010D
-			public const int TextAppearance_AppCompat_Widget_Button = 2131624205;
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = 2131624205;
 			
 			// aapt resource value: 0x7F0E010E
-			public const int TextAppearance_AppCompat_Widget_Button_Borderless_Colored = 2131624206;
+			public const int TextAppearance_AppCompat_Widget_Button = 2131624206;
 			
 			// aapt resource value: 0x7F0E010F
-			public const int TextAppearance_AppCompat_Widget_Button_Colored = 2131624207;
+			public const int TextAppearance_AppCompat_Widget_Button_Borderless_Colored = 2131624207;
 			
 			// aapt resource value: 0x7F0E0110
-			public const int TextAppearance_AppCompat_Widget_Button_Inverse = 2131624208;
+			public const int TextAppearance_AppCompat_Widget_Button_Colored = 2131624208;
 			
 			// aapt resource value: 0x7F0E0111
-			public const int TextAppearance_AppCompat_Widget_DropDownItem = 2131624209;
+			public const int TextAppearance_AppCompat_Widget_Button_Inverse = 2131624209;
 			
 			// aapt resource value: 0x7F0E0112
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Header = 2131624210;
+			public const int TextAppearance_AppCompat_Widget_DropDownItem = 2131624210;
 			
 			// aapt resource value: 0x7F0E0113
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Large = 2131624211;
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Header = 2131624211;
 			
 			// aapt resource value: 0x7F0E0114
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Small = 2131624212;
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Large = 2131624212;
 			
 			// aapt resource value: 0x7F0E0115
-			public const int TextAppearance_AppCompat_Widget_Switch = 2131624213;
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Small = 2131624213;
 			
 			// aapt resource value: 0x7F0E0116
-			public const int TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131624214;
+			public const int TextAppearance_AppCompat_Widget_Switch = 2131624214;
 			
 			// aapt resource value: 0x7F0E0117
-			public const int TextAppearance_Compat_Notification = 2131624215;
+			public const int TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131624215;
 			
 			// aapt resource value: 0x7F0E0118
-			public const int TextAppearance_Compat_Notification_Info = 2131624216;
+			public const int TextAppearance_Compat_Notification = 2131624216;
 			
 			// aapt resource value: 0x7F0E0119
-			public const int TextAppearance_Compat_Notification_Info_Media = 2131624217;
+			public const int TextAppearance_Compat_Notification_Info = 2131624217;
 			
 			// aapt resource value: 0x7F0E011A
-			public const int TextAppearance_Compat_Notification_Line2 = 2131624218;
+			public const int TextAppearance_Compat_Notification_Info_Media = 2131624218;
 			
 			// aapt resource value: 0x7F0E011B
-			public const int TextAppearance_Compat_Notification_Line2_Media = 2131624219;
+			public const int TextAppearance_Compat_Notification_Line2 = 2131624219;
 			
 			// aapt resource value: 0x7F0E011C
-			public const int TextAppearance_Compat_Notification_Media = 2131624220;
+			public const int TextAppearance_Compat_Notification_Line2_Media = 2131624220;
 			
 			// aapt resource value: 0x7F0E011D
-			public const int TextAppearance_Compat_Notification_Time = 2131624221;
+			public const int TextAppearance_Compat_Notification_Media = 2131624221;
 			
 			// aapt resource value: 0x7F0E011E
-			public const int TextAppearance_Compat_Notification_Time_Media = 2131624222;
+			public const int TextAppearance_Compat_Notification_Time = 2131624222;
 			
 			// aapt resource value: 0x7F0E011F
-			public const int TextAppearance_Compat_Notification_Title = 2131624223;
+			public const int TextAppearance_Compat_Notification_Time_Media = 2131624223;
 			
 			// aapt resource value: 0x7F0E0120
-			public const int TextAppearance_Compat_Notification_Title_Media = 2131624224;
+			public const int TextAppearance_Compat_Notification_Title = 2131624224;
 			
 			// aapt resource value: 0x7F0E0121
-			public const int TextAppearance_Design_CollapsingToolbar_Expanded = 2131624225;
+			public const int TextAppearance_Compat_Notification_Title_Media = 2131624225;
 			
 			// aapt resource value: 0x7F0E0122
-			public const int TextAppearance_Design_Counter = 2131624226;
+			public const int TextAppearance_Design_CollapsingToolbar_Expanded = 2131624226;
 			
 			// aapt resource value: 0x7F0E0123
-			public const int TextAppearance_Design_Counter_Overflow = 2131624227;
+			public const int TextAppearance_Design_Counter = 2131624227;
 			
 			// aapt resource value: 0x7F0E0124
-			public const int TextAppearance_Design_Error = 2131624228;
+			public const int TextAppearance_Design_Counter_Overflow = 2131624228;
 			
 			// aapt resource value: 0x7F0E0125
-			public const int TextAppearance_Design_HelperText = 2131624229;
+			public const int TextAppearance_Design_Error = 2131624229;
 			
 			// aapt resource value: 0x7F0E0126
-			public const int TextAppearance_Design_Hint = 2131624230;
+			public const int TextAppearance_Design_HelperText = 2131624230;
 			
 			// aapt resource value: 0x7F0E0127
-			public const int TextAppearance_Design_Snackbar_Message = 2131624231;
+			public const int TextAppearance_Design_Hint = 2131624231;
 			
 			// aapt resource value: 0x7F0E0128
-			public const int TextAppearance_Design_Tab = 2131624232;
+			public const int TextAppearance_Design_Snackbar_Message = 2131624232;
 			
 			// aapt resource value: 0x7F0E0129
-			public const int TextAppearance_MaterialComponents_Body1 = 2131624233;
+			public const int TextAppearance_Design_Tab = 2131624233;
 			
 			// aapt resource value: 0x7F0E012A
-			public const int TextAppearance_MaterialComponents_Body2 = 2131624234;
+			public const int TextAppearance_MaterialComponents_Body1 = 2131624234;
 			
 			// aapt resource value: 0x7F0E012B
-			public const int TextAppearance_MaterialComponents_Button = 2131624235;
+			public const int TextAppearance_MaterialComponents_Body2 = 2131624235;
 			
 			// aapt resource value: 0x7F0E012C
-			public const int TextAppearance_MaterialComponents_Caption = 2131624236;
+			public const int TextAppearance_MaterialComponents_Button = 2131624236;
 			
 			// aapt resource value: 0x7F0E012D
-			public const int TextAppearance_MaterialComponents_Chip = 2131624237;
+			public const int TextAppearance_MaterialComponents_Caption = 2131624237;
 			
 			// aapt resource value: 0x7F0E012E
-			public const int TextAppearance_MaterialComponents_Headline1 = 2131624238;
+			public const int TextAppearance_MaterialComponents_Chip = 2131624238;
 			
 			// aapt resource value: 0x7F0E012F
-			public const int TextAppearance_MaterialComponents_Headline2 = 2131624239;
+			public const int TextAppearance_MaterialComponents_Headline1 = 2131624239;
 			
 			// aapt resource value: 0x7F0E0130
-			public const int TextAppearance_MaterialComponents_Headline3 = 2131624240;
+			public const int TextAppearance_MaterialComponents_Headline2 = 2131624240;
 			
 			// aapt resource value: 0x7F0E0131
-			public const int TextAppearance_MaterialComponents_Headline4 = 2131624241;
+			public const int TextAppearance_MaterialComponents_Headline3 = 2131624241;
 			
 			// aapt resource value: 0x7F0E0132
-			public const int TextAppearance_MaterialComponents_Headline5 = 2131624242;
+			public const int TextAppearance_MaterialComponents_Headline4 = 2131624242;
 			
 			// aapt resource value: 0x7F0E0133
-			public const int TextAppearance_MaterialComponents_Headline6 = 2131624243;
+			public const int TextAppearance_MaterialComponents_Headline5 = 2131624243;
 			
 			// aapt resource value: 0x7F0E0134
-			public const int TextAppearance_MaterialComponents_Overline = 2131624244;
+			public const int TextAppearance_MaterialComponents_Headline6 = 2131624244;
 			
 			// aapt resource value: 0x7F0E0135
-			public const int TextAppearance_MaterialComponents_Subtitle1 = 2131624245;
+			public const int TextAppearance_MaterialComponents_Overline = 2131624245;
 			
 			// aapt resource value: 0x7F0E0136
-			public const int TextAppearance_MaterialComponents_Subtitle2 = 2131624246;
+			public const int TextAppearance_MaterialComponents_Subtitle1 = 2131624246;
 			
 			// aapt resource value: 0x7F0E0137
-			public const int TextAppearance_MaterialComponents_Tab = 2131624247;
+			public const int TextAppearance_MaterialComponents_Subtitle2 = 2131624247;
 			
 			// aapt resource value: 0x7F0E0138
-			public const int TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131624248;
+			public const int TextAppearance_MaterialComponents_Tab = 2131624248;
 			
 			// aapt resource value: 0x7F0E0139
-			public const int TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131624249;
+			public const int TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131624249;
 			
 			// aapt resource value: 0x7F0E013A
-			public const int TextAppearance_Widget_AppCompat_Toolbar_Title = 2131624250;
-			
-			// aapt resource value: 0x7F0E016B
-			public const int ThemeOverlay_AppCompat = 2131624299;
-			
-			// aapt resource value: 0x7F0E016C
-			public const int ThemeOverlay_AppCompat_ActionBar = 2131624300;
-			
-			// aapt resource value: 0x7F0E016D
-			public const int ThemeOverlay_AppCompat_Dark = 2131624301;
-			
-			// aapt resource value: 0x7F0E016E
-			public const int ThemeOverlay_AppCompat_Dark_ActionBar = 2131624302;
-			
-			// aapt resource value: 0x7F0E016F
-			public const int ThemeOverlay_AppCompat_Dialog = 2131624303;
-			
-			// aapt resource value: 0x7F0E0170
-			public const int ThemeOverlay_AppCompat_Dialog_Alert = 2131624304;
-			
-			// aapt resource value: 0x7F0E0171
-			public const int ThemeOverlay_AppCompat_Light = 2131624305;
-			
-			// aapt resource value: 0x7F0E0172
-			public const int ThemeOverlay_MaterialComponents = 2131624306;
-			
-			// aapt resource value: 0x7F0E0173
-			public const int ThemeOverlay_MaterialComponents_ActionBar = 2131624307;
-			
-			// aapt resource value: 0x7F0E0174
-			public const int ThemeOverlay_MaterialComponents_Dark = 2131624308;
-			
-			// aapt resource value: 0x7F0E0175
-			public const int ThemeOverlay_MaterialComponents_Dark_ActionBar = 2131624309;
-			
-			// aapt resource value: 0x7F0E0176
-			public const int ThemeOverlay_MaterialComponents_Dialog = 2131624310;
-			
-			// aapt resource value: 0x7F0E0177
-			public const int ThemeOverlay_MaterialComponents_Dialog_Alert = 2131624311;
-			
-			// aapt resource value: 0x7F0E0178
-			public const int ThemeOverlay_MaterialComponents_Light = 2131624312;
-			
-			// aapt resource value: 0x7F0E0179
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText = 2131624313;
-			
-			// aapt resource value: 0x7F0E017A
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = 2131624314;
-			
-			// aapt resource value: 0x7F0E017B
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131624315;
-			
-			// aapt resource value: 0x7F0E017C
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = 2131624316;
-			
-			// aapt resource value: 0x7F0E017D
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131624317;
+			public const int TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131624250;
 			
 			// aapt resource value: 0x7F0E013B
-			public const int Theme_AppCompat = 2131624251;
+			public const int TextAppearance_Widget_AppCompat_Toolbar_Title = 2131624251;
 			
-			// aapt resource value: 0x7F0E013C
-			public const int Theme_AppCompat_CompactMenu = 2131624252;
+			// aapt resource value: 0x7F0E016C
+			public const int ThemeOverlay_AppCompat = 2131624300;
 			
-			// aapt resource value: 0x7F0E013D
-			public const int Theme_AppCompat_DayNight = 2131624253;
+			// aapt resource value: 0x7F0E016D
+			public const int ThemeOverlay_AppCompat_ActionBar = 2131624301;
 			
-			// aapt resource value: 0x7F0E013E
-			public const int Theme_AppCompat_DayNight_DarkActionBar = 2131624254;
+			// aapt resource value: 0x7F0E016E
+			public const int ThemeOverlay_AppCompat_Dark = 2131624302;
 			
-			// aapt resource value: 0x7F0E013F
-			public const int Theme_AppCompat_DayNight_Dialog = 2131624255;
+			// aapt resource value: 0x7F0E016F
+			public const int ThemeOverlay_AppCompat_Dark_ActionBar = 2131624303;
 			
-			// aapt resource value: 0x7F0E0142
-			public const int Theme_AppCompat_DayNight_DialogWhenLarge = 2131624258;
+			// aapt resource value: 0x7F0E0170
+			public const int ThemeOverlay_AppCompat_Dialog = 2131624304;
 			
-			// aapt resource value: 0x7F0E0140
-			public const int Theme_AppCompat_DayNight_Dialog_Alert = 2131624256;
+			// aapt resource value: 0x7F0E0171
+			public const int ThemeOverlay_AppCompat_Dialog_Alert = 2131624305;
 			
-			// aapt resource value: 0x7F0E0141
-			public const int Theme_AppCompat_DayNight_Dialog_MinWidth = 2131624257;
+			// aapt resource value: 0x7F0E0172
+			public const int ThemeOverlay_AppCompat_Light = 2131624306;
 			
-			// aapt resource value: 0x7F0E0143
-			public const int Theme_AppCompat_DayNight_NoActionBar = 2131624259;
+			// aapt resource value: 0x7F0E0173
+			public const int ThemeOverlay_MaterialComponents = 2131624307;
 			
-			// aapt resource value: 0x7F0E0144
-			public const int Theme_AppCompat_Dialog = 2131624260;
+			// aapt resource value: 0x7F0E0174
+			public const int ThemeOverlay_MaterialComponents_ActionBar = 2131624308;
 			
-			// aapt resource value: 0x7F0E0147
-			public const int Theme_AppCompat_DialogWhenLarge = 2131624263;
+			// aapt resource value: 0x7F0E0175
+			public const int ThemeOverlay_MaterialComponents_Dark = 2131624309;
 			
-			// aapt resource value: 0x7F0E0145
-			public const int Theme_AppCompat_Dialog_Alert = 2131624261;
+			// aapt resource value: 0x7F0E0176
+			public const int ThemeOverlay_MaterialComponents_Dark_ActionBar = 2131624310;
 			
-			// aapt resource value: 0x7F0E0146
-			public const int Theme_AppCompat_Dialog_MinWidth = 2131624262;
+			// aapt resource value: 0x7F0E0177
+			public const int ThemeOverlay_MaterialComponents_Dialog = 2131624311;
 			
-			// aapt resource value: 0x7F0E0148
-			public const int Theme_AppCompat_Light = 2131624264;
+			// aapt resource value: 0x7F0E0178
+			public const int ThemeOverlay_MaterialComponents_Dialog_Alert = 2131624312;
 			
-			// aapt resource value: 0x7F0E0149
-			public const int Theme_AppCompat_Light_DarkActionBar = 2131624265;
+			// aapt resource value: 0x7F0E0179
+			public const int ThemeOverlay_MaterialComponents_Light = 2131624313;
 			
-			// aapt resource value: 0x7F0E014A
-			public const int Theme_AppCompat_Light_Dialog = 2131624266;
+			// aapt resource value: 0x7F0E017A
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText = 2131624314;
 			
-			// aapt resource value: 0x7F0E014D
-			public const int Theme_AppCompat_Light_DialogWhenLarge = 2131624269;
+			// aapt resource value: 0x7F0E017B
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = 2131624315;
 			
-			// aapt resource value: 0x7F0E014B
-			public const int Theme_AppCompat_Light_Dialog_Alert = 2131624267;
+			// aapt resource value: 0x7F0E017C
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131624316;
 			
-			// aapt resource value: 0x7F0E014C
-			public const int Theme_AppCompat_Light_Dialog_MinWidth = 2131624268;
-			
-			// aapt resource value: 0x7F0E014E
-			public const int Theme_AppCompat_Light_NoActionBar = 2131624270;
-			
-			// aapt resource value: 0x7F0E014F
-			public const int Theme_AppCompat_NoActionBar = 2131624271;
-			
-			// aapt resource value: 0x7F0E0150
-			public const int Theme_Design = 2131624272;
-			
-			// aapt resource value: 0x7F0E0151
-			public const int Theme_Design_BottomSheetDialog = 2131624273;
-			
-			// aapt resource value: 0x7F0E0152
-			public const int Theme_Design_Light = 2131624274;
-			
-			// aapt resource value: 0x7F0E0153
-			public const int Theme_Design_Light_BottomSheetDialog = 2131624275;
-			
-			// aapt resource value: 0x7F0E0154
-			public const int Theme_Design_Light_NoActionBar = 2131624276;
-			
-			// aapt resource value: 0x7F0E0155
-			public const int Theme_Design_NoActionBar = 2131624277;
-			
-			// aapt resource value: 0x7F0E0156
-			public const int Theme_MaterialComponents = 2131624278;
-			
-			// aapt resource value: 0x7F0E0157
-			public const int Theme_MaterialComponents_BottomSheetDialog = 2131624279;
-			
-			// aapt resource value: 0x7F0E0158
-			public const int Theme_MaterialComponents_Bridge = 2131624280;
-			
-			// aapt resource value: 0x7F0E0159
-			public const int Theme_MaterialComponents_CompactMenu = 2131624281;
-			
-			// aapt resource value: 0x7F0E015A
-			public const int Theme_MaterialComponents_Dialog = 2131624282;
-			
-			// aapt resource value: 0x7F0E015D
-			public const int Theme_MaterialComponents_DialogWhenLarge = 2131624285;
-			
-			// aapt resource value: 0x7F0E015B
-			public const int Theme_MaterialComponents_Dialog_Alert = 2131624283;
-			
-			// aapt resource value: 0x7F0E015C
-			public const int Theme_MaterialComponents_Dialog_MinWidth = 2131624284;
-			
-			// aapt resource value: 0x7F0E015E
-			public const int Theme_MaterialComponents_Light = 2131624286;
-			
-			// aapt resource value: 0x7F0E015F
-			public const int Theme_MaterialComponents_Light_BottomSheetDialog = 2131624287;
-			
-			// aapt resource value: 0x7F0E0160
-			public const int Theme_MaterialComponents_Light_Bridge = 2131624288;
-			
-			// aapt resource value: 0x7F0E0161
-			public const int Theme_MaterialComponents_Light_DarkActionBar = 2131624289;
-			
-			// aapt resource value: 0x7F0E0162
-			public const int Theme_MaterialComponents_Light_DarkActionBar_Bridge = 2131624290;
-			
-			// aapt resource value: 0x7F0E0163
-			public const int Theme_MaterialComponents_Light_Dialog = 2131624291;
-			
-			// aapt resource value: 0x7F0E0166
-			public const int Theme_MaterialComponents_Light_DialogWhenLarge = 2131624294;
-			
-			// aapt resource value: 0x7F0E0164
-			public const int Theme_MaterialComponents_Light_Dialog_Alert = 2131624292;
-			
-			// aapt resource value: 0x7F0E0165
-			public const int Theme_MaterialComponents_Light_Dialog_MinWidth = 2131624293;
-			
-			// aapt resource value: 0x7F0E0167
-			public const int Theme_MaterialComponents_Light_NoActionBar = 2131624295;
-			
-			// aapt resource value: 0x7F0E0168
-			public const int Theme_MaterialComponents_Light_NoActionBar_Bridge = 2131624296;
-			
-			// aapt resource value: 0x7F0E0169
-			public const int Theme_MaterialComponents_NoActionBar = 2131624297;
-			
-			// aapt resource value: 0x7F0E016A
-			public const int Theme_MaterialComponents_NoActionBar_Bridge = 2131624298;
+			// aapt resource value: 0x7F0E017D
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = 2131624317;
 			
 			// aapt resource value: 0x7F0E017E
-			public const int Widget_AppCompat_ActionBar = 2131624318;
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131624318;
+			
+			// aapt resource value: 0x7F0E013C
+			public const int Theme_AppCompat = 2131624252;
+			
+			// aapt resource value: 0x7F0E013D
+			public const int Theme_AppCompat_CompactMenu = 2131624253;
+			
+			// aapt resource value: 0x7F0E013E
+			public const int Theme_AppCompat_DayNight = 2131624254;
+			
+			// aapt resource value: 0x7F0E013F
+			public const int Theme_AppCompat_DayNight_DarkActionBar = 2131624255;
+			
+			// aapt resource value: 0x7F0E0140
+			public const int Theme_AppCompat_DayNight_Dialog = 2131624256;
+			
+			// aapt resource value: 0x7F0E0143
+			public const int Theme_AppCompat_DayNight_DialogWhenLarge = 2131624259;
+			
+			// aapt resource value: 0x7F0E0141
+			public const int Theme_AppCompat_DayNight_Dialog_Alert = 2131624257;
+			
+			// aapt resource value: 0x7F0E0142
+			public const int Theme_AppCompat_DayNight_Dialog_MinWidth = 2131624258;
+			
+			// aapt resource value: 0x7F0E0144
+			public const int Theme_AppCompat_DayNight_NoActionBar = 2131624260;
+			
+			// aapt resource value: 0x7F0E0145
+			public const int Theme_AppCompat_Dialog = 2131624261;
+			
+			// aapt resource value: 0x7F0E0148
+			public const int Theme_AppCompat_DialogWhenLarge = 2131624264;
+			
+			// aapt resource value: 0x7F0E0146
+			public const int Theme_AppCompat_Dialog_Alert = 2131624262;
+			
+			// aapt resource value: 0x7F0E0147
+			public const int Theme_AppCompat_Dialog_MinWidth = 2131624263;
+			
+			// aapt resource value: 0x7F0E0149
+			public const int Theme_AppCompat_Light = 2131624265;
+			
+			// aapt resource value: 0x7F0E014A
+			public const int Theme_AppCompat_Light_DarkActionBar = 2131624266;
+			
+			// aapt resource value: 0x7F0E014B
+			public const int Theme_AppCompat_Light_Dialog = 2131624267;
+			
+			// aapt resource value: 0x7F0E014E
+			public const int Theme_AppCompat_Light_DialogWhenLarge = 2131624270;
+			
+			// aapt resource value: 0x7F0E014C
+			public const int Theme_AppCompat_Light_Dialog_Alert = 2131624268;
+			
+			// aapt resource value: 0x7F0E014D
+			public const int Theme_AppCompat_Light_Dialog_MinWidth = 2131624269;
+			
+			// aapt resource value: 0x7F0E014F
+			public const int Theme_AppCompat_Light_NoActionBar = 2131624271;
+			
+			// aapt resource value: 0x7F0E0150
+			public const int Theme_AppCompat_NoActionBar = 2131624272;
+			
+			// aapt resource value: 0x7F0E0151
+			public const int Theme_Design = 2131624273;
+			
+			// aapt resource value: 0x7F0E0152
+			public const int Theme_Design_BottomSheetDialog = 2131624274;
+			
+			// aapt resource value: 0x7F0E0153
+			public const int Theme_Design_Light = 2131624275;
+			
+			// aapt resource value: 0x7F0E0154
+			public const int Theme_Design_Light_BottomSheetDialog = 2131624276;
+			
+			// aapt resource value: 0x7F0E0155
+			public const int Theme_Design_Light_NoActionBar = 2131624277;
+			
+			// aapt resource value: 0x7F0E0156
+			public const int Theme_Design_NoActionBar = 2131624278;
+			
+			// aapt resource value: 0x7F0E0157
+			public const int Theme_MaterialComponents = 2131624279;
+			
+			// aapt resource value: 0x7F0E0158
+			public const int Theme_MaterialComponents_BottomSheetDialog = 2131624280;
+			
+			// aapt resource value: 0x7F0E0159
+			public const int Theme_MaterialComponents_Bridge = 2131624281;
+			
+			// aapt resource value: 0x7F0E015A
+			public const int Theme_MaterialComponents_CompactMenu = 2131624282;
+			
+			// aapt resource value: 0x7F0E015B
+			public const int Theme_MaterialComponents_Dialog = 2131624283;
+			
+			// aapt resource value: 0x7F0E015E
+			public const int Theme_MaterialComponents_DialogWhenLarge = 2131624286;
+			
+			// aapt resource value: 0x7F0E015C
+			public const int Theme_MaterialComponents_Dialog_Alert = 2131624284;
+			
+			// aapt resource value: 0x7F0E015D
+			public const int Theme_MaterialComponents_Dialog_MinWidth = 2131624285;
+			
+			// aapt resource value: 0x7F0E015F
+			public const int Theme_MaterialComponents_Light = 2131624287;
+			
+			// aapt resource value: 0x7F0E0160
+			public const int Theme_MaterialComponents_Light_BottomSheetDialog = 2131624288;
+			
+			// aapt resource value: 0x7F0E0161
+			public const int Theme_MaterialComponents_Light_Bridge = 2131624289;
+			
+			// aapt resource value: 0x7F0E0162
+			public const int Theme_MaterialComponents_Light_DarkActionBar = 2131624290;
+			
+			// aapt resource value: 0x7F0E0163
+			public const int Theme_MaterialComponents_Light_DarkActionBar_Bridge = 2131624291;
+			
+			// aapt resource value: 0x7F0E0164
+			public const int Theme_MaterialComponents_Light_Dialog = 2131624292;
+			
+			// aapt resource value: 0x7F0E0167
+			public const int Theme_MaterialComponents_Light_DialogWhenLarge = 2131624295;
+			
+			// aapt resource value: 0x7F0E0165
+			public const int Theme_MaterialComponents_Light_Dialog_Alert = 2131624293;
+			
+			// aapt resource value: 0x7F0E0166
+			public const int Theme_MaterialComponents_Light_Dialog_MinWidth = 2131624294;
+			
+			// aapt resource value: 0x7F0E0168
+			public const int Theme_MaterialComponents_Light_NoActionBar = 2131624296;
+			
+			// aapt resource value: 0x7F0E0169
+			public const int Theme_MaterialComponents_Light_NoActionBar_Bridge = 2131624297;
+			
+			// aapt resource value: 0x7F0E016A
+			public const int Theme_MaterialComponents_NoActionBar = 2131624298;
+			
+			// aapt resource value: 0x7F0E016B
+			public const int Theme_MaterialComponents_NoActionBar_Bridge = 2131624299;
 			
 			// aapt resource value: 0x7F0E017F
-			public const int Widget_AppCompat_ActionBar_Solid = 2131624319;
+			public const int Widget_AppCompat_ActionBar = 2131624319;
 			
 			// aapt resource value: 0x7F0E0180
-			public const int Widget_AppCompat_ActionBar_TabBar = 2131624320;
+			public const int Widget_AppCompat_ActionBar_Solid = 2131624320;
 			
 			// aapt resource value: 0x7F0E0181
-			public const int Widget_AppCompat_ActionBar_TabText = 2131624321;
+			public const int Widget_AppCompat_ActionBar_TabBar = 2131624321;
 			
 			// aapt resource value: 0x7F0E0182
-			public const int Widget_AppCompat_ActionBar_TabView = 2131624322;
+			public const int Widget_AppCompat_ActionBar_TabText = 2131624322;
 			
 			// aapt resource value: 0x7F0E0183
-			public const int Widget_AppCompat_ActionButton = 2131624323;
+			public const int Widget_AppCompat_ActionBar_TabView = 2131624323;
 			
 			// aapt resource value: 0x7F0E0184
-			public const int Widget_AppCompat_ActionButton_CloseMode = 2131624324;
+			public const int Widget_AppCompat_ActionButton = 2131624324;
 			
 			// aapt resource value: 0x7F0E0185
-			public const int Widget_AppCompat_ActionButton_Overflow = 2131624325;
+			public const int Widget_AppCompat_ActionButton_CloseMode = 2131624325;
 			
 			// aapt resource value: 0x7F0E0186
-			public const int Widget_AppCompat_ActionMode = 2131624326;
+			public const int Widget_AppCompat_ActionButton_Overflow = 2131624326;
 			
 			// aapt resource value: 0x7F0E0187
-			public const int Widget_AppCompat_ActivityChooserView = 2131624327;
+			public const int Widget_AppCompat_ActionMode = 2131624327;
 			
 			// aapt resource value: 0x7F0E0188
-			public const int Widget_AppCompat_AutoCompleteTextView = 2131624328;
+			public const int Widget_AppCompat_ActivityChooserView = 2131624328;
 			
 			// aapt resource value: 0x7F0E0189
-			public const int Widget_AppCompat_Button = 2131624329;
-			
-			// aapt resource value: 0x7F0E018F
-			public const int Widget_AppCompat_ButtonBar = 2131624335;
-			
-			// aapt resource value: 0x7F0E0190
-			public const int Widget_AppCompat_ButtonBar_AlertDialog = 2131624336;
+			public const int Widget_AppCompat_AutoCompleteTextView = 2131624329;
 			
 			// aapt resource value: 0x7F0E018A
-			public const int Widget_AppCompat_Button_Borderless = 2131624330;
+			public const int Widget_AppCompat_Button = 2131624330;
 			
-			// aapt resource value: 0x7F0E018B
-			public const int Widget_AppCompat_Button_Borderless_Colored = 2131624331;
-			
-			// aapt resource value: 0x7F0E018C
-			public const int Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131624332;
-			
-			// aapt resource value: 0x7F0E018D
-			public const int Widget_AppCompat_Button_Colored = 2131624333;
-			
-			// aapt resource value: 0x7F0E018E
-			public const int Widget_AppCompat_Button_Small = 2131624334;
+			// aapt resource value: 0x7F0E0190
+			public const int Widget_AppCompat_ButtonBar = 2131624336;
 			
 			// aapt resource value: 0x7F0E0191
-			public const int Widget_AppCompat_CompoundButton_CheckBox = 2131624337;
+			public const int Widget_AppCompat_ButtonBar_AlertDialog = 2131624337;
+			
+			// aapt resource value: 0x7F0E018B
+			public const int Widget_AppCompat_Button_Borderless = 2131624331;
+			
+			// aapt resource value: 0x7F0E018C
+			public const int Widget_AppCompat_Button_Borderless_Colored = 2131624332;
+			
+			// aapt resource value: 0x7F0E018D
+			public const int Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131624333;
+			
+			// aapt resource value: 0x7F0E018E
+			public const int Widget_AppCompat_Button_Colored = 2131624334;
+			
+			// aapt resource value: 0x7F0E018F
+			public const int Widget_AppCompat_Button_Small = 2131624335;
 			
 			// aapt resource value: 0x7F0E0192
-			public const int Widget_AppCompat_CompoundButton_RadioButton = 2131624338;
+			public const int Widget_AppCompat_CompoundButton_CheckBox = 2131624338;
 			
 			// aapt resource value: 0x7F0E0193
-			public const int Widget_AppCompat_CompoundButton_Switch = 2131624339;
+			public const int Widget_AppCompat_CompoundButton_RadioButton = 2131624339;
 			
 			// aapt resource value: 0x7F0E0194
-			public const int Widget_AppCompat_DrawerArrowToggle = 2131624340;
+			public const int Widget_AppCompat_CompoundButton_Switch = 2131624340;
 			
 			// aapt resource value: 0x7F0E0195
-			public const int Widget_AppCompat_DropDownItem_Spinner = 2131624341;
+			public const int Widget_AppCompat_DrawerArrowToggle = 2131624341;
 			
 			// aapt resource value: 0x7F0E0196
-			public const int Widget_AppCompat_EditText = 2131624342;
+			public const int Widget_AppCompat_DropDownItem_Spinner = 2131624342;
 			
 			// aapt resource value: 0x7F0E0197
-			public const int Widget_AppCompat_ImageButton = 2131624343;
+			public const int Widget_AppCompat_EditText = 2131624343;
 			
 			// aapt resource value: 0x7F0E0198
-			public const int Widget_AppCompat_Light_ActionBar = 2131624344;
+			public const int Widget_AppCompat_ImageButton = 2131624344;
 			
 			// aapt resource value: 0x7F0E0199
-			public const int Widget_AppCompat_Light_ActionBar_Solid = 2131624345;
+			public const int Widget_AppCompat_Light_ActionBar = 2131624345;
 			
 			// aapt resource value: 0x7F0E019A
-			public const int Widget_AppCompat_Light_ActionBar_Solid_Inverse = 2131624346;
+			public const int Widget_AppCompat_Light_ActionBar_Solid = 2131624346;
 			
 			// aapt resource value: 0x7F0E019B
-			public const int Widget_AppCompat_Light_ActionBar_TabBar = 2131624347;
+			public const int Widget_AppCompat_Light_ActionBar_Solid_Inverse = 2131624347;
 			
 			// aapt resource value: 0x7F0E019C
-			public const int Widget_AppCompat_Light_ActionBar_TabBar_Inverse = 2131624348;
+			public const int Widget_AppCompat_Light_ActionBar_TabBar = 2131624348;
 			
 			// aapt resource value: 0x7F0E019D
-			public const int Widget_AppCompat_Light_ActionBar_TabText = 2131624349;
+			public const int Widget_AppCompat_Light_ActionBar_TabBar_Inverse = 2131624349;
 			
 			// aapt resource value: 0x7F0E019E
-			public const int Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131624350;
+			public const int Widget_AppCompat_Light_ActionBar_TabText = 2131624350;
 			
 			// aapt resource value: 0x7F0E019F
-			public const int Widget_AppCompat_Light_ActionBar_TabView = 2131624351;
+			public const int Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131624351;
 			
 			// aapt resource value: 0x7F0E01A0
-			public const int Widget_AppCompat_Light_ActionBar_TabView_Inverse = 2131624352;
+			public const int Widget_AppCompat_Light_ActionBar_TabView = 2131624352;
 			
 			// aapt resource value: 0x7F0E01A1
-			public const int Widget_AppCompat_Light_ActionButton = 2131624353;
+			public const int Widget_AppCompat_Light_ActionBar_TabView_Inverse = 2131624353;
 			
 			// aapt resource value: 0x7F0E01A2
-			public const int Widget_AppCompat_Light_ActionButton_CloseMode = 2131624354;
+			public const int Widget_AppCompat_Light_ActionButton = 2131624354;
 			
 			// aapt resource value: 0x7F0E01A3
-			public const int Widget_AppCompat_Light_ActionButton_Overflow = 2131624355;
+			public const int Widget_AppCompat_Light_ActionButton_CloseMode = 2131624355;
 			
 			// aapt resource value: 0x7F0E01A4
-			public const int Widget_AppCompat_Light_ActionMode_Inverse = 2131624356;
+			public const int Widget_AppCompat_Light_ActionButton_Overflow = 2131624356;
 			
 			// aapt resource value: 0x7F0E01A5
-			public const int Widget_AppCompat_Light_ActivityChooserView = 2131624357;
+			public const int Widget_AppCompat_Light_ActionMode_Inverse = 2131624357;
 			
 			// aapt resource value: 0x7F0E01A6
-			public const int Widget_AppCompat_Light_AutoCompleteTextView = 2131624358;
+			public const int Widget_AppCompat_Light_ActivityChooserView = 2131624358;
 			
 			// aapt resource value: 0x7F0E01A7
-			public const int Widget_AppCompat_Light_DropDownItem_Spinner = 2131624359;
+			public const int Widget_AppCompat_Light_AutoCompleteTextView = 2131624359;
 			
 			// aapt resource value: 0x7F0E01A8
-			public const int Widget_AppCompat_Light_ListPopupWindow = 2131624360;
+			public const int Widget_AppCompat_Light_DropDownItem_Spinner = 2131624360;
 			
 			// aapt resource value: 0x7F0E01A9
-			public const int Widget_AppCompat_Light_ListView_DropDown = 2131624361;
+			public const int Widget_AppCompat_Light_ListPopupWindow = 2131624361;
 			
 			// aapt resource value: 0x7F0E01AA
-			public const int Widget_AppCompat_Light_PopupMenu = 2131624362;
+			public const int Widget_AppCompat_Light_ListView_DropDown = 2131624362;
 			
 			// aapt resource value: 0x7F0E01AB
-			public const int Widget_AppCompat_Light_PopupMenu_Overflow = 2131624363;
+			public const int Widget_AppCompat_Light_PopupMenu = 2131624363;
 			
 			// aapt resource value: 0x7F0E01AC
-			public const int Widget_AppCompat_Light_SearchView = 2131624364;
+			public const int Widget_AppCompat_Light_PopupMenu_Overflow = 2131624364;
 			
 			// aapt resource value: 0x7F0E01AD
-			public const int Widget_AppCompat_Light_Spinner_DropDown_ActionBar = 2131624365;
+			public const int Widget_AppCompat_Light_SearchView = 2131624365;
 			
 			// aapt resource value: 0x7F0E01AE
-			public const int Widget_AppCompat_ListMenuView = 2131624366;
+			public const int Widget_AppCompat_Light_Spinner_DropDown_ActionBar = 2131624366;
 			
 			// aapt resource value: 0x7F0E01AF
-			public const int Widget_AppCompat_ListPopupWindow = 2131624367;
+			public const int Widget_AppCompat_ListMenuView = 2131624367;
 			
 			// aapt resource value: 0x7F0E01B0
-			public const int Widget_AppCompat_ListView = 2131624368;
+			public const int Widget_AppCompat_ListPopupWindow = 2131624368;
 			
 			// aapt resource value: 0x7F0E01B1
-			public const int Widget_AppCompat_ListView_DropDown = 2131624369;
+			public const int Widget_AppCompat_ListView = 2131624369;
 			
 			// aapt resource value: 0x7F0E01B2
-			public const int Widget_AppCompat_ListView_Menu = 2131624370;
+			public const int Widget_AppCompat_ListView_DropDown = 2131624370;
 			
 			// aapt resource value: 0x7F0E01B3
-			public const int Widget_AppCompat_PopupMenu = 2131624371;
+			public const int Widget_AppCompat_ListView_Menu = 2131624371;
 			
 			// aapt resource value: 0x7F0E01B4
-			public const int Widget_AppCompat_PopupMenu_Overflow = 2131624372;
+			public const int Widget_AppCompat_PopupMenu = 2131624372;
 			
 			// aapt resource value: 0x7F0E01B5
-			public const int Widget_AppCompat_PopupWindow = 2131624373;
+			public const int Widget_AppCompat_PopupMenu_Overflow = 2131624373;
 			
 			// aapt resource value: 0x7F0E01B6
-			public const int Widget_AppCompat_ProgressBar = 2131624374;
+			public const int Widget_AppCompat_PopupWindow = 2131624374;
 			
 			// aapt resource value: 0x7F0E01B7
-			public const int Widget_AppCompat_ProgressBar_Horizontal = 2131624375;
+			public const int Widget_AppCompat_ProgressBar = 2131624375;
 			
 			// aapt resource value: 0x7F0E01B8
-			public const int Widget_AppCompat_RatingBar = 2131624376;
+			public const int Widget_AppCompat_ProgressBar_Horizontal = 2131624376;
 			
 			// aapt resource value: 0x7F0E01B9
-			public const int Widget_AppCompat_RatingBar_Indicator = 2131624377;
+			public const int Widget_AppCompat_RatingBar = 2131624377;
 			
 			// aapt resource value: 0x7F0E01BA
-			public const int Widget_AppCompat_RatingBar_Small = 2131624378;
+			public const int Widget_AppCompat_RatingBar_Indicator = 2131624378;
 			
 			// aapt resource value: 0x7F0E01BB
-			public const int Widget_AppCompat_SearchView = 2131624379;
+			public const int Widget_AppCompat_RatingBar_Small = 2131624379;
 			
 			// aapt resource value: 0x7F0E01BC
-			public const int Widget_AppCompat_SearchView_ActionBar = 2131624380;
+			public const int Widget_AppCompat_SearchView = 2131624380;
 			
 			// aapt resource value: 0x7F0E01BD
-			public const int Widget_AppCompat_SeekBar = 2131624381;
+			public const int Widget_AppCompat_SearchView_ActionBar = 2131624381;
 			
 			// aapt resource value: 0x7F0E01BE
-			public const int Widget_AppCompat_SeekBar_Discrete = 2131624382;
+			public const int Widget_AppCompat_SeekBar = 2131624382;
 			
 			// aapt resource value: 0x7F0E01BF
-			public const int Widget_AppCompat_Spinner = 2131624383;
+			public const int Widget_AppCompat_SeekBar_Discrete = 2131624383;
 			
 			// aapt resource value: 0x7F0E01C0
-			public const int Widget_AppCompat_Spinner_DropDown = 2131624384;
+			public const int Widget_AppCompat_Spinner = 2131624384;
 			
 			// aapt resource value: 0x7F0E01C1
-			public const int Widget_AppCompat_Spinner_DropDown_ActionBar = 2131624385;
+			public const int Widget_AppCompat_Spinner_DropDown = 2131624385;
 			
 			// aapt resource value: 0x7F0E01C2
-			public const int Widget_AppCompat_Spinner_Underlined = 2131624386;
+			public const int Widget_AppCompat_Spinner_DropDown_ActionBar = 2131624386;
 			
 			// aapt resource value: 0x7F0E01C3
-			public const int Widget_AppCompat_TextView_SpinnerItem = 2131624387;
+			public const int Widget_AppCompat_Spinner_Underlined = 2131624387;
 			
 			// aapt resource value: 0x7F0E01C4
-			public const int Widget_AppCompat_Toolbar = 2131624388;
+			public const int Widget_AppCompat_TextView_SpinnerItem = 2131624388;
 			
 			// aapt resource value: 0x7F0E01C5
-			public const int Widget_AppCompat_Toolbar_Button_Navigation = 2131624389;
+			public const int Widget_AppCompat_Toolbar = 2131624389;
 			
 			// aapt resource value: 0x7F0E01C6
-			public const int Widget_Compat_NotificationActionContainer = 2131624390;
+			public const int Widget_AppCompat_Toolbar_Button_Navigation = 2131624390;
 			
 			// aapt resource value: 0x7F0E01C7
-			public const int Widget_Compat_NotificationActionText = 2131624391;
+			public const int Widget_Compat_NotificationActionContainer = 2131624391;
 			
 			// aapt resource value: 0x7F0E01C8
-			public const int Widget_Design_AppBarLayout = 2131624392;
+			public const int Widget_Compat_NotificationActionText = 2131624392;
 			
 			// aapt resource value: 0x7F0E01C9
-			public const int Widget_Design_BottomNavigationView = 2131624393;
+			public const int Widget_Design_AppBarLayout = 2131624393;
 			
 			// aapt resource value: 0x7F0E01CA
-			public const int Widget_Design_BottomSheet_Modal = 2131624394;
+			public const int Widget_Design_BottomNavigationView = 2131624394;
 			
 			// aapt resource value: 0x7F0E01CB
-			public const int Widget_Design_CollapsingToolbar = 2131624395;
+			public const int Widget_Design_BottomSheet_Modal = 2131624395;
 			
 			// aapt resource value: 0x7F0E01CC
-			public const int Widget_Design_FloatingActionButton = 2131624396;
+			public const int Widget_Design_CollapsingToolbar = 2131624396;
 			
 			// aapt resource value: 0x7F0E01CD
-			public const int Widget_Design_NavigationView = 2131624397;
+			public const int Widget_Design_FloatingActionButton = 2131624397;
 			
 			// aapt resource value: 0x7F0E01CE
-			public const int Widget_Design_ScrimInsetsFrameLayout = 2131624398;
+			public const int Widget_Design_NavigationView = 2131624398;
 			
 			// aapt resource value: 0x7F0E01CF
-			public const int Widget_Design_Snackbar = 2131624399;
+			public const int Widget_Design_ScrimInsetsFrameLayout = 2131624399;
 			
 			// aapt resource value: 0x7F0E01D0
-			public const int Widget_Design_TabLayout = 2131624400;
+			public const int Widget_Design_Snackbar = 2131624400;
 			
 			// aapt resource value: 0x7F0E01D1
-			public const int Widget_Design_TextInputLayout = 2131624401;
+			public const int Widget_Design_TabLayout = 2131624401;
 			
 			// aapt resource value: 0x7F0E01D2
-			public const int Widget_MaterialComponents_BottomAppBar = 2131624402;
+			public const int Widget_Design_TextInputLayout = 2131624402;
 			
 			// aapt resource value: 0x7F0E01D3
-			public const int Widget_MaterialComponents_BottomAppBar_Colored = 2131624403;
+			public const int Widget_MaterialComponents_BottomAppBar = 2131624403;
 			
 			// aapt resource value: 0x7F0E01D4
-			public const int Widget_MaterialComponents_BottomNavigationView = 2131624404;
+			public const int Widget_MaterialComponents_BottomAppBar_Colored = 2131624404;
 			
 			// aapt resource value: 0x7F0E01D5
-			public const int Widget_MaterialComponents_BottomNavigationView_Colored = 2131624405;
+			public const int Widget_MaterialComponents_BottomNavigationView = 2131624405;
 			
 			// aapt resource value: 0x7F0E01D6
-			public const int Widget_MaterialComponents_BottomSheet_Modal = 2131624406;
+			public const int Widget_MaterialComponents_BottomNavigationView_Colored = 2131624406;
 			
 			// aapt resource value: 0x7F0E01D7
-			public const int Widget_MaterialComponents_Button = 2131624407;
+			public const int Widget_MaterialComponents_BottomSheet_Modal = 2131624407;
 			
 			// aapt resource value: 0x7F0E01D8
-			public const int Widget_MaterialComponents_Button_Icon = 2131624408;
+			public const int Widget_MaterialComponents_Button = 2131624408;
 			
 			// aapt resource value: 0x7F0E01D9
-			public const int Widget_MaterialComponents_Button_OutlinedButton = 2131624409;
+			public const int Widget_MaterialComponents_Button_Icon = 2131624409;
 			
 			// aapt resource value: 0x7F0E01DA
-			public const int Widget_MaterialComponents_Button_OutlinedButton_Icon = 2131624410;
+			public const int Widget_MaterialComponents_Button_OutlinedButton = 2131624410;
 			
 			// aapt resource value: 0x7F0E01DB
-			public const int Widget_MaterialComponents_Button_TextButton = 2131624411;
+			public const int Widget_MaterialComponents_Button_OutlinedButton_Icon = 2131624411;
 			
 			// aapt resource value: 0x7F0E01DC
-			public const int Widget_MaterialComponents_Button_TextButton_Dialog = 2131624412;
+			public const int Widget_MaterialComponents_Button_TextButton = 2131624412;
 			
 			// aapt resource value: 0x7F0E01DD
-			public const int Widget_MaterialComponents_Button_TextButton_Dialog_Icon = 2131624413;
+			public const int Widget_MaterialComponents_Button_TextButton_Dialog = 2131624413;
 			
 			// aapt resource value: 0x7F0E01DE
-			public const int Widget_MaterialComponents_Button_TextButton_Icon = 2131624414;
+			public const int Widget_MaterialComponents_Button_TextButton_Dialog_Icon = 2131624414;
 			
 			// aapt resource value: 0x7F0E01DF
-			public const int Widget_MaterialComponents_Button_UnelevatedButton = 2131624415;
+			public const int Widget_MaterialComponents_Button_TextButton_Icon = 2131624415;
 			
 			// aapt resource value: 0x7F0E01E0
-			public const int Widget_MaterialComponents_Button_UnelevatedButton_Icon = 2131624416;
+			public const int Widget_MaterialComponents_Button_UnelevatedButton = 2131624416;
 			
 			// aapt resource value: 0x7F0E01E1
-			public const int Widget_MaterialComponents_CardView = 2131624417;
-			
-			// aapt resource value: 0x7F0E01E6
-			public const int Widget_MaterialComponents_ChipGroup = 2131624422;
+			public const int Widget_MaterialComponents_Button_UnelevatedButton_Icon = 2131624417;
 			
 			// aapt resource value: 0x7F0E01E2
-			public const int Widget_MaterialComponents_Chip_Action = 2131624418;
-			
-			// aapt resource value: 0x7F0E01E3
-			public const int Widget_MaterialComponents_Chip_Choice = 2131624419;
-			
-			// aapt resource value: 0x7F0E01E4
-			public const int Widget_MaterialComponents_Chip_Entry = 2131624420;
-			
-			// aapt resource value: 0x7F0E01E5
-			public const int Widget_MaterialComponents_Chip_Filter = 2131624421;
+			public const int Widget_MaterialComponents_CardView = 2131624418;
 			
 			// aapt resource value: 0x7F0E01E7
-			public const int Widget_MaterialComponents_FloatingActionButton = 2131624423;
+			public const int Widget_MaterialComponents_ChipGroup = 2131624423;
+			
+			// aapt resource value: 0x7F0E01E3
+			public const int Widget_MaterialComponents_Chip_Action = 2131624419;
+			
+			// aapt resource value: 0x7F0E01E4
+			public const int Widget_MaterialComponents_Chip_Choice = 2131624420;
+			
+			// aapt resource value: 0x7F0E01E5
+			public const int Widget_MaterialComponents_Chip_Entry = 2131624421;
+			
+			// aapt resource value: 0x7F0E01E6
+			public const int Widget_MaterialComponents_Chip_Filter = 2131624422;
 			
 			// aapt resource value: 0x7F0E01E8
-			public const int Widget_MaterialComponents_NavigationView = 2131624424;
+			public const int Widget_MaterialComponents_FloatingActionButton = 2131624424;
 			
 			// aapt resource value: 0x7F0E01E9
-			public const int Widget_MaterialComponents_Snackbar = 2131624425;
+			public const int Widget_MaterialComponents_NavigationView = 2131624425;
 			
 			// aapt resource value: 0x7F0E01EA
-			public const int Widget_MaterialComponents_Snackbar_FullWidth = 2131624426;
+			public const int Widget_MaterialComponents_Snackbar = 2131624426;
 			
 			// aapt resource value: 0x7F0E01EB
-			public const int Widget_MaterialComponents_TabLayout = 2131624427;
+			public const int Widget_MaterialComponents_Snackbar_FullWidth = 2131624427;
 			
 			// aapt resource value: 0x7F0E01EC
-			public const int Widget_MaterialComponents_TabLayout_Colored = 2131624428;
+			public const int Widget_MaterialComponents_TabLayout = 2131624428;
 			
 			// aapt resource value: 0x7F0E01ED
-			public const int Widget_MaterialComponents_TextInputEditText_FilledBox = 2131624429;
+			public const int Widget_MaterialComponents_TabLayout_Colored = 2131624429;
 			
 			// aapt resource value: 0x7F0E01EE
-			public const int Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131624430;
+			public const int Widget_MaterialComponents_TextInputEditText_FilledBox = 2131624430;
 			
 			// aapt resource value: 0x7F0E01EF
-			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox = 2131624431;
+			public const int Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131624431;
 			
 			// aapt resource value: 0x7F0E01F0
-			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131624432;
+			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox = 2131624432;
 			
 			// aapt resource value: 0x7F0E01F1
-			public const int Widget_MaterialComponents_TextInputLayout_FilledBox = 2131624433;
+			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131624433;
 			
 			// aapt resource value: 0x7F0E01F2
-			public const int Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = 2131624434;
+			public const int Widget_MaterialComponents_TextInputLayout_FilledBox = 2131624434;
 			
 			// aapt resource value: 0x7F0E01F3
-			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox = 2131624435;
+			public const int Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = 2131624435;
 			
 			// aapt resource value: 0x7F0E01F4
-			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = 2131624436;
+			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox = 2131624436;
 			
 			// aapt resource value: 0x7F0E01F5
-			public const int Widget_MaterialComponents_Toolbar = 2131624437;
+			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = 2131624437;
 			
 			// aapt resource value: 0x7F0E01F6
-			public const int Widget_Support_CoordinatorLayout = 2131624438;
+			public const int Widget_MaterialComponents_Toolbar = 2131624438;
+			
+			// aapt resource value: 0x7F0E01F7
+			public const int Widget_Support_CoordinatorLayout = 2131624439;
 			
 			static Style()
 			{

@@ -62,6 +62,7 @@ namespace BloodDonationApp.Services
             var result = JsonConvert.DeserializeObject<Token>(jsonResult);
             Preferences.Set("accessToken", result.access_token);
             Preferences.Set("userName", result.userName);
+            //Preferences.Set("user_Id", result.user_Id);
             return true;
         }
         #endregion
