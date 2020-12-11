@@ -21,5 +21,10 @@ namespace BloodDonationApp.Views
         {
             PhoneDialer.Open("9832749287");
         }
+
+        private void TapBack_Tapped(object sender, EventArgs e)
+        {
+            Navigation.PopModalAsync();
+        }
     }
 }

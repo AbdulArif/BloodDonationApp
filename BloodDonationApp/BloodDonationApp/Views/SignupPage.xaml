@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:input="clr-namespace:Plugin.InputKit.Shared.Controls;assembly=Plugin.InputKit"
              x:Class="BloodDonationApp.Views.SignupPage"
             NavigationPage.HasNavigationBar="False">
     
@@ -52,11 +53,15 @@
                                Keyboard="Default" />
                         <Label Text="Register as ?" TextColor="Black" FontSize="15"/>
                         <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Spacing="30">
-                            <RadioButton Text="Donor" TextColor="Black"
+                        <!--<RadioButton Text="Donor" TextColor="Black"
                                      GroupName="roles"  CheckedChanged="Roles_CheckedChanged"/>
                         <RadioButton Text="Recipient" TextColor="Black"
-                                     GroupName="roles" CheckedChanged="Roles_CheckedChanged"/>
-                        <!--<Label x:Name="animalLabel"
+                                     GroupName="roles" CheckedChanged="Roles_CheckedChanged"/>-->
+                            <input:RadioButtonGroupView SelectedItemChanged="RadioButtonGroupView_SelectedItemChanged">
+                                <input:RadioButton Text="Donor" />
+                                <input:RadioButton Text="Recipient" />
+                            </input:RadioButtonGroupView>
+                            <!--<Label x:Name="animalLabel"
                                 Text="You have chosen:" />-->
                         <!--<Label Margin="20,0,20,0"
                                FontSize="Small"

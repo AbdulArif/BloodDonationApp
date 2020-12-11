@@ -46,7 +46,7 @@ namespace BloodDonationApp.Views
                 }
                 else
                 {
-                    await DisplayAlert("Opps", "User already registered ", "Cancel");
+                    await DisplayAlert("Oops!", "User already registered ", "Cancel");
                 }
             }
 
@@ -56,11 +56,17 @@ namespace BloodDonationApp.Views
             await Navigation.PushModalAsync(new LoginPage());
         }
 
-        private void Roles_CheckedChanged(object sender, CheckedChangedEventArgs e)
+        private void RadioButtonGroupView_SelectedItemChanged(object sender, EventArgs e)
         {
             RadioButton button = sender as RadioButton;
-            //animalLabel.Text = $"You have chosen: {button.Text}";
             role = button.Text;
         }
+
+        //private void Roles_CheckedChanged(object sender, CheckedChangedEventArgs e)
+        //{
+        //    RadioButton button = sender as RadioButton;
+        //    //animalLabel.Text = $"You have chosen: {button.Text}";
+        //    role = button.Text;
+        //}
     }
 }

@@ -15,7 +15,7 @@
                        Grid.Column="0"
                        HorizontalOptions="Center">
                     <Image.GestureRecognizers>
-                        <TapGestureRecognizer x:Name="TapBack" />
+                        <TapGestureRecognizer x:Name="TapBack" Tapped="TapBack_Tapped"/>
                     </Image.GestureRecognizers>
                 </Image>
                 <Label Grid.Column="1"
