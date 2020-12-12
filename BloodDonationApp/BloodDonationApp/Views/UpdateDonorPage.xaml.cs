@@ -49,5 +49,11 @@ namespace BloodDonationApp.Views
         {
             Navigation.PopModalAsync();
         }
+
+        private void BtnCancelDonor_Clicked(object sender, EventArgs e)
+        {
+            var userId = Preferences.Get("userId", string.Empty);
+            GetDonorAsync(userId);
+        }
     }
 }

@@ -95,6 +95,11 @@
                         BackgroundColor="#CE0B06"
                         x:Name="BtnUpdate"
                         Clicked="BtnUpdate_Clicked"/>
+                <Button Text="CANCEL"
+                        TextColor="White"
+                        BackgroundColor="#CE0B06"
+                        x:Name="BtnCancelDonor"
+                        Clicked="BtnCancelDonor_Clicked"/>
                 
             </StackLayout>
         </ScrollView>

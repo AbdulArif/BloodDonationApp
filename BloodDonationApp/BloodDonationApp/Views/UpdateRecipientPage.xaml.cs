@@ -61,7 +61,8 @@ namespace BloodDonationApp.Views
 
         private void BtnCancelRecipient_Clicked(object sender, EventArgs e)
         {
-
+            var userId = Preferences.Get("userId", string.Empty);
+            GetRecipientAsync(userId);
         }
 
         private void TapBack_Tapped(object sender, EventArgs e)
