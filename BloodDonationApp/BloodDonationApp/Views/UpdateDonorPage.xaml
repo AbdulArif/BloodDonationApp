@@ -7,6 +7,16 @@
         <ScrollView>
             <StackLayout Spacing="5"
                          Margin="15">
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="backarrow.png" 
+                           WidthRequest="25"
+                           HeightRequest="25"
+                       HorizontalOptions="Start">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer x:Name="TapBack" Tapped="TapBack_Tapped"/>
+                        </Image.GestureRecognizers>
+                    </Image>
+                </StackLayout>
                 <Label TextColor="#CE0B06"
                        Text="Donor"
                        FontSize="Large"

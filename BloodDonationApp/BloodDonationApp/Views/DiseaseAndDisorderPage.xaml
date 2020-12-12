@@ -4,10 +4,15 @@
              x:Class="BloodDonationApp.Views.DiseaseAndDisorderPage"
               NavigationPage.HasNavigationBar="False">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout Orientation="Horizontal">
+            <Image Source="backarrow.png" 
+                           WidthRequest="25"
+                           HeightRequest="25"
+                       HorizontalOptions="Start">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer x:Name="TapBack" Tapped="TapBack_Tapped"/>
+                </Image.GestureRecognizers>
+            </Image>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

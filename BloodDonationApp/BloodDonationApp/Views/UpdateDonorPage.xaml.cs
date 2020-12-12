@@ -32,10 +32,13 @@ namespace BloodDonationApp.Views
         {
 
         }
-
         private void BtnDisease_Clicked(object sender, EventArgs e)
         {
             Navigation.PushModalAsync(new DiseaseAndDisorderPage());
+        }
+        private void TapBack_Tapped(object sender, EventArgs e)
+        {
+            Navigation.PopModalAsync();
         }
     }
 }

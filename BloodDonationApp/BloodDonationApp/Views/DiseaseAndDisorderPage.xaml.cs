@@ -16,5 +16,10 @@ namespace BloodDonationApp.Views
         {
             InitializeComponent();
         }
+
+        private void TapBack_Tapped(object sender, EventArgs e)
+        {
+            Navigation.PopModalAsync();
+        }
     }
 }
