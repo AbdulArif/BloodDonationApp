@@ -26,6 +26,15 @@ namespace BloodDonationApp.Views
             EntFirstName.Text = donor.FirstName;
             EntLastName.Text = donor.LastName;
             EntEmail.Text = donor.Email;
+            EntPhoneNumber.Text = (string)donor.PhoneNumber;
+            EntBloodGroup.Text = (string)donor.BloodGroup;
+            EntDistrict.Text = (string)donor.District;
+            EntCity.Text = (string)donor.City;
+            EntState.Text = (string)donor.State;
+            EntPIN.Text = (string)donor.PIN;
+            EntNearByHospitals.Text = (string)donor.NearByHospitals;
+            EntBirthYear.Text = (string)donor.BirthYear;
+            BtnDisease.Text = (string)donor.ChronicDisease;
         }
 
         private void BtnUpdate_Clicked(object sender, EventArgs e)
