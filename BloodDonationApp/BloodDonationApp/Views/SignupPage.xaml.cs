@@ -7,6 +7,8 @@ using System.Threading.Tasks;
 using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using RadioButtonGroupView = Plugin.InputKit.Shared.Controls.RadioButtonGroupView;
+using RadioButton = Plugin.InputKit.Shared.Controls.RadioButton;
 
 namespace BloodDonationApp.Views
 {
@@ -58,8 +60,17 @@ namespace BloodDonationApp.Views
 
         private void RadioButtonGroupView_SelectedItemChanged(object sender, EventArgs e)
         {
-            RadioButton button = sender as RadioButton;
-            role = button.Text;
+            RadioButtonGroupView radioButtonGroupView = sender as RadioButtonGroupView;
+            var index = radioButtonGroupView.SelectedIndex;
+            if (index == 0)
+            {
+                role = "Donor";
+            }
+            else
+            {
+                role = "Recipient";
+            }
+            Console.WriteLine(role);
         }
 
         //private void Roles_CheckedChanged(object sender, CheckedChangedEventArgs e)
