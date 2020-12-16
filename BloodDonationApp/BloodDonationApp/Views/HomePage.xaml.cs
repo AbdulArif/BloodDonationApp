@@ -37,9 +37,6 @@ namespace BloodDonationApp.Views
 
         private void TapLogout_Tapped(object sender, EventArgs e)
         {
-            //Preferences.Set("accessToken", string.Empty);
-            //Preferences.Set("userName", string.Empty);
-            //Preferences.Set("tokenExpirationTime", 0);
            var b= Preferences.Get("userName", string.Empty);
             Preferences.Clear();
            var a= Preferences.Get("userName", string.Empty);
