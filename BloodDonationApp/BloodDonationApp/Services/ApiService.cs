@@ -33,7 +33,6 @@ namespace BloodDonationApp.Services
             var resultJson = response.Content.ReadAsStringAsync().Result; // Getting GuId
             dynamic resultObj = JsonConvert.DeserializeObject(resultJson);
             string userId = resultObj.UserId;
-            //string id = userId.toString();
             Preferences.Set("userId", userId);
             if (!response.IsSuccessStatusCode)
             return false;
@@ -66,6 +65,22 @@ namespace BloodDonationApp.Services
             return true;
         }
         #endregion
+
+        #region GetRole By UserName
+        public static async Task<string> GetRole(string userName, string accessToken)
+        {
+            var client = new HttpClient();
+            client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", accessToken);
+
+            var json = await client.GetStringAsync(Constants.ApiUrl + "api/Account/GetUserRole/UserName?UserName=" + userName);
+
+            dynamic resp = JsonConvert.DeserializeObject(json);
+            Role obj = resp.ToObject<Role>();
+            var role = obj.Name;
+            return role;
+        }
+        #endregion
+
 
         #region Get ALL Donor
         public static async Task<List<Donor>> GetDonorAsync(string accessToken)

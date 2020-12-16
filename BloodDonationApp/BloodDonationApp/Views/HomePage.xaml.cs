@@ -12,6 +12,7 @@ namespace BloodDonationApp.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class HomePage : ContentPage
     {
+        string role = Preferences.Get("role", string.Empty);
         public HomePage()
         {
             InitializeComponent();
@@ -39,21 +40,34 @@ namespace BloodDonationApp.Views
             //Preferences.Set("accessToken", string.Empty);
             //Preferences.Set("userName", string.Empty);
             //Preferences.Set("tokenExpirationTime", 0);
-            Preferences.Get("userName", string.Empty);
+           var b= Preferences.Get("userName", string.Empty);
             Preferences.Clear();
-            Preferences.Get("userName", string.Empty);
+           var a= Preferences.Get("userName", string.Empty);
             Application.Current.MainPage = new NavigationPage(new SignupPage());
         }
-
         private void TapDonor_Tapped(object sender, EventArgs e)
         {
-            var userId = Preferences.Get("userId", string.Empty);
-            Navigation.PushModalAsync(new UpdateDonorPage(userId));
+            if(role== "Donor")
+            {
+                var userId = Preferences.Get("userId", string.Empty);
+                Navigation.PushModalAsync(new UpdateDonorPage(userId));
+            }
+            else
+            {
+                 DisplayAlert("Alert", "You can't update Donor details !", "Cancel");
+            }
         }
         private void TapRecipient_Tapped(object sender, EventArgs e)
         {
-            var userId = Preferences.Get("userId", string.Empty);
-            Navigation.PushModalAsync(new UpdateRecipientPage(userId));
+            if (role == "Recipient")
+            {
+                var userId = Preferences.Get("userId", string.Empty);
+                Navigation.PushModalAsync(new UpdateRecipientPage(userId));
+            }
+            else
+            {
+                DisplayAlert("Alert", "You can't update Recipient details !", "Cancel");
+            }
         }
        
     }

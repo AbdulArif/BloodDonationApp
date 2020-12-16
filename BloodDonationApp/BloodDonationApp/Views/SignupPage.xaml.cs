@@ -35,6 +35,7 @@ namespace BloodDonationApp.Views
                 {
                     await DisplayAlert("HI", "Your account has been created ", "OK");
                     var userId = Preferences.Get("userId", string.Empty);
+                   // Preferences.Set("role", role);                    
                     if (role == "Donor")
                     {                       
                         //await Navigation.PushModalAsync(new UpdateDonorPage(userId));

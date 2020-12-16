@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -23,7 +23,10 @@ namespace BloodDonationApp.Views
         }
         private async void BtnLogin_Clicked(object sender, EventArgs e)
         {
-            var response = await ApiService.Login(EntEmail.Text, EntPassword.Text);
+            var accessToken = Preferences.Get("accessToken", string.Empty);
+            var response = await ApiService.Login(EntEmail.Text, EntPassword.Text); 
+            var role = await ApiService.GetRole(EntEmail.Text, accessToken);  // GetRole
+            Preferences.Set("role", role.ToString());
             if (response)
             {
                 Application.Current.MainPage = new NavigationPage(new HomePage());
