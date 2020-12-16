@@ -62,7 +62,7 @@ namespace BloodDonationApp.Services
             var result = JsonConvert.DeserializeObject<Token>(jsonResult);
             Preferences.Set("accessToken", result.access_token);
             Preferences.Set("userName", result.userName);
-            //Preferences.Set("user_Id", result.user_Id);
+            Preferences.Set("userId", result.Id);
             return true;
         }
         #endregion
@@ -117,9 +117,6 @@ namespace BloodDonationApp.Services
 
             dynamic resp = JsonConvert.DeserializeObject(json);
             Donor donor = resp.ToObject<Donor>();
-
-            //List<Donor> donorList = new List<Donor>();
-            //donorList.Add(donor);
 
             return donor;
         }
