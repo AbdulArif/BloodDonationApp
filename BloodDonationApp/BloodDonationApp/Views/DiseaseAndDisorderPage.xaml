@@ -1,18 +1,50 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:input="clr-namespace:Plugin.InputKit.Shared.Controls;assembly=Plugin.InputKit"
              x:Class="BloodDonationApp.Views.DiseaseAndDisorderPage"
               NavigationPage.HasNavigationBar="False">
     <ContentPage.Content>
-        <StackLayout Orientation="Horizontal">
-            <Image Source="backarrow.png" 
+        <ScrollView>
+            <StackLayout Spacing="5"
+                         Margin="15">
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="backarrow.png" 
                            WidthRequest="25"
                            HeightRequest="25"
                        HorizontalOptions="Start">
-                <Image.GestureRecognizers>
-                    <TapGestureRecognizer x:Name="TapBack" Tapped="TapBack_Tapped"/>
-                </Image.GestureRecognizers>
-            </Image>
-        </StackLayout>
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer x:Name="TapBack" Tapped="TapBack_Tapped"/>
+                        </Image.GestureRecognizers>
+                    </Image>
+                    <Label TextColor="#CE0B06"
+                       Text="Disease And Disorder"
+                       FontSize="Large"
+                       FontAttributes="Bold"
+                       HorizontalTextAlignment="Center"
+                       Margin="50,0,30,0" />
+                </StackLayout>
+                <Frame HasShadow="True"
+                       Padding="25"
+                       Margin="0,15,0,0">
+                    <StackLayout Spacing="12" Padding="30,0" 
+                         Margin="40">
+                        <input:CheckBox Text="Biabetes" Type="Box" TextFontSize="20" />
+                        <input:CheckBox Text="Asthma" Type="Box" TextFontSize="20" />
+                        <input:CheckBox Text="High Blood Pressure" Type="Box" TextFontSize="20" />
+                        <input:CheckBox Text="Cancer" Type="Box" TextFontSize="20" />
+                        <input:CheckBox Text="Malaria" Type="Box" TextFontSize="20" />
+                    </StackLayout>
+                </Frame>
+                <Button Text="SAVE"
+                        TextColor="White"
+                        BackgroundColor="#CE0B06"
+                        x:Name="BtnSaveDisease" />
+                <Button Text="CANCEL"
+                        TextColor="White"
+                        BackgroundColor="#CE0B06"
+                        x:Name="BtnCancelDisease" />
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>
