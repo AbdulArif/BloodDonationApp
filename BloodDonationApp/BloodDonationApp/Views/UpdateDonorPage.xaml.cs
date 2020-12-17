@@ -1,4 +1,5 @@
-﻿using BloodDonationApp.Services;
+﻿using BloodDonationApp.Models;
+using BloodDonationApp.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -21,12 +22,11 @@ namespace BloodDonationApp.Views
         public async void GetDonorAsync(string userId)
         {
             var accessToken = Preferences.Get("accessToken", string.Empty);
-            //var donorList = await ApiService.GetDonorByIdAsync(userId, Settings.AccessToken);
             var donor = await ApiService.GetDonorByIdAsync(userId, accessToken);
             EntFirstName.Text = donor.FirstName;
             EntLastName.Text = donor.LastName;
             EntEmail.Text = donor.Email;
-            EntPhoneNumber.Text = (string)donor.PhoneNumber;
+            EntPhoneNumber.Text = donor.PhoneNumber;
             EntBloodGroup.Text = (string)donor.BloodGroup;
             EntDistrict.Text = (string)donor.District;
             EntCity.Text = (string)donor.City;
@@ -34,18 +34,43 @@ namespace BloodDonationApp.Views
             EntPIN.Text = (string)donor.PIN;
             EntNearByHospitals.Text = (string)donor.NearByHospitals;
             EntBirthYear.Text = (string)donor.BirthYear;
-            BtnDisease.Text = (string)donor.ChronicDisease;
+            //BtnDisease.Text = (string)donor.ChronicDisease;
         }
 
-        private async void BtnUpdate_Clicked(object sender, EventArgs e)
+        private async void BtnUpdateDonor_Clicked(object sender, EventArgs e)
         {
+            DateTime date = DateTime.UtcNow;
+            int currentYear = date.Year;
+            var accessToken = Preferences.Get("accessToken", string.Empty);
+            var userId = Preferences.Get("userId", string.Empty);
+            int birthYear = Int32.Parse(EntBirthYear.Text);
+            int age = currentYear - birthYear;
+            var donor = new Donor
+            {
+                DonorId = userId,
+                Email = EntEmail.Text,
+                FirstName = EntFirstName.Text,
+                LastName = EntLastName.Text,
+                PhoneNumber = EntPhoneNumber.Text,
+                BloodGroup = EntBloodGroup.Text,
+                District = EntDistrict.Text,
+                City = EntCity.Text,
+                State = EntState.Text,
+                PIN = EntPIN.Text,
+                NearByHospitals = EntNearByHospitals.Text,
+                BirthYear = EntBirthYear.Text,
+                Age= age.ToString(),
+                //Disease = EntDisease.Text,
+                UpdatedDate = date
+            };
+            await ApiService.PutDonorAsync(donor, accessToken);
             await DisplayAlert("Success", "Donor details saved Successfully", "OK");
-
+            await Navigation.PushModalAsync(new HomePage());
         }
-        private void BtnDisease_Clicked(object sender, EventArgs e)
-        {
-            Navigation.PushModalAsync(new DiseaseAndDisorderPage());
-        }
+        //private void BtnDisease_Clicked(object sender, EventArgs e)
+        //{
+        //    Navigation.PushModalAsync(new DiseaseAndDisorderPage());
+        //}
         private void TapBack_Tapped(object sender, EventArgs e)
         {
             Navigation.PopModalAsync();

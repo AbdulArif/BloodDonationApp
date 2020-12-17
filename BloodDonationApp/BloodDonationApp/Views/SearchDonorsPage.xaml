@@ -33,7 +33,11 @@
             </Grid>
           </StackLayout>
                 <StackLayout>
-                    <!--<SearchBar x:Name="SearchBar" Placeholder="Search Blood Gorup" TextChanged="SearchBar_TextChanged"/>-->
+                    <SearchBar x:Name="SearchBar" 
+                               Placeholder="Search Blood Gorup"
+                               PlaceholderColor="#80574D" 
+                              TextChanged="SearchBar_TextChanged"/>
+                    <!--SearchButtonPressed="SearchBar_SearchButtonPressed"/>-->
                     <Frame BackgroundColor="#80574D">
                         <Grid>
                             <Grid.RowDefinitions>
@@ -42,7 +46,7 @@
 
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="2.5*"></ColumnDefinition>
-                                <ColumnDefinition Width="2*"></ColumnDefinition>
+                                <ColumnDefinition Width="2.5*"></ColumnDefinition>
                                 <ColumnDefinition Width="2*"></ColumnDefinition>
                                 <ColumnDefinition Width="1.5*"></ColumnDefinition>
                             </Grid.ColumnDefinitions>
@@ -62,22 +66,38 @@
                         </Grid>
                     </Frame>
                     <Frame>
-                        <ListView x:Name="SuggestionsListView" ItemsSource="{Binding ReportList}" >
+                        <ListView x:Name="DonorListView" >
                             <ListView.ItemTemplate>
                                 <DataTemplate>
                                     <ViewCell>
                                         <Grid>
                                             <Grid.ColumnDefinitions>
                                                 <ColumnDefinition Width="2.5*"></ColumnDefinition>
-                                                <ColumnDefinition Width="2*"></ColumnDefinition>
+                                                <ColumnDefinition Width="2.5*"></ColumnDefinition>
                                                 <ColumnDefinition Width="2*"></ColumnDefinition>
                                                 <ColumnDefinition Width="1.5*"></ColumnDefinition>
                                             </Grid.ColumnDefinitions>
                                             <!--<Label  Grid.Column="0" Text="{Binding FullName}" TextColor="Black" FontSize="20" FontAttributes="Bold"></Label>-->
-                                            <Label  Grid.Column="0" x:Name="LblFulName" FontSize="20" TextColor="Black"></Label>
-                                            <Label  Grid.Column="1" x:Name="LblPhoneNumber" FontSize="15" TextColor="Black"></Label>
-                                            <Label  Grid.Column="2" x:Name="LblBloodGroup" FontSize="15" TextColor="Black"></Label>
-                                            <Label  Grid.Column="3" x:Name="LblCity" FontSize="15" TextColor="Black"></Label>
+                                            <Label  Grid.Column="0" 
+                                                    x:Name="LblFulName" 
+                                                    FontSize="16" 
+                                                    TextColor="Black"
+                                                    Text="{Binding FullName}" />
+                                            <Label  Grid.Column="1" 
+                                                    x:Name="LblPhoneNumber" 
+                                                    FontSize="16" 
+                                                    TextColor="Black"
+                                                    Text="{Binding PhoneNumber}" />
+                                            <Label  Grid.Column="2" 
+                                                    x:Name="LblBloodGroup" 
+                                                    FontSize="16" 
+                                                    TextColor="Black"
+                                                    Text="{Binding BloodGroup}" />
+                                            <Label  Grid.Column="3" 
+                                                    x:Name="LblCity" 
+                                                    FontSize="16" 
+                                                    TextColor="Black"
+                                                    Text="{Binding City}" />
                                         </Grid>
                                     </ViewCell>
                                 </DataTemplate>

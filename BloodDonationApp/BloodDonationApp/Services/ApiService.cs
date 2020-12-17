@@ -83,7 +83,7 @@ namespace BloodDonationApp.Services
 
 
         #region Get ALL Donor
-        public static async Task<List<Donor>> GetDonorAsync(string accessToken)
+        public static async Task<List<Donor>> GetAllDonor(string accessToken)
         {
             var client = new HttpClient();
 
@@ -137,7 +137,6 @@ namespace BloodDonationApp.Services
         }
         #endregion
 
-
         #region Get ALL Disease
         public static async Task<List<Disease>> GetDiseaseAsync(string accessToken)
         {
@@ -150,6 +149,19 @@ namespace BloodDonationApp.Services
             var disease = JsonConvert.DeserializeObject<List<Disease>>(json);
 
             return disease;
+        }
+        #endregion
+
+        #region SearchDonor By BloodGroup & City
+        public static async Task<List<SearchDonor>> SearchDonor(string search, string accessToken)
+        {
+            var client = new HttpClient();
+            client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", accessToken);
+            //var json = await client.GetStringAsync(Constants.ApiUrl + "Recipient/BloodGroupSearch?BloodGroup=" + search + "&"+ "City="+ search);
+            var json = await client.GetStringAsync(Constants.ApiUrl + "Recipient/BloodGroupSearch?BloodGroup=" + search);
+            var donors = JsonConvert.DeserializeObject<List<SearchDonor>>(json);
+
+            return donors;
         }
         #endregion
 

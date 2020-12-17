@@ -82,19 +82,19 @@
                                TextColor="#80574D"
                                x:Name="EntBirthYear"
                                Keyboard="Default" />
-                        <Button Text="Select Disease"
+                        <!--<Button Text="Select Disease"
                                 TextColor="White"
                                 BackgroundColor="#CE0B06"
                                 x:Name="BtnDisease"
-                                Clicked="BtnDisease_Clicked"/>
+                                Clicked="BtnDisease_Clicked"/>-->
                     </StackLayout>
 
                 </Frame>
                 <Button Text="UPDATE"
                         TextColor="White"
                         BackgroundColor="#CE0B06"
-                        x:Name="BtnUpdate"
-                        Clicked="BtnUpdate_Clicked"/>
+                        x:Name="BtnUpdateDonor"
+                        Clicked="BtnUpdateDonor_Clicked"/>
                 <Button Text="CANCEL"
                         TextColor="White"
                         BackgroundColor="#CE0B06"

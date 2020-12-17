@@ -4,9 +4,8 @@ using System.Text;
 
 namespace BloodDonationApp.Models
 {
-    public class Donor
+    public class SearchDonor
     {
-        //public ApplicationUser ApplicationUser { get; set; }
         public string DonorId { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
@@ -19,14 +18,8 @@ namespace BloodDonationApp.Models
         public string PIN { get; set; }
         public string NearByHospitals { get; set; }
         public DateTime DateOfRegistration { get; set; }
-        public string BirthYear { get; set; }
-        public string ChronicDisease { get; set; }
-        public string Age { get; set; }
-        public DateTime AddedDate { get; set; }
-        public DateTime UpdatedDate { get; set; }
         public string AddedBy { get; set; }
         public string UpdatedBy { get; set; }
-
-        public string FullName => FirstName + " " + LastName;
+        public DateTime UpdatedDate { get; set; }
     }
 }
