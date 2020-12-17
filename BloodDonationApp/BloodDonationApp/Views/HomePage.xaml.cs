@@ -66,6 +66,10 @@ namespace BloodDonationApp.Views
                 DisplayAlert("Alert", "You can't update Recipient details !", "Cancel");
             }
         }
-       
+
+        private void TapSearchDonor_Tapped(object sender, EventArgs e)
+        {
+            Navigation.PushModalAsync(new SearchDonorsPage());
+        }
     }
 }
