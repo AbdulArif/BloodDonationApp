@@ -43,10 +43,11 @@ namespace BloodDonationApp.Views
         private void SearchBar_TextChanged(object sender, TextChangedEventArgs e)
         {
             DonorListView.ItemsSource = DonorsCollection
-                        .Where(c => c.BloodGroup.ToLower().Contains(e.NewTextValue.ToLower())
-                                 || c.City.ToLower().Contains(e.NewTextValue.ToLower())
-                                 || c.FullName.ToLower().Contains(e.NewTextValue.ToLower())
+                        .Where(c => c.FullName.ToLower().Contains(e.NewTextValue.ToLower())
+                               || c.City.ToLower().Contains(e.NewTextValue.ToLower())
+                               || c.BloodGroup.ToLower().Contains(e.NewTextValue.ToLower())
                                );
+
 
         }
 
