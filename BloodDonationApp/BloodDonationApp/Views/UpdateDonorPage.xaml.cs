@@ -37,8 +37,9 @@ namespace BloodDonationApp.Views
             BtnDisease.Text = (string)donor.ChronicDisease;
         }
 
-        private void BtnUpdate_Clicked(object sender, EventArgs e)
+        private async void BtnUpdate_Clicked(object sender, EventArgs e)
         {
+            await DisplayAlert("Success", "Donor details saved Successfully", "OK");
 
         }
         private void BtnDisease_Clicked(object sender, EventArgs e)

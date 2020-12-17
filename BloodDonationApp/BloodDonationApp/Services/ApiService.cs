@@ -91,9 +91,9 @@ namespace BloodDonationApp.Services
 
             var json = await client.GetStringAsync(Constants.ApiUrl + "Donor/GetAllDonors");
 
-            var donor = JsonConvert.DeserializeObject<List<Donor>>(json);
+            var donors = JsonConvert.DeserializeObject<List<Donor>>(json);
 
-            return donor;
+            return donors;
         }
         #endregion
 

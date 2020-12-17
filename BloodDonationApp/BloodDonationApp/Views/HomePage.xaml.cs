@@ -69,6 +69,7 @@ namespace BloodDonationApp.Views
 
         private void TapSearchDonor_Tapped(object sender, EventArgs e)
         {
+
             Navigation.PushModalAsync(new SearchDonorsPage());
         }
     }

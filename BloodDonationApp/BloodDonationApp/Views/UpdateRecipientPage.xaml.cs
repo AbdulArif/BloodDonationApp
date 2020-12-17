@@ -55,7 +55,7 @@ namespace BloodDonationApp.Views
                 UpdatedDate = date
             };
             await ApiService.PutRecipientAsync(recipient, accessToken);
-
+            await DisplayAlert("Success", "Recipient details saved Successfully", "OK");
             await Navigation.PushModalAsync(new HomePage());
         }
 
