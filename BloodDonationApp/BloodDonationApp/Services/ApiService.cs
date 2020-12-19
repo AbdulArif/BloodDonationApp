@@ -137,6 +137,22 @@ namespace BloodDonationApp.Services
         }
         #endregion
 
+        #region GetDonor By ID
+        public static async Task<List<DonorHealth>> GetDiseaseByIdAsync(string userId, string accessToken)
+        {
+            var client = new HttpClient();
+            client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", accessToken);
+
+            var json = await client.GetStringAsync(Constants.ApiUrl + "Disease/GetDonorDetails/" + userId);
+
+            var disease = JsonConvert.DeserializeObject<List<DonorHealth>>(json);
+
+            //dynamic resp = JsonConvert.DeserializeObject(json);
+            //DonorHealth donor = resp.ToObject<List<DonorHealth>>();
+            return disease;
+        }
+        #endregion
+
         #region Get ALL Disease
         public static async Task<List<Disease>> GetDiseaseAsync(string accessToken)
         {

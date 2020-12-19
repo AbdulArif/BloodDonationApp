@@ -18,7 +18,9 @@ namespace BloodDonationApp
             }
             else
             {
-                MainPage = new NavigationPage(new HomePage());
+                // MainPage = new NavigationPage(new HomePage());
+                MainPage = new NavigationPage(new DiseaseAndDisorderPage());
+
             }
             //MainPage = new NavigationPage(new LoginPage());
 
