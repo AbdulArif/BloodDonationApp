@@ -137,7 +137,36 @@ namespace BloodDonationApp.Services
         }
         #endregion
 
-        #region GetDonor By ID
+        //#region Update donorHealth Details by donorId
+        //public static async Task PutDonorHealtAsync(DonorHealth donorHealth, string accessToken)
+        //{
+        //    var client = new HttpClient();
+        //    client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", accessToken);
+
+        //    var json = JsonConvert.SerializeObject(donorHealth);
+        //    HttpContent content = new StringContent(json);
+        //    content.Headers.ContentType = new MediaTypeHeaderValue("application/json");
+
+        //    var response = await client.PutAsync(
+        //        Constants.ApiUrl + "Disease/SetDonorHealthId?DonorId=" + donorHealth.DonorId, content);
+        //}
+        //#endregion
+
+        #region Add donorHealth Details by donorId
+        public static async Task PostDonorHealtAsync(DonorHealth donorHealth, string accessToken)
+        {
+            var client = new HttpClient();
+            client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", accessToken);
+
+            var json = JsonConvert.SerializeObject(donorHealth);
+            HttpContent content = new StringContent(json);
+            content.Headers.ContentType = new MediaTypeHeaderValue("application/json");
+
+            var response = await client.PostAsync(Constants.ApiUrl + "Disease/SetDonorHealthId?DonorId=" + donorHealth.DonorId, content);
+        }
+        #endregion
+
+        #region GetDisease By ID
         public static async Task<List<DonorHealth>> GetDiseaseByIdAsync(string userId, string accessToken)
         {
             var client = new HttpClient();
@@ -152,6 +181,7 @@ namespace BloodDonationApp.Services
             return disease;
         }
         #endregion
+
 
         #region Get ALL Disease
         public static async Task<List<Disease>> GetDiseaseAsync(string accessToken)

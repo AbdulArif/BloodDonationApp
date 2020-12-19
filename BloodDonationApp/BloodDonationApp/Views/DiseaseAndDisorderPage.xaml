@@ -39,11 +39,13 @@
                 <Button Text="SAVE"
                         TextColor="White"
                         BackgroundColor="#CE0B06"
-                        x:Name="BtnSaveDisease" />
+                        x:Name="BtnSaveDisease" 
+                        Clicked="BtnSaveDisease_Clicked"/>
                 <Button Text="CANCEL"
                         TextColor="White"
                         BackgroundColor="#CE0B06"
-                        x:Name="BtnCancelDisease" />
+                        x:Name="BtnCancelDisease" 
+                        Clicked="BtnCancelDisease_Clicked"/>
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

@@ -16,6 +16,7 @@ namespace BloodDonationApp.Views
         public HomePage()
         {
             InitializeComponent();
+            
         }
 
         private async void ImgMenu_Tapped(object sender, EventArgs e)
