@@ -182,6 +182,15 @@ namespace BloodDonationApp.Services
         }
         #endregion
 
+        #region Delete DonorHealth By DonorId
+        public static async Task DeleteDonorHealthAsync(string donorId, string accessToken)
+        {
+            var client = new HttpClient();
+            client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", accessToken);
+            var response = await client.DeleteAsync(
+               Constants.ApiUrl + "Disease/DeleteDonorByID?DonorID=" + donorId);
+        }
+        #endregion
 
         #region Get ALL Disease
         public static async Task<List<Disease>> GetDiseaseAsync(string accessToken)

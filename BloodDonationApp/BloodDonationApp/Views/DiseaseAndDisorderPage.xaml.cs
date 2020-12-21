@@ -55,14 +55,14 @@ namespace BloodDonationApp.Views
             DateTime date = DateTime.UtcNow;
             var accessToken = Preferences.Get("accessToken", string.Empty);
             var userName = Preferences.Get("userName", string.Empty);
+            //Detele API service call DeleteDonorHealthAsync
+            await ApiService.DeleteDonorHealthAsync(DonorId, accessToken);
             //disease.Count
-            string guid = Guid.NewGuid().ToString();
             foreach (var disease in diseases)
             {
                 Console.WriteLine(disease);
                 var donorHealth = new DonorHealth
             {
-               // DonorHealthId= guid,
                 DonorId = DonorId,
                 Disease = disease,
                 AddedBy= userName,
@@ -72,7 +72,10 @@ namespace BloodDonationApp.Views
             };
             await ApiService.PostDonorHealtAsync(donorHealth, accessToken);
             }
+            diseases.Clear();
+            Console.WriteLine(diseases);
             await DisplayAlert("Success", "Donor details saved Successfully", "OK");
+            await Navigation.PushModalAsync(new HomePage());
         }
     }
 }
