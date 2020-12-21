@@ -47,6 +47,7 @@ namespace BloodDonationApp.Views
         private void BtnCancelDisease_Clicked(object sender, EventArgs e)
         {
             //Navigation.PopModalAsync();
+            diseases.Clear();
             Navigation.PushModalAsync(new DiseaseAndDisorderPage(DonorId));
         }
 
