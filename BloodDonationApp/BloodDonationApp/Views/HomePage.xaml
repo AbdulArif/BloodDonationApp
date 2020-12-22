@@ -175,6 +175,15 @@
                 </BoxView.GestureRecognizers>
             </BoxView>
         </Grid>
+
+            <Label  x:Name="LblWelcome"
+                   Margin="25"
+                   Padding="25"
+                   Text="Welcome to Life Saver. Please click on the top right Menu ." 
+                   TextColor="Red" 
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center" 
+                   Font="Bold,20" />
         </Grid>
     </ContentPage.Content>
 </ContentPage>

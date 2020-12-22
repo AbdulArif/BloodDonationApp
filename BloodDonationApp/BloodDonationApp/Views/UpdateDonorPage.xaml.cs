@@ -64,7 +64,7 @@ namespace BloodDonationApp.Views
                 UpdatedDate = date
             };
             await ApiService.PutDonorAsync(donor, accessToken);
-            await DisplayAlert("Success", "Donor details saved Successfully", "OK");
+            await DisplayAlert("Success!", "Donor details saved successfully", "OK");
             await Navigation.PushModalAsync(new DiseaseAndDisorderPage(userId));
         }
         //private void BtnDisease_Clicked(object sender, EventArgs e)

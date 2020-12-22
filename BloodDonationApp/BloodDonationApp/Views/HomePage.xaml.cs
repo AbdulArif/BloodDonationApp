@@ -13,15 +13,19 @@ namespace BloodDonationApp.Views
     public partial class HomePage : ContentPage
     {
         string role = Preferences.Get("role", string.Empty);
+        string userName = Preferences.Get("userName", string.Empty);
+        string userId = Preferences.Get("userId", string.Empty);
         public HomePage()
         {
             InitializeComponent();
-            
+            LblUserName.Text = userName;
+
         }
 
         private async void ImgMenu_Tapped(object sender, EventArgs e)
         {
             GridOverlay.IsVisible = true;
+            LblWelcome.IsVisible = false;
             await SlMenu.TranslateTo(0, 0, 400, Easing.Linear);
         }
 
@@ -29,6 +33,7 @@ namespace BloodDonationApp.Views
         {
             await SlMenu.TranslateTo(-250, 0, 400, Easing.Linear);
             GridOverlay.IsVisible = false;
+            LblWelcome.IsVisible = true;
         }
 
         private void TapContact_Tapped(object sender, EventArgs e)
@@ -38,16 +43,14 @@ namespace BloodDonationApp.Views
 
         private void TapLogout_Tapped(object sender, EventArgs e)
         {
-           var b= Preferences.Get("userName", string.Empty);
+           //var b= Preferences.Get("userName", string.Empty);
             Preferences.Clear();
-           var a= Preferences.Get("userName", string.Empty);
             Application.Current.MainPage = new NavigationPage(new SignupPage());
         }
         private void TapDonor_Tapped(object sender, EventArgs e)
         {
             if(role== "Donor")
             {
-                var userId = Preferences.Get("userId", string.Empty);
                 Navigation.PushModalAsync(new UpdateDonorPage(userId));
             }
             else

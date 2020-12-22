@@ -75,7 +75,7 @@ namespace BloodDonationApp.Views
             }
             diseases.Clear();
             Console.WriteLine(diseases);
-            await DisplayAlert("Success", "Donor details saved Successfully", "OK");
+            await DisplayAlert("Success!", "Donor details saved successfully", "OK");
             await Navigation.PushModalAsync(new HomePage());
         }
     }
