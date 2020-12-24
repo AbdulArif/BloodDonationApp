@@ -19,7 +19,6 @@ namespace BloodDonationApp.Views
         {
             InitializeComponent();
             LblUserName.Text = userName;
-
         }
 
         private async void ImgMenu_Tapped(object sender, EventArgs e)
@@ -62,7 +61,7 @@ namespace BloodDonationApp.Views
         {
             if (role == "Recipient")
             {
-                var userId = Preferences.Get("userId", string.Empty);
+                //var userId = Preferences.Get("userId", string.Empty);
                 Navigation.PushModalAsync(new UpdateRecipientPage(userId));
             }
             else
@@ -75,6 +74,11 @@ namespace BloodDonationApp.Views
         {
 
             Navigation.PushModalAsync(new SearchDonorsPage());
+        }
+
+        private void TapAddDisease_Tapped(object sender, EventArgs e)
+        {
+            Navigation.PushModalAsync(new DiseaseAndDisorderPage(userId));
         }
     }
 }

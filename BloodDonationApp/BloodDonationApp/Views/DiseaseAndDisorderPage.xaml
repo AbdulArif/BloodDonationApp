@@ -29,11 +29,11 @@
                        Margin="0,15,0,0">
                     <StackLayout Spacing="12" Padding="30,0" 
                          Margin="40">
-                        <input:CheckBox Text="Diabetes" Type="Box" TextFontSize="20" CheckChanged="ChangePosition"/>
-                        <input:CheckBox Text="Asthma" Type="Box" TextFontSize="20" CheckChanged="ChangePosition" />
-                        <input:CheckBox Text="High Blood Pressure" Type="Box" TextFontSize="20" CheckChanged="ChangePosition" />
-                        <input:CheckBox Text="Cancer" Type="Box" TextFontSize="20" CheckChanged="ChangePosition" />
-                        <input:CheckBox Text="Malaria" Type="Box" TextFontSize="20" CheckChanged="ChangePosition" />
+                        <input:CheckBox x:Name="ChkOption0" Type="Box" TextFontSize="20" CheckChanged="ChangePosition"/>
+                        <input:CheckBox x:Name="ChkOption1" Type="Box" TextFontSize="20" CheckChanged="ChangePosition" />
+                        <input:CheckBox x:Name="ChkOption2" Type="Box" TextFontSize="20" CheckChanged="ChangePosition" />
+                        <input:CheckBox x:Name="ChkOption3" Type="Box" TextFontSize="20" CheckChanged="ChangePosition" />
+                        <input:CheckBox x:Name="ChkOption4" Type="Box" TextFontSize="20" CheckChanged="ChangePosition" />
                     </StackLayout>
                 </Frame>
                 <Button Text="SAVE"

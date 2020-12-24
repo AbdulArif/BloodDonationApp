@@ -175,9 +175,6 @@ namespace BloodDonationApp.Services
             var json = await client.GetStringAsync(Constants.ApiUrl + "Disease/GetDonorDetails/" + userId);
 
             var disease = JsonConvert.DeserializeObject<List<DonorHealth>>(json);
-
-            //dynamic resp = JsonConvert.DeserializeObject(json);
-            //DonorHealth donor = resp.ToObject<List<DonorHealth>>();
             return disease;
         }
         #endregion

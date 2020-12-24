@@ -60,122 +60,137 @@
                        Grid.Column="1"
                        Grid.RowSpan="3" />
         </Grid>
-        <Grid x:Name="GridOverlay"
+            <Grid x:Name="GridOverlay"
                   IsVisible="False"
                   ColumnSpacing="0">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="0.6*" />
-                <ColumnDefinition Width="0.4*" />
-            </Grid.ColumnDefinitions>
-            <StackLayout BackgroundColor="White"
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.6*" />
+                    <ColumnDefinition Width="0.4*" />
+                </Grid.ColumnDefinitions>
+                <StackLayout BackgroundColor="White"
                              x:Name="SlMenu">
                     <Grid BackgroundColor="#800080	"
                   HeightRequest="120">
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="4*" />
-                        <ColumnDefinition Width="6*" />
-                    </Grid.ColumnDefinitions>
-                    <Image Source="logo.png"
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="4*" />
+                            <ColumnDefinition Width="6*" />
+                        </Grid.ColumnDefinitions>
+                        <Image Source="logo.png"
                    Margin="5"
                    VerticalOptions="Center" />
-                    <StackLayout Grid.Column="1"
+                        <StackLayout Grid.Column="1"
                          VerticalOptions="Center"
                          Spacing="0"
                          Margin="15,0,15,0" >
-                        <Label Text="Welcome"
+                            <Label Text="Welcome"
                    FontSize="Large"
                    TextColor="White" />
-                        <Label x:Name="LblUserName"
+                            <Label x:Name="LblUserName"
                    FontSize="Small"
                    TextColor="White" />
-                    </StackLayout>
-                </Grid>
-                <StackLayout Spacing="30"
+                        </StackLayout>
+                    </Grid>
+                    <StackLayout Spacing="30"
                      Orientation="Horizontal"
                      Margin="20,0,0,0"
                      x:Name="UpdateDonor">
-                    <Image Source="order.png"
+                        <Image Source="order.png"
                        HeightRequest="30"
                        WidthRequest="30" />
-                    <Label Text="Update Donor"
+                        <Label Text="Update Donor"
                        TextColor="#80574D"
                        HeightRequest="50"
                        VerticalTextAlignment="Center"
                        FontSize="20" />
-                    <StackLayout.GestureRecognizers>
-                        <TapGestureRecognizer x:Name="TapDonor" Tapped="TapDonor_Tapped" />
-                    </StackLayout.GestureRecognizers>
-                </StackLayout>
-                <StackLayout Spacing="30"
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer x:Name="TapDonor" Tapped="TapDonor_Tapped" />
+                        </StackLayout.GestureRecognizers>
+                    </StackLayout>
+                    <StackLayout Spacing="30"
+                                 Orientation="Horizontal"
+                                 Margin="20,0,0,0"
+                                 x:Name="AddDisease">
+                        <Image Source="order.png"
+                                HeightRequest="30"
+                                WidthRequest="30" />
+                        <Label Text="Add Disease"
+                               TextColor="#80574D"
+                                HeightRequest="50"
+                                VerticalTextAlignment="Center"
+                                FontSize="20" />
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer x:Name="TapAddDisease" Tapped="TapAddDisease_Tapped"/>
+                        </StackLayout.GestureRecognizers>
+                    </StackLayout>
+                    <StackLayout Spacing="30"
                      Orientation="Horizontal"
                      Margin="20,0,0,0">
-                    <Image Source="order.png"
+                        <Image Source="order.png"
                        HeightRequest="30"
                        WidthRequest="30" />
-                    <Label Text="Update Recipient"
+                        <Label Text="Update Recipient"
                        TextColor="#80574D"
                        HeightRequest="50"
                        VerticalTextAlignment="Center"
                        FontSize="20" />
-                    <StackLayout.GestureRecognizers>
-                        <TapGestureRecognizer x:Name="TapRecipient" Tapped="TapRecipient_Tapped"/>
-                    </StackLayout.GestureRecognizers>
-                </StackLayout>
-                <StackLayout Spacing="30"
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer x:Name="TapRecipient" Tapped="TapRecipient_Tapped"/>
+                        </StackLayout.GestureRecognizers>
+                    </StackLayout>
+                    <StackLayout Spacing="30"
                          Orientation="Horizontal"
                          Margin="20,0,0,0"
                          x:Name="SearchDonor">
-                    <Image Source="search.png"
+                        <Image Source="search.png"
                        HeightRequest="30"
                        WidthRequest="30" />
-                    <Label Text="Search Donor"
+                        <Label Text="Search Donor"
                        TextColor="#80574D"
                        HeightRequest="50"
                        VerticalTextAlignment="Center"
                        FontSize="20" />
-                    <StackLayout.GestureRecognizers>
+                        <StackLayout.GestureRecognizers>
                             <TapGestureRecognizer x:Name="TapSearchDonor" Tapped="TapSearchDonor_Tapped"/>
-                    </StackLayout.GestureRecognizers>
-                </StackLayout>
-                <StackLayout Spacing="30"
+                        </StackLayout.GestureRecognizers>
+                    </StackLayout>
+                    <StackLayout Spacing="30"
                          Orientation="Horizontal"
                          Margin="20,0,0,0">
-                    <Image Source="contact.png"
+                        <Image Source="contact.png"
                        HeightRequest="30"
                        WidthRequest="30" />
-                    <Label Text="Contact"
+                        <Label Text="Contact"
                        TextColor="#80574D"
                        HeightRequest="50"
                        VerticalTextAlignment="Center"
                        FontSize="20" />
-                    <StackLayout.GestureRecognizers>
-                        <TapGestureRecognizer x:Name="TapContact" Tapped="TapContact_Tapped"/>
-                    </StackLayout.GestureRecognizers>
-                </StackLayout>
-                <StackLayout Spacing="30"
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer x:Name="TapContact" Tapped="TapContact_Tapped"/>
+                        </StackLayout.GestureRecognizers>
+                    </StackLayout>
+                    <StackLayout Spacing="30"
                                  Orientation="Horizontal"
                                  Margin="20,0,0,0">
-                    <Image Source="logout.png"
+                        <Image Source="logout.png"
                                HeightRequest="30"
                                WidthRequest="30" />
-                    <Label Text="Logout"
+                        <Label Text="Logout"
                                TextColor="#80574D"
                                HeightRequest="50"
                                VerticalTextAlignment="Center"
                                FontSize="20" />
-                    <StackLayout.GestureRecognizers>
-                        <TapGestureRecognizer x:Name="TapLogout" Tapped="TapLogout_Tapped" />
-                    </StackLayout.GestureRecognizers>
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer x:Name="TapLogout" Tapped="TapLogout_Tapped" />
+                        </StackLayout.GestureRecognizers>
+                    </StackLayout>
                 </StackLayout>
-            </StackLayout>
-            <BoxView Grid.Column="1"
+                <BoxView Grid.Column="1"
                          x:Name="BoxViewLayer">
-                <BoxView.GestureRecognizers>
-                    <TapGestureRecognizer x:Name="TapCloseMenu" Tapped="TapCloseMenu_Tapped" />
-                </BoxView.GestureRecognizers>
-            </BoxView>
-        </Grid>
-
+                    <BoxView.GestureRecognizers>
+                        <TapGestureRecognizer x:Name="TapCloseMenu" Tapped="TapCloseMenu_Tapped" />
+                    </BoxView.GestureRecognizers>
+                </BoxView>
+            </Grid>
             <Label  x:Name="LblWelcome"
                    Margin="25"
                    Padding="25"

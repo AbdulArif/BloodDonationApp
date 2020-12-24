@@ -18,11 +18,27 @@ namespace BloodDonationApp.Views
     {
         List<string> diseases = new List<string>();
         string DonorId = Preferences.Get("userId", string.Empty);
+        string accessToken = Preferences.Get("accessToken", string.Empty);
+        string userName = Preferences.Get("userName", string.Empty);
         //static readonly Random rnd = new Random();
         public DiseaseAndDisorderPage(string DonorId)
         {
             InitializeComponent();
+            GetAllDisease();
         }
+
+        private async void GetAllDisease()
+        {
+            var diseaseList = await ApiService.GetDiseaseAsync(accessToken);
+            int no = diseaseList.Count();
+                ChkOption0.Text = diseaseList[0].DiseaseName;
+                ChkOption1.Text = diseaseList[1].DiseaseName;
+                ChkOption2.Text = diseaseList[2].DiseaseName;
+                ChkOption3.Text = diseaseList[3].DiseaseName;
+                ChkOption4.Text = diseaseList[4].DiseaseName;
+
+        }
+
         // Check Box value store in a disease List 
         private void ChangePosition(object sender, EventArgs e)
         {
@@ -48,14 +64,12 @@ namespace BloodDonationApp.Views
         {
             //Navigation.PopModalAsync();
             diseases.Clear();
-            Navigation.PushModalAsync(new DiseaseAndDisorderPage(DonorId));
+            //Navigation.PopAsync();
         }
 
         private async void BtnSaveDisease_Clicked(object sender, EventArgs e)
         {
             DateTime date = DateTime.UtcNow;
-            var accessToken = Preferences.Get("accessToken", string.Empty);
-            var userName = Preferences.Get("userName", string.Empty);
             //Detele API service call DeleteDonorHealthAsync
             await ApiService.DeleteDonorHealthAsync(DonorId, accessToken);
             //disease.Count
