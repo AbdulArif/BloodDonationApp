@@ -76,7 +76,7 @@ namespace BloodDonationApp.Views
             Navigation.PushModalAsync(new SearchDonorsPage());
         }
 
-        private void TapAddDisease_Tapped(object sender, EventArgs e)
+        private void TapUpdateDisease_Tapped(object sender, EventArgs e)
         {
             Navigation.PushModalAsync(new DiseaseAndDisorderPage(userId));
         }

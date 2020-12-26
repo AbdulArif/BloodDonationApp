@@ -109,17 +109,17 @@
                     <StackLayout Spacing="30"
                                  Orientation="Horizontal"
                                  Margin="20,0,0,0"
-                                 x:Name="AddDisease">
+                                 x:Name="UpdateDisease">
                         <Image Source="order.png"
                                 HeightRequest="30"
                                 WidthRequest="30" />
-                        <Label Text="Add Disease"
+                        <Label Text="Update Disease"
                                TextColor="#80574D"
                                 HeightRequest="50"
                                 VerticalTextAlignment="Center"
                                 FontSize="20" />
                         <StackLayout.GestureRecognizers>
-                            <TapGestureRecognizer x:Name="TapAddDisease" Tapped="TapAddDisease_Tapped"/>
+                            <TapGestureRecognizer x:Name="TapAddDisease" Tapped="TapUpdateDisease_Tapped"/>
                         </StackLayout.GestureRecognizers>
                     </StackLayout>
                     <StackLayout Spacing="30"
