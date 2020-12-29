@@ -144,14 +144,13 @@ namespace BloodDonationApp.Views
         //    }
         //}
 
-        //    public class Menu
+        //public class Menu
         //{
         //    public string Title { get; set; }
         //    public string Icon { get; set; }
         //    //public string Detail { get; set; }
         //}
 
-            // Hide();
-        }
+        // Hide();
     }
-}
+    }
