@@ -18,6 +18,7 @@ namespace BloodDonationApp.Views
         public HomePage()
         {
             InitializeComponent();
+            Blink();
             LblUserName.Text = userName;
         }
 
@@ -79,6 +80,78 @@ namespace BloodDonationApp.Views
         private void TapUpdateDisease_Tapped(object sender, EventArgs e)
         {
             Navigation.PushModalAsync(new DiseaseAndDisorderPage(userId));
+        }
+        private async void Blink()
+        {
+            while (true)
+            {
+                await Task.Delay(500);
+                LblWelcome.TextColor = LblWelcome.TextColor == Color.Red ? Color.Green : Color.Red;
+            }
+        }
+
+
+        //private void MenuTapped(object sender, ItemTappedEventArgs e)
+        //{
+        //    // TitleTxt.Text = ((sender as StackLayout).BindingContext as Menu).Title;
+        //    var itm = (Menu)e.Item;   //or, e.Item as Menu
+
+        //    var t1 = itm.Title;
+        //    TitleTxt.Text = t1;
+
+        //    switch (t1)
+        //    {
+        //        case "Update Donor":
+        //            //Navigation.PushModalAsync(new AddTask()); //<-- has no Back button   //Navigation.PushAsync(new AddTask());  --> Has Back button
+        //            Navigation.PushAsync(new UpdateDonorPage(userId));
+        //            break;
+
+        //        case "Update Recipient":
+        //            Navigation.PushAsync(new UpdateRecipientPage(userId));
+        //            break;
+
+        //        case "Update Disease":
+        //            Navigation.PushAsync(new DiseaseAndDisorderPage(userId));
+        //            break;
+
+        //        case "Search Donor":
+        //            Navigation.PushAsync(new SearchDonorsPage());
+        //            break;
+
+        //        case "Contact":
+        //            Navigation.PushAsync(new ContactPage());
+        //            break;
+
+        //        //case "Summary Report":
+        //        //    Navigation.PushAsync(new SummaryReport());
+        //        //    break;
+        //        //case "Change Password":
+        //        //    Navigation.PushAsync(new ChangePassword());
+        //        //    break;
+
+        //        case "Logout":
+        //            // Navigation.PushAsync(new Logout());
+        //            break;
+
+        //        case "Log Out":
+        //            Preferences.Clear();
+        //            App.Current.MainPage = new NavigationPage(new LoginPage());
+        //            break;
+
+        //        default:
+        //            Console.WriteLine("Default case");
+        //            break;
+        //    }
+        //}
+
+        //    public class Menu
+        //{
+        //    public string Title { get; set; }
+        //    public string Icon { get; set; }
+        //    //public string Detail { get; set; }
+        //}
+
+            // Hide();
         }
     }
 }

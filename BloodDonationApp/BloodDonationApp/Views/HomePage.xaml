@@ -90,6 +90,30 @@
                    TextColor="White" />
                         </StackLayout>
                     </Grid>
+
+
+
+                    <!--<Label x:Name="TitleTxt" Text="Activity" TextColor="Black" FontSize="33" FontAttributes="Bold" 
+                        HorizontalOptions="Center" VerticalOptions="Start"/>
+                    
+                    <ListView ItemTapped="MenuTapped" ItemsSource="{Binding MenuItems}"  Margin="0,40,0,0">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <ViewCell>
+                                    <StackLayout Orientation="Horizontal" Spacing="10">
+                                        <Image Source="{Binding Icon}" WidthRequest="20" HeightRequest="20" 
+                                    VerticalOptions="Center" HorizontalOptions="Start"/>
+                                        <Label Text="{Binding Title}" TextColor="Black" FontSize="22" FontAttributes="Bold" 
+                                    HorizontalOptions="Start" VerticalOptions="Center"/>
+                                    </StackLayout>
+                                </ViewCell>
+
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>-->
+
+
+
                     <StackLayout Spacing="30"
                      Orientation="Horizontal"
                      Margin="20,0,0,0"
@@ -194,7 +218,7 @@
             <Label  x:Name="LblWelcome"
                    Margin="25"
                    Padding="25"
-                   Text="Welcome to Life Saver. Please click on the top right Menu ." 
+                   Text="Welcome to Life Saver. Please click on the top left Menu ." 
                    TextColor="Red" 
                    VerticalOptions="Center"
                    HorizontalOptions="Center" 
