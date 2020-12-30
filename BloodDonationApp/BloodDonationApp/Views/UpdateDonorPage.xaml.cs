@@ -73,7 +73,7 @@ namespace BloodDonationApp.Views
         //}
         private void TapBack_Tapped(object sender, EventArgs e)
         {
-            Navigation.PopModalAsync();
+            Navigation.PushModalAsync(new HomePage());
         }
 
         private void BtnCancelDonor_Clicked(object sender, EventArgs e)
