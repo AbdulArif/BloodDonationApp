@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -15,12 +16,16 @@ namespace BloodDonationApp.Views
         string role = Preferences.Get("role", string.Empty);
         string userName = Preferences.Get("userName", string.Empty);
         string userId = Preferences.Get("userId", string.Empty);
+
         public HomePage()
         {
             InitializeComponent();
-            Blink();
+            //Blink();
             LblUserName.Text = userName;
+             MenuItems = GetMenus();
+            this.BindingContext = this;
         }
+        public ObservableCollection<Menu> MenuItems { get; set; }
 
         private async void ImgMenu_Tapped(object sender, EventArgs e)
         {
@@ -91,66 +96,85 @@ namespace BloodDonationApp.Views
         }
 
 
-        //private void MenuTapped(object sender, ItemTappedEventArgs e)
-        //{
-        //    // TitleTxt.Text = ((sender as StackLayout).BindingContext as Menu).Title;
-        //    var itm = (Menu)e.Item;   //or, e.Item as Menu
 
-        //    var t1 = itm.Title;
-        //    TitleTxt.Text = t1;
 
-        //    switch (t1)
-        //    {
-        //        case "Update Donor":
-        //            //Navigation.PushModalAsync(new AddTask()); //<-- has no Back button   //Navigation.PushAsync(new AddTask());  --> Has Back button
-        //            Navigation.PushAsync(new UpdateDonorPage(userId));
-        //            break;
 
-        //        case "Update Recipient":
-        //            Navigation.PushAsync(new UpdateRecipientPage(userId));
-        //            break;
 
-        //        case "Update Disease":
-        //            Navigation.PushAsync(new DiseaseAndDisorderPage(userId));
-        //            break;
+        private ObservableCollection<Menu> GetMenus()
+        {
+            ObservableCollection<Menu> taskMenu = new ObservableCollection<Menu>();
+            {
+                //Menu for the Donor role
+                if (role == "Donor")
+                {
+                    taskMenu.Add(new Menu { Title = "Update Donor", Icon = "order.png" });
+                    taskMenu.Add(new Menu { Title = "Update Disease", Icon = "order.png" });
+                    taskMenu.Add(new Menu { Title = "Search Donor", Icon = "search.png" });
+                    taskMenu.Add(new Menu { Title = "Contact Us", Icon = "contact.png" });
+                   // taskMenu.Add(new Menu { Title = "Change Password", Icon = "edit.png" });
+                    taskMenu.Add(new Menu { Title = "Log Out", Icon = "logout.png" });
+                }
+                else
+                {
+                    //Menu for Normal role
+                    taskMenu.Add(new Menu { Title = "Update Recipient", Icon = "order.png" });
+                    taskMenu.Add(new Menu { Title = "Search Donor", Icon = "search.png" });
+                    taskMenu.Add(new Menu { Title = "Contact Us", Icon = "contact.png" });
+                   // taskMenu.Add(new Menu { Title = "Change Password", Icon = "edit.png" });
+                    taskMenu.Add(new Menu { Title = "Log Out", Icon = "logout.png" });
+                }
 
-        //        case "Search Donor":
-        //            Navigation.PushAsync(new SearchDonorsPage());
-        //            break;
+                return taskMenu;
+            };
+        }
+        private void MenuTapped(object sender, ItemTappedEventArgs e)
+        {
+            // TitleTxt.Text = ((sender as StackLayout).BindingContext as Menu).Title;
+            var itm = (Menu)e.Item;   //or, e.Item as Menu
 
-        //        case "Contact":
-        //            Navigation.PushAsync(new ContactPage());
-        //            break;
+            var t1 = itm.Title;
+            TitleTxt.Text = t1;
 
-        //        //case "Summary Report":
-        //        //    Navigation.PushAsync(new SummaryReport());
-        //        //    break;
-        //        //case "Change Password":
-        //        //    Navigation.PushAsync(new ChangePassword());
-        //        //    break;
+            switch (t1)
+            {
+                case "Update Donor":
+                    //Navigation.PushModalAsync(new AddTask()); //<-- has no Back button   //Navigation.PushAsync(new AddTask());  --> Has Back button
+                    Navigation.PushAsync(new UpdateDonorPage(userId));
+                    break;
 
-        //        case "Logout":
-        //            // Navigation.PushAsync(new Logout());
-        //            break;
+                case "Update Recipient":
+                    Navigation.PushAsync(new UpdateRecipientPage(userId));
+                    break;
 
-        //        case "Log Out":
-        //            Preferences.Clear();
-        //            App.Current.MainPage = new NavigationPage(new LoginPage());
-        //            break;
+                case "Update Disease":
+                    Navigation.PushAsync(new DiseaseAndDisorderPage(userId));
+                    break;
 
-        //        default:
-        //            Console.WriteLine("Default case");
-        //            break;
-        //    }
-        //}
+                case "Search Donor":
+                    Navigation.PushAsync(new SearchDonorsPage());
+                    break;
 
-        //public class Menu
-        //{
-        //    public string Title { get; set; }
-        //    public string Icon { get; set; }
-        //    //public string Detail { get; set; }
-        //}
+                case "Contact Us":
+                    Navigation.PushAsync(new ContactPage());
+                    break;
 
-        // Hide();
+                case "Log Out":
+                    Preferences.Clear();
+                    App.Current.MainPage = new NavigationPage(new LoginPage());
+                    break;
+
+                default:
+                    Console.WriteLine("Default case");
+                    break;
+            }
+        }
+
+        public class Menu
+        {
+            public string Title { get; set; }
+            public string Icon { get; set; }
+            //public string Detail { get; set; }
+        }
+        //Hide();
     }
     }

@@ -93,28 +93,29 @@
 
 
 
-                    <!--<Label x:Name="TitleTxt" Text="Activity" TextColor="Black" FontSize="33" FontAttributes="Bold" 
-                        HorizontalOptions="Center" VerticalOptions="Start"/>
-                    
-                    <ListView ItemTapped="MenuTapped" ItemsSource="{Binding MenuItems}"  Margin="0,40,0,0">
+                    <Label x:Name="TitleTxt" HorizontalOptions="Center" VerticalOptions="Start" Margin="20,0,0,0"/>
+
+                    <ListView ItemTapped="MenuTapped" ItemsSource="{Binding MenuItems}"  Margin="20,0,0,0">
                         <ListView.ItemTemplate>
                             <DataTemplate>
                                 <ViewCell>
                                     <StackLayout Orientation="Horizontal" Spacing="10">
-                                        <Image Source="{Binding Icon}" WidthRequest="20" HeightRequest="20" 
-                                    VerticalOptions="Center" HorizontalOptions="Start"/>
+                                        <Image Source="{Binding Icon}" WidthRequest="30" HeightRequest="30" 
+                                    VerticalOptions="Center" HorizontalOptions="Start" />
                                         <Label Text="{Binding Title}" TextColor="Black" FontSize="22" FontAttributes="Bold" 
-                                    HorizontalOptions="Start" VerticalOptions="Center"/>
+                                                HorizontalOptions="Start" VerticalOptions="Center" 
+                                                HeightRequest="50"
+                                                VerticalTextAlignment="Center"/>
                                     </StackLayout>
                                 </ViewCell>
 
                             </DataTemplate>
                         </ListView.ItemTemplate>
-                    </ListView>-->
+                    </ListView>
 
 
 
-                    <StackLayout Spacing="30"
+                    <!--<StackLayout Spacing="30"
                      Orientation="Horizontal"
                      Margin="20,0,0,0"
                      x:Name="UpdateDonor">
@@ -206,7 +207,7 @@
                         <StackLayout.GestureRecognizers>
                             <TapGestureRecognizer x:Name="TapLogout" Tapped="TapLogout_Tapped" />
                         </StackLayout.GestureRecognizers>
-                    </StackLayout>
+                    </StackLayout>-->
                 </StackLayout>
                 <BoxView Grid.Column="1"
                          x:Name="BoxViewLayer">
