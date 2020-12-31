@@ -20,7 +20,7 @@ namespace BloodDonationApp.Views
         public HomePage()
         {
             InitializeComponent();
-            //Blink();
+            Blink();
             LblUserName.Text = userName;
              MenuItems = GetMenus();
             this.BindingContext = this;
@@ -139,23 +139,23 @@ namespace BloodDonationApp.Views
             {
                 case "Update Donor":
                     //Navigation.PushModalAsync(new AddTask()); //<-- has no Back button   //Navigation.PushAsync(new AddTask());  --> Has Back button
-                    Navigation.PushAsync(new UpdateDonorPage(userId));
+                    Navigation.PushModalAsync(new UpdateDonorPage(userId));
                     break;
 
                 case "Update Recipient":
-                    Navigation.PushAsync(new UpdateRecipientPage(userId));
+                    Navigation.PushModalAsync(new UpdateRecipientPage(userId));
                     break;
 
                 case "Update Disease":
-                    Navigation.PushAsync(new DiseaseAndDisorderPage(userId));
+                    Navigation.PushModalAsync(new DiseaseAndDisorderPage(userId));
                     break;
 
                 case "Search Donor":
-                    Navigation.PushAsync(new SearchDonorsPage());
+                    Navigation.PushModalAsync(new SearchDonorsPage());
                     break;
 
                 case "Contact Us":
-                    Navigation.PushAsync(new ContactPage());
+                    Navigation.PushModalAsync(new ContactPage());
                     break;
 
                 case "Log Out":
