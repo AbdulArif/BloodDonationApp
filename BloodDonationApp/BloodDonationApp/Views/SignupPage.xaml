@@ -75,6 +75,7 @@
                 <Button Text="CONTINUE"
                         TextColor="White"
                         BackgroundColor="#CE0B06"
+                        CornerRadius="25"
                         x:Name="BtnSignUp"
                         Clicked="BtnSignUp_Clicked"/>
                 <Label Text="Already have an account?"
@@ -83,6 +84,7 @@
                 <Button Text="Login"
                         BackgroundColor="#CE0B06"
                         TextColor="White"
+                        CornerRadius="25"
                         x:Name="BtnLogin" 
                         Clicked="BtnLogin_Clicked"/>
             </StackLayout>

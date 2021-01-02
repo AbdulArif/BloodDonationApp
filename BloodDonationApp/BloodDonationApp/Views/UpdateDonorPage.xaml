@@ -93,11 +93,13 @@
                 <Button Text="UPDATE"
                         TextColor="White"
                         BackgroundColor="#CE0B06"
+                        CornerRadius="25"
                         x:Name="BtnUpdateDonor"
                         Clicked="BtnUpdateDonor_Clicked"/>
                 <Button Text="CANCEL"
                         TextColor="White"
                         BackgroundColor="#CE0B06"
+                        CornerRadius="25"
                         x:Name="BtnCancelDonor"
                         Clicked="BtnCancelDonor_Clicked"/>
                 
